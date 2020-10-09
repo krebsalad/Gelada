@@ -1,6 +1,6 @@
 /*
 *       Made 09-10-2020 with vscode and nodejs v12.18.4
-*       This script can be used to scrape data from webpages
+*       This script can be used to scrape data from www.videogameconsolelibrary.com
 *       
 */
 
@@ -25,7 +25,6 @@ function getBetween(side1, side2, in_str)
   return out_str;
 }
 
-const { table } = require('console');
 // get video game categories
 var http = require('http');
 var options = {

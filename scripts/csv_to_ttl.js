@@ -102,21 +102,47 @@ for (l in lines)
     
 }
 
-// possibly rename headers
+// utiliy for changing headers if needed
+const rl_int =  require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+var current_header_i = 0;
+function set_headers_routine(input)
+{
+    // parse input
+    if(input == "rename")
+    {
+        current_header_i = 0;
+    }
+    else
+    {
+        structured_data_headers[current_header_i] = input;
+        current_header_i++;
+    }
+
+    // leave when all headers renamed
+    if(current_header_i == structured_data_headers.length)
+    {
+        rl_int.close();
+        return write_structured_data_as_ttl();
+    }
+
+    // set next header
+    rl_int.question('Change header name ' + current_header_i + ':"' + structured_data_headers[current_header_i] + '" to: ', set_headers_routine);
+}
+
+// rename headers or just continue
 if(set_headers == 'true')
 {
-/*    console.log("Changing headers, press enter to continue, leave blank to skip");
-
-
-    for (h in structured_data_headers)
-    {
-        var input = question('Change header name "' + structured_data_headers[h] + '" to: ');
-        if(input != '' || input != '\n')
-        {
-            structured_data_headers = input;
-            not_done = false;
-        }
-    }*/
+    console.log(`option set_headers set to TRUE, please input a name for each header(or leave empty to keep the default name) and press <Enter>!!! 
+                    \n\n Note(header with name 'rename' will restart the whole process)`);
+    set_headers_routine("rename");
+}
+else
+{
+    rl_int.close();
+    return write_structured_data_as_ttl();
 }
 
 
@@ -159,73 +185,78 @@ function make_str_rdf_literal(in_str)
 }
 
 // convert to triple data
-console.log("converting data...");
-var triple_data = [];
-for (sd_iter in structured_data)
+function write_structured_data_as_ttl()
 {
-    // get subject name
-    var subject = make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
-    if (subject == '')
+    console.log("converting data...");
+    var triple_data = [];
+    for (sd_iter in structured_data)
     {
-        continue;
-    }
-
-    // add base triples
-    triple_data.push([prefix + subject, 'rdf:type', prefix + main_subject]);
-    triple_data.push([prefix + subject,  prefix + make_str_rdf_compatible(structured_data_headers[main_subject_column]), make_str_rdf_literal(subject)]);
-
-    // add the other triples
-    for (ld_iter in structured_data[sd_iter])
-    {
-        if (ld_iter == main_subject_column)
+        // get subject name
+        var subject = make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
+        if (subject == '')
         {
             continue;
         }
 
-        var predicate = make_str_rdf_compatible(structured_data_headers[ld_iter]);
-        var object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
+        // add base triples
+        triple_data.push([prefix + subject, 'rdf:type', prefix + main_subject]);
+        triple_data.push([prefix + subject,  prefix + make_str_rdf_compatible(structured_data_headers[main_subject_column]), make_str_rdf_literal(subject)]);
 
-        if (predicate == '' || object == '')
+        // add the other triples
+        for (ld_iter in structured_data[sd_iter])
+        {
+            if (ld_iter == main_subject_column)
+            {
+                continue;
+            }
+
+            var predicate = make_str_rdf_compatible(structured_data_headers[ld_iter]);
+            var object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
+
+            if (predicate == '' || object == '')
+            {
+                continue;
+            }
+
+            triple_data.push([prefix + subject,  prefix + predicate, object]);
+        }
+    }
+
+    // write to file
+    console.log("writing data to " + out_path);
+    out_data = '';
+    last_subject = '';
+    out_data = out_data + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix "+ prefix +" <" + uri +"> .\n";
+    for (t in triple_data)
+    {
+        // dont add malformed triples
+        if (triple_data[t][2] == "None")
         {
             continue;
         }
 
-        triple_data.push([prefix + subject,  prefix + predicate, object]);
+        // check if can continue in series of previous triple
+        if (last_subject != '')
+        {
+            if(last_subject == triple_data[t][0])
+            {
+                out_data = out_data + ';' + "\n    ";
+                out_data = out_data + triple_data[t][1] + " " + triple_data[t][2] + " ";
+                continue;
+            } else
+            {
+                out_data = out_data + '.' + "\n\n";
+            }
+            
+        }
+
+        // add new triple
+        out_data = out_data + triple_data[t][0] + " " + triple_data[t][1] + " " + triple_data[t][2] + " ";
+        last_subject = triple_data[t][0];
     }
+    fs.writeFileSync(out_path, out_data);
+    console.log("converted succesfully");
+    return 0;
 }
 
-// write to file
-console.log("writing data to " + out_path);
-out_data = '';
-last_subject = '';
-out_data = out_data + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix "+ prefix +" <" + uri +"> .\n";
-for (t in triple_data)
-{
-    // dont add malformed triples
-    if (triple_data[t][2] == "None")
-    {
-        continue;
-    }
-
-    // check if can continue in series of previous triple
-    if (last_subject != '')
-    {
-        if(last_subject == triple_data[t][0])
-        {
-            out_data = out_data + ';' + "\n    ";
-            out_data = out_data + triple_data[t][1] + " " + triple_data[t][2] + " ";
-            continue;
-        } else
-        {
-            out_data = out_data + '.' + "\n\n";
-        }
-        
-    }
-
-    // add new triple
-    out_data = out_data + triple_data[t][0] + " " + triple_data[t][1] + " " + triple_data[t][2] + " ";
-    last_subject = triple_data[t][0];
-}
-fs.writeFileSync(out_path, out_data);
-console.log("converted succesfully");
 return 0;
