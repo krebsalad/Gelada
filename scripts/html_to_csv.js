@@ -12,9 +12,17 @@ function findXmlTag(match_tag_str, in_str, arg='g')
 
 function getXmlValue(in_str)
 {
-    var out_str = in_str.match(/>([^>]*)</)[0];
-    out_str = out_str.replace(/>|</g, '');
-    return out_str;
+  var out_str = in_str.match(/>([^>]*)</)[0];
+  out_str = out_str.replace(/>|</g, '');
+  return out_str;
+}
+
+function getBetween(side1, side2, in_str)
+{
+  var out_str = in_str.match(side1+'([^>]*)'+side2)[0];
+  var reg = new RegExp(side1+'|'+side2, 'g')
+  out_str = out_str.replace(reg, '');
+  return out_str;
 }
 
 const { table } = require('console');
@@ -63,6 +71,12 @@ callback = function(response) {
         {
           var retail_tag = findXmlTag('a', tags[t], 'i');
           colomn_values.push(getXmlValue(retail_tag[0]));
+          continue;
+        }
+        if (t == 7)
+        {
+          var webpage_tag = findXmlTag('a', tags[t], 'i');
+          colomn_values.push("www.videogameconsolelibrary.com/" + getBetween('href="','">',webpage_tag[0]));
           continue;
         }
         colomn_values.push(getXmlValue(tags[t]));
