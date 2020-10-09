@@ -6,54 +6,66 @@
 
 
 // default config
-var in_path = 'data/VideoGames.csv'
+var in_path = 'infile.csv'
 var out_path = 'outfile.ttl'
 var new_line_sign = /\r?\n/; //";;"
 var new_element_sign = ','; //";";
 var main_subject = 'Game';
 var prefix = 'ex';
+var uri = 'http://www.example.com/example/'
+var set_headers = 'false';
 
 // process args
 var args = process.argv.slice(2);
-console.log(process.argv)
-
-if (args.length > 0)    // in path
-{
-    in_path = args[0];
-}  
-else
-{
-    console.log(`no arguments given, please give atleast relative path to the input file 
-    (arg0) an relative path to the input file
-    (arg1) a relative path to the output file, by default ./outfile.ttl
-    (arg2) a prefix  of your ontology, by default "ex"
-    (arg3) the character used to seperate elements, by default it is ","
-    (arg4) the character used to determine new lines, by default is \r or \n
+if (args.length == 0){
+    console.log(`no arguments given, please give atleast a relative path to the input file 
+    (in:=) a relative path to the input file, by default `+in_path+`
+    (out:=) a relative path to the output file, by default `+out_path+`
+    (uri:=) give a uri of your ontology, by default `+uri+`
+    (prefix:=) a prefix of your ontology, by default `+prefix+`
+    (char_newelement:=) the character used to seperate elements, by default it is "`+new_element_sign+`"
+    (char_newline:=) the character used to determine new lines, by default is new line
+    (set_headers:=) would you like to change the name of the predicates/headers? by default false
     `)
+    return 0;
+}
+for(a in args)
+{
+    s_arg = args[a].split(':=');
+    console.log(s_arg)
+    switch(s_arg[0])
+    {
+        case "in":
+            in_path = s_arg[1];
+            break;
+        case "out":
+            out_path = s_arg[1];
+            break;
+        case "uri":
+            uri = s_arg[1];
+            break;
+        case "prefix":
+            prefix = s_arg[1];
+            break;
+        case "char_newelement":
+            new_element_sign = s_arg[1];
+            break;
+        case "char_newline":
+            new_line = s_arg[1];
+            break;
+        case "set_headers":
+            set_headers = s_arg[1]
+            break;
+        default:
+            console.log("argument " + s_arg[0] + " is invalid ");
+            break;
+    }
 }
 
-if (args.length > 1)    // out path
-{
-    out_path = args[1];
-} 
-if (args.length > 2)    // prefix
-{
-    prefix = args[2];
-}
-if (args.length > 3)    // sign for element
-{
-    new_element_sign = args[3];
-}
-if (args.length > 4)        //sign for new line
-{
-    new_line_sign = args[4];
-}
 
-    
-// fix the config
-var prefix = prefix + ':';
+prefix = prefix + ':';
 
-// read lines 
+// read lines from input file
 console.log("reading file " + in_path);
 var fs = require('fs');
 var contents = fs.readFileSync(in_path, 'utf8');
@@ -72,10 +84,31 @@ for (l in lines)
         structured_data_headers = lines[l].split(new_element_sign);
         continue;
     }
-    structured_data.push(lines[l].split(new_element_sign));
+    line_data = lines[l].split(new_element_sign);
+    if(line_data.length != structured_data_headers.length)
+    {
+        continue;
+    }
+    structured_data.push(line_data);
+    
 }
 
 // possibly rename headers
+if(set_headers == 'true')
+{
+/*    console.log("Changing headers, press enter to continue, leave blank to skip");
+
+
+    for (h in structured_data_headers)
+    {
+        var input = question('Change header name "' + structured_data_headers[h] + '" to: ');
+        if(input != '' || input != '\n')
+        {
+            structured_data_headers = input;
+            not_done = false;
+        }
+    }*/
+}
 
 
 // remove  spaces : ; new lines from given string
@@ -95,6 +128,24 @@ function make_str_rdf_compatible(in_str)
 // TODO Actually determine if a number by first casting in_str to different type and choosing most probable then returning the literal
 function make_str_rdf_literal(in_str)
 {
+    // return as float or integer
+    var in_str_as_number = Number(in_str);
+    if(String(in_str_as_number) != 'NaN')
+    {
+        if(in_str_as_number % 1 == 0)
+        {
+            return '"' + in_str_as_number + '"^^xsd:integer'
+        }
+        return '"' + in_str_as_number + '"^^xsd:float'
+    }
+
+    // return as boolean
+    if(in_str.toLowerCase() == 'true' || in_str.toLowerCase() == 'false')
+    {
+        return '"' + in_str.toLowerCase() + '"^^xsd:boolean';
+    }
+
+    // return as default literal
     return '"' + in_str + '"'
 }
 
@@ -138,6 +189,7 @@ for (sd_iter in structured_data)
 console.log("writing data to " + out_path);
 out_data = '';
 last_subject = '';
+out_data = out_data + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix "+ prefix +" <" + uri +"> .\n";
 for (t in triple_data)
 {
     // dont add malformed triples
@@ -151,12 +203,12 @@ for (t in triple_data)
     {
         if(last_subject == triple_data[t][0])
         {
-            out_data = out_data + ';' + " ";
+            out_data = out_data + ';' + "\n    ";
             out_data = out_data + triple_data[t][1] + " " + triple_data[t][2] + " ";
             continue;
         } else
         {
-            out_data = out_data + '.' + " ";
+            out_data = out_data + '.' + "\n\n";
         }
         
     }
@@ -166,3 +218,5 @@ for (t in triple_data)
     last_subject = triple_data[t][0];
 }
 fs.writeFileSync(out_path, out_data);
+console.log("converted succesfully");
+return 0;

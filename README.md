@@ -7,7 +7,7 @@
 
 ## others
 
-### running csv_to_triple script
+### running csv_to_ttl script
 
 1. have [nodejs](https://nodejs.org/en/download/) installed:  
 2. run a terminal, clone this repository and go into the project work space
@@ -22,11 +22,11 @@ curl https://corgis-edu.github.io/corgis/datasets/csv/video_games/video_games.cs
 4. run the script using the following options (make sure to be in the Gelada project work space)
 a. in case you downloaded the file manually, it seems to have a different row ending than when downloaded using curl, so the sign will have to be changed. In this case its ;. This can be configured in the script by adding the character sign after the prefix option.
 ```
-node scripts/csv_to_triple.js data/VideoGames.csv data/VideoGames.ttl ex ";"
+node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:=";"
 ```
 b. in case you downloaded the file with curl the sign should be a ,
 ```
-node scripts/csv_to_triple.js data/VideoGames.csv data/VideoGames.ttl ex ","
+node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:=","
 ```
 
 5. see the output of the script in the directory data/VideoGames.ttl
