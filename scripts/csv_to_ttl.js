@@ -10,7 +10,8 @@ var in_path = 'infile.csv'
 var out_path = 'outfile.ttl'
 var new_line_sign = /\r?\n/; //";;"
 var new_element_sign = ','; //";";
-var main_subject = 'Game';
+var main_subject = 'Thing';
+var main_subject_column = 0;
 var prefix = 'ex';
 var uri = 'http://www.example.com/example/'
 var set_headers = 'false';
@@ -26,6 +27,8 @@ if (args.length == 0){
     (char_newelement:=) the character used to seperate elements, by default it is "`+new_element_sign+`"
     (char_newline:=) the character used to determine new lines, by default is new line
     (set_headers:=) would you like to change the name of the predicates/headers? by default false
+    (subject) change the class of the instances, by default is Thing
+    (subject_column) the column of which the id of each 'Thing' is found, by default the first column (0)
     `)
     return 0;
 }
@@ -54,7 +57,13 @@ for(a in args)
             new_line = s_arg[1];
             break;
         case "set_headers":
-            set_headers = s_arg[1]
+            set_headers = s_arg[1];
+            break;
+        case "subject":
+            main_subject = s_arg[1];
+            break;
+        case "subject_column":
+            main_subject_column = Number(s_arg[1]);
             break;
         default:
             console.log("argument " + s_arg[0] + " is invalid ");
@@ -155,7 +164,7 @@ var triple_data = [];
 for (sd_iter in structured_data)
 {
     // get subject name
-    var subject = make_str_rdf_compatible(structured_data[sd_iter][0]);
+    var subject = make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
     if (subject == '')
     {
         continue;
@@ -163,12 +172,12 @@ for (sd_iter in structured_data)
 
     // add base triples
     triple_data.push([prefix + subject, 'rdf:type', prefix + main_subject]);
-    triple_data.push([prefix + subject,  prefix + structured_data_headers[0], make_str_rdf_literal(subject)]);
+    triple_data.push([prefix + subject,  prefix + make_str_rdf_compatible(structured_data_headers[main_subject_column]), make_str_rdf_literal(subject)]);
 
     // add the other triples
     for (ld_iter in structured_data[sd_iter])
     {
-        if (ld_iter == 0)
+        if (ld_iter == main_subject_column)
         {
             continue;
         }
