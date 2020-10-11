@@ -80,6 +80,9 @@ callback = function(response) {
     {
       structured_data_headers.push(getXmlValue(header_tags[t]));
     }
+    structured_data_headers[2] = "Example";
+    structured_data_headers.push("Example");
+    structured_data_headers.push("Example");
     console.log("headers:" + structured_data_headers);
     table_resources.shift();
 
@@ -90,7 +93,11 @@ callback = function(response) {
       var elem = [];
       elem.push(getXmlValue(genrename_tag[0]));
       elem.push(getXmlValue(description_tags[0]));
-      elem.push(getXmlValue(description_tags[1]));
+      examples = getXmlValue(description_tags[1]).split(";");
+      for(e in examples)
+      {
+        elem.push(examples[e]);
+      }
       structured_data.push(elem);
     }
     console.log("found " + structured_data.length + " instances" );

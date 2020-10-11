@@ -41,7 +41,7 @@ cat data/VideoGames.ttl
 git clone https://github.com/krebsalad/Gelada
 cd Gelada
 ```
-3. run the script html_to_csv_genres.js, this will scrape data from https://vsrecommendedgames.fandom.com/wiki/A_List_and_Guide_to_Game_Genres and save it as csv in data/VideoGamesGenres.csv
+3. run the script html_to_csv_genres.js, this will scrape data from https://vsrecommendedgames.fandom.com/wiki/A_List_and_Guide_to_Game_Genres and save it as csv in data/VideoGameGenres.csv
 ```
 node scripts/html_to_csv_genres.js
 ```
@@ -51,7 +51,7 @@ node scripts/csv_to_ttl.js in:=data/VideoGameGenres.csv out:=data/VideoGameGenre
 ```
 5. see the output of the script in the directory data/VideoGameGenres.ttl
 ```
-cat data/VideoGameConsoles.ttl
+cat data/VideoGameGenres.ttl
 ```
 
 ### running html_to_csv_consoles and the to csv_to_tll
@@ -61,7 +61,7 @@ cat data/VideoGameConsoles.ttl
 git clone https://github.com/krebsalad/Gelada
 cd Gelada
 ```
-3. run the script html_to_csv_genres.js, this will scrape data from https://www.videogameconsolelibrary.com/main-list-name.htm and save it as csv in data/VideoGamesGenres.csv 
+3. run the script html_to_csv_genres.js, this will scrape data from https://www.videogameconsolelibrary.com/main-list-name.htm and save it as csv in data/VideoGameGenres.csv 
 ```
 node scripts/html_to_csv_consoles.js
 ```
@@ -72,4 +72,24 @@ node scripts/csv_to_ttl.js in:=data/VideoGameConsoles.csv out:=data/VideoGameCon
 5. see the output of the script in the directory data/VideoGameConsoles.ttl
 ```
 cat data/VideoGameConsoles.ttl
+```
+
+### running html_to_csv_exclusives and the to csv_to_tll
+1. have [nodejs](https://nodejs.org/en/download/) installed:  
+2. run a terminal, clone this repository and go into the project work space
+```
+git clone https://github.com/krebsalad/Gelada
+cd Gelada
+```
+3. run the script html_to_csv_genres.js, this will scrape data from https://www.gematsu.com/exclusives and save it as csv in data/VideoGameExclusives.csv 
+```
+node scripts/html_to_csv_exclusives.js
+```
+4. run the script csv_to_tll to convert the resulting file.
+```
+node scripts/csv_to_ttl.js in:=data/VideoGameExclusives.csv out:=data/VideoGameExclusives.ttl  char_newelement:="," subject:="Game"
+```
+5. see the output of the script in the directory data/VideoGameExclusives.ttl
+```
+cat data/VideoGameExclusives.ttl
 ```
