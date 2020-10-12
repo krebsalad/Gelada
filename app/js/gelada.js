@@ -32,7 +32,7 @@ function mainCtrl($scope, $http, $sce) {
 
     $scope.filter = function () {
         $scope.filteredGames.length = 0;
-        if ($scope.chosenGen) {
+        if ($scope.chosenGen.length > 0) {
             console.log(JSON.stringify($scope.chosenGen));
             $scope.originalGames.forEach(g => {
                 let hasGen = false;
@@ -41,6 +41,8 @@ function mainCtrl($scope, $http, $sce) {
                     $scope.filteredGames.push(g);
                 }
             });
+        }else{
+            $scope.originalGames.forEach(g => $scope.filteredGames.push(g));
         }
     };
 
