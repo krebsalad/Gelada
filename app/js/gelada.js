@@ -1,20 +1,26 @@
-angular.module('Gelada', []).controller('MainCtrl', ['$scope', '$http', mainCtrl]);
+angular.module('Gelada', []).controller('MainCtrl', ['$scope', '$http', '$sce', mainCtrl]);
 
-function mainCtrl($scope, $http) {
+function mainCtrl($scope, $http, $sce) {
 
     $scope.initialize = function () {
-        $scope.originalGames = createDummyData();
+        $scope.originalGames = createDummyData($sce);
         $scope.filteredGames = $scope.originalGames.slice();
+        $scope.generations = [3]
+        $scope.originalGames.forEach(g => g.platforms.forEach(p => {
+            console.log(JSON.stringify(p))
+            if ($scope.generations.indexOf(p.generation) < 0) {
+                $scope.generations.push(p.generation);
+            }
+        }));
+        console.log(JSON.stringify($scope.generations));
     }
 
     $scope.searchInGames = function () {
         const query = $scope.searchQuery.toLowerCase();
         if (query.length === 0) {
-            console.debug("Query is empty");
             $scope.filteredGames.length = 0;
             $scope.originalGames.forEach(g => $scope.filteredGames.push(g));
         } else {
-            console.debug("Query is: " + query);
             $scope.filteredGames.length = 0;
             $scope.originalGames.forEach(g => {
                 if (g.name.toLowerCase().indexOf(query) > -1 || g.alternativeName.toLowerCase().indexOf(query) > -1) {
@@ -23,10 +29,30 @@ function mainCtrl($scope, $http) {
             });
         }
     };
+
+    $scope.filter = function () {
+        $scope.filteredGames.length = 0;
+        if ($scope.chosenGen) {
+            console.log(JSON.stringify($scope.chosenGen));
+            $scope.originalGames.forEach(g => {
+                let hasGen = false;
+                g.platforms.forEach(p => hasGen |= p.generation === parseInt($scope.chosenGen));
+                if (hasGen) {
+                    $scope.filteredGames.push(g);
+                }
+            });
+        }
+    };
+
+    $scope.clickGame = function (gameId) {
+        $scope.clickedGame = $scope.originalGames.filter(g => {
+            return g.id === gameId;
+        })[0];
+    };
 }
 
 
-function createDummyData() {
+function createDummyData($sce) {
     let games = [];
 
     let ps4 = new HomeConsole();
@@ -56,7 +82,7 @@ function createDummyData() {
     gtav.series = new Series("Grand Theft Auto");
     gtav.genre = new Genre("Action", "");
     gtav.exclusive = false;
-    gtav.videoUrl = "https://www.youtube.com/watch?v=oaiZi60DDDs";
+    gtav.videoUrl = $sce.trustAsResourceUrl("https://www.youtube.com/watch?v=QkkoHAzjnUs");
     gtav.imgUrl = "https://www.nedgame.nl/afbeeldingen/pc-gaming/cover/grand-theft-auto-5--gta-v--pc-gaming_7131173940.jpg?1539697159";
     gtav.singleplayer = true;
     gtav.multiplayer = true;
@@ -68,6 +94,7 @@ function createDummyData() {
 }
 
 class Game {
+    id = Math.floor(Math.random() * 1000000);
     name;
     alternativeName;
     developer;
