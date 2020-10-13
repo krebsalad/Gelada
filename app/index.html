@@ -26,22 +26,19 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Generation:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGen">
-                    <option></option>
                     <option ng-repeat="gen in generations">{{gen}}</option>
                 </select>
             </div>
             <div class="uk-margin">
-                <label class="uk-form-label">Some filter 2:</label>
-                <select class="uk-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
+                <label class="uk-form-label">Platform:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenPlatform">
+                    <option ng-repeat="platform in platforms">{{platform}}</option>
                 </select>
             </div>
             <div class="uk-margin">
-                <label class="uk-form-label">Some filter 3:</label>
-                <select class="uk-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
+                <label class="uk-form-label">Exclusive:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="exclusive">
+                    <option ng-repeat="ex in exclusives">{{ex}}</option>
                 </select>
             </div>
         </div>
