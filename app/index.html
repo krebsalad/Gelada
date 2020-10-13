@@ -23,6 +23,7 @@
     </nav>
     <div uk-grid class="uk-grid-small uk-width-1-1">
         <div class="uk-width-1-4 uk-card uk-card-default uk-card-body">
+            <h3>Filters</h3>
             <div class="uk-margin">
                 <label class="uk-form-label">Generation:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGen">
@@ -42,9 +43,9 @@
                 </select>
             </div>
         </div>
-        <div class="uk-width-3-4">
+        <div class="uk-width-3-4" uk-height-viewport="offset-top: true">
             <div class="uk-card uk-card-default uk-card-body uk-width-1-1">
-                <label class="uk-form-label">Search a game:</label>
+                <h3>Search</h3>
                 <input class="uk-input" type="text" placeholder="Search a game..." ng-model="searchQuery"
                        ng-change="searchInGames();">
             </div>
