@@ -15,6 +15,7 @@ var main_subject_column = 0;
 var prefix = 'ex';
 var uri = 'http://www.example.com/example/'
 var set_headers = 'false';
+var set_property = 'false';
 
 // process args
 var args = process.argv.slice(2);
@@ -26,7 +27,8 @@ if (args.length == 0){
     (prefix:=) a prefix of your ontology, by default `+prefix+`
     (char_newelement:=) the character used to seperate elements, by default it is "`+new_element_sign+`"
     (char_newline:=) the character used to determine new lines, by default is new line
-    (set_headers:=) would you like to change the name of the predicates/headers? by default false
+    (set_headers:=) would you like to change the name of the predicates/headers? (true or false) by default false
+    (set_property:=) (set headers must be true) would you like to change the property type of the headers? by default everty header is a data property 
     (subject) change the class of the instances, by default is Thing
     (subject_column) the column of which the id of each 'Thing' is found, by default the first column (0)
     `)
@@ -59,6 +61,9 @@ for(a in args)
         case "set_headers":
             set_headers = s_arg[1];
             break;
+        case "set_property":
+            set_property = s_arg[1];
+            break;
         case "subject":
             main_subject = s_arg[1];
             break;
@@ -85,7 +90,8 @@ var lines = contents.split(new_line_sign);
 // convert lines to structured data
 console.log("structurizing data...");
 var structured_data = []
-var structured_data_headers;
+var structured_data_headers = [];
+var structured_data_headers_property_type = [];
 for (l in lines)
 {
     if(l == 0)
@@ -99,7 +105,7 @@ for (l in lines)
         continue;
     }
     structured_data.push(line_data);
-    
+    structured_data_headers_property_type.push("data");
 }
 
 // utiliy for changing headers if needed
@@ -117,7 +123,48 @@ function set_headers_routine(input)
     }
     else
     {
-        structured_data_headers[current_header_i] = input;
+        if(input != "")
+        {
+            structured_data_headers[current_header_i] = input;
+        }
+        current_header_i++;
+    }
+
+    // leave when all headers renamed
+    if(current_header_i == structured_data_headers.length)
+    {
+        if(set_property == 'true')
+        {
+            console.log(`option set_property set to TRUE, please input a property type ('object' or 'data') (or leave empty to keep the default 'data') and press <Enter>!!! 
+                    \n\n Note(header name with type 'rename' will restart the whole process)`);
+            current_header_i = 0
+            set_property_routine("rename");
+            return 0;
+        }
+        else
+        {
+            rl_int.close();
+            return write_structured_data_as_ttl();
+        }
+        
+    }
+
+    // set next header
+    rl_int.question('Change header name ' + current_header_i + ':"' + structured_data_headers[current_header_i] + '" name to: ', set_headers_routine);
+}
+function set_property_routine(input)
+{
+    // parse input
+    if(input == "rename")
+    {
+        current_header_i = 0;
+    }
+    else
+    {
+        if(input != "")
+        {
+            structured_data_headers_property_type[current_header_i] = input;
+        }
         current_header_i++;
     }
 
@@ -129,7 +176,7 @@ function set_headers_routine(input)
     }
 
     // set next header
-    rl_int.question('Change header name ' + current_header_i + ':"' + structured_data_headers[current_header_i] + '" to: ', set_headers_routine);
+    rl_int.question('Change header property type of ' + current_header_i + ':"' + structured_data_headers[current_header_i] + '" from '+ structured_data_headers_property_type[current_header_i]+ ' to: ', set_property_routine);
 }
 
 // rename headers or just continue
@@ -138,6 +185,7 @@ if(set_headers == 'true')
     console.log(`option set_headers set to TRUE, please input a name for each header(or leave empty to keep the default name) and press <Enter>!!! 
                     \n\n Note(header with name 'rename' will restart the whole process)`);
     set_headers_routine("rename");
+    return 0;
 }
 else
 {
@@ -153,10 +201,14 @@ function make_str_rdf_compatible(in_str)
     {
         return "None";
     }
-    var out_str = in_str.replace(/\s+/g, '_');
+    var out_str = in_str.replace(/^\s*/g, '');
+    out_str = out_str.replace(/\s+/g, '_');
     out_str = out_str.replace(/\./g, '_');
+    out_str = out_str.replace(/\'/g, '');
     out_str = out_str.replace(/\:/g, '');
     out_str = out_str.replace(/\;/g, '');
+    out_str = out_str.replace(/\!/g, '');
+    out_str = out_str.replace(/\,/g, '');
     return out_str;
 }
 
@@ -192,33 +244,36 @@ function write_structured_data_as_ttl()
     for (sd_iter in structured_data)
     {
         // get subject name
-        var subject = make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
+        var subject = prefix + make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
         if (subject == '')
         {
             continue;
         }
 
         // add base triples
-        triple_data.push([prefix + subject, 'rdf:type', prefix + main_subject]);
-        triple_data.push([prefix + subject,  prefix + make_str_rdf_compatible(structured_data_headers[main_subject_column]), make_str_rdf_literal(subject)]);
+        triple_data.push([subject, 'rdf:type', prefix + main_subject]);
 
         // add the other triples
         for (ld_iter in structured_data[sd_iter])
         {
-            if (ld_iter == main_subject_column)
+
+            var predicate = prefix + make_str_rdf_compatible(structured_data_headers[ld_iter]);
+            var object = '';
+            if(structured_data_headers_property_type[ld_iter] == 'object')
             {
-                continue;
+                object = prefix + make_str_rdf_compatible(structured_data[sd_iter][ld_iter]);
             }
-
-            var predicate = make_str_rdf_compatible(structured_data_headers[ld_iter]);
-            var object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
-
+            else
+            {
+                object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
+            }
+            
             if (predicate == '' || object == '')
             {
                 continue;
             }
 
-            triple_data.push([prefix + subject,  prefix + predicate, object]);
+            triple_data.push([subject, predicate, object]);
         }
     }
 
@@ -254,6 +309,7 @@ function write_structured_data_as_ttl()
         out_data = out_data + triple_data[t][0] + " " + triple_data[t][1] + " " + triple_data[t][2] + " ";
         last_subject = triple_data[t][0];
     }
+    out_data += '.';
     fs.writeFileSync(out_path, out_data);
     console.log("converted succesfully");
     return 0;
