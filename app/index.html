@@ -66,10 +66,29 @@
         <h3 class="uk-modal-title uk-text-center">{{clickedGame.name}}</h3>
         <ul uk-accordion="multiple: true">
             <li>
-                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Name</a>
-                <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <span class="uk-text-small"><span>{{clickedGame.name}}<span ng-if="clickedGame.alternativeName"> or {{clickedGame.alternativeName}}</span></span>
-                    </span>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Basic Info</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left uk-grid-collapse" uk-grid>
+                    <div class="uk-width-1-2 uk-text-left">
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold uk-text-small">Name: </span><span>{{clickedGame.name}}<span
+                                ng-if="clickedGame.alternativeName"> or {{clickedGame.alternativeName}}</span></span>
+                        </span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Release date: </span><span>{{clickedGame.releaseDate}}</span></span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer === true ? "Yes" : "No"}}</span></span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === true ? "Yes" : "No"}}</span></span>
+                        <br>
+                        <span class="uk-text-small" ng-if="clickedGame.series"><span
+                                class="uk-text-bold">Series: </span><span>{{clickedGame.series.name}}</span></span>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <img data-src="{{clickedGame.imgUrl}}" class="uk-align-center" uk-img height="100px" width="100px">
+                    </div>
                 </div>
             </li>
             <li>
@@ -81,14 +100,17 @@
             <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Genre</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <p class="uk-text-small"><span>{{clickedGame.genre.name}}</span><span ng-if="clickedGame.genre.alternativeName"> or {{clickedGame.genre.alternativeName}}</span></p>
+                    <p class="uk-text-small"><span>{{clickedGame.genre.name}}</span><span
+                            ng-if="clickedGame.genre.alternativeName"> or {{clickedGame.genre.alternativeName}}</span>
+                    </p>
                 </div>
             </li>
             <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Platforms</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left" uk-grid>
                     <div class="uk-width-1-3" ng-repeat="p in clickedGame.platforms">
-                        <img src="{{p.imgUrl}}" width="100px" height="100px" uk-img uk-tooltip="title: {{p.abstract}}">
+                        <img data-src="{{p.imgUrl}}" width="100px" height="100px" uk-img
+                             uk-tooltip="title: {{p.abstract}}">
                         <p class="uk-text-small uk-text-center">{{p.name}}</p>
                     </div>
                 </div>
@@ -96,7 +118,7 @@
             <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Creators</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <table class="uk-table uk-table-divider">
+                    <table class="uk-table uk-table-divider uk-text-small">
                         <tbody>
                         <tr ng-repeat="w in clickedGame.writers">
                             <td>{{w.name}}</td>
@@ -115,9 +137,34 @@
                 </div>
             </li>
             <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Organizations</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <table class="uk-table uk-table-divider uk-text-small">
+                        <tbody>
+                        <tr ng-if="clickedGame.developer">
+                            <td>{{clickedGame.developer.name}}</td>
+                            <td>Developer</td>
+                        </tr>
+                        <tr ng-if="clickedGame.manufacturer">
+                            <td>{{clickedGame.manufacturer.name}}</td>
+                            <td>Manufacturer</td>
+                        </tr>
+                        <tr ng-if="clickedGame.publisher">
+                            <td>{{clickedGame.publisher.name}}</td>
+                            <td>Publisher</td>
+                        </tr>
+                        <tr ng-if="clickedGame.composer">
+                            <td>{{clickedGame.composer.name}}</td>
+                            <td>Composer</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Characters</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <table class="uk-table uk-table-divider">
+                    <table class="uk-table uk-table-divider uk-text-small">
                         <tbody>
                         <tr ng-repeat="c in clickedGame.characters">
                             <td>{{c.name}}</td>
