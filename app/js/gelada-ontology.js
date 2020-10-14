@@ -61,7 +61,11 @@ function createDummyOntology($sce) {
     gt3.releaseDate = "11 december 1999";
 
 
-    return [gtav, gt3];
+    let games = [gtav, gt3];
+    games.sort((a, b)=>{
+        return a.name.localeCompare(b.name);
+    })
+    return games;
 }
 
 
