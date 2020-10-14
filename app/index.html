@@ -42,6 +42,12 @@
                     <option ng-repeat="ex in exclusives">{{ex}}</option>
                 </select>
             </div>
+            <div class="uk-margin">
+                <label class="uk-form-label">Genre:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenGenre">
+                    <option ng-repeat="g in genres">{{g}}</option>
+                </select>
+            </div>
         </div>
         <div class="uk-width-3-4" uk-height-viewport="offset-top: true">
             <div class="uk-card uk-card-default uk-card-body uk-width-1-1">

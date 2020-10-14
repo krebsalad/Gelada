@@ -7,7 +7,8 @@ function mainCtrl($scope, $http, $sce) {
         $scope.filteredGames = $scope.originalGames.slice();
         $scope.filters = [new GenerationFilter($scope.filteredGames, $scope),
             new PlatformFilter($scope.filteredGames, $scope),
-            new ExclusiveFilter($scope.filteredGames, $scope)];
+            new ExclusiveFilter($scope.filteredGames, $scope),
+            new GenreFilter($scope.filteredGames, $scope)];
     }
 
     $scope.searchInGames = function () {

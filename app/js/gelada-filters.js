@@ -74,6 +74,28 @@ class ExclusiveFilter extends Filterable {
     }
 }
 
+class GenreFilter extends Filterable {
+
+    constructor(games, $scope) {
+        super();
+        $scope.genres = [EMPTY_FILTER];
+        games.forEach(g => {
+            if ($scope.genres.indexOf(g.genre.name) < 0) {
+                $scope.genres.push(g.genre.name);
+            }
+        });
+    }
+
+    filter(games, $scope) {
+        const scopeVar = $scope.chosenGenre;
+        if (scopeVar && scopeVar.length > 0) {
+            games.removeIf(g => {
+                return g.genre.name !== scopeVar;
+            });
+        }
+    }
+}
+
 
 Array.prototype.removeIf = function (callback) {
     let i = this.length;
