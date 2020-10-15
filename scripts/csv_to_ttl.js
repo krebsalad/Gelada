@@ -121,6 +121,14 @@ function set_headers_routine(input)
     {
         current_header_i = 0;
     }
+    else if(input == "-")
+    {
+        structured_data_headers.splice(current_header_i, 1);
+        for (d in structured_data)
+        {
+            structured_data[d].splice(current_header_i, 1);
+        }
+    }
     else
     {
         if(input != "")
@@ -136,7 +144,7 @@ function set_headers_routine(input)
         if(set_property == 'true')
         {
             console.log(`option set_property set to TRUE, please input a property type ('object' or 'data') (or leave empty to keep the default 'data') and press <Enter>!!! 
-                    \n\n Note(header name with type 'rename' will restart the whole process)`);
+                    \n\n Note(header name with type 'rename' will restart the whole process amd '-' will remove the header)`);
             current_header_i = 0
             set_property_routine("rename");
             return 0;
@@ -209,6 +217,14 @@ function make_str_rdf_compatible(in_str)
     out_str = out_str.replace(/\;/g, '');
     out_str = out_str.replace(/\!/g, '');
     out_str = out_str.replace(/\,/g, '');
+    out_str = out_str.replace(/\//g, '');
+    out_str = out_str.replace(/\//g, '');
+    out_str = out_str.replace(/\(/g, '');
+    out_str = out_str.replace(/\)/g, '');
+    out_str = out_str.replace(/\&/g, 'and');
+    out_str = out_str.replace(/\$/g, '');
+    out_str = out_str.replace(/\?/g, '');
+    out_str = out_str.replace(/\+/g, '');
     return out_str;
 }
 
