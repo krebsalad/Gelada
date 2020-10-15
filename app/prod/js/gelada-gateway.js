@@ -39,10 +39,13 @@ function getPreviewedGames($http, $scope, filters) {
         });
         if ($scope.filteredGames) {
             $scope.filteredGames.length = 0;
+            $scope.originalGames.length = 0;
             previewGames.forEach(p => $scope.filteredGames.push(p));
         } else {
+            $scope.originalGames = [];
             $scope.filteredGames = previewGames;
         }
+        $scope.filteredGames.forEach(p => $scope.originalGames.push(p));
     });
 }
 
