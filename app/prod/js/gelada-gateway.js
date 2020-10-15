@@ -23,11 +23,10 @@ function getPreviewedGames($http, $scope, filters) {
         if ($scope.chosenLimit !== 'UNLIMITED') {
             query += "LIMIT " + $scope.chosenLimit;
         }
-    }else{
+    } else {
         query += "LIMIT 10";
     }
 
-    console.log(query);
     queryLocalhost(query, $http, data => {
         const previewGames = [];
         angular.forEach(data.data.results.bindings, function (val) {
@@ -44,11 +43,40 @@ function getPreviewedGames($http, $scope, filters) {
         } else {
             $scope.filteredGames = previewGames;
         }
-    })
+    });
+}
+
+
+function getGameDetails($http, $scope, uri) {
+    $scope.clickedGame = {};
+    uri = escapeOntologyUri(uri);
+    const basicInfoQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT * where{\n" +
+        "    " + uri + " gla:hasName ?name .\n" +
+        "    OPTIONAL {" + uri + " gla:hasAlternativeName ?alternativeName .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasScreenshot ?screenshot .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasReleaseDate ?releaseDate .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasSingleplayer ?singleplayer .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasMultiplayer ?multiplayer .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasAbstract ?abstract .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasGenre ?genre . \n ?genre gla:hasName ?genreName .}\n" +
+        "}";
+    queryLocalhost(basicInfoQuery, $http, data => {
+        angular.forEach(data.data.results.bindings, function (val) {
+            $scope.clickedGame.name = safeField(val.name);
+            $scope.clickedGame.imgUrl = safeField(val.screenshot);
+            $scope.clickedGame.alternativeName = safeField(val.alternativeName);
+            $scope.clickedGame.releaseDate = safeField(val.releaseDate);
+            $scope.clickedGame.singleplayer = safeField(val.singleplayer);
+            $scope.clickedGame.multiplayer = safeField(val.multiplayer);
+            $scope.clickedGame.genre = safeField(val.genreName);
+            $scope.clickedGame.abstract = safeField(val.abstract);
+        });
+    });
 }
 
 function initializeFilters($http, $scope) {
-    $scope.limits = LIMITS;
+    $scope.resultLimits = LIMITS;
     getGenerationFilterValues($http, $scope);
     getPlatformFilterValues($http, $scope);
     getGenreFilterValues($http, $scope);
@@ -112,6 +140,7 @@ function getGenreFilterValues($http, $scope) {
 
 
 function queryLocalhost(query, $http, successCallback) {
+    console.log(query);
     $http({
         method: "GET",
         url: "http://localhost:7200/repositories/geladav1" + "?query=" + encodeURI(query).replace(/#/, '%23'),

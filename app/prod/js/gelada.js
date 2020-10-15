@@ -25,9 +25,7 @@ function mainCtrl($scope, $http, $sce) {
         getPreviewedGames($http, $scope, filters);
     };
 
-    $scope.clickGame = function (gameId) {
-        $scope.clickedGame = $scope.originalGames.filter(g => {
-            return g.id === gameId;
-        })[0];
+    $scope.clickGame = function (gameUri) {
+        getGameDetails($http, $scope, gameUri);
     };
 }

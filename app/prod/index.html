@@ -28,7 +28,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Max number of results:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenLimit">
-                    <option ng-repeat="l in limits">{{l}}</option>
+                    <option ng-repeat="l in resultLimits">{{l}}</option>
                 </select>
             </div>
             <div class="uk-margin">
@@ -52,7 +52,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Genre:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGenre">
-                    <option ng-repeat="g in genres" value="{{g.uri}}" selected="{{}}">{{g.name}}</option>
+                    <option ng-repeat="g in genres" value="{{g.uri}}">{{g.name}}</option>
                 </select>
             </div>
         </div>
@@ -84,17 +84,17 @@
                     <div class="uk-width-1-2 uk-text-left">
                         <span class="uk-text-small"><span
                                 class="uk-text-bold uk-text-small">Name: </span><span>{{clickedGame.name}}<span
-                                ng-if="clickedGame.alternativeName"> or {{clickedGame.alternativeName}}</span></span>
+                                ng-if="clickedGame.alternativeName"> / {{clickedGame.alternativeName}}</span></span>
                         </span>
                         <br>
                         <span class="uk-text-small"><span
                                 class="uk-text-bold">Release date: </span><span>{{clickedGame.releaseDate}}</span></span>
                         <br>
                         <span class="uk-text-small"><span
-                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer === true ? "Yes" : "No"}}</span></span>
+                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer === "true" ? "Yes" : "No"}}</span></span>
                         <br>
                         <span class="uk-text-small"><span
-                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === true ? "Yes" : "No"}}</span></span>
+                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === "true" ? "Yes" : "No"}}</span></span>
                         <br>
                         <span class="uk-text-small" ng-if="clickedGame.series"><span
                                 class="uk-text-bold">Series: </span><span>{{clickedGame.series.name}}</span></span>
@@ -113,9 +113,7 @@
             <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Genre</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <p class="uk-text-small"><span>{{clickedGame.genre.name}}</span><span
-                            ng-if="clickedGame.genre.alternativeName"> or {{clickedGame.genre.alternativeName}}</span>
-                    </p>
+                    <p class="uk-text-small"><span>{{clickedGame.genre}}</span></p>
                 </div>
             </li>
             <li>
