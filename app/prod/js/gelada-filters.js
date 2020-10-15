@@ -1,5 +1,3 @@
-const EMPTY_FILTER = "";
-
 class Filterable {
 
     constructor(games, $scope) {
@@ -10,16 +8,6 @@ class Filterable {
 }
 
 class GenerationFilter extends Filterable {
-
-    constructor(games, $scope) {
-        super();
-        $scope.generations = [EMPTY_FILTER];
-        games.forEach(g => g.platforms.forEach(p => {
-            if ($scope.generations.indexOf(p.generation) < 0) {
-                $scope.generations.push(p.generation);
-            }
-        }));
-    }
 
     filter(games, $scope) {
         const scopeVar = $scope.chosenGen;
@@ -35,16 +23,6 @@ class GenerationFilter extends Filterable {
 
 class PlatformFilter extends Filterable {
 
-    constructor(games, $scope) {
-        super();
-        $scope.platforms = [EMPTY_FILTER];
-        games.forEach(g => g.platforms.forEach(p => {
-            if ($scope.platforms.indexOf(p.name) < 0) {
-                $scope.platforms.push(p.name);
-            }
-        }));
-    }
-
     filter(games, $scope) {
         const scopeVar = $scope.chosenPlatform;
         if (scopeVar && scopeVar.length > 0) {
@@ -59,7 +37,7 @@ class PlatformFilter extends Filterable {
 
 class ExclusiveFilter extends Filterable {
 
-    constructor(games, $scope) {
+    constructor($scope) {
         super();
         $scope.exclusives = [EMPTY_FILTER, "Yes", "No"];
     }
@@ -76,15 +54,6 @@ class ExclusiveFilter extends Filterable {
 
 class GenreFilter extends Filterable {
 
-    constructor(games, $scope) {
-        super();
-        $scope.genres = [EMPTY_FILTER];
-        games.forEach(g => {
-            if ($scope.genres.indexOf(g.genre.name) < 0) {
-                $scope.genres.push(g.genre.name);
-            }
-        });
-    }
 
     filter(games, $scope) {
         const scopeVar = $scope.chosenGenre;

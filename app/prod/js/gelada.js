@@ -4,11 +4,9 @@ function mainCtrl($scope, $http, $sce) {
 
     $scope.initialize = function () {
         $scope.originalGames = createDummyOntology($sce);
-        $scope.filteredGames = $scope.originalGames.slice();
-        $scope.filters = [new GenerationFilter($scope.filteredGames, $scope),
-            new PlatformFilter($scope.filteredGames, $scope),
-            new ExclusiveFilter($scope.filteredGames, $scope),
-            new GenreFilter($scope.filteredGames, $scope)];
+        initializeFilters($http, $scope);
+        getPreviewedGames($http, $scope);
+        $scope.filters = [new GenerationFilter(), new PlatformFilter(), new ExclusiveFilter($scope), new GenreFilter()];
     }
 
     $scope.searchInGames = function () {
