@@ -1,7 +1,7 @@
 const EMPTY_FILTER = "";
+const LIMITS = ["10", "25", "100", "UNLIMITED"];
 
 function getPreviewedGames($http, $scope, filters) {
-    //todo add filtering
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
         "SELECT ?game ?name ?screenshot ?releaseDate where{\n" +
@@ -17,8 +17,15 @@ function getPreviewedGames($http, $scope, filters) {
         "    OPTIONAL {?game gla:hasName ?name .}\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
-        "}\n" +
-        "LIMIT 21";
+        "}\n";
+
+    if ($scope.chosenLimit) {
+        if ($scope.chosenLimit !== 'UNLIMITED') {
+            query += "LIMIT " + $scope.chosenLimit;
+        }
+    }else{
+        query += "LIMIT 10";
+    }
 
     console.log(query);
     queryLocalhost(query, $http, data => {
@@ -41,6 +48,7 @@ function getPreviewedGames($http, $scope, filters) {
 }
 
 function initializeFilters($http, $scope) {
+    $scope.limits = LIMITS;
     getGenerationFilterValues($http, $scope);
     getPlatformFilterValues($http, $scope);
     getGenreFilterValues($http, $scope);

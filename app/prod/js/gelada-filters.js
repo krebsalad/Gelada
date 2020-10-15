@@ -11,7 +11,6 @@ class GenerationFilter extends Filterable {
 
     filter($scope) {
         const scopeVar = $scope.chosenGen;
-        console.log(scopeVar);
         if (scopeVar && scopeVar.length > 0) {
             return "gla:hasGeneration " + scopeVar;
         } else {

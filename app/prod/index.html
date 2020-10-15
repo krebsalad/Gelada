@@ -26,6 +26,12 @@
         <div class="uk-width-1-4 uk-card uk-card-default uk-card-body">
             <h3>Filters</h3>
             <div class="uk-margin">
+                <label class="uk-form-label">Max number of results:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenLimit">
+                    <option ng-repeat="l in limits">{{l}}</option>
+                </select>
+            </div>
+            <div class="uk-margin">
                 <label class="uk-form-label">Generation:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGen">
                     <option ng-repeat="gen in generations">{{gen}}</option>
