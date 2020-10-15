@@ -1,0 +1,3298 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gla: <http://www.gelada.org/ontology/> .
+gla:Magnavox_Odyssey rdf:type gla:Platform ;
+    gla:hasReleaseDate "1972"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Magnavox Odyssey" ;
+    gla:hasGeneration "1st" .
+
+gla:ITT_Odysee rdf:type gla:Platform ;
+    gla:hasReleaseDate "1973"^^xsd:integer ;
+    gla:hasManufacturer gla:ITT ;
+    gla:hasName "ITT Odysee" ;
+    gla:hasGeneration "1st" .
+
+gla:Export_Odyssey rdf:type gla:Platform ;
+    gla:hasReleaseDate "1974"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Export Odyssey" ;
+    gla:hasGeneration "1st" .
+
+gla:Magnavox_Odisea rdf:type gla:Platform ;
+    gla:hasReleaseDate "1975"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Magnavox Odisea" ;
+    gla:hasGeneration "1st" .
+
+gla:Overkal rdf:type gla:Platform ;
+    gla:hasReleaseDate "1975"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "Overkal" ;
+    gla:hasGeneration "1st" .
+
+gla:Telematch_de_Panoramic rdf:type gla:Platform ;
+    gla:hasReleaseDate "1975"^^xsd:integer ;
+    gla:hasManufacturer gla:Juegos_Electronicos ;
+    gla:hasName "Telematch de Panoramic" ;
+    gla:hasGeneration "1st" .
+
+gla:Kanal_34 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1975"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "Kanal 34" ;
+    gla:hasGeneration "1st" .
+
+gla:Audiosonic_PP-790 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Audiosonic ;
+    gla:hasName "Audiosonic PP-790" ;
+    gla:hasGeneration "1st" .
+
+gla:Binatone_Cablestar rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Binatone ;
+    gla:hasName "Binatone Cablestar" ;
+    gla:hasGeneration "1st" .
+
+gla:Creatronic_Programmable_2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Creatronic ;
+    gla:hasName "Creatronic Programmable 2000" ;
+    gla:hasGeneration "1st" .
+
+gla:Grandstand_Programmable_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand Programmable TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Grandstand_Colour_Programmable_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand Colour Programmable TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Grandstand_SD-050 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand SD-050" ;
+    gla:hasGeneration "1st" .
+
+gla:Hanimex_SD-050 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex SD-050" ;
+    gla:hasGeneration "1st" .
+
+gla:Hanimex_SD-070 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex SD-070" ;
+    gla:hasGeneration "1st" .
+
+gla:Hanimex_SD-070_Couleur rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex SD-070 Couleur" ;
+    gla:hasGeneration "1st" .
+
+gla:ITMC_SD-050 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:ITMC ;
+    gla:hasName "ITMC SD-050" ;
+    gla:hasGeneration "1st" .
+
+gla:ITMC_Jeu_Video_Cassette_Interchangable rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:ITMC ;
+    gla:hasName "ITMC Jeu Video Cassette Interchangable" ;
+    gla:hasGeneration "1st" .
+
+gla:Mercury_Commander rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Mercury ;
+    gla:hasName "Mercury Commander" ;
+    gla:hasGeneration "1st" .
+
+gla:Optim_600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Optim ;
+    gla:hasName "Optim 600" ;
+    gla:hasGeneration "1st" .
+
+gla:Palladium_Tele-Cassette_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Palladium ;
+    gla:hasName "Palladium Tele-Cassette Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Poppy_9015 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Poppy ;
+    gla:hasName "Poppy 9015" ;
+    gla:hasGeneration "1st" .
+
+gla:Poppy_TVG_10 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Poppy ;
+    gla:hasName "Poppy TVG 10" ;
+    gla:hasGeneration "1st" .
+
+gla:Prinztronic_Micro_10 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Prinztronic ;
+    gla:hasName "Prinztronic Micro 10" ;
+    gla:hasGeneration "1st" .
+
+gla:Prinztronic_Micro_5500 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Prinztronic ;
+    gla:hasName "Prinztronic Micro 5500" ;
+    gla:hasGeneration "1st" .
+
+gla:Radofin_Telesports_III rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Radofin ;
+    gla:hasName "Radofin Telesports III" ;
+    gla:hasGeneration "1st" .
+
+gla:Sanwa_9015 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Sanwa ;
+    gla:hasName "Sanwa 9015" ;
+    gla:hasGeneration "1st" .
+
+gla:SHG_Blackpoint rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:SHG ;
+    gla:hasName "SHG Blackpoint" ;
+    gla:hasGeneration "1st" .
+
+gla:Soundic_Programmable_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Soundic ;
+    gla:hasName "Soundic Programmable TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Tempest_Programmable_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Tempest ;
+    gla:hasName "Tempest Programmable TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Unimex_Mark_IX rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Unimex ;
+    gla:hasName "Unimex Mark IX" ;
+    gla:hasGeneration "1st" .
+
+gla:Universum_Programmable_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Universum ;
+    gla:hasName "Universum Programmable TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Acetronic_Color_TV_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Acetronic ;
+    gla:hasName "Acetronic Color TV Game" ;
+    gla:hasGeneration "1st" .
+
+gla:Poppy_SECAM_Video_SD-050S rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Poppy ;
+    gla:hasName "Poppy SECAM Video SD-050S" ;
+    gla:hasGeneration "1st" .
+
+gla:Rollet_4303_Video_SECAM rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Rollet ;
+    gla:hasName "Rollet 4/303 Video SECAM" ;
+    gla:hasGeneration "1st" .
+
+gla:SIPO_Heim-Video-Cassette rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:SIPO ;
+    gla:hasName "SIPO Heim-Video-Cassette" ;
+    gla:hasGeneration "1st" .
+
+gla:Fairchild_Channel_F rdf:type gla:Platform ;
+    gla:hasReleaseDate "1976"^^xsd:integer ;
+    gla:hasManufacturer gla:Fairchild_Semiconductor ;
+    gla:hasName "Fairchild Channel F" ;
+    gla:hasGeneration "2nd" .
+
+gla:Grandstand_Video_Entertainment_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1976"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand Video Entertainment Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Luxor_TV-Datorspel_190-9574 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:Luxor ;
+    gla:hasName "Luxor TV-Datorspel 190-9574" ;
+    gla:hasGeneration "2nd" .
+
+gla:Barco_Challenger rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Barco ;
+    gla:hasName "Barco Challenger" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dumont_Channel_F rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Dumont ;
+    gla:hasName "Dumont Channel F" ;
+    gla:hasGeneration "2nd" .
+
+gla:Emerson_Channel_F rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Emerson ;
+    gla:hasName "Emerson Channel F" ;
+    gla:hasGeneration "2nd" .
+
+gla:Ingelen_Telematch_Processor rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Ingelen ;
+    gla:hasName "Ingelen Telematch Processor" ;
+    gla:hasGeneration "2nd" .
+
+gla:ITT_Telematch_Processor rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:ITT ;
+    gla:hasName "ITT Telematch Processor" ;
+    gla:hasGeneration "2nd" .
+
+gla:Luxor_TV-Datorspel_Model_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Luxor ;
+    gla:hasName "Luxor TV-Datorspel Model II" ;
+    gla:hasGeneration "2nd" .
+
+gla:Saba_Videoplay rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Saba ;
+    gla:hasName "Saba Videoplay" ;
+    gla:hasGeneration "2nd" .
+
+gla:Grandstand_Video_Entertainment_Computer_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand Video Entertainment Computer II" ;
+    gla:hasGeneration "2nd" .
+
+gla:Nordmende_Color_Teleplay rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Nordmende ;
+    gla:hasName "Nordmende Color Teleplay" ;
+    gla:hasGeneration "2nd" .
+
+gla:Saba_Videoplay_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Saba ;
+    gla:hasName "Saba Videoplay 2" ;
+    gla:hasGeneration "2nd" .
+
+gla:Zircon_Channel_F_II_Video_Entertainment_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Zircon ;
+    gla:hasName "Zircon Channel F II Video Entertainment System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radofin_1292_Telesports_Programmable_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1976"^^xsd:integer ;
+    gla:hasManufacturer gla:Radofin ;
+    gla:hasName "Radofin 1292 Telesports Programmable APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radofin_1392_Telesports_Programmable_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1976"^^xsd:integer ;
+    gla:hasManufacturer gla:Radofin ;
+    gla:hasName "Radofin 1392 Telesports Programmable APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Prinztronic_VC6000_1292 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:Prinztronic ;
+    gla:hasName "Prinztronic VC6000 (1292)" ;
+    gla:hasGeneration "2nd" .
+
+gla:TRQ_H-21_Sistema_de_Video rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:TRQ ;
+    gla:hasName "TRQ H-21 Sistema de Video" ;
+    gla:hasGeneration "2nd" .
+
+gla:Audiosonic_PP-1292_Microprocessor rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Audiosonic ;
+    gla:hasName "Audiosonic PP-1292 Microprocessor" ;
+    gla:hasGeneration "2nd" .
+
+gla:Audiosonic_PP-1392_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Audiosonic ;
+    gla:hasName "Audiosonic PP-1392 APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Fountain_Programmable_Video_System_1292 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Fountain ;
+    gla:hasName "Fountain Programmable Video System (1292)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Interton_VC-4000_Video_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Interton ;
+    gla:hasName "Interton VC-4000 Video Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Prinztronic_Tournament rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Prinztronic ;
+    gla:hasName "Prinztronic Tournament" ;
+    gla:hasGeneration "2nd" .
+
+gla:Acetronic_MPU_1000_1292 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Acetronic ;
+    gla:hasName "Acetronic MPU 1000 (1292)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Acetronic_MPU_2000_1392 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Acetronic ;
+    gla:hasName "Acetronic MPU 2000 (1392)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Cable_Universal_Game_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Cable_Ind_ ;
+    gla:hasName "Cable Universal Game Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Fountain_Force_2_APVS_1392 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Fountain ;
+    gla:hasName "Fountain Force 2 APVS (1392)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Fountain_Programmable_Video_System_1392 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Fountain ;
+    gla:hasName "Fountain Programmable Video System (1392)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Grandstand_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Grandstand APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Grundig_Super_Play_4000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Grundig ;
+    gla:hasName "Grundig Super Play 4000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Hanimex_HMG_1292_Telesports_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex HMG 1292 Telesports APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Hanimex_HMG_1392_APVS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex HMG 1392 APVS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Koerting_TVC_4000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Koerting ;
+    gla:hasName "Koerting TVC 4000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Lansay_Programmable_Video_System_1392 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Lansay ;
+    gla:hasName "Lansay Programmable Video System 1392" ;
+    gla:hasGeneration "2nd" .
+
+gla:Palson_CX_3000_Tele_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Palson ;
+    gla:hasName "Palson CX.3000 Tele Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Rowtron_Teleplay_Computer_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Rowtron ;
+    gla:hasName "Rowtron Teleplay Computer System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Societe_Occitane_OC2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Societe_Occitane ;
+    gla:hasName "Societe Occitane OC2000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Societe_Occitane_OC2000_Couleur rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Societe_Occitane ;
+    gla:hasName "Societe Occitane OC2000 Couleur" ;
+    gla:hasGeneration "2nd" .
+
+gla:Teleng_Television_Computer_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Teleng ;
+    gla:hasName "Teleng Television Computer System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Unimex_Mark_X_Computer_Video_Game_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Unimex ;
+    gla:hasName "Unimex Mark X Computer Video Game System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Videomaster_Database rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "Videomaster Database" ;
+    gla:hasGeneration "2nd" .
+
+gla:Voltmace_Database rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Voltmace ;
+    gla:hasName "Voltmace Database" ;
+    gla:hasGeneration "2nd" .
+
+gla:ITMC_Video_Ordinateur_MPT-05 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:ITMC ;
+    gla:hasName "ITMC Video Ordinateur MPT-05" ;
+    gla:hasGeneration "2nd" .
+
+gla:Game_Brain_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Game Brain (proto)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_CX2600_6-Switch_andHeavy_Sixerand rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari CX2600 6-Switch &#39;Heavy Sixer&#39;" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_CX2600A_4-Switch_andWoodyand rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari CX2600A 4-Switch &#39;Woody&#39;" ;
+    gla:hasGeneration "2nd" .
+
+gla:Computec_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Computec ;
+    gla:hasName "Computec 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Funvision_Home_Video_Game_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Funvision_ ;
+    gla:hasName "Funvision Home Video Game 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Matra_3600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Matra_ ;
+    gla:hasName "Matra 3600" ;
+    gla:hasGeneration "2nd" .
+
+gla:New_Game_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "New Game 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Gracia_TV_Game_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Gracia_ ;
+    gla:hasName "Gracia TV Game 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Thompsonic_VCS_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Thompsonic ;
+    gla:hasName "Thompsonic VCS 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Unimex_VCS_800_VCS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Unimex_ ;
+    gla:hasName "Unimex VCS 800 VCS" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_CX2600A_4-Switch_andDarth_Vaderand rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari CX2600A 4-Switch &#39;Darth Vader&#39;" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bit_Corporation_Amigo rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Bit_Corporation ;
+    gla:hasName "Bit Corporation Amigo" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bonitron_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Bonitron_ ;
+    gla:hasName "Bonitron 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Coleco_Gemini rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Coleco ;
+    gla:hasName "Coleco Gemini" ;
+    gla:hasGeneration "2nd" .
+
+gla:Activision__Dismac_VJ-8900 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Dismac_ ;
+    gla:hasName "Activision / Dismac VJ-8900" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_2800 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 2800" ;
+    gla:hasGeneration "2nd" .
+
+gla:Columbia_Home_Arcade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Columbia_Records ;
+    gla:hasName "Columbia Home Arcade" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dactar_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Dactar ;
+    gla:hasName "Dactar 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dactar_2600_Compatible_Built_in_case rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Dactar ;
+    gla:hasName "Dactar 2600 Compatible (Built in case)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Edu_Juegos_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Edu ;
+    gla:hasName "Edu Juegos 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:Polyvox_Atari_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Polyvox_ ;
+    gla:hasName "Polyvox Atari 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dynacom_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Dynacom_ ;
+    gla:hasName "Dynacom System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Edu_Video_Computer_2600_Compatible rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Edu ;
+    gla:hasName "Edu Video Computer 2600 Compatible" ;
+    gla:hasGeneration "2nd" .
+
+gla:CCE_Supergame_VG-3000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:CCE ;
+    gla:hasName "CCE Supergame VG-3000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dactar_II_Video_Game_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Dactar ;
+    gla:hasName "Dactar II Video Game 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dactar_II_Video_Game_2600_Built_in_case rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Dactar ;
+    gla:hasName "Dactar II Video Game 2600 (Built in case)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Microdigital_Onyx_Junior_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Microdigital_ ;
+    gla:hasName "Microdigital Onyx Junior (2600)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_CX2600_VCS-2600_Junior rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari CX2600 VCS-2600 Junior" ;
+    gla:hasGeneration "2nd" .
+
+gla:Applevision_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Applevision ;
+    gla:hasName "Applevision 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Milmar_Memory_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Milmar_ ;
+    gla:hasName "Milmar Memory Game" ;
+    gla:hasGeneration "2nd" .
+
+gla:CCE_Supergame_VG-5600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:CCE ;
+    gla:hasName "CCE Supergame VG-5600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Funfair_2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:Funfair_ ;
+    gla:hasName "Funfair 2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bally_Home_Library_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1977"^^xsd:integer ;
+    gla:hasManufacturer gla:Bally ;
+    gla:hasName "Bally Home Library Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bally_Professional_Arcade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1978"^^xsd:integer ;
+    gla:hasManufacturer gla:Bally ;
+    gla:hasName "Bally Professional Arcade" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bally_Computer_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Astrovision ;
+    gla:hasName "Bally Computer System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bally_Astrocade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Astrocade ;
+    gla:hasName "Bally Astrocade" ;
+    gla:hasGeneration "2nd" .
+
+gla:Magnavox_Odyssey_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Magnavox Odyssey 2" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videopac_G-7000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videopac G-7000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radiola_Videopac_Jet_25 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Radiola ;
+    gla:hasName "Radiola Videopac Jet 25" ;
+    gla:hasGeneration "2nd" .
+
+gla:Siera_Videopac_Computer_G-7000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Siera ;
+    gla:hasName "Siera Videopac Computer G-7000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Kooton_Odyssey_2_Videopac rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Kooton_Trading_Toitarii ;
+    gla:hasName "Kooton Odyssey 2 (Videopac)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Magnavox__Philips_Odyssey_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Magnavox / Philips Odyssey 2" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Odyssey rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Odyssey" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videojeu_C-52 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videojeu C-52" ;
+    gla:hasGeneration "2nd" .
+
+gla:Schneider_Ordinateur_Videopac_7000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Schneider ;
+    gla:hasName "Schneider Ordinateur Videopac 7000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Brandt_Jopac_JO7400 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Brandt ;
+    gla:hasName "Brandt Jopac JO7400" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videojeu_N-60 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videojeu N-60" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videopac_G-7200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videopac G-7200" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radiola_Videopac_Jet_27 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Radiola ;
+    gla:hasName "Radiola Videopac Jet 27" ;
+    gla:hasGeneration "2nd" .
+
+gla:Continental_Edison__Saba_Jopac_JO1450 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Continental_Edison ;
+    gla:hasName "Continental Edison / Saba Jopac JO1450" ;
+    gla:hasGeneration "2nd" .
+
+gla:Schneider_Videopac_7200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Schneider ;
+    gla:hasName "Schneider Videopac 7200" ;
+    gla:hasGeneration "2nd" .
+
+gla:Siera_Videopac_Computer_G-7400 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Siera ;
+    gla:hasName "Siera Videopac Computer G-7400" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videopac_G-7400 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videopac G-7400" ;
+    gla:hasGeneration "2nd" .
+
+gla:Philips_Videopac_G-7401 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips Videopac G-7401" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radiola_Videopac_Jet_47 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Radiola ;
+    gla:hasName "Radiola Videopac Jet 47" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radiola_Videopac_Jet_471 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Radiola ;
+    gla:hasName "Radiola Videopac Jet 471" ;
+    gla:hasGeneration "2nd" .
+
+gla:Schneider_Videopac_74 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Schneider ;
+    gla:hasName "Schneider Videopac 74+" ;
+    gla:hasGeneration "2nd" .
+
+gla:APF_M-1000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:APF_Electronics ;
+    gla:hasName "APF M-1000" ;
+    gla:hasGeneration "2nd" .
+
+gla:APF_MP-1000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:APF_Electronics ;
+    gla:hasName "APF MP-1000" ;
+    gla:hasGeneration "2nd" .
+
+gla:APF_Imagination_Machine rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:APF_Electronics ;
+    gla:hasName "APF Imagination Machine" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bandai_Super_Vision_8000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Super Vision 8000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Mattel_Intellivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Mattel_Electronics ;
+    gla:hasName "Mattel Intellivision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Digiplay_Intellivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Digiplay_ ;
+    gla:hasName "Digiplay Intellivision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bandai_Intellivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Intellivision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radio_Shack_TandyVision_One rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Tandy_Corp_ ;
+    gla:hasName "Radio Shack TandyVision One" ;
+    gla:hasGeneration "2nd" .
+
+gla:Sylvania_Intellivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Sylvania ;
+    gla:hasName "Sylvania Intellivision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Digiplay_Intellivision_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Digiplay_ ;
+    gla:hasName "Digiplay Intellivision II" ;
+    gla:hasGeneration "2nd" .
+
+gla:Mattel_Intellivision_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Mattel_Electronics ;
+    gla:hasName "Mattel Intellivision II" ;
+    gla:hasGeneration "2nd" .
+
+gla:INTV_System_III rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:INTV_Corp_ ;
+    gla:hasName "INTV System III" ;
+    gla:hasGeneration "2nd" .
+
+gla:INTV_Intellivision_Super_Pro_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:INTV_Corp_ ;
+    gla:hasName "INTV Intellivision Super Pro System" ;
+    gla:hasGeneration "2nd" .
+
+gla:World_Book_Tutor_Vision_Intellivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:World_Book_Encyclopedia ;
+    gla:hasName "World Book Tutor Vision (Intellivision)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Epoch_Cassette_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Epoch ;
+    gla:hasName "Epoch Cassette Vision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Epoch_Cassette_Vision_Jr_ rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Epoch ;
+    gla:hasName "Epoch Cassette Vision Jr." ;
+    gla:hasGeneration "2nd" .
+
+gla:VTech_CreatiVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:VTech ;
+    gla:hasName "VTech CreatiVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Cheryco_CreatiVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Cheryco ;
+    gla:hasName "Cheryco CreatiVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dick_Smith_VZ-2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Dick_Smith_Electronics ;
+    gla:hasName "Dick Smith VZ-2000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dick_Smith_Wizzard_X-1600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Dick_Smith_Electronics ;
+    gla:hasName "Dick Smith Wizzard X-1600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dick_Smith_Wizzard_Y-1600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Dick_Smith_Electronics ;
+    gla:hasName "Dick Smith Wizzard Y-1600" ;
+    gla:hasGeneration "2nd" .
+
+gla:Hanimex_HVC_6502_Rameses rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex HVC 6502 Rameses" ;
+    gla:hasGeneration "2nd" .
+
+gla:Telefunken_CreatiVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:TEK_Electronics_PTY_Ltd_ ;
+    gla:hasName "Telefunken CreatiVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:VTech_FunVision_Y-2600 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:VTech ;
+    gla:hasName "VTech FunVision Y-2600" ;
+    gla:hasGeneration "2nd" .
+
+gla:VTech_CreatiVision_MK_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:VTech ;
+    gla:hasName "VTech CreatiVision MK II" ;
+    gla:hasGeneration "2nd" .
+
+gla:Zanussi_CreatiVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Zanussi ;
+    gla:hasName "Zanussi CreatiVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Salora_Manager rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Salora ;
+    gla:hasName "Salora Manager" ;
+    gla:hasGeneration "2nd" .
+
+gla:VTech_CreatiVision_MK_II_Laser_500 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:VTech ;
+    gla:hasName "VTech CreatiVision MK II Laser 500" ;
+    gla:hasGeneration "2nd" .
+
+gla:VTech_Laser_2001_Home_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:VTech ;
+    gla:hasName "VTech Laser 2001 Home Computer" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bente_CreatiVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Bente ;
+    gla:hasName "Bente CreatiVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Coleco_ColecoVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Coleco ;
+    gla:hasName "Coleco ColecoVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:CBS_ColecoVision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:CBS_Electronics ;
+    gla:hasName "CBS ColecoVision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Split_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "Split Vision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_5200_4_port rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 5200 (4 port)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Atari_5200_2_port rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 5200 (2 port)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Spectravision_Hotel_Video_Center rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Spectradyne_ ;
+    gla:hasName "Spectravision Hotel Video Center" ;
+    gla:hasGeneration "2nd" .
+
+gla:Inno-Hit_CH50_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Inno-Hit ;
+    gla:hasName "Inno-Hit CH50 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Mobilar_Telespiel-Service_Cosmos rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Tele-Computer ;
+    gla:hasName "Mobilar Telespiel-Service Cosmos" ;
+    gla:hasGeneration "2nd" .
+
+gla:Ormatu_Video_Spelcomputer_2001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Ormatu_Electronics_BV ;
+    gla:hasName "Ormatu Video Spelcomputer 2001" ;
+    gla:hasGeneration "2nd" .
+
+gla:Palladium_Video_Computer_Game_775002 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Palladium ;
+    gla:hasName "Palladium Video Computer Game 775/002" ;
+    gla:hasGeneration "2nd" .
+
+gla:Polybrain_Video_Computer_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Polybrain ;
+    gla:hasName "Polybrain Video Computer Game" ;
+    gla:hasGeneration "2nd" .
+
+gla:Poppy_MPT-03_Tele_Computer_Spiel rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Poppy ;
+    gla:hasName "Poppy MPT-03 Tele Computer Spiel" ;
+    gla:hasGeneration "2nd" .
+
+gla:Prestige_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Prestige ;
+    gla:hasName "Prestige MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Principal_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Principal ;
+    gla:hasName "Principal MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Radialva_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Radialva ;
+    gla:hasName "Radialva MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Robdajet_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Robdajet ;
+    gla:hasName "Robdajet MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Rowtron_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Rowtron ;
+    gla:hasName "Rowtron MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Soundic_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Soundic ;
+    gla:hasName "Soundic MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Tempest_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Tempest ;
+    gla:hasName "Tempest MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Trakton_MV-1305_Video_Computer_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Trakton ;
+    gla:hasName "Trakton MV-1305 Video Computer Game" ;
+    gla:hasGeneration "2nd" .
+
+gla:Hanimex_MPT-03 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Hanimex MPT-03" ;
+    gla:hasGeneration "2nd" .
+
+gla:ITMC_MPT-03 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1979"^^xsd:integer ;
+    gla:hasManufacturer gla:ITMC ;
+    gla:hasName "ITMC MPT-03" ;
+    gla:hasGeneration "2nd" .
+
+gla:Video_Master_Colour_Computer_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand_Electronics ;
+    gla:hasName "Video Master Colour Computer Game" ;
+    gla:hasGeneration "2nd" .
+
+gla:Intelligent_Game_MPT-03_Home_Entertainment rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Intelligent_Game ;
+    gla:hasName "Intelligent Game MPT-03 Home Entertainment" ;
+    gla:hasGeneration "2nd" .
+
+gla:Leisure_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Leisure-Dynamics ;
+    gla:hasName "Leisure Vision" ;
+    gla:hasGeneration "2nd" .
+
+gla:UVI_Compu-Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Orbit_Electronic ;
+    gla:hasName "UVI Compu-Game" ;
+    gla:hasGeneration "2nd" .
+
+gla:Sheen_2001_Home_Video_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Sheen ;
+    gla:hasName "Sheen 2001 Home Video Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Tunix_Home_Arcade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Monaco_Leisure ;
+    gla:hasName "Tunix Home Arcade" ;
+    gla:hasGeneration "2nd" .
+
+gla:Tchibo_Tele-Fever rdf:type gla:Platform ;
+    gla:hasReleaseDate "1980"^^xsd:integer ;
+    gla:hasManufacturer gla:Tchibo ;
+    gla:hasName "Tchibo Tele-Fever" ;
+    gla:hasGeneration "2nd" .
+
+gla:GiG_Leonardo rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:GiG_Electronics ;
+    gla:hasName "GiG Leonardo" ;
+    gla:hasGeneration "2nd" .
+
+gla:HMG_2650_Colour_Television_Game_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "HMG 2650 Colour Television Game System" ;
+    gla:hasGeneration "2nd" .
+
+gla:Intercord_Tele-Computer_XL-2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Intercord ;
+    gla:hasName "Intercord Tele-Computer XL-2000" ;
+    gla:hasGeneration "2nd" .
+
+gla:Schmidt_TVG_2000_Computer_Farbfernsehspiel rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Schmidt ;
+    gla:hasName "Schmidt TVG 2000 Computer Farbfernsehspiel" ;
+    gla:hasGeneration "2nd" .
+
+gla:Tryom_MPT-03_Home_Entertainment_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Tryom ;
+    gla:hasName "Tryom MPT-03 Home Entertainment Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Dynavision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Morning-Sun_Commerce ;
+    gla:hasName "Dynavision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Ekusera rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:P_I_C_ ;
+    gla:hasName "Ekusera" ;
+    gla:hasGeneration "2nd" .
+
+gla:Home_Arcade_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1981"^^xsd:integer ;
+    gla:hasManufacturer gla:Hanimex ;
+    gla:hasName "Home Arcade Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bandai_Arcadia rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Arcadia" ;
+    gla:hasGeneration "2nd" .
+
+gla:Emerson_Arcadia_2001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Emerson ;
+    gla:hasName "Emerson Arcadia 2001" ;
+    gla:hasGeneration "2nd" .
+
+gla:Intervision_2001_Home_Video_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Intervision ;
+    gla:hasName "Intervision 2001 Home Video Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Intervision_3001_Home_Video_Centre rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Intervision ;
+    gla:hasName "Intervision 3001 Home Video Centre" ;
+    gla:hasGeneration "2nd" .
+
+gla:Tele-Brain rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Mr__Altus ;
+    gla:hasName "Tele-Brain" ;
+    gla:hasGeneration "2nd" .
+
+gla:Advision_Home_Arcade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Advision ;
+    gla:hasName "Advision Home Arcade" ;
+    gla:hasGeneration "2nd" .
+
+gla:GCE_Vectrex rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:GCE ;
+    gla:hasName "GCE Vectrex" ;
+    gla:hasGeneration "2nd" .
+
+gla:Milton_Bradley_Vectrex rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Milton_Bradley ;
+    gla:hasName "Milton Bradley Vectrex" ;
+    gla:hasGeneration "2nd" .
+
+gla:Bandai_Kousokusen rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Kousokusen" ;
+    gla:hasGeneration "2nd" .
+
+gla:Entex_Adventure_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1982"^^xsd:integer ;
+    gla:hasManufacturer gla:Entex_Industries ;
+    gla:hasName "Entex Adventure Vision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Compact_Vision_TV_Boy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Gakken ;
+    gla:hasName "Compact Vision (TV Boy)" ;
+    gla:hasGeneration "2nd" .
+
+gla:Nichibutsu_My_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Nichibutsu ;
+    gla:hasName "Nichibutsu My Vision" ;
+    gla:hasGeneration "2nd" .
+
+gla:Casio_PV-1000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Casio ;
+    gla:hasName "Casio PV-1000" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_SG-1000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_SG-1000_MK_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega SG-1000 MK II" ;
+    gla:hasGeneration "3rd" .
+
+gla:Othello_Multivision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Tsukada_Original ;
+    gla:hasName "Othello Multivision" ;
+    gla:hasGeneration "3rd" .
+
+gla:Fullwis_FR-II_Video_Game rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Fullwis ;
+    gla:hasName "Fullwis FR-II Video Game" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-50P rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-50P" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-50W rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-50W" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-50B rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-50B" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_SuperBoy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix SuperBoy" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-51R rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-51R" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-51W rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-51W" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-51B rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-51B" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-330K rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-330K" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-61R rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-61R" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPC-61W rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPC-61W" ;
+    gla:hasGeneration "3rd" .
+
+gla:Zemmix_CPG-120 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Daewoo_Electronics_Co_ ;
+    gla:hasName "Zemmix CPG-120" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Family_Computer_HVC-001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Family Computer (HVC-001)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Entertainment_System_NES-001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Entertainment System (NES-001)" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Entertainment System (NES-001)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Hyundai_Comboy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Hyundai_Electronics ;
+    gla:hasName "Hyundai Comboy" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Entertainment_System_NES-001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Entertainment System (NES-001)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Famicom_Television rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Famicom Television" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Nintendo_Television rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Nintendo Television" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Famicom_Titler rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Famicom Titler" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_AV_Famicom_HVC-101 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo AV Famicom (HVC-101)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Entertainment_System_NES-101 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Entertainment System (NES-101)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Epoch_Super_Cassette_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Epoch ;
+    gla:hasName "Epoch Super Cassette Vision" ;
+    gla:hasGeneration "3rd" .
+
+gla:Yeno_Super_Cassette_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:ITMC ;
+    gla:hasName "Yeno Super Cassette Vision" ;
+    gla:hasGeneration "3rd" .
+
+gla:Epoch_Lady_Cassette_Vision rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Epoch ;
+    gla:hasName "Epoch Lady Cassette Vision" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Advanced_Video_System_prototype rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Advanced Video System (prototype)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tomy_Pyuuta rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Tomy ;
+    gla:hasName "Tomy Pyuuta" ;
+    gla:hasGeneration "3rd" .
+
+gla:Grandstand_Tutor rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Grandstand ;
+    gla:hasName "Grandstand Tutor" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tomy_Tutor rdf:type gla:Platform ;
+    gla:hasReleaseDate "1983"^^xsd:integer ;
+    gla:hasManufacturer gla:Tomy ;
+    gla:hasName "Tomy Tutor" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tomy_Pyuuta_MK_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Tomy ;
+    gla:hasName "Tomy Pyuuta MK II" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tomy_Pyuuta_Jr_ rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Tomy ;
+    gla:hasName "Tomy Pyuuta Jr." ;
+    gla:hasGeneration "3rd" .
+
+gla:RDI_Halcyon rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:RDI_Video_Systems ;
+    gla:hasName "RDI Halcyon" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_Mark_III rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mark III" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_Master_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Master System" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_Base_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Base System" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_Master_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Master System" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Master System" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tec_Toy_Master_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Master System" ;
+    gla:hasGeneration "3rd" .
+
+gla:Samsung_GamBoy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung Gam*Boy" ;
+    gla:hasGeneration "3rd" .
+
+gla:Samsung_SMS_I rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung SMS I" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sega_Master_System_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Master System 2" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Master System 2" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tec_Toy_Master_System_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Master System 2" ;
+    gla:hasGeneration "3rd" .
+
+gla:Samsung_SMS_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung SMS II" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tec_Toy_Master_System_Compact rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Master System Compact" ;
+    gla:hasGeneration "3rd" .
+
+gla:Tec_Toy_Master_System_Girl rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Master System Girl" ;
+    gla:hasGeneration "3rd" .
+
+gla:BBC_Bridge_Companion rdf:type gla:Platform ;
+    gla:hasReleaseDate "1985"^^xsd:integer ;
+    gla:hasManufacturer gla:Unicard_LTD_ ;
+    gla:hasName "BBC Bridge Companion" ;
+    gla:hasGeneration "3rd" .
+
+gla:Nintendo_Famicom_Disk_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Famicom Disk System" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Twin_Famicom_AN-500R rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Twin Famicom AN-500R" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Twin_Famicom_AN-500B rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Twin Famicom AN-500B" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Twin_Famicom_AN-505-BK rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Twin Famicom AN-505-BK" ;
+    gla:hasGeneration "3rd" .
+
+gla:Sharp_Twin_Famicom_AN-505-RD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp Twin Famicom AN-505-RD" ;
+    gla:hasGeneration "3rd" .
+
+gla:Atari_7800_Pro_System_short_release rdf:type gla:Platform ;
+    gla:hasReleaseDate "1984"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 7800 Pro System (short release)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Atari_7800_Pro_System_w_exp__port rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 7800 Pro System (w\ exp. port)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Atari_7800_Pro_System_wo_exp__port rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 7800 Pro System (w\o exp. port)" ;
+    gla:hasGeneration "3rd" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari 7800 Pro System (w\o exp. port)" ;
+    gla:hasGeneration "3rd" .
+
+gla:Dina_2-in-1 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Bit_Corporation ;
+    gla:hasName "Dina 2-in-1" ;
+    gla:hasGeneration "3rd" .
+
+gla:Telegames_Dina rdf:type gla:Platform ;
+    gla:hasReleaseDate "1986"^^xsd:integer ;
+    gla:hasManufacturer gla:Telegames ;
+    gla:hasName "Telegames Dina" ;
+    gla:hasGeneration "3rd" .
+
+gla:Telegames_Personal_Arcade rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Telegames ;
+    gla:hasName "Telegames Personal Arcade" ;
+    gla:hasGeneration "3rd" .
+
+gla:Worlds_of_Wonder_Action_Max rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Worlds_of_Wonder ;
+    gla:hasName "Worlds of Wonder Action Max" ;
+    gla:hasGeneration "3rd" .
+
+gla:Bandai_Video_Challenger rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Video Challenger" ;
+    gla:hasGeneration "3rd" .
+
+gla:GiG_Video_Challenger rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "GiG Video Challenger" ;
+    gla:hasGeneration "3rd" .
+
+gla:Irwin_Toy_Video_Challenger rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Irwin Toy Video Challenger" ;
+    gla:hasGeneration "3rd" .
+
+gla:Atari_XE_Game_System_XEGS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari XE Game System (XEGS)" ;
+    gla:hasGeneration "3rd" .
+
+gla:NEC_PC_Engine rdf:type gla:Platform ;
+    gla:hasReleaseDate "1987"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_Shuttle rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Shuttle" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_Core_Grafx rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Core Grafx" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_TurboGrafx-16 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC TurboGrafx-16" ;
+    gla:hasGeneration "4th" .
+
+gla:Sharp_X1_Twin rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp X1 Twin" ;
+    gla:hasGeneration "4th" .
+
+gla:Sodipeng_PC_Engine rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Sodipeng ;
+    gla:hasName "Sodipeng PC Engine" ;
+    gla:hasGeneration "4th" .
+
+gla:TurboGrafx rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Telegames ;
+    gla:hasName "TurboGrafx" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_Core_Grafx_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Core Grafx II" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_LT rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine LT" ;
+    gla:hasGeneration "4th" .
+
+gla:Jaminko_PC_Boy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Jaminlko ;
+    gla:hasName "Jaminko PC Boy" ;
+    gla:hasGeneration "4th" .
+
+gla:Vistar-16 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Vistar ;
+    gla:hasName "Vistar-16" ;
+    gla:hasGeneration "4th" .
+
+gla:UFA_Super_Boy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "UFA Super Boy" ;
+    gla:hasGeneration "4th" .
+
+gla:PowerPlay_Galaxy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Unknown ;
+    gla:hasName "PowerPlay Galaxy" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_CD-ROM2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine CD-ROM2" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_TurboGrafx-CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC TurboGrafx-CD" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Eng__Super_CD-ROM2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Eng. Super CD-ROM2" ;
+    gla:hasGeneration "4th" .
+
+gla:Konix_Multi-System_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Konix ;
+    gla:hasName "Konix Multi-System (proto)" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_SuperGrafx rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC SuperGrafx" ;
+    gla:hasGeneration "4th" .
+
+gla:Amstrad_GX-4000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Amstrad ;
+    gla:hasName "Amstrad GX-4000" ;
+    gla:hasGeneration "3rd" .
+
+gla:Commodore_64_Game_System_64GS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore 64 Game System (64GS)" ;
+    gla:hasGeneration "3rd" .
+
+gla:NEC_PC_Engine_Duo rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Duo" ;
+    gla:hasGeneration "4th" .
+
+gla:TTI_TurboDuo_Turbo_Duo rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Turbo_Technologies_Inc_ ;
+    gla:hasName "TTI TurboDuo (Turbo Duo)" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_Duo_R rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Duo R" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC_Engine_Duo_RX rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC Engine Duo RX" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Genesis rdf:type gla:Platform ;
+    gla:hasReleaseDate "1989"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Genesis" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive" ;
+    gla:hasGeneration "4th" .
+
+gla:Tec_Toy_Mega_Drive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Mega Drive" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive" ;
+    gla:hasGeneration "4th" .
+
+gla:Samsun_Super_GamBoy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsun Super Gam*Boy" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Shaw_Wallace ;
+    gla:hasName "Sega Mega Drive" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_TeraDrive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega TeraDrive" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Genesis_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Genesis 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Drive_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive II" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive II" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega_Jet rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Jet" ;
+    gla:hasGeneration "4th" .
+
+gla:Amstrad_Mega_PC rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Amstrad ;
+    gla:hasName "Amstrad Mega PC" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Amstrad ;
+    gla:hasName "Amstrad Mega PC" ;
+    gla:hasGeneration "4th" .
+
+gla:Samsung_Super_Aladdin_Boy_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung Super Aladdin Boy II" ;
+    gla:hasGeneration "4th" .
+
+gla:Amstrad_Mega_Plus rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Amstrad ;
+    gla:hasName "Amstrad Mega Plus" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Genesis_3 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Majesco ;
+    gla:hasName "Sega Genesis 3" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Majesco ;
+    gla:hasName "Sega Genesis 3" ;
+    gla:hasGeneration "4th" .
+
+gla:Atari_Mirai_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Mirai (proto)" ;
+    gla:hasGeneration "4th" .
+
+gla:SNK_Neo_Geo_AES rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo AES" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo AES" ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Famicom rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Famicom" ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Nintendo_Entertainment_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Nintendo Entertainment System" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Nintendo Entertainment System" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Nintendo Entertainment System" ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Comboy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Hyundai_Electronics_ ;
+    gla:hasName "Super Comboy" ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Nintendo_Entertainment_System rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Playtronic ;
+    gla:hasName "Super Nintendo Entertainment System" ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Famicom_Jr_ rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Famicom Jr." ;
+    gla:hasGeneration "4th" .
+
+gla:Super_Nintendo_Entertainment_System_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Super Nintendo Entertainment System 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Nintendo_Famicom_Box rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Famicom Box" ;
+    gla:hasGeneration "4th" .
+
+gla:Sharp_14G-SF1__21G-SF1 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sharp ;
+    gla:hasName "Sharp 14G-SF1 \ 21G-SF1" ;
+    gla:hasGeneration "4th" .
+
+gla:Atari_Panther_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Panther (proto)" ;
+    gla:hasGeneration "4th" .
+
+gla:Commodore_CDTV rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore CDTV" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore CDTV" ;
+    gla:hasGeneration "4th" .
+
+gla:Commodore_CDTV_Pro_Pack rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore CDTV Pro Pack" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore CDTV Pro Pack" ;
+    gla:hasGeneration "4th" .
+
+gla:Commodore_CDTV-CR_proto__ltd_release rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Commodore CDTV-CR (proto / ltd release)" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_180181182 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1988"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 180/181/182" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_601 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 601" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_602 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1990"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 602" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_910 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 910" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_604 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 604" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_205 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 205" ;
+    gla:hasGeneration "4th" .
+
+gla:Memorex_CDI_2200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Memorex ;
+    gla:hasName "Memorex CDI 2200" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_210 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 210" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_220 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 220" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_310 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 310" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_605 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 605" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_350 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 350" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_360 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 360" ;
+    gla:hasGeneration "4th" .
+
+gla:Grundig_CDI_220 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Grundig ;
+    gla:hasName "Grundig CDI 220" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_615 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 615" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_21TCDi30 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips 21TCDi30" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_450 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Philips CD-i 450" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Magnavox ;
+    gla:hasName "Philips CD-i 450" ;
+    gla:hasGeneration "4th" .
+
+gla:Goldstar_GDI_750_1000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar GDI 750 (1000)" ;
+    gla:hasGeneration "4th" .
+
+gla:Vobis_Highscreen rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Vobis ;
+    gla:hasName "Vobis Highscreen" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_FW380i rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips FW380i" ;
+    gla:hasGeneration "4th" .
+
+gla:Sony_IVO-V10__IVO-V11 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony IVO-V10 \ IVO-V11" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_660 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 660" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_470 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 470" ;
+    gla:hasGeneration "4th" .
+
+gla:Grundig_CDI_110E rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Grundig ;
+    gla:hasName "Grundig CDI 110E" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_740 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 740" ;
+    gla:hasGeneration "4th" .
+
+gla:LG_GDI_700 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:LG_Electronice ;
+    gla:hasName "LG GDI 700" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_370 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 370" ;
+    gla:hasGeneration "4th" .
+
+gla:Goldstar_GDI_1100 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar GDI 1100" ;
+    gla:hasGeneration "4th" .
+
+gla:Goldstar_GDI_1200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar GDI 1200" ;
+    gla:hasGeneration "4th" .
+
+gla:NBS_Lookman_ID rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:NBS ;
+    gla:hasName "NBS Lookman ID" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CDI_670 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CDI 670" ;
+    gla:hasGeneration "4th" .
+
+gla:Philips_CD-i_490 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Philips ;
+    gla:hasName "Philips CD-i 490" ;
+    gla:hasGeneration "4th" .
+
+gla:BeoCenter_AV rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Bang_andamp_Olufsen ;
+    gla:hasName "BeoCenter AV" ;
+    gla:hasGeneration "4th" .
+
+gla:DVS_Video_Engine_200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Digital_Video_Systems ;
+    gla:hasName "DVS Video Engine 200" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega-CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1991"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega-CD" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega CD" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega-CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega-CD" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega-CD" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega-Drive_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega-Drive 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_CD_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega CD 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Mega-CD_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega-CD 2" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Sega CD" ;
+    gla:hasGeneration "4th" .
+
+gla:Aiwa_Mega-CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Aiwa ;
+    gla:hasName "Aiwa Mega-CD" ;
+    gla:hasGeneration "4th" .
+
+gla:Taito_WoWoW_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Taito ;
+    gla:hasName "Taito WoWoW (proto)" ;
+    gla:hasGeneration "4th" .
+
+gla:Tandy_VIS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Tandy ;
+    gla:hasName "Tandy VIS" ;
+    gla:hasGeneration "4th" .
+
+gla:Memorex_VIS rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Tandy ;
+    gla:hasName "Memorex VIS" ;
+    gla:hasGeneration "4th" .
+
+gla:Victor_Wondermega_RG-M1 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1992"^^xsd:integer ;
+    gla:hasManufacturer gla:Victor ;
+    gla:hasName "Victor Wondermega RG-M1" ;
+    gla:hasGeneration "4th" .
+
+gla:Victor_Wondermega_RG-M2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Victor ;
+    gla:hasName "Victor Wondermega RG-M2" ;
+    gla:hasGeneration "4th" .
+
+gla:JVC_XandEye_RB rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:JVC ;
+    gla:hasName "JVC X&#39;Eye RB" ;
+    gla:hasGeneration "4th" .
+
+gla:JVC_XandEye_BL rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:JVC ;
+    gla:hasName "JVC X&#39;Eye BL" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Wondermega-S rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Wondermega-S" ;
+    gla:hasGeneration "4th" .
+
+gla:FM_Towns_Marty rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Fujitsu ;
+    gla:hasName "FM Towns Marty" ;
+    gla:hasGeneration "5th" .
+
+gla:FM_Towns_Marty_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Fujitsu ;
+    gla:hasName "FM Towns Marty 2" ;
+    gla:hasGeneration "5th" .
+
+gla:FM_Towns_Car_Marty_MVP-01 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Fujitsu ;
+    gla:hasName "FM Towns Car Marty MVP-01" ;
+    gla:hasGeneration "5th" .
+
+gla:Amiga_CD32 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Amiga CD32" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Commodore_Intland ;
+    gla:hasName "Amiga CD32" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Multi-Mega rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Multi-Mega" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega_ ;
+    gla:hasName "Sega Multi-Mega" ;
+    gla:hasGeneration "4th" .
+
+gla:Sega_Genesis_CDX rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega_ ;
+    gla:hasName "Sega Genesis CDX" ;
+    gla:hasGeneration "4th" .
+
+gla:TecToy_CDX rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega_ ;
+    gla:hasName "TecToy CDX" ;
+    gla:hasGeneration "4th" .
+
+gla:Panasonic_FZ-1_REAL_3DO_Interactive_Multiplayer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-1 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-1 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-1 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-1 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" .
+
+gla:Goldstar_3DO_Interactive_Multiplayer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" .
+
+gla:Panasonic_FZ-10_REAL_3DO_Interactive_Multiplayer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-10 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-10 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic FZ-10 REAL 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" .
+
+gla:Panasonic_3DO_ROBO rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic 3DO ROBO" ;
+    gla:hasGeneration "5th" .
+
+gla:Creative_Labs_3DO_Blaster rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Creative_Labs ;
+    gla:hasName "Creative Labs 3DO Blaster" ;
+    gla:hasGeneration "5th" .
+
+gla:Sanyo_TRY_3DO_Interactive_Multiplayer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sanyo ;
+    gla:hasName "Sanyo TRY 3DO Interactive Multiplayer" ;
+    gla:hasGeneration "5th" .
+
+gla:Goldstar_3DO_Alive_II rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Goldstar ;
+    gla:hasName "Goldstar 3DO Alive II" ;
+    gla:hasGeneration "5th" .
+
+gla:Pioneer_LaserActive rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Pioneer ;
+    gla:hasName "Pioneer LaserActive" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Pioneer ;
+    gla:hasName "Pioneer LaserActive" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PED_LD1 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PED LD1" ;
+    gla:hasGeneration "4th" .
+
+gla:Atari_Jaguar rdf:type gla:Platform ;
+    gla:hasReleaseDate "1993"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Jaguar" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Jaguar" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Jaguar" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Jaguar" ;
+    gla:hasGeneration "5th" .
+
+gla:SNK_Neo_Geo_CD_front_loader rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo CD (front loader)" ;
+    gla:hasGeneration "4th" .
+
+gla:SNK_Neo_Geo_CD_top_loader rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo CD (top loader)" ;
+    gla:hasGeneration "4th" .
+
+gla:SNK_Neo_Geo_CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo CD" ;
+    gla:hasGeneration "4th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo CD" ;
+    gla:hasGeneration "4th" .
+
+gla:SNK_Neo_Geo_CDZ rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:SNK ;
+    gla:hasName "SNK Neo Geo CDZ" ;
+    gla:hasGeneration "4th" .
+
+gla:NEC_PC-FX rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC-FX" ;
+    gla:hasGeneration "5th" .
+
+gla:NEC_PC-FXGA rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:NEC ;
+    gla:hasName "NEC PC-FXGA" ;
+    gla:hasGeneration "5th" .
+
+gla:Bandai_Playdia rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Playdia" ;
+    gla:hasGeneration "5th" .
+
+gla:Capcom_Power_System_CPS_Changer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Capcom ;
+    gla:hasName "Capcom Power System (CPS) Changer" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Super_32X rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Super 32X" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Genesis_32X rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Genesis 32X" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Mega_Drive_32X rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Mega Drive 32X" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Neptune_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Neptune (proto)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_HST-3200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (HST-3200)" ;
+    gla:hasGeneration "5th" .
+
+gla:Hitachi_Hi-Saturn rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Hitachi ;
+    gla:hasName "Hitachi Hi-Saturn" ;
+    gla:hasGeneration "5th" .
+
+gla:Victor_V-Saturn_RG-JX1 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Victor ;
+    gla:hasName "Victor V-Saturn (RG-JX1)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_MK-8000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-8000)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_MK-08200 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-08200)" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-08200)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_HST-3220 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (HST-3220)" ;
+    gla:hasGeneration "5th" .
+
+gla:Hitachi_Hi-Saturn_Navi rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Hitachi ;
+    gla:hasName "Hitachi Hi-Saturn Navi" ;
+    gla:hasGeneration "5th" .
+
+gla:Victor_V-Saturn_RG-JX2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Victor ;
+    gla:hasName "Victor V-Saturn (RG-JX2)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_MK-8000A rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-8000A)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Saturn_MK-80200A-50 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-80200A-50)" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Saturn (MK-80200A-50)" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Skeleton_Saturn rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Skeleton Saturn" ;
+    gla:hasGeneration "5th" .
+
+gla:Samsung_Saturn rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung Saturn" ;
+    gla:hasGeneration "5th" .
+
+gla:Sega_Derby_Saturn rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Derby Saturn" ;
+    gla:hasGeneration "5th" .
+
+gla:Sony_PlayStation rdf:type gla:Platform ;
+    gla:hasReleaseDate "1994"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation" ;
+    gla:hasGeneration "5th" .
+
+gla:Sony_Net_Yaroze_DTL-H3000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony Net Yaroze DTL-H3000" ;
+    gla:hasGeneration "5th" .
+
+gla:Sony_Net_Yaroze_DTL-H3001 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony Net Yaroze DTL-H3001" ;
+    gla:hasGeneration "5th" .
+
+gla:Sony_Net_Yaroze_DTL-H3002 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1997"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony Net Yaroze DTL-H3002" ;
+    gla:hasGeneration "5th" .
+
+gla:Sony_PSone rdf:type gla:Platform ;
+    gla:hasReleaseDate "2000"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSone" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2000"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSone" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2000"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSone" ;
+    gla:hasGeneration "5th" .
+
+gla:Funtech_Super_AandCan rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Funtech_Entertainment ;
+    gla:hasName "Funtech Super A&#39;Can" ;
+    gla:hasGeneration "4th" .
+
+gla:Casio_Loopy_My_Seal_Computer rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Casio ;
+    gla:hasName "Casio Loopy (My Seal Computer)" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_Virtual_Boy rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Virtual Boy" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Virtual Boy" ;
+    gla:hasGeneration "5th" .
+
+gla:Atari_Jaguar_CD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Atari ;
+    gla:hasName "Atari Jaguar CD" ;
+    gla:hasGeneration "5th" .
+
+gla:Bandai_Pippin_ATMARK rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Pippin ATMARK" ;
+    gla:hasGeneration "5th" .
+
+gla:Bandai_Pippin_WORLD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Pippin @WORLD" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Bandai ;
+    gla:hasName "Bandai Pippin @WORLD" ;
+    gla:hasGeneration "5th" .
+
+gla:Katz_Media_KMP_2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Katz_Media ;
+    gla:hasName "Katz Media KMP 2000" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_Satellaview_BS-X_standard rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Satellaview BS-X (standard)" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_Satellaview_BS-X_deluxe rdf:type gla:Platform ;
+    gla:hasReleaseDate "1995"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Satellaview BS-X (deluxe)" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_64 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1996"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_64_Pikachu rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64 Pikachu" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64 Pikachu" ;
+    gla:hasGeneration "5th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64 Pikachu" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_64_Disk_Drive_64DD rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64 Disk Drive (64DD)" ;
+    gla:hasGeneration "5th" .
+
+gla:Nintendo_64_Disk_Drive_64DD_wRandNet rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo 64 Disk Drive (64DD) w/RandNet" ;
+    gla:hasGeneration "5th" .
+
+gla:Panasonic_M2_FZ-21s rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic M2 FZ-21s" ;
+    gla:hasGeneration "6th" .
+
+gla:Panasonic_M2_FZ-35s rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic M2 FZ-35s" ;
+    gla:hasGeneration "6th" .
+
+gla:Panasonic_M2_FZ-DR21 rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic M2 FZ-DR21" ;
+    gla:hasGeneration "6th" .
+
+gla:Sega_Dreamcast rdf:type gla:Platform ;
+    gla:hasReleaseDate "1998"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Dreamcast" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Dreamcast" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Dreamcast" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Sega ;
+    gla:hasName "Sega Dreamcast" ;
+    gla:hasGeneration "6th" .
+
+gla:Tec_Toy_Dreamcast rdf:type gla:Platform ;
+    gla:hasReleaseDate "1999"^^xsd:integer ;
+    gla:hasManufacturer gla:Tec_Toy ;
+    gla:hasName "Tec Toy Dreamcast" ;
+    gla:hasGeneration "6th" .
+
+gla:Treamcast_white rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Treamcast ;
+    gla:hasName "Treamcast (white)" ;
+    gla:hasGeneration "6th" .
+
+gla:Treamcast_white_wwidescreen_LCD rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Treamcast ;
+    gla:hasName "Treamcast (white w\widescreen LCD)" ;
+    gla:hasGeneration "6th" .
+
+gla:Treamcast_black rdf:type gla:Platform ;
+    gla:hasReleaseDate "2003"^^xsd:integer ;
+    gla:hasManufacturer gla:Treamcast ;
+    gla:hasName "Treamcast (black)" ;
+    gla:hasGeneration "6th" .
+
+gla:Samsung_Extiva_DVD-N2000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2000"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung Extiva DVD-N2000" ;
+    gla:hasGeneration "6th" .
+
+gla:Toshiba_SD-2300 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2000"^^xsd:integer ;
+    gla:hasManufacturer gla:Toshiba ;
+    gla:hasName "Toshiba SD-2300" ;
+    gla:hasGeneration "6th" .
+
+gla:Samsung_DVD-N501 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung DVD-N501" ;
+    gla:hasGeneration "6th" .
+
+gla:Samsung_DVD-N504 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung DVD-N504" ;
+    gla:hasGeneration "6th" .
+
+gla:Samsung_DVD-N505 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung DVD-N505" ;
+    gla:hasGeneration "6th" .
+
+gla:Samsung_DVD-N591 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Samsung ;
+    gla:hasName "Samsung DVD-N591" ;
+    gla:hasGeneration "6th" .
+
+gla:RCA_DRC300N rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:RCA ;
+    gla:hasName "RCA DRC300N" ;
+    gla:hasGeneration "6th" .
+
+gla:RCA_DRC480N rdf:type gla:Platform ;
+    gla:hasReleaseDate "2003"^^xsd:integer ;
+    gla:hasManufacturer gla:RCA ;
+    gla:hasName "RCA DRC480N" ;
+    gla:hasGeneration "6th" .
+
+gla:Nintendo_GameCube rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo GameCube" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo GameCube" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo GameCube" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo GameCube" ;
+    gla:hasGeneration "6th" .
+
+gla:Indrema_L600_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Indrema ;
+    gla:hasName "Indrema L600 (proto)" ;
+    gla:hasGeneration "6th" .
+
+gla:Panasonic_Q rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Panasonic ;
+    gla:hasName "Panasonic Q" ;
+    gla:hasGeneration "6th" .
+
+gla:Microsoft_Xbox rdf:type gla:Platform ;
+    gla:hasReleaseDate "2001"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2002"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox" ;
+    gla:hasGeneration "6th" .
+
+gla:Nintendo_iQue rdf:type gla:Platform ;
+    gla:hasReleaseDate "2003"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo iQue" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-5000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2003"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-5000" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-7000 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2003"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-7000" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-5100 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2004"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-5100" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-7100 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2004"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-7100" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-5500 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2004"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-5500" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-7500 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2004"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-7500" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-5700 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-5700" ;
+    gla:hasGeneration "6th" .
+
+gla:Sony_PSX_DESR-7700 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PSX DESR-7700" ;
+    gla:hasGeneration "6th" .
+
+gla:XaviX_XaviXPORT rdf:type gla:Platform ;
+    gla:hasReleaseDate "2004"^^xsd:integer ;
+    gla:hasManufacturer gla:SSD_Company_Limited ;
+    gla:hasName "XaviX XaviXPORT" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:SSD_Company_Limited ;
+    gla:hasName "XaviX XaviXPORT" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:SSD_Company_Limited ;
+    gla:hasName "XaviX XaviXPORT" ;
+    gla:hasGeneration "6th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:SSD_Company_Limited ;
+    gla:hasName "XaviX XaviXPORT" ;
+    gla:hasGeneration "6th" .
+
+gla:ZAPiT_Games_Game_Wave rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:ZAPiT_Games_Inc_ ;
+    gla:hasName "ZAPiT Games Game Wave" ;
+    gla:hasGeneration "7th" .
+
+gla:Microsoft_Xbox_360_Core rdf:type gla:Platform ;
+    gla:hasReleaseDate "2005"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox 360 Core" ;
+    gla:hasGeneration "7th" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasReleaseDate "2006"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Wii" ;
+    gla:hasGeneration "7th" .
+
+gla:Nintendo_Wii_Family_Edition rdf:type gla:Platform ;
+    gla:hasReleaseDate "2011"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Wii Family Edition" ;
+    gla:hasGeneration "7th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2011"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Wii Family Edition" ;
+    gla:hasGeneration "7th" .
+
+gla:Nintendo_Wii_mini rdf:type gla:Platform ;
+    gla:hasReleaseDate "2012"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Wii mini" ;
+    gla:hasGeneration "7th" .
+
+gla:Sony_PlayStation_3_CECHA__B rdf:type gla:Platform ;
+    gla:hasReleaseDate "2006"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation 3 CECHA \ B" ;
+    gla:hasGeneration "7th" .
+
+gla:Sony_PlayStation_3_CECHP__Q rdf:type gla:Platform ;
+    gla:hasReleaseDate "2008"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation 3 CECHP \ Q" ;
+    gla:hasGeneration "7th" .
+
+gla:Apple_iPlay_concept rdf:type gla:Platform ;
+    gla:hasReleaseDate "2008"^^xsd:integer ;
+    gla:hasManufacturer gla:Apple ;
+    gla:hasName "Apple iPlay (concept)" ;
+    gla:hasGeneration "7th" .
+
+gla:TecToy_Zeebo rdf:type gla:Platform ;
+    gla:hasReleaseDate "2009"^^xsd:integer ;
+    gla:hasManufacturer gla:TecToy ;
+    gla:hasName "TecToy Zeebo" ;
+    gla:hasGeneration "7th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2010"^^xsd:integer ;
+    gla:hasManufacturer gla:TecToy ;
+    gla:hasName "TecToy Zeebo" ;
+    gla:hasGeneration "7th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2010"^^xsd:integer ;
+    gla:hasManufacturer gla:TecToy ;
+    gla:hasName "TecToy Zeebo" ;
+    gla:hasGeneration "7th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2010"^^xsd:integer ;
+    gla:hasManufacturer gla:TecToy ;
+    gla:hasName "TecToy Zeebo" ;
+    gla:hasGeneration "7th" ;
+    rdf:type gla:Platform ;
+    gla:hasReleaseDate "2011"^^xsd:integer ;
+    gla:hasManufacturer gla:TecToy ;
+    gla:hasName "TecToy Zeebo" ;
+    gla:hasGeneration "7th" .
+
+gla:EVO_Smart_Console rdf:type gla:Platform ;
+    gla:hasReleaseDate "2009"^^xsd:integer ;
+    gla:hasManufacturer gla:Envizions ;
+    gla:hasName "EVO Smart Console" ;
+    gla:hasGeneration "7th" .
+
+gla:EVO_2_DX rdf:type gla:Platform ;
+    gla:hasReleaseDate "2011"^^xsd:integer ;
+    gla:hasManufacturer gla:Envizions ;
+    gla:hasName "EVO 2 DX" ;
+    gla:hasGeneration "7th" .
+
+gla:EVO_2 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Envizions ;
+    gla:hasName "EVO 2" ;
+    gla:hasGeneration "7th" .
+
+gla:Nintendo_Wii_U__Basic_Set rdf:type gla:Platform ;
+    gla:hasReleaseDate "2012"^^xsd:integer ;
+    gla:hasManufacturer gla:Nintendo ;
+    gla:hasName "Nintendo Wii U \ Basic Set" ;
+    gla:hasGeneration "8th" .
+
+gla:OUYA rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Boxer8 ;
+    gla:hasName "OUYA" ;
+    gla:hasGeneration "8th" .
+
+gla:EnGeniux_OTON_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:EnGenuix ;
+    gla:hasName "EnGeniux OTON (proto)" ;
+    gla:hasGeneration "8th" .
+
+gla:Sony_PlayStation_4 rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Sony ;
+    gla:hasName "Sony PlayStation 4" ;
+    gla:hasGeneration "8th" .
+
+gla:Microsoft_Xbox_One rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox One" ;
+    gla:hasGeneration "8th" .
+
+gla:Microsoft_Xbox_One_Day_One_Edition rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox One Day One Edition" ;
+    gla:hasGeneration "8th" .
+
+gla:Microsoft_Xbox_One_I_Made_This_Edition rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Microsoft ;
+    gla:hasName "Microsoft Xbox One I Made This Edition" ;
+    gla:hasGeneration "8th" .
+
+gla:Mad_Catz_M_O_J_O__proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "2013"^^xsd:integer ;
+    gla:hasManufacturer gla:Mad_Catz ;
+    gla:hasName "Mad Catz M.O.J.O. (proto)" ;
+    gla:hasGeneration "8th" .
+
+gla:ZTE_FunBox rdf:type gla:Platform ;
+    gla:hasReleaseDate "2014"^^xsd:integer ;
+    gla:hasManufacturer gla:ZTE__The9 ;
+    gla:hasName "ZTE FunBox" ;
+    gla:hasGeneration "8th" .
+
+gla:Huawei_Tron_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "2014"^^xsd:integer ;
+    gla:hasManufacturer gla:Huawei ;
+    gla:hasName "Huawei Tron (proto)" ;
+    gla:hasGeneration "8th" .
+
+gla:Steam_Machines_proto rdf:type gla:Platform ;
+    gla:hasReleaseDate "2014"^^xsd:integer ;
+    gla:hasManufacturer gla:Various ;
+    gla:hasName "Steam Machines (proto)" ;
+    gla:hasGeneration "8th" .
