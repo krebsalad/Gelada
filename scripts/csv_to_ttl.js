@@ -225,6 +225,21 @@ function make_str_rdf_compatible(in_str)
     out_str = out_str.replace(/\$/g, '');
     out_str = out_str.replace(/\?/g, '');
     out_str = out_str.replace(/\+/g, '');
+    out_str = out_str.replace(/\’/g, '');
+    out_str = out_str.replace(/\|/g, '');
+    out_str = out_str.replace(/\*/g, '');
+    out_str = out_str.replace(/\[/g, '');
+    out_str = out_str.replace(/\]/g, '');
+    out_str = out_str.replace(/\~/g, '');
+    out_str = out_str.replace(/\´/g, '');
+    out_str = out_str.replace(/\`/g, '');
+    out_str = out_str.replace(/\•/g, '');
+    out_str = out_str.replace(/\–/g, '');
+    out_str = out_str.replace(/\×/g, '');
+    out_str = out_str.replace(/\@/g, '');
+    out_str = out_str.replace(/\∞/g, '_');
+    out_str = out_str.replace(/\\/g, '');
+    out_str = out_str.replace(/\#39/g, '');
     return out_str;
 }
 

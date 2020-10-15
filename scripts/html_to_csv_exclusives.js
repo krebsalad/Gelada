@@ -72,7 +72,7 @@ function sleep(ms) {
 function callback_gematsu(response)
 {
     var str = '';
-    var platform_name = this.platform_name;
+    var platform_name = this.platform_name.replace(' exclusives', '');
     response.on('data', function (chunk) {
       str += chunk;
     });
