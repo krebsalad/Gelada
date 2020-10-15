@@ -1,16 +1,27 @@
 const EMPTY_FILTER = "";
-function getPreviewedGames($http, $scope) {
+
+function getPreviewedGames($http, $scope, filters) {
     //todo add filtering
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
+    let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
         "SELECT ?game ?name ?screenshot ?releaseDate where{\n" +
-        "    ?game a gla:Game .\n" +
+        "    ?game a gla:Game .\n";
+
+    filters.forEach(f => {
+        if (f && f.length > 0) {
+            query += ("    ?game " + f + " .\n");
+        }
+    });
+
+    query +=
         "    OPTIONAL {?game gla:hasName ?name .}\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
         "}\n" +
         "LIMIT 21";
-    queryLocalhost(query, $http, data=> {
+
+    console.log(query);
+    queryLocalhost(query, $http, data => {
         const previewGames = [];
         angular.forEach(data.data.results.bindings, function (val) {
             const game = {};
@@ -20,7 +31,12 @@ function getPreviewedGames($http, $scope) {
             game.imgUrl = safeField(val.screenshot);
             previewGames.push(game);
         });
-        $scope.filteredGames = previewGames;
+        if ($scope.filteredGames) {
+            $scope.filteredGames.length = 0;
+            previewGames.forEach(p => $scope.filteredGames.push(p));
+        } else {
+            $scope.filteredGames = previewGames;
+        }
     })
 }
 
@@ -37,7 +53,7 @@ function getGenerationFilterValues($http, $scope) {
         "SELECT DISTINCT ?generation where{\n" +
         "    ?s gla:hasGeneration ?generation .\n" +
         "}";
-    queryLocalhost(query, $http, data=>{
+    queryLocalhost(query, $http, data => {
         const generations = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
             generations.push(safeField(val.generation));
@@ -52,9 +68,9 @@ function getPlatformFilterValues($http, $scope) {
         "\n" +
         "SELECT DISTINCT ?platform ?name where{\n" +
         "    ?platform a gla:Platform .\n" +
-        "    ?platform gla:hasName ?name .\n"+
+        "    ?platform gla:hasName ?name .\n" +
         "}";
-    queryLocalhost(query, $http, data=>{
+    queryLocalhost(query, $http, data => {
         const platforms = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
             const platform = {};
@@ -72,9 +88,9 @@ function getGenreFilterValues($http, $scope) {
         "\n" +
         "SELECT DISTINCT ?genre ?name where{\n" +
         "    ?platform a gla:Genre .\n" +
-        "    ?genre gla:hasName ?name .\n"+
+        "    ?genre gla:hasName ?name .\n" +
         "}";
-    queryLocalhost(query, $http, data=>{
+    queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
             const genre = {};
@@ -85,7 +101,6 @@ function getGenreFilterValues($http, $scope) {
         $scope.genres = genres;
     })
 }
-
 
 
 function queryLocalhost(query, $http, successCallback) {
@@ -103,7 +118,7 @@ function queryLocalhost(query, $http, successCallback) {
 function safeField(field) {
     if (typeof (field) === 'undefined') {
         return "";
-    }else{
+    } else {
         return field.value;
     }
 }
