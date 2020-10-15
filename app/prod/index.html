@@ -7,6 +7,7 @@
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/gelada-ontology.js"></script>
     <script type="text/javascript" src="js/gelada-filters.js"></script>
+    <script type="text/javascript" src="js/gelada-gateway.js"></script>
     <script type="text/javascript" src="js/gelada.js"></script>
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/uikit-rtl.min.css">
@@ -25,6 +26,12 @@
         <div class="uk-width-1-4 uk-card uk-card-default uk-card-body">
             <h3>Filters</h3>
             <div class="uk-margin">
+                <label class="uk-form-label">Max number of results:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenLimit">
+                    <option ng-repeat="l in limits">{{l}}</option>
+                </select>
+            </div>
+            <div class="uk-margin">
                 <label class="uk-form-label">Generation:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGen">
                     <option ng-repeat="gen in generations">{{gen}}</option>
@@ -33,7 +40,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Platform:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenPlatform">
-                    <option ng-repeat="platform in platforms">{{platform}}</option>
+                    <option ng-repeat="platform in platforms" value="{{platform.uri}}">{{platform.name}}</option>
                 </select>
             </div>
             <div class="uk-margin">
@@ -45,7 +52,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Genre:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGenre">
-                    <option ng-repeat="g in genres">{{g}}</option>
+                    <option ng-repeat="g in genres" value="{{g.uri}}" selected="{{}}">{{g.name}}</option>
                 </select>
             </div>
         </div>
@@ -56,8 +63,8 @@
                        ng-change="searchInGames();">
             </div>
             <div uk-grid class="uk-grid-small uk-margin">
-                <div data-id="{{game.id}}" class="uk-card uk-card-hover uk-card-default uk-card-body uk-width-1-3"
-                     ng-repeat="game in filteredGames" ng-click="clickGame(game.id);" uk-toggle="target: #modal">
+                <div data-id="{{game.uri}}" class="uk-card uk-card-hover uk-card-default uk-card-body uk-width-1-3"
+                     ng-repeat="game in filteredGames" ng-click="clickGame(game.uri);" uk-toggle="target: #modal">
                     <p class="uk-text-default uk-text-bold uk-text-center uk-position-top uk-margin-top">
                         {{game.name}}</p>
                     <img class="uk-align-center" data-src="{{game.imgUrl}}"
