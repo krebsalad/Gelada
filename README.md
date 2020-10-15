@@ -1,9 +1,26 @@
 # Gelada
 
-## Installation
+## Installation and Running Gelada
+1. Clone this repository and go into the project work space
+```
+git clone https://github.com/krebsalad/Gelada
+cd Gelada
+```
+2. Download and Install [graphDB](https://www.ontotext.com/products/graphdb/)
+3. Run Graph DB and create a new Repository, ensure OWL-Max (Optimized) ruleset is chosen when creating the repository.
+4. Add the following files in order. These files can be found in Gelada/ontology
+    - gla.ttl
+    - gla_video_game_genres.ttl
+    - gla_exclusives_video_games.ttl
+    - gla_video_game_consoles.ttl
+    - gla_video_games.ttl
+5. Open the index.html file in Gelada/app in a browser
 
-## Running Gelada
-
+## Developing with gelada
+1. Download protoge.
+2. Start protoge and open gla.ttl.
+3. Run the reasoner
+4. Add axioms...
 
 ## others
 
