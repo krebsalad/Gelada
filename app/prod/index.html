@@ -28,7 +28,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Max number of results:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenLimit">
-                    <option ng-repeat="l in resultLimits">{{l}}</option>
+                    <option ng-repeat="limit in resultLimits">{{limit}}</option>
                 </select>
             </div>
             <div class="uk-margin">
@@ -152,21 +152,9 @@
                 <div class="uk-accordion-content uk-margin-right uk-margin-left">
                     <table class="uk-table uk-table-divider uk-text-small">
                         <tbody>
-                        <tr ng-if="clickedGame.developer">
-                            <td>{{clickedGame.developer.name}}</td>
-                            <td>Developer</td>
-                        </tr>
-                        <tr ng-if="clickedGame.manufacturer">
-                            <td>{{clickedGame.manufacturer.name}}</td>
-                            <td>Manufacturer</td>
-                        </tr>
-                        <tr ng-if="clickedGame.publisher">
-                            <td>{{clickedGame.publisher.name}}</td>
-                            <td>Publisher</td>
-                        </tr>
-                        <tr ng-if="clickedGame.composer">
-                            <td>{{clickedGame.composer.name}}</td>
-                            <td>Composer</td>
+                        <tr ng-repeat="o in clickedGame.organizations">
+                            <td>{{o.name}}</td>
+                            <td>{{o.role}}</td>
                         </tr>
                         </tbody>
                     </table>
