@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html ng-App="Gelada" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="js/uikit-icons.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/gelada-ontology.js"></script>
+    <script type="text/javascript" src="js/gelada-filters.js"></script>
+    <script type="text/javascript" src="js/gelada.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/gelada.css">
+    <title>Gelada - Game Search Engine</title>
+</head>
+
+<body ng-controller="MainCtrl" ng-init="initialize();">
+<div class="uk-height-viewport">
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-center">
+            <a class="uk-navbar-item uk-logo" href="#">Gelada</a>
+        </div>
+    </nav>
+    <div uk-grid class="uk-grid-small uk-width-1-1">
+        <div class="uk-width-1-4 uk-card uk-card-default uk-card-body">
+            <h3>Filters</h3>
+            <div class="uk-margin">
+                <label class="uk-form-label">Generation:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenGen">
+                    <option ng-repeat="gen in generations">{{gen}}</option>
+                </select>
+            </div>
+            <div class="uk-margin">
+                <label class="uk-form-label">Platform:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenPlatform">
+                    <option ng-repeat="platform in platforms">{{platform}}</option>
+                </select>
+            </div>
+            <div class="uk-margin">
+                <label class="uk-form-label">Exclusive:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="exclusive">
+                    <option ng-repeat="ex in exclusives">{{ex}}</option>
+                </select>
+            </div>
+            <div class="uk-margin">
+                <label class="uk-form-label">Genre:</label>
+                <select class="uk-select" ng-change="filter();" ng-model="chosenGenre">
+                    <option ng-repeat="g in genres">{{g}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="uk-width-3-4" uk-height-viewport="offset-top: true">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-1">
+                <h3>Search</h3>
+                <input class="uk-input" type="text" placeholder="Search a game..." ng-model="searchQuery"
+                       ng-change="searchInGames();">
+            </div>
+            <div uk-grid class="uk-grid-small uk-margin">
+                <div data-id="{{game.id}}" class="uk-card uk-card-hover uk-card-default uk-card-body uk-width-1-3"
+                     ng-repeat="game in filteredGames" ng-click="clickGame(game.id);" uk-toggle="target: #modal">
+                    <p class="uk-text-default uk-text-bold uk-text-center uk-position-top uk-margin-top">
+                        {{game.name}}</p>
+                    <img class="uk-align-center" data-src="{{game.imgUrl}}"
+                         width="100px" height="200px" alt="" uk-img>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal" uk-modal ng-model="clickedGame">
+    <div class="uk-modal-dialog uk-modal-body">
+        <h3 class="uk-modal-title uk-text-center">{{clickedGame.name}}</h3>
+        <ul uk-accordion="multiple: true">
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Basic Info</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left uk-grid-collapse" uk-grid>
+                    <div class="uk-width-1-2 uk-text-left">
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold uk-text-small">Name: </span><span>{{clickedGame.name}}<span
+                                ng-if="clickedGame.alternativeName"> or {{clickedGame.alternativeName}}</span></span>
+                        </span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Release date: </span><span>{{clickedGame.releaseDate}}</span></span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer === true ? "Yes" : "No"}}</span></span>
+                        <br>
+                        <span class="uk-text-small"><span
+                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === true ? "Yes" : "No"}}</span></span>
+                        <br>
+                        <span class="uk-text-small" ng-if="clickedGame.series"><span
+                                class="uk-text-bold">Series: </span><span>{{clickedGame.series.name}}</span></span>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <img data-src="{{clickedGame.imgUrl}}" class="uk-align-center" uk-img height="100px" width="100px">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Description</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <p class="uk-text-small">{{clickedGame.abstract}}</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Genre</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <p class="uk-text-small"><span>{{clickedGame.genre.name}}</span><span
+                            ng-if="clickedGame.genre.alternativeName"> or {{clickedGame.genre.alternativeName}}</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Platforms</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left" uk-grid>
+                    <div class="uk-width-1-3" ng-repeat="p in clickedGame.platforms">
+                        <img data-src="{{p.imgUrl}}" width="100px" height="100px" uk-img
+                             uk-tooltip="title: {{p.abstract}}">
+                        <p class="uk-text-small uk-text-center">{{p.name}}</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Creators</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <table class="uk-table uk-table-divider uk-text-small">
+                        <tbody>
+                        <tr ng-repeat="w in clickedGame.writers">
+                            <td>{{w.name}}</td>
+                            <td>Writer</td>
+                        </tr>
+                        <tr ng-repeat="a in clickedGame.artists">
+                            <td>{{a.name}}</td>
+                            <td>Artist</td>
+                        </tr>
+                        <tr ng-repeat="d in clickedGame.directors">
+                            <td>{{d.name}}</td>
+                            <td>Artist</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Organizations</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <table class="uk-table uk-table-divider uk-text-small">
+                        <tbody>
+                        <tr ng-if="clickedGame.developer">
+                            <td>{{clickedGame.developer.name}}</td>
+                            <td>Developer</td>
+                        </tr>
+                        <tr ng-if="clickedGame.manufacturer">
+                            <td>{{clickedGame.manufacturer.name}}</td>
+                            <td>Manufacturer</td>
+                        </tr>
+                        <tr ng-if="clickedGame.publisher">
+                            <td>{{clickedGame.publisher.name}}</td>
+                            <td>Publisher</td>
+                        </tr>
+                        <tr ng-if="clickedGame.composer">
+                            <td>{{clickedGame.composer.name}}</td>
+                            <td>Composer</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Characters</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <table class="uk-table uk-table-divider uk-text-small">
+                        <tbody>
+                        <tr ng-repeat="c in clickedGame.characters">
+                            <td>{{c.name}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+        </ul>
+        <p class="uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Hide</button>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,5 +1,4 @@
 function createDummyOntology($sce) {
-    let games = [];
 
     let ps4 = new HomeConsole();
     ps4.name = "Playstation 4";
@@ -7,6 +6,13 @@ function createDummyOntology($sce) {
     ps4.abstract = "Playstation 4 is a Sony game console released on 15 november 2013. It is the best sold console every made.";
     ps4.alternativeName = "Sony Playstation 4";
     ps4.generation = 8;
+
+    let ps2 = new HomeConsole();
+    ps2.name = "Playstation 2";
+    ps2.imgUrl = "https://media.s-bol.com/31lwXAzR7rxA/1200x1135.jpg";
+    ps2.abstract = "The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment";
+    ps2.alternativeName = "Sony Playstation 2";
+    ps2.generation = 6;
 
     let xboxOne = new HomeConsole();
     xboxOne.name = "Xbox One";
@@ -34,8 +40,31 @@ function createDummyOntology($sce) {
     gtav.multiplayer = true;
     gtav.abstract = "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and arms smuggler Trevor Philips—and their efforts to commit heists while under pressure from a corrupt government agency and powerful crime figures. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.";
     gtav.releaseDate = "17 september 2013";
-    games.push(gtav);
 
+
+    let gt3 = new Game();
+    gt3.platforms.push(ps2);
+    gt3.name = "Gran Turismo 2";
+    gt3.alternativeName = "GT2";
+    gt3.developer = new Developer("Polyphony Digital");
+    gt3.publisher = new Publisher("Polyphony Digital");
+    gt3.manufacturer = new Manufacturer("Polyphony Digital");
+    gt3.artists.push(new Artist("Kazunori Yamauchi"));
+    gt3.series = new Series("Gran Turismo");
+    gt3.genre = new Genre("Sim Racing", "Simulated Racing");
+    gt3.exclusive = true;
+    gt3.videoUrl = $sce.trustAsResourceUrl("https://www.youtube.com/watch?v=QkkoHAzjnUs");
+    gt3.imgUrl = "https://images-na.ssl-images-amazon.com/images/I/61qihEdj%2B5L._SL1000_.jpg";
+    gt3.singleplayer = true;
+    gt3.multiplayer = true;
+    gt3.abstract = "Gran Turismo 2 is a racing game for the PlayStation. Gran Turismo 2 was developed by Polyphony Digital and published by Sony Computer Entertainment in 1999. It is the sequel to Gran Turismo. It was well-received critically and financially, shipping 1.71 million copies in Japan, 20,000 in Southeast Asia, 3.96 million in North America, and 3.68 million in Europe for a total of 9.37 million copies as of April 30, 2008,[2][3] and eventually becoming a Sony Greatest Hits game. The title received an average of 93% in Metacritic's aggregate.";
+    gt3.releaseDate = "11 december 1999";
+
+
+    let games = [gtav, gt3];
+    games.sort((a, b)=>{
+        return a.name.localeCompare(b.name);
+    })
     return games;
 }
 
