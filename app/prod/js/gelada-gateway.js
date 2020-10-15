@@ -61,6 +61,8 @@ function getGameDetails($http, $scope, uri) {
         "    OPTIONAL {" + uri + " gla:hasAbstract ?abstract .}\n" +
         "    OPTIONAL {" + uri + " gla:hasGenre ?genre . \n ?genre gla:hasName ?genreName .}\n" +
         "}";
+
+
     queryLocalhost(basicInfoQuery, $http, data => {
         angular.forEach(data.data.results.bindings, function (val) {
             $scope.clickedGame.name = safeField(val.name);
@@ -72,6 +74,45 @@ function getGameDetails($http, $scope, uri) {
             $scope.clickedGame.genre = safeField(val.genreName);
             $scope.clickedGame.abstract = safeField(val.abstract);
         });
+    });
+
+
+    const platformsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT DISTINCT ?platform ?name ?imgUrl ?abstract where{\n" +
+        "    " + uri + " gla:hasPlatform ?platform .\n" +
+        "    ?platform gla:hasName ?name .\n" +
+        "    OPTIONAL {?platform gla:hasScreenshot ?imgUrl} .\n" +
+        "    OPTIONAL {?platform gla:hasAbstract ?abstract} .\n" +
+        "}";
+
+    queryLocalhost(platformsQuery, $http, data => {
+        const platforms = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const platform = {};
+            platform.uri = safeField(val.platform);
+            platform.name = safeField(val.name);
+            platform.imgUrl = safeField(val.imgUrl);
+            platform.abstract = safeField(val.abstract);
+            platforms.push(platform);
+        });
+        $scope.clickedGame.platforms = platforms;
+    });
+
+    const charactersQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT ?character where{\n" +
+        "   " + uri + " gla:hasCharacter ?character .\n" +
+        "    ?character gla:hasName ?name .\n" +
+        "}";
+
+    queryLocalhost(charactersQuery, $http, data => {
+        const characters = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const character = {};
+            character.uri = safeField(val.character);
+            character.name = safeField(val.name);
+            characters.push(character);
+        });
+        $scope.clickedGame.characters = characters;
     });
 }
 
@@ -143,7 +184,7 @@ function queryLocalhost(query, $http, successCallback) {
     console.log(query);
     $http({
         method: "GET",
-        url: "http://localhost:7200/repositories/geladav1" + "?query=" + encodeURI(query).replace(/#/, '%23'),
+        url: "http://localhost:7200/repositories/gelada" + "?query=" + encodeURI(query).replace(/#/, '%23'),
         headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
         .then(successCallback, function (error) {
