@@ -185,11 +185,10 @@ function getPlatformFilterValues($http, $scope) {
 
 
 function getGenreFilterValues($http, $scope) {
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
-        "\n" +
+    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
         "SELECT DISTINCT ?genre ?name where{\n" +
-        "    ?platform a gla:Genre .\n" +
-        "    ?genre gla:hasName ?name .\n" +
+        "         ?genre a gla:Genre .\n" +
+        "         ?genre gla:hasName ?name .\n" +
         "}";
     queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];

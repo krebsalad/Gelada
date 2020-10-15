@@ -52,7 +52,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label">Genre:</label>
                 <select class="uk-select" ng-change="filter();" ng-model="chosenGenre">
-                    <option ng-repeat="g in genres" value="{{g.uri}}">{{g.name}}</option>
+                    <option ng-repeat="genre in genres" value="{{genre.uri}}">{{genre.name}}</option>
                 </select>
             </div>
         </div>
