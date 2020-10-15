@@ -97,6 +97,23 @@ function getGameDetails($http, $scope, uri) {
         });
         $scope.clickedGame.platforms = platforms;
     });
+
+    const charactersQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT ?character where{\n" +
+        "   " + uri + " gla:hasCharacter ?character .\n" +
+        "    ?character gla:hasName ?name .\n" +
+        "}";
+
+    queryLocalhost(charactersQuery, $http, data => {
+        const characters = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const character = {};
+            character.uri = safeField(val.character);
+            character.name = safeField(val.name);
+            characters.push(character);
+        });
+        $scope.clickedGame.characters = characters;
+    });
 }
 
 function initializeFilters($http, $scope) {
@@ -167,7 +184,7 @@ function queryLocalhost(query, $http, successCallback) {
     console.log(query);
     $http({
         method: "GET",
-        url: "http://localhost:7200/repositories/geladav1" + "?query=" + encodeURI(query).replace(/#/, '%23'),
+        url: "http://localhost:7200/repositories/gelada" + "?query=" + encodeURI(query).replace(/#/, '%23'),
         headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
         .then(successCallback, function (error) {
