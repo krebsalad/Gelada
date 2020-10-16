@@ -39,10 +39,13 @@ function getPreviewedGames($http, $scope, filters) {
         });
         if ($scope.filteredGames) {
             $scope.filteredGames.length = 0;
+            $scope.originalGames.length = 0;
             previewGames.forEach(p => $scope.filteredGames.push(p));
         } else {
+            $scope.originalGames = [];
             $scope.filteredGames = previewGames;
         }
+        $scope.filteredGames.forEach(p => $scope.originalGames.push(p));
     });
 }
 
@@ -114,10 +117,31 @@ function getGameDetails($http, $scope, uri) {
         });
         $scope.clickedGame.characters = characters;
     });
+
+    const organizationQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT ?org ?name (REPLACE(str(?role), \"^.*/\", \"\") as ?rolestring) where{\n" +
+        "    ?org a gla:Organization .\n" +
+        "    ?org gla:hasName ?name .\n" +
+        "    " + uri + " ?role ?org .\n" +
+        "}"
+
+    queryLocalhost(organizationQuery, $http, data => {
+        const organizations = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const organization = {};
+            organization.uri = safeField(val.org);
+            organization.name = safeField(val.name);
+            organization.role = safeField(val.rolestring);
+            organizations.push(organization);
+        });
+        $scope.clickedGame.organizations = organizations;
+    });
 }
 
 function initializeFilters($http, $scope) {
-    $scope.resultLimits = LIMITS;
+    $scope.resultLimits = [];
+    $scope.chosenLimit = "10";
+    LIMITS.forEach(l => $scope.resultLimits.push(l));
     getGenerationFilterValues($http, $scope);
     getPlatformFilterValues($http, $scope);
     getGenreFilterValues($http, $scope);
@@ -161,11 +185,10 @@ function getPlatformFilterValues($http, $scope) {
 
 
 function getGenreFilterValues($http, $scope) {
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
-        "\n" +
+    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
         "SELECT DISTINCT ?genre ?name where{\n" +
-        "    ?platform a gla:Genre .\n" +
-        "    ?genre gla:hasName ?name .\n" +
+        "         ?genre a gla:Genre .\n" +
+        "         ?genre gla:hasName ?name .\n" +
         "}";
     queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];
