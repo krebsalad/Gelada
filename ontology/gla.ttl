@@ -23,19 +23,47 @@ vgo:hasGameGenre owl:equivalentProperty gla:hasGenre .
 
 
 ###  http://www.gelada.org/ontology/contributed
-gla:contributed rdf:type owl:ObjectProperty .
+gla:contributed rdf:type owl:ObjectProperty ;
+                owl:inverseOf gla:contributedBy ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( gla:Creator
+                                            gla:Organization
+                                          )
+                            ] ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( gla:Game
+                                           gla:Platform
+                                         )
+                           ] .
 
 
 ###  http://www.gelada.org/ontology/contributedBy
-gla:contributedBy rdf:type owl:ObjectProperty .
+gla:contributedBy rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( gla:Game
+                                              gla:Platform
+                                            )
+                              ] ;
+                  rdfs:range [ rdf:type owl:Class ;
+                               owl:unionOf ( gla:Creator
+                                             gla:Organization
+                                           )
+                             ] .
 
 
 ###  http://www.gelada.org/ontology/developed
-gla:developed rdf:type owl:ObjectProperty .
+gla:developed rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf gla:contributed ;
+              owl:inverseOf gla:developedBy ;
+              rdfs:domain gla:Developer ;
+              rdfs:range gla:Game .
 
 
 ###  http://www.gelada.org/ontology/developedBy
-gla:developedBy rdf:type owl:ObjectProperty .
+gla:developedBy rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf gla:contributedBy ;
+                rdfs:domain gla:Game ;
+                rdfs:range gla:Developer .
 
 
 ###  http://www.gelada.org/ontology/hasCharacter
@@ -88,17 +116,38 @@ gla:hasSequel rdf:type owl:ObjectProperty ;
 gla:isPlatformOf rdf:type owl:ObjectProperty .
 
 
+###  http://www.gelada.org/ontology/manufactured
+gla:manufactured rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf gla:contributed ;
+                 owl:inverseOf gla:manufacturedBy ;
+                 rdfs:domain gla:Manufacturer ;
+                 rdfs:range gla:Platform .
+
+
 ###  http://www.gelada.org/ontology/manufacturedBy
 gla:manufacturedBy rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf owl:topObjectProperty .
+                   rdfs:subPropertyOf gla:contributedBy ;
+                   rdfs:domain gla:Platform ;
+                   rdfs:range gla:Manufacturer .
 
 
 ###  http://www.gelada.org/ontology/partOf
 gla:partOf rdf:type owl:ObjectProperty .
 
 
+###  http://www.gelada.org/ontology/published
+gla:published rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf gla:contributed ;
+              owl:inverseOf gla:publishedBy ;
+              rdfs:domain gla:Publisher ;
+              rdfs:range gla:Game .
+
+
 ###  http://www.gelada.org/ontology/publishedBy
-gla:publishedBy rdf:type owl:ObjectProperty .
+gla:publishedBy rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf gla:contributedBy ;
+                rdfs:domain gla:Game ;
+                rdfs:range gla:Publisher .
 
 
 #################################################################
@@ -130,7 +179,8 @@ gla:hasMultiplayer rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.gelada.org/ontology/hasName
-gla:hasName rdf:type owl:DatatypeProperty .
+gla:hasName rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty .
 
 
 ###  http://www.gelada.org/ontology/hasReleaseDate
@@ -218,10 +268,6 @@ gla:ExclusiveGame rdf:type owl:Class ;
 ###  http://www.gelada.org/ontology/Game
 gla:Game rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Restriction ;
-                               owl:onProperty gla:contributedBy ;
-                               owl:someValuesFrom gla:Organization
-                             ] ,
-                             [ rdf:type owl:Restriction ;
                                owl:onProperty gla:developedBy ;
                                owl:someValuesFrom gla:Developer
                              ] ,
