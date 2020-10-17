@@ -14,7 +14,7 @@ function getPreviewedGames($http, $scope, filters) {
     });
 
     query +=
-        "    OPTIONAL {?game gla:hasName ?name .}\n" +
+        "    ?game gla:hasName ?name .\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
         "}\n";
@@ -153,7 +153,7 @@ function getGenerationFilterValues($http, $scope) {
         "\n" +
         "SELECT DISTINCT ?generation where{\n" +
         "    ?s gla:hasGeneration ?generation .\n" +
-        "}";
+        "} ORDER BY ASC(?generation)";
     queryLocalhost(query, $http, data => {
         const generations = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
@@ -170,7 +170,7 @@ function getPlatformFilterValues($http, $scope) {
         "SELECT DISTINCT ?platform ?name where{\n" +
         "    ?platform a gla:Platform .\n" +
         "    ?platform gla:hasName ?name .\n" +
-        "}";
+        "} ORDER BY ASC(?name)";
     queryLocalhost(query, $http, data => {
         const platforms = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
@@ -189,7 +189,7 @@ function getGenreFilterValues($http, $scope) {
         "SELECT DISTINCT ?genre ?name where{\n" +
         "         ?genre a gla:Genre .\n" +
         "         ?genre gla:hasName ?name .\n" +
-        "}";
+        "} ORDER BY ASC(?genre)";
     queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
