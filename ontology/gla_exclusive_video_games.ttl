@@ -965,8 +965,8 @@ gla:Hyper_Universe rdf:type gla:Game ;
     gla:hasName "Hyper Universe" ;
     gla:hasPlatform gla:Xbox_One .
 
-gla:#IDARB rdf:type gla:Game ;
-    gla:hasName "#IDARB" ;
+gla:IDARB rdf:type gla:Game ;
+    gla:hasName "IDARB" ;
     gla:hasPlatform gla:Xbox_One .
 
 gla:In_Between rdf:type gla:Game ;
@@ -2105,7 +2105,7 @@ gla:Tank_Tank_Tank rdf:type gla:Game ;
     gla:hasName "Tank! Tank! Tank!" ;
     gla:hasPlatform gla:Wii_U .
 
-gla:Tokyo_Mirage_Sessions_#FE rdf:type gla:Game ;
+gla:Tokyo_Mirage_Sessions_FE rdf:type gla:Game ;
     gla:hasName "Tokyo Mirage Sessions #FE" ;
     gla:hasPlatform gla:Wii_U .
 
@@ -2953,7 +2953,7 @@ gla:MikroGame_Rotator rdf:type gla:Game ;
     gla:hasName "MikroGame: Rotator" ;
     gla:hasPlatform gla:Wii_U .
 
-gla:Mini-Games_Madness_Volume_#1_Hello_World rdf:type gla:Game ;
+gla:Mini-Games_Madness_Volume_1_Hello_World rdf:type gla:Game ;
     gla:hasName "Mini-Games Madness Volume #1: Hello World!" ;
     gla:hasPlatform gla:Wii_U .
 
@@ -3341,7 +3341,7 @@ gla:Skorb rdf:type gla:Game ;
     gla:hasName "Skorb" ;
     gla:hasPlatform gla:Wii_U .
 
-gla:Skunky_Bs_Super_Slots_Saga_#1 rdf:type gla:Game ;
+gla:Skunky_Bs_Super_Slots_Saga_1 rdf:type gla:Game ;
     gla:hasName "Skunky B's Super Slots Saga #1" ;
     gla:hasPlatform gla:Wii_U .
 
@@ -4387,10 +4387,6 @@ gla:The_Lord_of_the_Rings_Aragorns_Quest rdf:type gla:Game ;
 
 gla:Lost_Dimension rdf:type gla:Game ;
     gla:hasName "Lost Dimension" ;
-    gla:hasPlatform gla:PlayStation_3 .
-
-gla:None rdf:type gla:Game ;
-    gla:hasName "0"^^xsd:integer ;
     gla:hasPlatform gla:PlayStation_3 .
 
 gla:Macross_30_Ginga_o_Tsunagu_Utagoe rdf:type gla:Game ;
@@ -9378,23 +9374,23 @@ gla:Japanese_Rail_Sim_3D_5_Types_of_Trains rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: 5 Types of Trains" ;
     gla:hasPlatform gla:3DS .
 
-gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_#1 rdf:type gla:Game ;
+gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_1 rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: Journey in Suburbs #1" ;
     gla:hasPlatform gla:3DS .
 
-gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_#1_Vol__2 rdf:type gla:Game ;
+gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_1_Vol__2 rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 2" ;
     gla:hasPlatform gla:3DS .
 
-gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_#1_Vol__3 rdf:type gla:Game ;
+gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_1_Vol__3 rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 3" ;
     gla:hasPlatform gla:3DS .
 
-gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_#1_Vol__4 rdf:type gla:Game ;
+gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_1_Vol__4 rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 4" ;
     gla:hasPlatform gla:3DS .
 
-gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_#2 rdf:type gla:Game ;
+gla:Japanese_Rail_Sim_3D_Journey_in_Suburbs_2 rdf:type gla:Game ;
     gla:hasName "Japanese Rail Sim 3D: Journey in Suburbs #2" ;
     gla:hasPlatform gla:3DS .
 
@@ -11006,8 +11002,8 @@ gla:Zoids_Wild_Infinity_Blast rdf:type gla:Game ;
     gla:hasName "Zoids Wild: Infinity Blast" ;
     gla:hasPlatform gla:Switch .
 
-gla:#DRIVE rdf:type gla:Game ;
-    gla:hasName "#DRIVE" ;
+gla:DRIVE rdf:type gla:Game ;
+    gla:hasName "DRIVE" ;
     gla:hasPlatform gla:Switch .
 
 gla:Another_Eden_The_Cat_That_Travels_Through_Space_and_Time rdf:type gla:Game ;
@@ -11970,7 +11966,7 @@ gla:Toki rdf:type gla:Game ;
     gla:hasName "Toki" ;
     gla:hasPlatform gla:Switch .
 
-gla:Tokyo_Mirage_Sessions_#FE_Encore rdf:type gla:Game ;
+gla:Tokyo_Mirage_Sessions_FE_Encore rdf:type gla:Game ;
     gla:hasName "Tokyo Mirage Sessions #FE Encore" ;
     gla:hasPlatform gla:Switch .
 
@@ -12817,8 +12813,8 @@ gla:Breakfast_Bar_Tycoon rdf:type gla:Game ;
     gla:hasName "Breakfast Bar Tycoon" ;
     gla:hasPlatform gla:Switch .
 
-gla:#Breakforcist_Battle rdf:type gla:Game ;
-    gla:hasName "#Breakforcist Battle" ;
+gla:Breakforcist_Battle rdf:type gla:Game ;
+    gla:hasName "Breakforcist Battle" ;
     gla:hasPlatform gla:Switch .
 
 gla:Breathing_Fear rdf:type gla:Game ;
@@ -16397,7 +16393,7 @@ gla:Pachi_Pachi_On_A_Roll rdf:type gla:Game ;
     gla:hasName "Pachi Pachi On A Roll" ;
     gla:hasPlatform gla:Switch .
 
-gla:Packet_Queen_# rdf:type gla:Game ;
+gla:Packet_Queen rdf:type gla:Game ;
     gla:hasName "Packet Queen #" ;
     gla:hasPlatform gla:Switch .
 
@@ -16933,8 +16929,8 @@ gla:Q-YO_Blaster rdf:type gla:Game ;
     gla:hasName "Q-YO Blaster" ;
     gla:hasPlatform gla:Switch .
 
-gla:#RaceDieRun rdf:type gla:Game ;
-    gla:hasName "#RaceDieRun" ;
+gla:RaceDieRun rdf:type gla:Game ;
+    gla:hasName "RaceDieRun" ;
     gla:hasPlatform gla:Switch .
 
 gla:Radiation_City rdf:type gla:Game ;
@@ -21557,7 +21553,7 @@ gla:Virtual_On_OT_ rdf:type gla:Game ;
     gla:hasName "Virtual On: OT " ;
     gla:hasPlatform gla:Xbox_360 .
 
-gla:Wallace_andamp_Gromit_#1 rdf:type gla:Game ;
+gla:Wallace_andamp_Gromit_1 rdf:type gla:Game ;
     gla:hasName "Wallace &amp; Gromit #1" ;
     gla:hasPlatform gla:Xbox_360 .
 
@@ -24133,10 +24129,6 @@ gla:Browser_Sangokushi rdf:type gla:Game ;
     gla:hasName "Browser Sangokushi" ;
     gla:hasPlatform gla:PlayStation_4 .
 
-gla:None rdf:type gla:Game ;
-    gla:hasName "0"^^xsd:integer ;
-    gla:hasPlatform gla:PlayStation_4 .
-
 gla:Bush_Hockey_League rdf:type gla:Game ;
     gla:hasName "Bush Hockey League" ;
     gla:hasPlatform gla:PlayStation_4 .
@@ -25209,8 +25201,8 @@ gla:Kholat rdf:type gla:Game ;
     gla:hasName "Kholat" ;
     gla:hasPlatform gla:PlayStation_4 .
 
-gla:#killallzombies rdf:type gla:Game ;
-    gla:hasName "#killallzombies" ;
+gla:killallzombies rdf:type gla:Game ;
+    gla:hasName "killallzombies" ;
     gla:hasPlatform gla:PlayStation_4 .
 
 gla:Kill_Strain rdf:type gla:Game ;
@@ -27845,8 +27837,8 @@ gla:The_House_in_Fata_Morgana_Collected_Edition rdf:type gla:Game ;
     gla:hasName "The House in Fata Morgana: Collected Edition" ;
     gla:hasPlatform gla:PS_Vita .
 
-gla:htoL_#NiQ_The_Firefly_Diary rdf:type gla:Game ;
-    gla:hasName "htoL #NiQ: The Firefly Diary" ;
+gla:htoL_NiQ_The_Firefly_Diary rdf:type gla:Game ;
+    gla:hasName "htoL NiQ: The Firefly Diary" ;
     gla:hasPlatform gla:PS_Vita .
 
 gla:Hyakka_Ryouran_Elixir_Record_of_Torenia_Revival rdf:type gla:Game ;
@@ -28293,11 +28285,11 @@ gla:Making_Lovers rdf:type gla:Game ;
     gla:hasName "Making Lovers" ;
     gla:hasPlatform gla:PS_Vita .
 
-gla:Marginal_#4_Idol_of_Supernova rdf:type gla:Game ;
+gla:Marginal_4_Idol_of_Supernova rdf:type gla:Game ;
     gla:hasName "Marginal #4: Idol of Supernova" ;
     gla:hasPlatform gla:PS_Vita .
 
-gla:Marginal_#4_Road_to_Galaxy rdf:type gla:Game ;
+gla:Marginal_4_Road_to_Galaxy rdf:type gla:Game ;
     gla:hasName "Marginal #4: Road to Galaxy" ;
     gla:hasPlatform gla:PS_Vita .
 
@@ -30261,8 +30253,8 @@ gla:KickBeat rdf:type gla:Game ;
     gla:hasName "KickBeat" ;
     gla:hasPlatform gla:PS_Vita .
 
-gla:#killallzombies rdf:type gla:Game ;
-    gla:hasName "#killallzombies" ;
+gla:killallzombies rdf:type gla:Game ;
+    gla:hasName "killallzombies" ;
     gla:hasPlatform gla:PS_Vita .
 
 gla:King_Oddball rdf:type gla:Game ;

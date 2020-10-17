@@ -239,7 +239,7 @@ function make_str_rdf_compatible(in_str)
     out_str = out_str.replace(/\@/g, '');
     out_str = out_str.replace(/\∞/g, '_');
     out_str = out_str.replace(/\\/g, '');
-    out_str = out_str.replace(/\#39/g, '');
+    out_str = out_str.replace(/\#/g, '');
     return out_str;
 }
 
@@ -264,7 +264,8 @@ function make_str_rdf_literal(in_str)
     }
 
     // return as default literal
-    return '"' + in_str + '"'
+    out_str = '"' + in_str.replace(/^\s*/g, '') + '"';
+    return out_str;
 }
 
 // convert to triple data
@@ -316,7 +317,7 @@ function write_structured_data_as_ttl()
     for (t in triple_data)
     {
         // dont add malformed triples
-        if (triple_data[t][2] == "None")
+        if (triple_data[t][0] == "None" || triple_data[t][1] == "None" || triple_data[t][2] == "None")
         {
             continue;
         }
