@@ -189,7 +189,7 @@ function getGenreFilterValues($http, $scope) {
         "SELECT DISTINCT ?genre ?name where{\n" +
         "         ?genre a gla:Genre .\n" +
         "         ?genre gla:hasName ?name .\n" +
-        "} ORDER BY ASC(?genre)";
+        "} ORDER BY ASC(?name)";
     queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
