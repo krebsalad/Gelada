@@ -1,0 +1,94 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gla: <http://www.gelada.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+gla:Nintendo_64 owl:sameAs dbr:Nintendo_64 .
+
+gla:Wii_U owl:sameAs dbr:Wii_U .
+
+gla:PlayStation_3 owl:sameAs dbr:PlayStation_3 .
+
+gla:Xbox_360 owl:sameAs dbr:Xbox_360 .
+
+gla:PlayStation_4 owl:sameAs dbr:PlayStation_4 .
+
+gla:Xbox_One owl:sameAs dbr:Xbox_One .
+
+gla:Nintendo_DS owl:sameAs dbr:Nintendo_DS .
+
+gla:Magnavox_Odyssey owl:sameAs dbr:Magnavox_Odyssey .
+
+gla:Fairchild_Channel_F owl:sameAs dbr:Fairchild_Channel_F .
+
+gla:Bally_Astrocade owl:sameAs dbr:Bally_Astrocade .
+
+gla:Bandai_Super_Vision_8000 owl:sameAs dbr:Bandai_Super_Vision_8000 .
+
+gla:VTech_CreatiVision owl:sameAs dbr:VTech_CreatiVision .
+
+gla:Sega_Genesis owl:sameAs dbr:Sega_Genesis .
+
+gla:Super_Nintendo_Entertainment_System owl:sameAs dbr:Super_Nintendo_Entertainment_System .
+
+gla:Commodore_CDTV owl:sameAs dbr:Commodore_CDTV .
+
+gla:FM_Towns_Marty owl:sameAs dbr:FM_Towns_Marty .
+
+gla:Amiga_CD32 owl:sameAs dbr:Amiga_CD32 .
+
+gla:Atari_Jaguar owl:sameAs dbr:Atari_Jaguar .
+
+gla:Nintendo_Wii owl:sameAs dbr:Wii .
+
+gla:Bandai_Intellivision owl:sameAs dbr:Intellivision .
+
+gla:Sylvania_Intellivision owl:sameAs dbr:Intellivision .
+
+gla:Epoch_Cassette_Vision owl:sameAs dbr:Cassette_Vision .
+
+gla:Coleco_ColecoVision owl:sameAs dbr:ColecoVision .
+
+gla:Emerson_Arcadia_2001 owl:sameAs dbr:Arcadia_2001 .
+
+gla:GCE_Vectrex owl:sameAs dbr:Vectrex .
+
+gla:Milton_Bradley_Vectrex owl:sameAs dbr:Vectrex .
+
+gla:Nichibutsu_My_Vision owl:sameAs dbr:My_Vision .
+
+gla:Casio_PV-1000 owl:sameAs dbr:PV-1000 .
+
+gla:Sega_SG-1000 owl:sameAs dbr:SG-1000 .
+
+gla:Sega_Master_System owl:sameAs dbr:Master_System .
+
+gla:Tec_Toy_Master_System owl:sameAs dbr:Master_System .
+
+gla:Worlds_of_Wonder_Action_Max owl:sameAs dbr:Action_Max .
+
+gla:NEC_TurboGrafx-16 owl:sameAs dbr:TurboGrafx-16 .
+
+gla:Goldstar_3DO_Interactive_Multiplayer owl:sameAs dbr:3DO_Interactive_Multiplayer .
+
+gla:Pioneer_LaserActive owl:sameAs dbr:LaserActive .
+
+gla:SNK_Neo_Geo_CD owl:sameAs dbr:Neo_Geo_CD .
+
+gla:NEC_PC-FX owl:sameAs dbr:PC-FX .
+
+gla:Bandai_Playdia owl:sameAs dbr:Playdia .
+
+gla:Sega_Dreamcast owl:sameAs dbr:Dreamcast .
+
+gla:Tec_Toy_Dreamcast owl:sameAs dbr:Dreamcast .
+
+gla:Nintendo_GameCube owl:sameAs dbr:GameCube .
+
+gla:TecToy_Zeebo owl:sameAs dbr:Zeebo .
+
+gla:Sony_PlayStation_4 owl:sameAs dbr:PlayStation_4 .
+
+gla:Microsoft_Xbox_One owl:sameAs dbr:Xbox_One .

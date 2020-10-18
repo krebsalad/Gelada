@@ -164,11 +164,6 @@ gla:hasAlternativeName rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  http://www.gelada.org/ontology/hasExclusive
-gla:hasExclusive rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty .
-
-
 ###  http://www.gelada.org/ontology/hasGeneration
 gla:hasGeneration rdf:type owl:DatatypeProperty .
 
@@ -259,10 +254,8 @@ gla:Director rdf:type owl:Class ;
 gla:ExclusiveGame rdf:type owl:Class ;
                   owl:equivalentClass [ rdf:type owl:Restriction ;
                                         owl:onProperty gla:hasPlatform ;
-                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                        owl:onClass gla:Platform
-                                      ] ;
-                  rdfs:subClassOf gla:Game .
+                                        owl:cardinality "1"^^xsd:nonNegativeInteger
+                                      ] .
 
 
 ###  http://www.gelada.org/ontology/Game

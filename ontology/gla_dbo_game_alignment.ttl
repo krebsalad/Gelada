@@ -1,0 +1,4384 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gla: <http://www.gelada.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+gla:Turok_2_Seeds_of_Evil owl:sameAs dbr:Turok_2:_Seeds_of_Evil;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Super_Mario_64 owl:sameAs dbr:Super_Mario_64;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Banjo-Kazooie owl:sameAs dbr:Banjo-Kazooie;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Mario_Kart_64 owl:sameAs dbr:Mario_Kart_64;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Banjo-Tooie owl:sameAs dbr:Banjo-Tooie;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Carmageddon owl:sameAs dbr:Carmageddon;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Mario_Party_3 owl:sameAs dbr:Mario_Party_3;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Harvest_Moon_64 owl:sameAs dbr:Harvest_Moon_64;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Tony_Hawks_Pro_Skater_2 owl:sameAs <http://dbpedia.org/resource/Tony_Hawk's_Pro_Skater_2>;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:Namco_Museum owl:sameAs dbr:Namco_Museum;
+  gla:hasPlatform dbr:Nintendo_64, dbr:PlayStation_3 .
+
+gla:Vigilante_8 owl:sameAs dbr:Vigilante_8;
+  gla:hasPlatform dbr:Nintendo_64 .
+
+gla:New_Super_Mario_Bros__U owl:sameAs dbr:New_Super_Mario_Bros._U;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Wii_U_with_stylus_at_Igromir_2013_(10096264706).jpg?width=300> .
+
+gla:Super_Meat_Boy owl:sameAs dbr:Super_Meat_Boy;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Team_Meat_(Edmund_McMillen_and_Tommy_Refenes)_at_GDC_2012.jpg?width=300> .
+
+gla:The_Swapper owl:sameAs dbr:The_Swapper;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/The_swapper_logo.png?width=300> .
+
+gla:Guacamelee owl:sameAs <http://dbpedia.org/resource/Guacamelee!>;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Guacamelee!_STCE_box_art.jpg?width=300> .
+
+gla:Thomas_Was_Alone owl:sameAs dbr:Thomas_Was_Alone;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Thomas_was_alone_cover.png?width=300> .
+
+gla:Wii_Fit_U owl:sameAs dbr:Wii_Fit_U;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Man_plays_Wii_Fit_U.jpg?width=300> .
+
+gla:Bayonetta owl:sameAs dbr:Bayonetta;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Dragon_Quest_X owl:sameAs dbr:Dragon_Quest_X;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Secret_Files_Tunguska owl:sameAs dbr:Secret_Files:_Tunguska;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Dr__Luigi owl:sameAs dbr:Dr._Luigi;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Zen_Pinball_2 owl:sameAs dbr:Zen_Pinball_2;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Nano_Assault_Neo owl:sameAs dbr:Nano_Assault_Neo;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Tank_Tank_Tank owl:sameAs <http://dbpedia.org/resource/Tank!_Tank!_Tank!>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Pinball_Arcade owl:sameAs dbr:The_Pinball_Arcade;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:ZombiU owl:sameAs dbr:ZombiU;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Super_Mario_Galaxy owl:sameAs dbr:Super_Mario_Galaxy;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Yoshis_Woolly_World owl:sameAs <http://dbpedia.org/resource/Yoshi's_Woolly_World>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Rabbids_Land owl:sameAs dbr:Rabbids_Land;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Scribblenauts_Unlimited owl:sameAs dbr:Scribblenauts_Unlimited;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Pure_Chess owl:sameAs dbr:Pure_Chess;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Scribblenauts_Unmasked_A_DC_Comics_Adventure owl:sameAs dbr:Scribblenauts_Unmasked:_A_DC_Comics_Adventure;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:OlliOlli owl:sameAs dbr:OlliOlli;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Futuridium_EP_Deluxe owl:sameAs dbr:Futuridium_EP_Deluxe;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Girls_Like_Robots owl:sameAs dbr:Girls_Like_Robots;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Mysterious_Cities_of_Gold_Secret_Paths owl:sameAs dbr:The_Mysterious_Cities_of_Gold:_Secret_Paths;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Kick_and_Fennick owl:sameAs <http://dbpedia.org/resource/Kick_&_Fennick>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_vs__Donkey_Kong_Tipping_Stars owl:sameAs dbr:Mario_vs._Donkey_Kong:_Tipping_Stars;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Kerbal_Space_Program owl:sameAs dbr:Kerbal_Space_Program;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Super_Mario_Maker owl:sameAs dbr:Super_Mario_Maker;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:PixelJunk_Monsters owl:sameAs dbr:PixelJunk_Monsters;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Devils_Third owl:sameAs <http://dbpedia.org/resource/Devil's_Third>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Axiom_Verge owl:sameAs dbr:Axiom_Verge;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Bayonetta_2 owl:sameAs dbr:Bayonetta_2;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Dont_Starve owl:sameAs <http://dbpedia.org/resource/Don't_Starve>;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Donkey_Kong_Country_Tropical_Freeze owl:sameAs dbr:Donkey_Kong_Country:_Tropical_Freeze;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Kamen_Rider_Battride_War owl:sameAs dbr:Kamen_Rider:_Battride_War;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Little_Inferno owl:sameAs dbr:Little_Inferno;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_and_Sonic_at_the_Sochi_2014_Olympic_Winter_Games owl:sameAs <http://dbpedia.org/resource/Mario_&_Sonic_at_the_Sochi_2014_Olympic_Winter_Games>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_Kart_8 owl:sameAs dbr:Mario_Kart_8;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_Party_10 owl:sameAs dbr:Mario_Party_10;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mighty_Switch_Force_2 owl:sameAs <http://dbpedia.org/resource/Mighty_Switch_Force!_2>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:New_Super_Luigi_U owl:sameAs dbr:New_Super_Luigi_U;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Ninja_Gaiden_3_Razors_Edge owl:sameAs <http://dbpedia.org/resource/Ninja_Gaiden_3:_Razor's_Edge>;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Nintendo_Land owl:sameAs dbr:Nintendo_Land;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Octodad_Dadliest_Catch owl:sameAs dbr:Octodad:_Dadliest_Catch;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Rayman_Legends owl:sameAs dbr:Rayman_Legends;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Runner2_Future_Legend_of_Rhythm_Alien owl:sameAs dbr:Runner2:_Future_Legend_of_Rhythm_Alien;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Shantae_and_the_Pirates_Curse owl:sameAs <http://dbpedia.org/resource/Shantae_and_the_Pirate's_Curse>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Shovel_Knight owl:sameAs dbr:Shovel_Knight;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Sing_Party owl:sameAs dbr:Sing_Party;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Strength_of_the_Sword_3 owl:sameAs dbr:Strength_of_the_Sword_3;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Super_Mario_3D_World owl:sameAs dbr:Super_Mario_3D_World;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Legend_of_Zelda_The_Wind_Waker_HD owl:sameAs dbr:The_Legend_of_Zelda:_The_Wind_Waker_HD;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Wonderful_101 owl:sameAs dbr:The_Wonderful_101;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Unepic owl:sameAs dbr:Unepic;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Wii_Party_U owl:sameAs dbr:Wii_Party_U;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:KickBeat owl:sameAs dbr:KickBeat;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:The_Legend_of_Zelda_Twilight_Princess_HD owl:sameAs dbr:The_Legend_of_Zelda:_Twilight_Princess_HD;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Eiji_Aonuma_-_453606822.jpg?width=300> .
+
+gla:Inside_My_Radio owl:sameAs dbr:Inside_My_Radio;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Inside_My_Radio.png?width=300> .
+
+gla:Freedom_Planet owl:sameAs dbr:Freedom_Planet;
+  gla:hasPlatform dbr:Wii_U;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Freedom_Planet_Steam_artwork.jpg?width=300> .
+
+gla:Sonic_Lost_World owl:sameAs dbr:Sonic_Lost_World;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Binding_of_Isaac_Rebirth owl:sameAs dbr:The_Binding_of_Isaac:_Rebirth;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Kirby_Canvas_Curse owl:sameAs dbr:Kirby:_Canvas_Curse;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Oddworld_Strangers_Wrath owl:sameAs <http://dbpedia.org/resource/Oddworld:_Stranger's_Wrath>;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Affordable_Space_Adventures owl:sameAs dbr:Affordable_Space_Adventures;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_and_Sonic_at_the_Rio_2016_Olympic_Games owl:sameAs <http://dbpedia.org/resource/Mario_&_Sonic_at_the_Rio_2016_Olympic_Games>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Shadow_Puppeteer owl:sameAs dbr:Shadow_Puppeteer;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:3Souls owl:sameAs dbr:3Souls;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Animal_Crossing_Amiibo_Festival owl:sameAs dbr:Animal_Crossing:_Amiibo_Festival;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Cube_Life_Island_Survival owl:sameAs dbr:Cube_Life:_Island_Survival;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Human_Resource_Machine owl:sameAs dbr:Human_Resource_Machine;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Mario_Tennis_Ultra_Smash owl:sameAs dbr:Mario_Tennis:_Ultra_Smash;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Paper_Mario_Color_Splash owl:sameAs dbr:Paper_Mario:_Color_Splash;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Runbow owl:sameAs dbr:Runbow;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Star_Fox_Guard owl:sameAs dbr:Star_Fox_Guard;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Xeodrifter owl:sameAs dbr:Xeodrifter;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Gunman_Clive owl:sameAs dbr:Gunman_Clive;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Amiibo_Tap_Nintendos_Greatest_Bits owl:sameAs <http://dbpedia.org/resource/Amiibo_Tap:_Nintendo's_Greatest_Bits>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Blocky_Bot owl:sameAs dbr:Blocky_Bot;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Funky_Barn owl:sameAs dbr:Funky_Barn;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Pikmin_3 owl:sameAs dbr:Pikmin_3;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Epic_Mickey_2_The_Power_of_Two owl:sameAs dbr:Epic_Mickey_2:_The_Power_of_Two;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Rodea_the_Sky_Soldier owl:sameAs dbr:Rodea_the_Sky_Soldier;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:The_Legend_of_Zelda_Breath_of_the_Wild owl:sameAs dbr:The_Legend_of_Zelda:_Breath_of_the_Wild;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Resident_Evil_Revelations owl:sameAs dbr:Resident_Evil:_Revelations;
+  gla:hasPlatform dbr:Wii_U, dbr:PlayStation_3 .
+
+gla:Star_Fox_Zero owl:sameAs dbr:Star_Fox_Zero;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:A_World_of_Keflings owl:sameAs dbr:A_World_of_Keflings;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Tengami owl:sameAs dbr:Tengami;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Sonic_Boom_Rise_of_Lyric owl:sameAs dbr:Sonic_Boom:_Rise_of_Lyric;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Xenoblade_Chronicles_X owl:sameAs dbr:Xenoblade_Chronicles_X;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Captain_Toad_Treasure_Tracker owl:sameAs dbr:Captain_Toad:_Treasure_Tracker;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Fatal_Frame_Maiden_of_Black_Water owl:sameAs dbr:Fatal_Frame:_Maiden_of_Black_Water;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Kirby_and_the_Rainbow_Curse owl:sameAs dbr:Kirby_and_the_Rainbow_Curse;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Splatoon owl:sameAs dbr:Splatoon;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Armillo owl:sameAs dbr:Armillo;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Child_of_Light owl:sameAs dbr:Child_of_Light;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Hyrule_Warriors owl:sameAs dbr:Hyrule_Warriors;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Lost_Reavers owl:sameAs dbr:Lost_Reavers;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Saturday_Morning_RPG owl:sameAs dbr:Saturday_Morning_RPG;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Teslagrad owl:sameAs dbr:Teslagrad;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Wii_Sports_Club owl:sameAs dbr:Wii_Sports_Club;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Woah_Dave owl:sameAs <http://dbpedia.org/resource/Woah_Dave!>;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Year_Walk owl:sameAs dbr:Year_Walk;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Elliot_Quest owl:sameAs dbr:Elliot_Quest;
+  gla:hasPlatform dbr:Wii_U .
+
+gla:Spelunky owl:sameAs dbr:Spelunky;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Spelunky_2008vs2012-comparision.jpg?width=300> .
+
+gla:Need_for_Speed_Carbon owl:sameAs dbr:Need_for_Speed:_Carbon;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Nfsc-cover.jpg?width=300> .
+
+gla:Young_Justice_Legacy owl:sameAs dbr:Young_Justice:_Legacy;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Beyond_Two_Souls owl:sameAs dbr:Beyond:_Two_Souls;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Formula_One_Championship_Edition owl:sameAs dbr:Formula_One_Championship_Edition;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Helldivers owl:sameAs dbr:Helldivers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_07_The_Show owl:sameAs dbr:MLB_07:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_08_The_Show owl:sameAs dbr:MLB_08:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_09_The_Show owl:sameAs dbr:MLB_09:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_10_The_Show owl:sameAs dbr:MLB_10:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_11_The_Show owl:sameAs dbr:MLB_11:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_12_The_Show owl:sameAs dbr:MLB_12:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Fight_Lights_Out owl:sameAs dbr:The_Fight:_Lights_Out;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:A_Boy_and_His_Blob owl:sameAs dbr:A_Boy_and_His_Blob;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Blue_Toad_Murder_Files owl:sameAs dbr:Blue_Toad_Murder_Files;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dead_Nation owl:sameAs dbr:Dead_Nation;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Demons_Souls owl:sameAs <http://dbpedia.org/resource/Demon's_Souls>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Explodemon owl:sameAs dbr:Explodemon;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Last_Rebellion owl:sameAs dbr:Last_Rebellion;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:LittleBigPlanet_2 owl:sameAs dbr:LittleBigPlanet_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Machinarium owl:sameAs dbr:Machinarium;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:ModNation_Racers owl:sameAs dbr:ModNation_Racers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Persona_5 owl:sameAs dbr:Persona_5;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PixelJunk_Shooter owl:sameAs dbr:PixelJunk_Shooter;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SingStar_ABBA owl:sameAs dbr:SingStar_ABBA;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Lord_of_the_Rings_Aragorns_Quest owl:sameAs <http://dbpedia.org/resource/The_Lord_of_the_Rings:_Aragorn's_Quest>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hotline_Miami owl:sameAs dbr:Hotline_Miami;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Pro_Evolution_Soccer_2008 owl:sameAs dbr:Pro_Evolution_Soccer_2008;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Samurai_Warriors_4 owl:sameAs dbr:Samurai_Warriors_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sega_Superstars_Tennis owl:sameAs dbr:Sega_Superstars_Tennis;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sengoku_Basara_4 owl:sameAs dbr:Sengoku_Basara_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Way_of_the_Samurai_4 owl:sameAs dbr:Way_of_the_Samurai_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Army_of_Two owl:sameAs dbr:Army_of_Two;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Berserk_and_the_Band_of_the_Hawk owl:sameAs dbr:Berserk_and_the_Band_of_the_Hawk;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Heavy_Rain owl:sameAs dbr:Heavy_Rain;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hellboy_The_Science_of_Evil owl:sameAs dbr:Hellboy:_The_Science_of_Evil;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Uncharted_Waters_Online owl:sameAs dbr:Uncharted_Waters_Online;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Battlefield_Bad_Company owl:sameAs dbr:Battlefield:_Bad_Company;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Brothers_in_Arms_Hells_Highway owl:sameAs <http://dbpedia.org/resource/Brothers_in_Arms:_Hell's_Highway>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Castle_Crashers owl:sameAs dbr:Castle_Crashers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Diner_Dash owl:sameAs dbr:Diner_Dash;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dynasty_Warriors_Online owl:sameAs dbr:Dynasty_Warriors_Online;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Full_Auto_2_Battlelines owl:sameAs dbr:Full_Auto_2:_Battlelines;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Go_Sudoku owl:sameAs <http://dbpedia.org/resource/Go!_Sudoku>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Madden_NFL_07 owl:sameAs dbr:Madden_NFL_07;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ratchet_and_Clank_Future_Tools_of_Destruction owl:sameAs <http://dbpedia.org/resource/Ratchet_&_Clank_Future:_Tools_of_Destruction>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ridge_Racer_7 owl:sameAs dbr:Ridge_Racer_7;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Star_Wars_The_Force_Unleashed owl:sameAs dbr:Star_Wars:_The_Force_Unleashed;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Uncharted_Drakes_Fortune owl:sameAs <http://dbpedia.org/resource/Uncharted:_Drake's_Fortune>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_House_of_the_Dead_III owl:sameAs dbr:The_House_of_the_Dead_III;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tom_Clancys_Rainbow_Six_Vegas_2 owl:sameAs <http://dbpedia.org/resource/Tom_Clancy's_Rainbow_Six:_Vegas_2>;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Tcrbsv2-360-cover.jpg?width=300> .
+
+gla:WWE_SmackDown_vs__Raw_2008 owl:sameAs dbr:WWE_SmackDown_vs._Raw_2008;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NCAA_Football_09 owl:sameAs dbr:NCAA_Football_09;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Critter_Crunch owl:sameAs dbr:Critter_Crunch;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Trash_Panic owl:sameAs dbr:Trash_Panic;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Kung_Fu_Rider owl:sameAs dbr:Kung_Fu_Rider;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Clan_of_Champions owl:sameAs dbr:Clan_of_Champions;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Joe_Danger_2_The_Movie owl:sameAs dbr:Joe_Danger_2:_The_Movie;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Call_of_Duty_4_Modern_Warfare owl:sameAs dbr:Call_of_Duty_4:_Modern_Warfare;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:God_of_War_Ascension owl:sameAs dbr:God_of_War:_Ascension;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Kane_and_Lynch_Dead_Men owl:sameAs <http://dbpedia.org/resource/Kane_&_Lynch:_Dead_Men>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Medal_of_Honor_Airborne owl:sameAs dbr:Medal_of_Honor:_Airborne;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ninja_Gaiden_Sigma owl:sameAs dbr:Ninja_Gaiden_Sigma;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SOCOM_4 owl:sameAs dbr:SOCOM_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tomb_Raider_Anniversary owl:sameAs dbr:Tomb_Raider:_Anniversary;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Viking_Battle_for_Asgard owl:sameAs dbr:Viking:_Battle_for_Asgard;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Overlord_Raising_Hell owl:sameAs dbr:Overlord:_Raising_Hell;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Back_to_the_Future_The_Game owl:sameAs dbr:Back_to_the_Future:_The_Game;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Pinball_Hall_of_Fame_The_Williams_Collection owl:sameAs dbr:Pinball_Hall_of_Fame:_The_Williams_Collection;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Far_Cry_2 owl:sameAs dbr:Far_Cry_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Assault_Heroes owl:sameAs dbr:Assault_Heroes;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Blast_Factor owl:sameAs dbr:Blast_Factor;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Cabelas_Dangerous_Hunts_2009 owl:sameAs <http://dbpedia.org/resource/Cabela's_Dangerous_Hunts_2009>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Assassins_Creed_III_Liberation owl:sameAs <http://dbpedia.org/resource/Assassin's_Creed_III:_Liberation>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Beowulf_The_Game owl:sameAs dbr:Beowulf:_The_Game;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Burnout_Paradise owl:sameAs dbr:Burnout_Paradise;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Final_Fantasy_XIV_A_Realm_Reborn owl:sameAs dbr:Final_Fantasy_XIV:_A_Realm_Reborn;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Katamari_Forever owl:sameAs dbr:Katamari_Forever;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mobile_Suit_Gundam_Crossfire owl:sameAs dbr:Mobile_Suit_Gundam:_Crossfire;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Oddworld_Munchs_Oddysee owl:sameAs <http://dbpedia.org/resource/Oddworld:_Munch's_Oddysee>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Payday_The_Heist owl:sameAs dbr:Payday:_The_Heist;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Vesperia owl:sameAs dbr:Tales_of_Vesperia;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tom_Clancys_Rainbow_Six_Vegas owl:sameAs <http://dbpedia.org/resource/Tom_Clancy's_Rainbow_Six:_Vegas>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Turning_Point_Fall_of_Liberty owl:sameAs dbr:Turning_Point:_Fall_of_Liberty;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atelier_Rorona_The_Alchemist_of_Arland owl:sameAs dbr:Atelier_Rorona:_The_Alchemist_of_Arland;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dragon_Quest_Heroes_The_World_Trees_Woe_and_the_Blight_Below owl:sameAs <http://dbpedia.org/resource/Dragon_Quest_Heroes:_The_World_Tree's_Woe_and_the_Blight_Below>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PlayStation_All-Stars_Battle_Royale owl:sameAs dbr:PlayStation_All-Stars_Battle_Royale;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Simpsons_Game owl:sameAs dbr:The_Simpsons_Game;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Spider-Man_Web_of_Shadows owl:sameAs dbr:Spider-Man:_Web_of_Shadows;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Syberia owl:sameAs dbr:Syberia;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:TimeShift owl:sameAs dbr:TimeShift;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Street_Fighter_X_Tekken owl:sameAs dbr:Street_Fighter_X_Tekken;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hot_Shots_Golf_World_Invitational owl:sameAs dbr:Hot_Shots_Golf:_World_Invitational;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Jak_and_Daxter_Collection owl:sameAs dbr:Jak_and_Daxter_Collection;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:LittleBigPlanet_Karting owl:sameAs dbr:LittleBigPlanet_Karting;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Drakengard_3 owl:sameAs dbr:Drakengard_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:E_X__Troopers owl:sameAs dbr:E.X._Troopers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Deathmatch_Village owl:sameAs dbr:Deathmatch_Village;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ace_Combat_Infinity owl:sameAs dbr:Ace_Combat_Infinity;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Metal_Gear_Solid_The_Legacy_Collection owl:sameAs dbr:Metal_Gear_Solid:_The_Legacy_Collection;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Metal_Gear_Solid_HD_Collection owl:sameAs dbr:Metal_Gear_Solid_HD_Collection;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Midnight_Club_Los_Angeles owl:sameAs dbr:Midnight_Club:_Los_Angeles;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Scourge_Outbreak owl:sameAs dbr:Scourge:_Outbreak;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Boku_no_Natsuyasumi_3 owl:sameAs dbr:Boku_no_Natsuyasumi_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Command_and_Conquer_Red_Alert_3 owl:sameAs <http://dbpedia.org/resource/Command_&_Conquer:_Red_Alert_3>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Orange_Box owl:sameAs dbr:The_Orange_Box;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Blazing_Angels_2_Secret_Missions_of_WWII owl:sameAs dbr:Blazing_Angels_2:_Secret_Missions_of_WWII;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Deadly_Premonition owl:sameAs dbr:Deadly_Premonition;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Echochrome owl:sameAs dbr:Echochrome;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Everyday_Shooter owl:sameAs dbr:Everyday_Shooter;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:God_of_War_III owl:sameAs dbr:God_of_War_III;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Gran_Turismo_5 owl:sameAs dbr:Gran_Turismo_5;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Gran_Turismo_5_Prologue owl:sameAs dbr:Gran_Turismo_5_Prologue;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hot_Shots_Golf_Out_of_Bounds owl:sameAs dbr:Hot_Shots_Golf:_Out_of_Bounds;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mamorukun_Curse owl:sameAs <http://dbpedia.org/resource/Mamorukun_Curse!>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Megazone_23_Aoi_Garland owl:sameAs dbr:Megazone_23:_Aoi_Garland;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MotorStorm_Pacific_Rift owl:sameAs dbr:MotorStorm:_Pacific_Rift;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NBA_Live_08 owl:sameAs dbr:NBA_Live_08;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NHL_2K8 owl:sameAs dbr:NHL_2K8;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NHL_2K9 owl:sameAs dbr:NHL_2K9;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PixelJunk_Racers owl:sameAs dbr:PixelJunk_Racers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Star_Ocean_The_Last_Hope owl:sameAs dbr:Star_Ocean:_The_Last_Hope;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Joe_Danger owl:sameAs dbr:Joe_Danger;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Hello_Games_staff_in_the_office.jpg?width=300> .
+
+gla:Gran_Turismo_6 owl:sameAs dbr:Gran_Turismo_6;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/2013-Monster-Tajima-Giti-EV.jpg?width=300> .
+
+gla:Tom_Clancys_EndWar owl:sameAs <http://dbpedia.org/resource/Tom_Clancy's_EndWar>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Top_Spin_3 owl:sameAs dbr:Top_Spin_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Toy_Home owl:sameAs dbr:Toy_Home;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Valkyria_Chronicles owl:sameAs dbr:Valkyria_Chronicles;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Alien_Breed_2_Assault owl:sameAs dbr:Alien_Breed_2:_Assault;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Arcana_Heart_3 owl:sameAs dbr:Arcana_Heart_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Memories_Off_Yubikiri_no_Kioku owl:sameAs dbr:Memories_Off:_Yubikiri_no_Kioku;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MotorStorm_Apocalypse owl:sameAs dbr:MotorStorm:_Apocalypse;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:No_More_Heroes_Heroes_Paradise owl:sameAs <http://dbpedia.org/resource/No_More_Heroes:_Heroes'_Paradise>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PixelJunk_Shooter_2 owl:sameAs dbr:PixelJunk_Shooter_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PlayStation_Move_Ape_Escape owl:sameAs dbr:PlayStation_Move_Ape_Escape;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PlayStation_Move_Heroes owl:sameAs dbr:PlayStation_Move_Heroes;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Rune_Factory_Tides_of_Destiny owl:sameAs dbr:Rune_Factory:_Tides_of_Destiny;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sengoku_Basara_Samurai_Heroes owl:sameAs dbr:Sengoku_Basara:_Samurai_Heroes;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SingStar_Dance owl:sameAs dbr:SingStar_Dance;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sports_Champions owl:sameAs dbr:Sports_Champions;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Start_the_Party owl:sameAs <http://dbpedia.org/resource/Start_the_Party!>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Shoot owl:sameAs dbr:The_Shoot;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Time_Crisis_Razing_Storm owl:sameAs dbr:Time_Crisis:_Razing_Storm;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tokyo_Jungle owl:sameAs dbr:Tokyo_Jungle;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:White_Knight_Chronicles_II owl:sameAs dbr:White_Knight_Chronicles_II;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atelier_Ayesha_The_Alchemist_of_Dusk owl:sameAs dbr:Atelier_Ayesha:_The_Alchemist_of_Dusk;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:BlazBlue_Chrono_Phantasma owl:sameAs dbr:BlazBlue:_Chrono_Phantasma;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Chaos_Code owl:sameAs dbr:Chaos_Code;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Disgaea_D2_A_Brighter_Darkness owl:sameAs dbr:Disgaea_D2:_A_Brighter_Darkness;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Divekick owl:sameAs dbr:Divekick;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dragon_Ball_Z_Battle_of_Z owl:sameAs dbr:Dragon_Ball_Z:_Battle_of_Z;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Fairy_Fencer_F owl:sameAs dbr:Fairy_Fencer_F;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hyperdimension_Neptunia_Victory owl:sameAs dbr:Hyperdimension_Neptunia_Victory;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Kingdom_Hearts_HD_1_5_Remix owl:sameAs dbr:Kingdom_Hearts_HD_1.5_Remix;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Legasista owl:sameAs dbr:Legasista;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_13_The_Show owl:sameAs dbr:MLB_13:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ni_no_Kuni_Wrath_of_the_White_Witch owl:sameAs dbr:Ni_no_Kuni:_Wrath_of_the_White_Witch;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:One_Piece_Pirate_Warriors_2 owl:sameAs dbr:One_Piece:_Pirate_Warriors_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Fat_Princess owl:sameAs dbr:Fat_Princess;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/PlayStationTriangle.svg?width=300> .
+
+gla:Super_Mega_Baseball owl:sameAs dbr:Super_Mega_Baseball;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Super_Mega_Baseball_Game_Cover.png?width=300> .
+
+gla:Portal_2 owl:sameAs dbr:Portal_2;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Portal_physics-2.svg?width=300> .
+
+gla:Ragnarok_Odyssey owl:sameAs dbr:Ragnarok_Odyssey;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Rainbow_Moon owl:sameAs dbr:Rainbow_Moon;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Rogue_Legacy owl:sameAs dbr:Rogue_Legacy;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sine_Mora owl:sameAs dbr:Sine_Mora;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sports_Champions_2 owl:sameAs dbr:Sports_Champions_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Super_Heroine_Chronicle owl:sameAs dbr:Super_Heroine_Chronicle;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Xillia owl:sameAs dbr:Tales_of_Xillia;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Xillia_2 owl:sameAs dbr:Tales_of_Xillia_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tekken_Revolution owl:sameAs dbr:Tekken_Revolution;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Guided_Fate_Paradox owl:sameAs dbr:The_Guided_Fate_Paradox;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Legend_of_Heroes_Trails_of_Cold_Steel owl:sameAs dbr:The_Legend_of_Heroes:_Trails_of_Cold_Steel;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Unfinished_Swan owl:sameAs dbr:The_Unfinished_Swan;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:WRC_3_FIA_World_Rally_Championship owl:sameAs dbr:WRC_3:_FIA_World_Rally_Championship;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Yakuza_5 owl:sameAs dbr:Yakuza_5;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Zack_Zero owl:sameAs dbr:Zack_Zero;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tony_Hawks_Project_8 owl:sameAs <http://dbpedia.org/resource/Tony_Hawk's_Project_8>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dance_on_Broadway owl:sameAs dbr:Dance_on_Broadway;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_The_Show_16 owl:sameAs dbr:MLB_The_Show_16;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Romance_of_the_Three_Kingdoms_XIII owl:sameAs dbr:Romance_of_the_Three_Kingdoms_XIII;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Savage_Moon owl:sameAs dbr:Savage_Moon;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Spelunker_HD owl:sameAs dbr:Spelunker_HD;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NHL_08 owl:sameAs dbr:NHL_08;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Pac-Man_Championship_Edition owl:sameAs dbr:Pac-Man_Championship_Edition;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Snakeball owl:sameAs dbr:Snakeball;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tiger_Woods_PGA_Tour_08 owl:sameAs dbr:Tiger_Woods_PGA_Tour_08;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Numblast owl:sameAs dbr:Numblast;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mugen_Souls owl:sameAs dbr:Mugen_Souls;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Doki-Doki_Universe owl:sameAs dbr:Doki-Doki_Universe;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hohokum owl:sameAs dbr:Hohokum;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dead_Space_Extraction owl:sameAs dbr:Dead_Space:_Extraction;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Enemy_Territory_Quake_Wars owl:sameAs dbr:Enemy_Territory:_Quake_Wars;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Fallout_New_Vegas owl:sameAs dbr:Fallout:_New_Vegas;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Grand_Theft_Auto_San_Andreas owl:sameAs dbr:Grand_Theft_Auto:_San_Andreas;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mass_Effect owl:sameAs dbr:Mass_Effect;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mirrors_Edge owl:sameAs <http://dbpedia.org/resource/Mirror's_Edge>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Retro_City_Rampage owl:sameAs dbr:Retro_City_Rampage;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Silent_Hill_Homecoming owl:sameAs dbr:Silent_Hill:_Homecoming;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SteinsGate owl:sameAs <http://dbpedia.org/resource/Steins;Gate>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tomb_Raider_Legend owl:sameAs dbr:Tomb_Raider:_Legend;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tomb_Raider_Underworld owl:sameAs dbr:Tomb_Raider:_Underworld;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Secret_of_Monkey_Island owl:sameAs dbr:The_Secret_of_Monkey_Island;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Armored_Core_For_Answer owl:sameAs dbr:Armored_Core:_For_Answer;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Crash_Commando owl:sameAs dbr:Crash_Commando;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Cross_Edge owl:sameAs dbr:Cross_Edge;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Crystal_Defenders owl:sameAs dbr:Crystal_Defenders;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:DC_Universe_Online owl:sameAs dbr:DC_Universe_Online;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Leisure_Suit_Larry_Box_Office_Bust owl:sameAs dbr:Leisure_Suit_Larry:_Box_Office_Bust;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Major_League_Baseball_2K9 owl:sameAs dbr:Major_League_Baseball_2K9;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mass_Effect_2 owl:sameAs dbr:Mass_Effect_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mist_of_Chaos owl:sameAs dbr:Mist_of_Chaos;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mortal_Kombat_vs__DC_Universe owl:sameAs dbr:Mortal_Kombat_vs._DC_Universe;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Naruto_Ultimate_Ninja_Storm owl:sameAs dbr:Naruto:_Ultimate_Ninja_Storm;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PixelJunk_Eden owl:sameAs dbr:PixelJunk_Eden;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Rui_wa_Tomo_o_Yobu owl:sameAs dbr:Rui_wa_Tomo_o_Yobu;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:TV_Show_King owl:sameAs dbr:TV_Show_King;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Last_Guy owl:sameAs dbr:The_Last_Guy;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tori-Emaki owl:sameAs dbr:Tori-Emaki;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Uncharted_2_Among_Thieves owl:sameAs dbr:Uncharted_2:_Among_Thieves;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sportsfriends owl:sameAs dbr:Sportsfriends;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/PlayStation-Move-in-Hand.jpg?width=300> .
+
+gla:Yakuza_3 owl:sameAs dbr:Yakuza_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Space_Ace owl:sameAs dbr:Space_Ace;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Conflict_Denied_Ops owl:sameAs dbr:Conflict:_Denied_Ops;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:EyePet owl:sameAs dbr:EyePet;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Magic_Orbz owl:sameAs dbr:Magic_Orbz;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SingStar_Queen owl:sameAs dbr:SingStar_Queen;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sound_Shapes owl:sameAs dbr:Sound_Shapes;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Air_Conflicts_Pacific_Carriers owl:sameAs dbr:Air_Conflicts:_Pacific_Carriers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hyperdimension_Neptunia_Mk2 owl:sameAs dbr:Hyperdimension_Neptunia_Mk2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Prince_of_Persia owl:sameAs dbr:Prince_of_Persia;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Resistance_Fall_of_Man owl:sameAs dbr:Resistance:_Fall_of_Man;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Resistance_2 owl:sameAs dbr:Resistance_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Resistance_3 owl:sameAs dbr:Resistance_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:RetroGrade owl:sameAs <http://dbpedia.org/resource/Retro/Grade>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Symphonia_Dawn_of_the_New_World owl:sameAs dbr:Tales_of_Symphonia:_Dawn_of_the_New_World;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:White_Knight_Chronicles owl:sameAs dbr:White_Knight_Chronicles;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Genji_Days_of_the_Blade owl:sameAs dbr:Genji:_Days_of_the_Blade;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dengeki_Bunko_Fighting_Climax owl:sameAs dbr:Dengeki_Bunko:_Fighting_Climax;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tiger_Woods_PGA_Tour_09 owl:sameAs dbr:Tiger_Woods_PGA_Tour_09;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Battle_Tanks owl:sameAs dbr:Battle_Tanks;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hustle_Kings owl:sameAs dbr:Hustle_Kings;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Operation_Creature_Feature owl:sameAs dbr:Operation_Creature_Feature;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Elder_Scrolls_IV_Oblivion owl:sameAs dbr:The_Elder_Scrolls_IV:_Oblivion;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:BioShock owl:sameAs dbr:BioShock;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dark_Sector owl:sameAs dbr:Dark_Sector;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Devil_May_Cry_4 owl:sameAs dbr:Devil_May_Cry_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Metal_Gear_Solid_4_Guns_of_the_Patriots owl:sameAs dbr:Metal_Gear_Solid_4:_Guns_of_the_Patriots;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Resident_Evil_4 owl:sameAs dbr:Resident_Evil_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Zone_of_the_Enders_The_2nd_Runner owl:sameAs dbr:Zone_of_the_Enders:_The_2nd_Runner;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dragon_Quest_Builders owl:sameAs dbr:Dragon_Quest_Builders;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Saint_Seiya_Soldiers_Soul owl:sameAs <http://dbpedia.org/resource/Saint_Seiya:_Soldiers'_Soul>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Super_Hero_Generation owl:sameAs dbr:Super_Hero_Generation;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sword_Art_Online_Lost_Song owl:sameAs dbr:Sword_Art_Online:_Lost_Song;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atelier_Sophie_The_Alchemist_of_the_Mysterious_Book owl:sameAs dbr:Atelier_Sophie:_The_Alchemist_of_the_Mysterious_Book;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:BlazBlue_Central_Fiction owl:sameAs dbr:BlazBlue:_Central_Fiction;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:ChaosChild owl:sameAs <http://dbpedia.org/resource/Chaos;Child>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hyper_Void owl:sameAs dbr:Hyper_Void;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Hyper_Void_Cover.png?width=300> .
+
+gla:Soldier_of_Fortune_Payback owl:sameAs dbr:Soldier_of_Fortune:_Payback;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Sofpayback.jpg?width=300> .
+
+gla:Need_for_Speed_Undercover owl:sameAs dbr:Need_for_Speed:_Undercover;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/MaggieQSDCCJuly10.jpg?width=300> .
+
+gla:Rochard owl:sameAs dbr:Rochard;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Rochard_Cover.PNG?width=300> .
+
+gla:Krinkle_Krusher owl:sameAs dbr:Krinkle_Krusher;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Nights_of_Azure owl:sameAs dbr:Nights_of_Azure;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Nitroplus_Blasterz_Heroines_Infinite_Duel owl:sameAs dbr:Nitroplus_Blasterz:_Heroines_Infinite_Duel;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Star_Ocean_Integrity_and_Faithlessness owl:sameAs dbr:Star_Ocean:_Integrity_and_Faithlessness;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Berseria owl:sameAs dbr:Tales_of_Berseria;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Time_Crisis_4 owl:sameAs dbr:Time_Crisis_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Virtua_Tennis_3 owl:sameAs dbr:Virtua_Tennis_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Fast_Draw_Showdown owl:sameAs dbr:Fast_Draw_Showdown;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NBA_Live_07 owl:sameAs dbr:NBA_Live_07;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NBA_Street_Homecourt owl:sameAs dbr:NBA_Street_Homecourt;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Go_Puzzle owl:sameAs <http://dbpedia.org/resource/Go!_Puzzle>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NCAA_Football_08 owl:sameAs dbr:NCAA_Football_08;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Super_Stardust_HD owl:sameAs dbr:Super_Stardust_HD;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Elefunk owl:sameAs dbr:Elefunk;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Switchball owl:sameAs dbr:Switchball;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_15_The_Show owl:sameAs dbr:MLB_15:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:All-Pro_Football_2K8 owl:sameAs dbr:All-Pro_Football_2K8;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Def_Jam_Icon owl:sameAs dbr:Def_Jam:_Icon;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Shaun_White_Snowboarding owl:sameAs dbr:Shaun_White_Snowboarding;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sly_Cooper_Thieves_in_Time owl:sameAs dbr:Sly_Cooper:_Thieves_in_Time;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Punisher_No_Mercy owl:sameAs dbr:The_Punisher:_No_Mercy;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Walking_Dead_Season_Two owl:sameAs dbr:The_Walking_Dead:_Season_Two;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tony_Hawks_Proving_Ground owl:sameAs <http://dbpedia.org/resource/Tony_Hawk's_Proving_Ground>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:SteinsGate_0 owl:sameAs <http://dbpedia.org/resource/Steins;Gate_0>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Alien_Breed_3_Descent owl:sameAs dbr:Alien_Breed_3:_Descent;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atelier_Meruru_The_Apprentice_of_Arland owl:sameAs dbr:Atelier_Meruru:_The_Apprentice_of_Arland;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atelier_Totori_The_Adventurer_of_Arland owl:sameAs dbr:Atelier_Totori:_The_Adventurer_of_Arland;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Blades_of_Time owl:sameAs dbr:Blades_of_Time;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Carnival_Island owl:sameAs dbr:Carnival_Island;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Cubixx_HD owl:sameAs dbr:Cubixx_HD;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Doctor_Who_The_Eternity_Clock owl:sameAs dbr:Doctor_Who:_The_Eternity_Clock;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dragons_Crown owl:sameAs <http://dbpedia.org/resource/Dragon's_Crown>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dungeon_Hunter_Alliance owl:sameAs dbr:Dungeon_Hunter:_Alliance;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Medieval_Moves_Deadmunds_Quest owl:sameAs <http://dbpedia.org/resource/Medieval_Moves:_Deadmund's_Quest>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:One_Piece_Pirate_Warriors owl:sameAs dbr:One_Piece:_Pirate_Warriors;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Phantom_Breaker owl:sameAs dbr:Phantom_Breaker;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:PixelJunk_4am owl:sameAs dbr:PixelJunk_4am;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Record_of_Agarest_War_2 owl:sameAs dbr:Record_of_Agarest_War_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Rugby_Challenge owl:sameAs dbr:Rugby_Challenge;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Saint_Seiya_Sanctuary_Battle owl:sameAs dbr:Saint_Seiya:_Sanctuary_Battle;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Section_8_Prejudice owl:sameAs dbr:Section_8:_Prejudice;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_from_Space_About_a_Blob owl:sameAs dbr:Tales_from_Space:_About_a_Blob;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_from_Space_Mutant_Blobs_Attack owl:sameAs dbr:Tales_from_Space:_Mutant_Blobs_Attack;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Idolmaster_2 owl:sameAs dbr:The_Idolmaster_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Last_of_Us owl:sameAs dbr:The_Last_of_Us;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Time_and_Eternity owl:sameAs dbr:Time_and_Eternity;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Ultimate_Marvel_vs__Capcom_3 owl:sameAs dbr:Ultimate_Marvel_vs._Capcom_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Uncharted_3_Drakes_Deception owl:sameAs <http://dbpedia.org/resource/Uncharted_3:_Drake's_Deception>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Wizardry_Labyrinth_of_Lost_Souls owl:sameAs dbr:Wizardry:_Labyrinth_of_Lost_Souls;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:XCOM_Enemy_Unknown owl:sameAs dbr:XCOM:_Enemy_Unknown;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mortal_Kombat_II owl:sameAs dbr:Mortal_Kombat_II;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Frogger_Returns owl:sameAs dbr:Frogger_Returns;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Battle_Fantasia owl:sameAs dbr:Battle_Fantasia;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Cash_Guns_Chaos owl:sameAs dbr:Cash_Guns_Chaos;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:College_Hoops_2K7 owl:sameAs dbr:College_Hoops_2K7;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Feeding_Frenzy_2 owl:sameAs dbr:Feeding_Frenzy_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:God_of_War_Chains_of_Olympus owl:sameAs dbr:God_of_War:_Chains_of_Olympus;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Madden_NFL_08 owl:sameAs dbr:Madden_NFL_08;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Major_League_Baseball_2K7 owl:sameAs dbr:Major_League_Baseball_2K7;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Need_for_Speed_ProStreet owl:sameAs dbr:Need_for_Speed:_ProStreet;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Peggle owl:sameAs dbr:Peggle;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Eye_of_Judgment owl:sameAs dbr:The_Eye_of_Judgment;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tiger_Woods_PGA_Tour_07 owl:sameAs dbr:Tiger_Woods_PGA_Tour_07;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Transformers_The_Game owl:sameAs dbr:Transformers:_The_Game;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Vampire_Rain owl:sameAs dbr:Vampire_Rain;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Calling_All_Cars owl:sameAs <http://dbpedia.org/resource/Calling_All_Cars!>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Hotline_Miami_2_Wrong_Number owl:sameAs dbr:Hotline_Miami_2:_Wrong_Number;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Juiced_2_Hot_Import_Nights owl:sameAs dbr:Juiced_2:_Hot_Import_Nights;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Monster_Madness_Grave_Danger owl:sameAs dbr:Monster_Madness:_Grave_Danger;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Plants_vs__Zombies_Garden_Warfare owl:sameAs dbr:Plants_vs._Zombies:_Garden_Warfare;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_Last_of_Us_Left_Behind owl:sameAs dbr:The_Last_of_Us:_Left_Behind;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Yakuza_Dead_Souls owl:sameAs dbr:Yakuza:_Dead_Souls;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Yakuza_4 owl:sameAs dbr:Yakuza_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Call_of_Juarez_Gunslinger owl:sameAs dbr:Call_of_Juarez:_Gunslinger;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Deadfall_Adventures owl:sameAs dbr:Deadfall_Adventures;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tales_of_Zestiria owl:sameAs dbr:Tales_of_Zestiria;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Mercenaries_2_World_in_Flames owl:sameAs dbr:Mercenaries_2:_World_in_Flames;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Team_Fortress_2 owl:sameAs dbr:Team_Fortress_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Unreal_Tournament_3 owl:sameAs dbr:Unreal_Tournament_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Heavenly_Sword owl:sameAs dbr:Heavenly_Sword;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MotorStorm owl:sameAs dbr:MotorStorm;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:FIFA_Street_3 owl:sameAs dbr:FIFA_Street_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Free_Realms owl:sameAs dbr:Free_Realms;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NBA_Ballers_Chosen_One owl:sameAs dbr:NBA_Ballers:_Chosen_One;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:NHL_09 owl:sameAs dbr:NHL_09;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Order_Up owl:sameAs <http://dbpedia.org/resource/Order_Up!>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MotoGP_14 owl:sameAs dbr:MotoGP_14;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Enchanted_Arms owl:sameAs dbr:Enchanted_Arms;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Metal_Slug_3 owl:sameAs dbr:Metal_Slug_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:The_House_of_the_Dead_4 owl:sameAs dbr:The_House_of_the_Dead_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Borderlands_2 owl:sameAs dbr:Borderlands_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Call_of_Duty_World_at_War owl:sameAs dbr:Call_of_Duty:_World_at_War;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Eternal_Sonata owl:sameAs dbr:Eternal_Sonata;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Armored_Core_4 owl:sameAs dbr:Armored_Core_4;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Blazing_Angels_Squadrons_of_WWII owl:sameAs dbr:Blazing_Angels:_Squadrons_of_WWII;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Call_of_Duty_3 owl:sameAs dbr:Call_of_Duty_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Dragon_Fin_Soup owl:sameAs dbr:Dragon_Fin_Soup;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/DFS_banner.jpg?width=300> .
+
+gla:Luftrausers owl:sameAs dbr:Luftrausers;
+  gla:hasPlatform dbr:PlayStation_3;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Vlambeer_at_GDC.png?width=300> .
+
+gla:Killzone_2 owl:sameAs dbr:Killzone_2;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Killzone_3 owl:sameAs dbr:Killzone_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Lost_Planet_Extreme_Condition owl:sameAs dbr:Lost_Planet:_Extreme_Condition;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Sonic_Unleashed owl:sameAs dbr:Sonic_Unleashed;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Samurai_Warriors_2 owl:sameAs dbr:Samurai_Warriors_2;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Street_Fighter_III_3rd_Strike owl:sameAs dbr:Street_Fighter_III:_3rd_Strike;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Tekken_5_Dark_Resurrection owl:sameAs dbr:Tekken_5:_Dark_Resurrection;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tom_Clancys_Splinter_Cell_Double_Agent owl:sameAs <http://dbpedia.org/resource/Tom_Clancy's_Splinter_Cell:_Double_Agent>;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Worms_2_Armageddon owl:sameAs dbr:Worms_2:_Armageddon;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Untold_Legends_Dark_Kingdom owl:sameAs dbr:Untold_Legends:_Dark_Kingdom;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Virtua_Fighter_5 owl:sameAs dbr:Virtua_Fighter_5;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Atelier_Shallie_Alchemists_of_the_Dusk_Sea owl:sameAs dbr:Atelier_Shallie:_Alchemists_of_the_Dusk_Sea;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Crimsonland owl:sameAs dbr:Crimsonland;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:LittleBigPlanet_3 owl:sameAs dbr:LittleBigPlanet_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Lost_Dimension owl:sameAs dbr:Lost_Dimension;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Akibas_Trip_Undead_and_Undressed owl:sameAs <http://dbpedia.org/resource/Akiba's_Trip:_Undead_&_Undressed>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Atomic_Ninjas owl:sameAs dbr:Atomic_Ninjas;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Bound_by_Flame owl:sameAs dbr:Bound_by_Flame;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Child_of_Light gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Deception_IV_Blood_Ties owl:sameAs dbr:Deception_IV:_Blood_Ties;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Deception_IV_The_Nightmare_Princess owl:sameAs dbr:Deception_IV:_The_Nightmare_Princess;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Invizimals_The_Lost_Kingdom owl:sameAs dbr:Invizimals:_The_Lost_Kingdom;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:JoJos_Bizarre_Adventure_Eyes_of_Heaven owl:sameAs <http://dbpedia.org/resource/JoJo's_Bizarre_Adventure:_Eyes_of_Heaven>;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Kingdom_Hearts_HD_2_5_Remix owl:sameAs dbr:Kingdom_Hearts_HD_2.5_Remix;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:MLB_14_The_Show owl:sameAs dbr:MLB_14:_The_Show;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Natural_Doctrine owl:sameAs dbr:Natural_Doctrine;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:One_Piece_Pirate_Warriors_3 owl:sameAs dbr:One_Piece:_Pirate_Warriors_3;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Resogun owl:sameAs dbr:Resogun;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Saint_Seiya_Brave_Soldiers owl:sameAs dbr:Saint_Seiya:_Brave_Soldiers;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Soulcalibur_Lost_Swords owl:sameAs dbr:Soulcalibur:_Lost_Swords;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Teslagrad gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Tokyo_Twilight_Ghost_Hunters owl:sameAs dbr:Tokyo_Twilight_Ghost_Hunters;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Yakuza_0 owl:sameAs dbr:Yakuza_0;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:BlackSite_Area_51 owl:sameAs dbr:BlackSite:_Area_51;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Dynasty_Warriors_Gundam owl:sameAs dbr:Dynasty_Warriors:_Gundam;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:College_Hoops_2K8 owl:sameAs dbr:College_Hoops_2K8;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Madden_NFL_09 owl:sameAs dbr:Madden_NFL_09;
+  gla:hasPlatform dbr:PlayStation_3, dbr:Xbox_360 .
+
+gla:Piyotama owl:sameAs dbr:Piyotama;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Astro_Tripper owl:sameAs dbr:Astro_Tripper;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Top_Darts owl:sameAs dbr:Top_Darts;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Funky_Lab_Rat owl:sameAs dbr:Funky_Lab_Rat;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Aegis_of_Earth_Protonovus_Assault owl:sameAs dbr:Aegis_of_Earth:_Protonovus_Assault;
+  gla:hasPlatform dbr:PlayStation_3 .
+
+gla:Spelunky gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Super_Meat_Boy gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Need_for_Speed_Carbon gla:hasPlatform dbr:Xbox_360 .
+
+gla:Guitar_Hero_II owl:sameAs dbr:Guitar_Hero_II;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Guitar_Hero_II_guitar_controllers.jpg?width=300> .
+
+gla:The_Splatters owl:sameAs dbr:The_Splatters;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/The_Splatters_03.jpg?width=300> .
+
+gla:Radiant_Silvergun owl:sameAs dbr:Radiant_Silvergun;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Young_Justice_Legacy gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bayonetta gla:hasPlatform dbr:Xbox_360 .
+
+gla:Don_King_Presents_Prizefighter owl:sameAs dbr:Don_King_Presents:_Prizefighter;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rise_of_the_Tomb_Raider owl:sameAs dbr:Rise_of_the_Tomb_Raider;
+  gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Tom_Clancys_Splinter_Cell_Conviction owl:sameAs <http://dbpedia.org/resource/Tom_Clancy's_Splinter_Cell:_Conviction>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Brave_A_Warriors_Tale owl:sameAs <http://dbpedia.org/resource/Brave:_A_Warrior's_Tale>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Left_4_Dead_2 owl:sameAs dbr:Left_4_Dead_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ninety-Nine_Nights_II owl:sameAs dbr:Ninety-Nine_Nights_II;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ninja_Blade owl:sameAs dbr:Ninja_Blade;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Panzer_General_Allied_Assault owl:sameAs dbr:Panzer_General:_Allied_Assault;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Raskulls owl:sameAs dbr:Raskulls;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Supreme_Commander_2 owl:sameAs dbr:Supreme_Commander_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Top_Spin_2 owl:sameAs dbr:Top_Spin_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Pro_Evolution_Soccer_2008 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sega_Superstars_Tennis gla:hasPlatform dbr:Xbox_360 .
+
+gla:Arkadian_Warriors owl:sameAs dbr:Arkadian_Warriors;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Army_of_Two gla:hasPlatform dbr:Xbox_360 .
+
+gla:College_Hoops_2K6 owl:sameAs dbr:College_Hoops_2K6;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Culdcept_Saga owl:sameAs dbr:Culdcept_Saga;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Forza_Motorsport_2 owl:sameAs dbr:Forza_Motorsport_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Hellboy_The_Science_of_Evil gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kingdom_Under_Fire_Circle_of_Doom owl:sameAs dbr:Kingdom_Under_Fire:_Circle_of_Doom;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Battlefield_Bad_Company gla:hasPlatform dbr:Xbox_360 .
+
+gla:Brothers_in_Arms_Hells_Highway gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bullet_Witch owl:sameAs dbr:Bullet_Witch;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Castle_Crashers gla:hasPlatform dbr:Xbox_360 .
+
+gla:Command_and_Conquer_3_Tiberium_Wars owl:sameAs <http://dbpedia.org/resource/Command_&_Conquer_3:_Tiberium_Wars>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dead_or_Alive_Xtreme_2 owl:sameAs dbr:Dead_or_Alive_Xtreme_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Diner_Dash gla:hasPlatform dbr:Xbox_360 .
+
+gla:Madden_NFL_07 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Major_League_Baseball_2K6 owl:sameAs dbr:Major_League_Baseball_2K6;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mutant_Storm_Reloaded owl:sameAs dbr:Mutant_Storm_Reloaded;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Naruto_Rise_of_a_Ninja owl:sameAs dbr:Naruto:_Rise_of_a_Ninja;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rumble_Roses_XX owl:sameAs dbr:Rumble_Roses_XX;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Star_Wars_The_Force_Unleashed gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tenchu_Z owl:sameAs dbr:Tenchu_Z;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:WWE_SmackDown_vs__Raw_2008 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Assault_Heroes_2 owl:sameAs dbr:Assault_Heroes_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Buku_Sudoku owl:sameAs dbr:Buku_Sudoku;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mr__Driller_Online owl:sameAs dbr:Mr._Driller_Online;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NCAA_Football_09 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Hydro_Thunder_Hurricane owl:sameAs dbr:Hydro_Thunder_Hurricane;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rise_of_Nightmares owl:sameAs dbr:Rise_of_Nightmares;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Joe_Danger_2_The_Movie gla:hasPlatform dbr:Xbox_360 .
+
+gla:Anomaly_Warzone_Earth owl:sameAs dbr:Anomaly:_Warzone_Earth;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Call_of_Duty_4_Modern_Warfare gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Dance_Dance_Revolution_Universe_2 owl:sameAs dbr:Dance_Dance_Revolution_Universe_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dance_Dance_Revolution_Universe_3 owl:sameAs dbr:Dance_Dance_Revolution_Universe_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_Reach owl:sameAs dbr:Halo:_Reach;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Hitman_Blood_Money owl:sameAs dbr:Hitman:_Blood_Money;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kane_and_Lynch_Dead_Men gla:hasPlatform dbr:Xbox_360 .
+
+gla:Lost_Odyssey owl:sameAs dbr:Lost_Odyssey;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Medal_of_Honor_Airborne gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Last_Remnant owl:sameAs dbr:The_Last_Remnant;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Pinball_Arcade gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:The_Witcher_2_Assassins_of_Kings owl:sameAs dbr:The_Witcher_2:_Assassins_of_Kings;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Things_on_Wheels owl:sameAs dbr:Things_on_Wheels;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tomb_Raider_Anniversary gla:hasPlatform dbr:Xbox_360 .
+
+gla:Viking_Battle_for_Asgard gla:hasPlatform dbr:Xbox_360 .
+
+gla:Overlord_Raising_Hell gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ascend_Hand_of_Kul owl:sameAs dbr:Ascend:_Hand_of_Kul;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Back_to_the_Future_The_Game gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Gears_of_War_3 owl:sameAs dbr:Gears_of_War_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Happy_Tree_Friends_False_Alarm owl:sameAs dbr:Happy_Tree_Friends:_False_Alarm;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Pinball_Hall_of_Fame_The_Williams_Collection gla:hasPlatform dbr:Xbox_360 .
+
+gla:Cabelas_Alaskan_Adventures owl:sameAs <http://dbpedia.org/resource/Cabela's_Alaskan_Adventures>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Far_Cry_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Project_Gotham_Racing_4 owl:sameAs dbr:Project_Gotham_Racing_4;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:TotemBall owl:sameAs dbr:TotemBall;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Assault_Heroes gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bankshot_Billiards_2 owl:sameAs dbr:Bankshot_Billiards_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Big_Bumpin owl:sameAs <http://dbpedia.org/resource/Big_Bumpin'>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Cabelas_African_Safari owl:sameAs <http://dbpedia.org/resource/Cabela's_African_Safari>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Espgaluda_II owl:sameAs dbr:Espgaluda_II;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sneak_King owl:sameAs dbr:Sneak_King;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Cabelas_Dangerous_Hunts_2009 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tropico_3 owl:sameAs dbr:Tropico_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Winter_Sports_2_The_Next_Challenge owl:sameAs dbr:Winter_Sports_2:_The_Next_Challenge;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Alan_Wake owl:sameAs dbr:Alan_Wake;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Assassins_Creed_III_Liberation gla:hasPlatform dbr:Xbox_360 .
+
+gla:Beowulf_The_Game gla:hasPlatform dbr:Xbox_360 .
+
+gla:Burnout_Paradise gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crash_Mind_over_Mutant owl:sameAs dbr:Crash:_Mind_over_Mutant;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Raiden_IV owl:sameAs dbr:Raiden_IV;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rayman_Raving_Rabbids owl:sameAs dbr:Rayman_Raving_Rabbids;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tom_Clancys_Rainbow_Six_Vegas_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Monaco_Whats_Yours_Is_Mine owl:sameAs <http://dbpedia.org/resource/Monaco:_What's_Yours_Is_Mine>;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Monaco_What's_Yours_Is_Mine_poster.png?width=300> .
+
+gla:Gears_of_War_2 owl:sameAs dbr:Gears_of_War_2;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Gow2_offbox.jpg?width=300> .
+
+gla:Tales_of_Vesperia gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tom_Clancys_Rainbow_Six_Vegas gla:hasPlatform dbr:Xbox_360 .
+
+gla:Turning_Point_Fall_of_Liberty gla:hasPlatform dbr:Xbox_360 .
+
+gla:Call_of_Juarez owl:sameAs dbr:Call_of_Juarez;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Simpsons_Game gla:hasPlatform dbr:Xbox_360 .
+
+gla:Spider-Man_Web_of_Shadows gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bass_Pro_Shops_The_Strike owl:sameAs dbr:Bass_Pro_Shops:_The_Strike;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Syberia gla:hasPlatform dbr:Xbox_360 .
+
+gla:TimeShift gla:hasPlatform dbr:Xbox_360 .
+
+gla:Too_Human owl:sameAs dbr:Too_Human;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_3_ODST owl:sameAs dbr:Halo_3:_ODST;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_Wars owl:sameAs dbr:Halo_Wars;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Street_Fighter_X_Tekken gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinect_Sports owl:sameAs dbr:Kinect_Sports;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Happy_Wars owl:sameAs dbr:Happy_Wars;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Joy_Ride_Turbo owl:sameAs dbr:Joy_Ride_Turbo;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinect_Fun_Labs owl:sameAs dbr:Kinect_Fun_Labs;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:LocoCycle owl:sameAs dbr:LocoCycle;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Nike_Kinect_Training owl:sameAs <http://dbpedia.org/resource/Nike+_Kinect_Training>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Wreckateer owl:sameAs dbr:Wreckateer;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Amped_3 owl:sameAs dbr:Amped_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_Spartan_Assault owl:sameAs dbr:Halo:_Spartan_Assault;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Metal_Gear_Solid_HD_Collection gla:hasPlatform dbr:Xbox_360 .
+
+gla:Midnight_Club_Los_Angeles gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ori_and_the_Blind_Forest owl:sameAs dbr:Ori_and_the_Blind_Forest;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Outpost_Kaloki_X owl:sameAs dbr:Outpost_Kaloki_X;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Over_G_Fighters owl:sameAs dbr:Over_G_Fighters;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Scourge_Outbreak gla:hasPlatform dbr:Xbox_360 .
+
+gla:Spider-Man_Friend_or_Foe owl:sameAs dbr:Spider-Man:_Friend_or_Foe;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Americas_Army_True_Soldiers owl:sameAs <http://dbpedia.org/resource/America's_Army:_True_Soldiers>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Command_and_Conquer_Red_Alert_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Darkest_of_Days owl:sameAs dbr:Darkest_of_Days;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Orange_Box gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bee_Movie_Game owl:sameAs dbr:Bee_Movie_Game;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Blazing_Angels_2_Secret_Missions_of_WWII gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crash_of_the_Titans owl:sameAs dbr:Crash_of_the_Titans;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Deadly_Premonition gla:hasPlatform dbr:Xbox_360 .
+
+gla:Forza_Motorsport_4 owl:sameAs dbr:Forza_Motorsport_4;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Roadster_2.5_windmills_trimmed.jpg?width=300> .
+
+gla:Joe_Danger gla:hasPlatform dbr:Xbox_360 .
+
+gla:Forza_Horizon owl:sameAs dbr:Forza_Horizon;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Ferrari_Dino_246_GT_1969.jpg?width=300> .
+
+gla:Guacamelee gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Mamorukun_Curse gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Live_08 gla:hasPlatform dbr:Xbox_360 .
+
+gla:NHL_2K8 gla:hasPlatform dbr:Xbox_360 .
+
+gla:NHL_2K9 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Poker_Smash owl:sameAs dbr:Poker_Smash;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Star_Ocean_The_Last_Hope gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tom_Clancys_EndWar gla:hasPlatform dbr:Xbox_360 .
+
+gla:Top_Spin_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Torchlight owl:sameAs dbr:Torchlight;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Velvet_Assassin owl:sameAs dbr:Velvet_Assassin;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Alien_Breed_2_Assault gla:hasPlatform dbr:Xbox_360 .
+
+gla:Arcana_Heart_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dance_Central owl:sameAs dbr:Dance_Central;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Gyromancer owl:sameAs dbr:Gyromancer;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinectimals owl:sameAs dbr:Kinectimals;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Memories_Off_Yubikiri_no_Kioku gla:hasPlatform dbr:Xbox_360 .
+
+gla:Monday_Night_Combat owl:sameAs dbr:Monday_Night_Combat;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:No_More_Heroes_Heroes_Paradise gla:hasPlatform dbr:Xbox_360 .
+
+gla:Steel_Battalion_Heavy_Armor owl:sameAs dbr:Steel_Battalion:_Heavy_Armor;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Dishwasher_Vampire_Smile owl:sameAs dbr:The_Dishwasher:_Vampire_Smile;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_First_Templar owl:sameAs dbr:The_First_Templar;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tropico_4 owl:sameAs dbr:Tropico_4;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Akai_Katana owl:sameAs dbr:Akai_Katana;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bloodforge owl:sameAs dbr:Bloodforge;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:DoDonPachi_SaiDaiOuJou owl:sameAs dbr:DoDonPachi_SaiDaiOuJou;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dragon_Ball_Z_Battle_of_Z gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fable_Heroes owl:sameAs dbr:Fable_Heroes;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Islands_of_Wakfu owl:sameAs dbr:Islands_of_Wakfu;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Max_The_Curse_of_Brotherhood owl:sameAs dbr:Max:_The_Curse_of_Brotherhood;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Baller_Beats owl:sameAs dbr:NBA_Baller_Beats;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ninja_Gaiden_3_Razors_Edge gla:hasPlatform dbr:Xbox_360 .
+
+gla:Charlie_Murder owl:sameAs dbr:Charlie_Murder;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://en.wikipedia.org/wiki/Special:FilePath/Charlie_Murder_screenshot_5.png?width=300> .
+
+gla:Portal_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Peggle_2 owl:sameAs dbr:Peggle_2;
+  gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Rayman_Legends gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Runner2_Future_Legend_of_Rhythm_Alien gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Sine_Mora gla:hasPlatform dbr:Xbox_360 .
+
+gla:Super_Time_Force owl:sameAs dbr:Super_Time_Force;
+  gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:WRC_3_FIA_World_Rally_Championship gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bionicle_Heroes owl:sameAs dbr:Bionicle_Heroes;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Heavy_Weapon owl:sameAs dbr:Heavy_Weapon;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NCAA_Football_07 owl:sameAs dbr:NCAA_Football_07;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tony_Hawks_Project_8 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bomberman_Live owl:sameAs dbr:Bomberman_Live;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NHL_08 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Smash_Court_Tennis_3 owl:sameAs dbr:Smash_Court_Tennis_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tiger_Woods_PGA_Tour_08 gla:hasPlatform dbr:Xbox_360 .
+
+gla:WarTech_Senko_no_Ronde owl:sameAs dbr:WarTech:_Senko_no_Ronde;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Cabelas_Trophy_Bucks owl:sameAs <http://dbpedia.org/resource/Cabela's_Trophy_Bucks>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Comic_Jumper_The_Adventures_of_Captain_Smiley owl:sameAs dbr:Comic_Jumper:_The_Adventures_of_Captain_Smiley;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mark_of_the_Ninja owl:sameAs dbr:Mark_of_the_Ninja;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Marlow_Briggs_and_the_Mask_of_Death owl:sameAs dbr:Marlow_Briggs_and_the_Mask_of_Death;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Banjo-Kazooie gla:hasPlatform dbr:Xbox_360 .
+
+gla:Enemy_Territory_Quake_Wars gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fallout_New_Vegas gla:hasPlatform dbr:Xbox_360 .
+
+gla:Grand_Theft_Auto_San_Andreas gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Mass_Effect gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mirrors_Edge gla:hasPlatform dbr:Xbox_360 .
+
+gla:Phantasy_Star_Universe owl:sameAs dbr:Phantasy_Star_Universe;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Retro_City_Rampage gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Silent_Hill_Homecoming gla:hasPlatform dbr:Xbox_360 .
+
+gla:SteinsGate gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Tomb_Raider_Legend gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tomb_Raider_Underworld gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Secret_of_Monkey_Island gla:hasPlatform dbr:Xbox_360 .
+
+gla:Forza_Motorsport_3 owl:sameAs dbr:Forza_Motorsport_3;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Dan_Greenawalt_unveiling_Forza_Motorsport_3_at_E309.jpg?width=300> .
+
+gla:Armored_Core_For_Answer gla:hasPlatform dbr:Xbox_360 .
+
+gla:Cross_Edge gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crystal_Defenders gla:hasPlatform dbr:Xbox_360 .
+
+gla:Deathsmiles owl:sameAs dbr:Deathsmiles;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Defense_Grid_The_Awakening owl:sameAs dbr:Defense_Grid:_The_Awakening;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fable_II_Pub_Games owl:sameAs dbr:Fable_II_Pub_Games;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Leisure_Suit_Larry_Box_Office_Bust gla:hasPlatform dbr:Xbox_360 .
+
+gla:Major_League_Baseball_2K9 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mass_Effect_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mortal_Kombat_vs__DC_Universe gla:hasPlatform dbr:Xbox_360 .
+
+gla:Naruto_The_Broken_Bond owl:sameAs dbr:Naruto:_The_Broken_Bond;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Onechanbara_Bikini_Samurai_Squad owl:sameAs dbr:Onechanbara:_Bikini_Samurai_Squad;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Operation_Darkness owl:sameAs dbr:Operation_Darkness;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Roogoo owl:sameAs dbr:Roogoo;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Shred_Nebula owl:sameAs dbr:Shred_Nebula;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Toy_Soldiers_Cold_War owl:sameAs dbr:Toy_Soldiers:_Cold_War;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Toy-Soldiers-Cold-War_Brand_ID_crop.jpg?width=300> .
+
+gla:Summer_Athletics owl:sameAs dbr:Summer_Athletics;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Dishwasher_Dead_Samurai owl:sameAs dbr:The_Dishwasher:_Dead_Samurai;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Warriors_Orochi_2 owl:sameAs dbr:Warriors_Orochi_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ikaruga owl:sameAs dbr:Ikaruga;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:FlatOut_Ultimate_Carnage owl:sameAs dbr:FlatOut:_Ultimate_Carnage;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NHL_07 owl:sameAs dbr:NHL_07;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Speedball_2_Brutal_Deluxe owl:sameAs dbr:Speedball_2:_Brutal_Deluxe;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Command_and_Conquer_3_Kanes_Wrath owl:sameAs <http://dbpedia.org/resource/Command_&_Conquer_3:_Kane's_Wrath>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Conflict_Denied_Ops gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crash_Time_Autobahn_Pursuit owl:sameAs dbr:Crash_Time:_Autobahn_Pursuit;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_Combat_Evolved_Anniversary owl:sameAs dbr:Halo:_Combat_Evolved_Anniversary;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinect_Sports_Season_Two owl:sameAs dbr:Kinect_Sports:_Season_Two;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinect_Star_Wars owl:sameAs dbr:Kinect_Star_Wars;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Air_Conflicts_Pacific_Carriers gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Blitz_The_League owl:sameAs dbr:Blitz:_The_League;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Trials_Evolution owl:sameAs dbr:Trials_Evolution;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Trials_HD owl:sameAs dbr:Trials_HD;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Deadliest_Catch_Alaskan_Storm owl:sameAs dbr:Deadliest_Catch:_Alaskan_Storm;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Raven_Squad_Operation_Hidden_Dagger owl:sameAs dbr:Raven_Squad:_Operation_Hidden_Dagger;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tiger_Woods_PGA_Tour_09 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Shadow_Complex owl:sameAs dbr:Shadow_Complex;
+  gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Banjo-Tooie gla:hasPlatform dbr:Xbox_360 .
+
+gla:Final_Fantasy_XI owl:sameAs dbr:Final_Fantasy_XI;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Quake_4 owl:sameAs dbr:Quake_4;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Elder_Scrolls_IV_Oblivion gla:hasPlatform dbr:Xbox_360 .
+
+gla:BioShock gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Call_of_Duty_2 owl:sameAs dbr:Call_of_Duty_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dark_Sector gla:hasPlatform dbr:Xbox_360 .
+
+gla:Devil_May_Cry_4 gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Guwange owl:sameAs dbr:Guwange;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Meteos owl:sameAs dbr:Meteos;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Resident_Evil_4 gla:hasPlatform dbr:Xbox_360, dbr:PlayStation_4 .
+
+gla:Zone_of_the_Enders_The_2nd_Runner gla:hasPlatform dbr:Xbox_360 .
+
+gla:Amazing_Princess_Sarah owl:sameAs dbr:Amazing_Princess_Sarah;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Soldier_of_Fortune_Payback gla:hasPlatform dbr:Xbox_360 .
+
+gla:Need_for_Speed_Undercover gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Live_06 owl:sameAs dbr:NBA_Live_06;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ridge_Racer_6 owl:sameAs dbr:Ridge_Racer_6;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:MotoGP_06 owl:sameAs <http://dbpedia.org/resource/MotoGP_'06>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tiger_Woods_PGA_Tour_06 owl:sameAs dbr:Tiger_Woods_PGA_Tour_06;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bomberman_Act_Zero owl:sameAs dbr:Bomberman:_Act_Zero;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Virtua_Tennis_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:WWE_SmackDown_vs__Raw_2007 owl:sameAs dbr:WWE_SmackDown_vs._Raw_2007;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:X-Men_The_Official_Game owl:sameAs dbr:X-Men:_The_Official_Game;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Live_07 gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Street_Homecourt gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ninja_Gaiden_II owl:sameAs dbr:Ninja_Gaiden_II;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NCAA_Football_08 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Guilty_Gear_2_Overture owl:sameAs dbr:Guilty_Gear_2:_Overture;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Switchball gla:hasPlatform dbr:Xbox_360 .
+
+gla:SpongeBob_HeroPants owl:sameAs dbr:SpongeBob_HeroPants;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:All-Pro_Football_2K8 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Def_Jam_Icon gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fable_The_Journey owl:sameAs dbr:Fable:_The_Journey;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fable_II owl:sameAs dbr:Fable_II;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fable_III owl:sameAs dbr:Fable_III;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fantasia_Music_Evolved owl:sameAs dbr:Fantasia:_Music_Evolved;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Shaun_White_Snowboarding gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Walking_Dead_Season_Two gla:hasPlatform dbr:Xbox_360 .
+
+gla:Titanfall owl:sameAs dbr:Titanfall;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tony_Hawks_Proving_Ground gla:hasPlatform dbr:Xbox_360 .
+
+gla:Bliss_Island owl:sameAs dbr:Bliss_Island;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Boogie_Bunnies owl:sameAs dbr:Boogie_Bunnies;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sesame_Street_Once_Upon_a_Monster owl:sameAs dbr:Sesame_Street:_Once_Upon_a_Monster;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Alan_Wakes_American_Nightmare owl:sameAs <http://dbpedia.org/resource/Alan_Wake's_American_Nightmare>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Alien_Breed_3_Descent gla:hasPlatform dbr:Xbox_360 .
+
+gla:Blades_of_Time gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crimson_Alliance owl:sameAs dbr:Crimson_Alliance;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dance_Central_2 owl:sameAs dbr:Dance_Central_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Epic_Mickey_2_The_Power_of_Two gla:hasPlatform dbr:Xbox_360 .
+
+gla:Eschatos owl:sameAs dbr:Eschatos;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Fruit_Ninja owl:sameAs dbr:Fruit_Ninja;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Game_Party_In_Motion owl:sameAs dbr:Game_Party:_In_Motion;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Insanely_Twisted_Shadow_Planet owl:sameAs dbr:Insanely_Twisted_Shadow_Planet;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Otomedius_Excellent owl:sameAs dbr:Otomedius_Excellent;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Phantom_Breaker gla:hasPlatform dbr:Xbox_360 .
+
+gla:Pinball_FX_2 owl:sameAs dbr:Pinball_FX_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rugby_Challenge gla:hasPlatform dbr:Xbox_360 .
+
+gla:Section_8_Prejudice gla:hasPlatform dbr:Xbox_360 .
+
+gla:Skulls_of_the_Shogun owl:sameAs dbr:Skulls_of_the_Shogun;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tales_from_Space_Mutant_Blobs_Attack gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Adventures_of_Shuggy owl:sameAs dbr:The_Adventures_of_Shuggy;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Black_Eyed_Peas_Experience owl:sameAs dbr:The_Black_Eyed_Peas_Experience;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Gunstringer owl:sameAs dbr:The_Gunstringer;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Idolmaster_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ultimate_Marvel_vs__Capcom_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:XCOM_Enemy_Unknown gla:hasPlatform dbr:Xbox_360 .
+
+gla:Battlefield_2_Modern_Combat owl:sameAs dbr:Battlefield_2:_Modern_Combat;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Halo_3 owl:sameAs dbr:Halo_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mortal_Kombat_II gla:hasPlatform dbr:Xbox_360 .
+
+gla:Battle_Fantasia gla:hasPlatform dbr:Xbox_360 .
+
+gla:Left_4_Dead owl:sameAs dbr:Left_4_Dead;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mutant_Storm_Empire owl:sameAs dbr:Mutant_Storm_Empire;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ace_Combat_6_Fires_of_Liberation owl:sameAs dbr:Ace_Combat_6:_Fires_of_Liberation;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Band_of_Bugs owl:sameAs dbr:Band_of_Bugs;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Battlestations_Midway owl:sameAs dbr:Battlestations:_Midway;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Beautiful_Katamari owl:sameAs dbr:Beautiful_Katamari;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:College_Hoops_2K7 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Deadlight owl:sameAs dbr:Deadlight;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Feeding_Frenzy_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Frontlines_Fuel_of_War owl:sameAs dbr:Frontlines:_Fuel_of_War;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:GripShift owl:sameAs dbr:GripShift;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Hour_of_Victory owl:sameAs dbr:Hour_of_Victory;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Import_Tuner_Challenge owl:sameAs dbr:Import_Tuner_Challenge;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Infinite_Undiscovery owl:sameAs dbr:Infinite_Undiscovery;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Looney_Tunes_Acme_Arsenal owl:sameAs dbr:Looney_Tunes:_Acme_Arsenal;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Madden_NFL_08 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Major_League_Baseball_2K7 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Need_for_Speed_ProStreet gla:hasPlatform dbr:Xbox_360 .
+
+gla:Novadrome owl:sameAs dbr:Novadrome;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Peggle gla:hasPlatform dbr:Xbox_360 .
+
+gla:Pinball_FX owl:sameAs dbr:Pinball_FX;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Project_Sylpheed owl:sameAs dbr:Project_Sylpheed;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tiger_Woods_PGA_Tour_07 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Transformers_The_Game gla:hasPlatform dbr:Xbox_360 .
+
+gla:Universe_at_War_Earth_Assault owl:sameAs dbr:Universe_at_War:_Earth_Assault;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Vampire_Rain gla:hasPlatform dbr:Xbox_360 .
+
+gla:Battlestations_Pacific owl:sameAs dbr:Battlestations:_Pacific;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Juiced_2_Hot_Import_Nights gla:hasPlatform dbr:Xbox_360 .
+
+gla:Luxor_2 owl:sameAs dbr:Luxor_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Plants_vs__Zombies_Garden_Warfare gla:hasPlatform dbr:Xbox_360 .
+
+gla:Resident_Evil_Revelations gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sonic_Free_Riders owl:sameAs dbr:Sonic_Free_Riders;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Call_of_Juarez_Gunslinger gla:hasPlatform dbr:Xbox_360 .
+
+gla:Deadfall_Adventures gla:hasPlatform dbr:Xbox_360 .
+
+gla:Mercenaries_2_World_in_Flames gla:hasPlatform dbr:Xbox_360 .
+
+gla:Full_Auto owl:sameAs dbr:Full_Auto;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Madden_NFL_06 owl:sameAs dbr:Madden_NFL_06;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Namco_Museum gla:hasPlatform dbr:Xbox_360 .
+
+gla:Project_Gotham_Racing_3 owl:sameAs dbr:Project_Gotham_Racing_3;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Team_Fortress_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tony_Hawks_American_Wasteland owl:sameAs <http://dbpedia.org/resource/Tony_Hawk's_American_Wasteland>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Unreal_Tournament_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Chromehounds owl:sameAs dbr:Chromehounds;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Condemned_Criminal_Origins owl:sameAs dbr:Condemned:_Criminal_Origins;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:FIFA_Street_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Pirates_vs__Ninjas_Dodgeball owl:sameAs dbr:Pirates_vs._Ninjas_Dodgeball;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Aces_of_the_Galaxy owl:sameAs dbr:Aces_of_the_Galaxy;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Double_D_Dodgeball owl:sameAs dbr:Double_D_Dodgeball;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Elements_of_Destruction owl:sameAs dbr:Elements_of_Destruction;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:N owl:sameAs <http://dbpedia.org/resource/N+>;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:NBA_Ballers_Chosen_One gla:hasPlatform dbr:Xbox_360 .
+
+gla:NHL_09 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sea_Life_Safari owl:sameAs dbr:Sea_Life_Safari;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Carrier_Command_Gaea_Mission owl:sameAs dbr:Carrier_Command:_Gaea_Mission;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:A_World_of_Keflings gla:hasPlatform dbr:Xbox_360 .
+
+gla:Kinect_Sesame_Street_TV owl:sameAs dbr:Kinect_Sesame_Street_TV;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:MotoGP_14 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Star_Trek_Legacy owl:sameAs dbr:Star_Trek:_Legacy;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Enchanted_Arms gla:hasPlatform dbr:Xbox_360 .
+
+gla:Borderlands_2 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Call_of_Duty_World_at_War gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dust_An_Elysian_Tail owl:sameAs dbr:Dust:_An_Elysian_Tail;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Eternal_Sonata gla:hasPlatform dbr:Xbox_360 .
+
+gla:Armored_Core_4 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Blazing_Angels_Squadrons_of_WWII gla:hasPlatform dbr:Xbox_360 .
+
+gla:Blue_Dragon owl:sameAs dbr:Blue_Dragon;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Rockstar_Games_Presents_Table_Tennis owl:sameAs dbr:Rockstar_Games_Presents_Table_Tennis;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Xbox-360-Pro-wController.png?width=300> .
+
+gla:Forza_Horizon_2 owl:sameAs dbr:Forza_Horizon_2;
+  gla:hasPlatform dbr:Xbox_360;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/1971_Camaro_SS.jpg?width=300> .
+
+gla:Burnout_Revenge owl:sameAs dbr:Burnout_Revenge;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Call_of_Duty_3 gla:hasPlatform dbr:Xbox_360 .
+
+gla:Dead_or_Alive_4 owl:sameAs dbr:Dead_or_Alive_4;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Perfect_Dark_Zero owl:sameAs dbr:Perfect_Dark_Zero;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Every_Extend_Extra owl:sameAs dbr:Every_Extend_Extra;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Every_Party owl:sameAs dbr:Every_Party;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Lost_Planet_Extreme_Condition gla:hasPlatform dbr:Xbox_360 .
+
+gla:Sonic_Unleashed gla:hasPlatform dbr:Xbox_360 .
+
+gla:Monster_Madness_Battle_for_Suburbia owl:sameAs dbr:Monster_Madness:_Battle_for_Suburbia;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Ninety-Nine_Nights owl:sameAs dbr:Ninety-Nine_Nights;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:The_Escapists owl:sameAs dbr:The_Escapists;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Test_Drive_Unlimited owl:sameAs dbr:Test_Drive_Unlimited;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Wing_Commander_Arena owl:sameAs dbr:Wing_Commander_Arena;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Stranger_of_Sword_City owl:sameAs dbr:Stranger_of_Sword_City;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Phantom_Breaker_Battle_Grounds owl:sameAs dbr:Phantom_Breaker:_Battle_Grounds;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Tropico_5 owl:sameAs dbr:Tropico_5;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Discs_of_Tron owl:sameAs dbr:Discs_of_Tron;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crackdown owl:sameAs dbr:Crackdown;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Earth_Defense_Force_2017 owl:sameAs dbr:Earth_Defense_Force_2017;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Domino_Master owl:sameAs dbr:Domino_Master;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Crackdown_2 owl:sameAs dbr:Crackdown_2;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Body_and_Brain_Connection owl:sameAs dbr:Body_and_Brain_Connection;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Full_House_Poker owl:sameAs dbr:Full_House_Poker;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Your_Shape_Fitness_Evolved owl:sameAs dbr:Your_Shape:_Fitness_Evolved;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Diabolical_Pitch owl:sameAs dbr:Diabolical_Pitch;
+  gla:hasPlatform dbr:Xbox_360 .
+
+gla:Shenmue_III owl:sameAs dbr:Shenmue_III;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Yu_Suzuki_-_Game_Developers_Conference_2011_-_Day_3_(2).jpg?width=300> .
+
+gla:Driveclub owl:sameAs dbr:Driveclub;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Driveclub_for_Playstation_@_Gamescom_2014_(14951722871)_(2).jpg?width=300> .
+
+gla:Hardware_Rivals owl:sameAs dbr:Hardware:_Rivals;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/PSN_packshot.png?width=300> .
+
+gla:VVVVVV owl:sameAs dbr:VVVVVV;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/VVVVVV_logo.svg?width=300> .
+
+gla:Final_Fantasy_VII owl:sameAs dbr:Final_Fantasy_VII;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Beyond_Two_Souls gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Helldivers gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tearaway_Unfolded owl:sameAs dbr:Tearaway_Unfolded;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:A_Boy_and_His_Blob gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dead_Nation gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dear_Esther owl:sameAs dbr:Dear_Esther;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dragon_Quest_X gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nioh owl:sameAs dbr:Nioh;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Persona_5 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:PixelJunk_Shooter gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Darkest_Dungeon owl:sameAs dbr:Darkest_Dungeon;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Hotline_Miami gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Samurai_Warriors_4 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Sengoku_Basara_4 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Berserk_and_the_Band_of_the_Hawk gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Heavy_Rain gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Metal_Slug_Anthology owl:sameAs dbr:Metal_Slug_Anthology;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Uncharted_Waters_Online gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Uncharted_Drakes_Fortune gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Magicka_2 owl:sameAs dbr:Magicka_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Umbrella_Corps owl:sameAs dbr:Umbrella_Corps;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Zen_Pinball_2 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Detroit_Become_Human owl:sameAs dbr:Detroit:_Become_Human;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nano_Assault_Neo gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Order_1886 owl:sameAs dbr:The_Order:_1886;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:ZombiU gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Final_Fantasy_XIV_A_Realm_Reborn gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Garou_Mark_of_the_Wolves owl:sameAs dbr:Garou:_Mark_of_the_Wolves;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Max_Payne owl:sameAs dbr:Max_Payne;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Twisted_Metal_Black owl:sameAs dbr:Twisted_Metal:_Black;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dragon_Quest_Heroes_The_World_Trees_Woe_and_the_Blight_Below gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Killing_Floor_2 owl:sameAs dbr:Killing_Floor_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Pneuma_Breath_of_Life owl:sameAs dbr:Pneuma:_Breath_of_Life;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:RIGS_Mechanized_Combat_League owl:sameAs dbr:RIGS:_Mechanized_Combat_League;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Pure_Chess gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Loadout owl:sameAs dbr:Loadout;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Crypt_of_the_NecroDancer owl:sameAs dbr:Crypt_of_the_NecroDancer;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nuclear_Throne owl:sameAs dbr:Nuclear_Throne;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Nuclear_Throne_icon.png?width=300> .
+
+gla:The_Swapper gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Broforce owl:sameAs dbr:Broforce;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Broforce_miniboss_animated.gif?width=300> .
+
+gla:Galak-Z_The_Dimensional owl:sameAs dbr:Galak-Z:_The_Dimensional;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/GALAK-Z_logo_cutout_alpha.png?width=300> .
+
+gla:Thomas_Was_Alone gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Death_Stranding owl:sameAs dbr:Death_Stranding;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Norman_Reedus_by_Gage_Skidmore_2.jpg?width=300> .
+
+gla:Gone_Home owl:sameAs dbr:Gone_Home;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Gone_Home.png?width=300> .
+
+gla:Super_Mega_Baseball gla:hasPlatform dbr:PlayStation_4 .
+
+gla:OlliOlli gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Futuridium_EP_Deluxe gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Tomorrow_Children owl:sameAs dbr:The_Tomorrow_Children;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Velocity_2X owl:sameAs dbr:Velocity_2X;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Kick_and_Fennick gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Kerbal_Space_Program gla:hasPlatform dbr:PlayStation_4 .
+
+gla:God_of_War_III gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Valkyria_Chronicles gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Miegakure owl:sameAs dbr:Miegakure;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Phantasy_Star_Online_2 owl:sameAs dbr:Phantasy_Star_Online_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:PixelJunk_Shooter_2 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Axiom_Verge gla:hasPlatform dbr:PlayStation_4 .
+
+gla:BlazBlue_Chrono_Phantasma gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Divekick gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dont_Starve gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Everybodys_Gone_to_the_Rapture owl:sameAs <http://dbpedia.org/resource/Everybody's_Gone_to_the_Rapture>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Fairy_Fencer_F gla:hasPlatform dbr:PlayStation_4 .
+
+gla:God_Eater_2 owl:sameAs dbr:God_Eater_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:H-Hour_Worlds_Elite owl:sameAs <http://dbpedia.org/resource/H-Hour:_World's_Elite>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Hatoful_Boyfriend owl:sameAs dbr:Hatoful_Boyfriend;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Kamen_Rider_Battride_War gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Mercenary_Kings owl:sameAs dbr:Mercenary_Kings;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Octodad_Dadliest_Catch gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Outlast owl:sameAs dbr:Outlast;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Rainbow_Moon gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Rogue_Legacy gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Secret_Ponchos owl:sameAs dbr:Secret_Ponchos;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Shantae_and_the_Pirates_Curse gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Shovel_Knight gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Strength_of_the_Sword_3 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Unfinished_Swan gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Uncharted_4_A_Thiefs_End owl:sameAs <http://dbpedia.org/resource/Uncharted_4:_A_Thief's_End>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Unepic gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Until_Dawn owl:sameAs dbr:Until_Dawn;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:War_Thunder owl:sameAs dbr:War_Thunder;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Warframe owl:sameAs dbr:Warframe;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Days_Gone owl:sameAs dbr:Days_Gone;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:MLB_The_Show_16 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Romance_of_the_Three_Kingdoms_XIII gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Table_Top_Racing owl:sameAs dbr:Table_Top_Racing;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Toukiden_The_Age_of_Demons owl:sameAs dbr:Toukiden:_The_Age_of_Demons;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Basement_Crawl owl:sameAs dbr:Basement_Crawl;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Doki-Doki_Universe gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Hohokum gla:hasPlatform dbr:PlayStation_4 .
+
+gla:KickBeat gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Rocket_League owl:sameAs dbr:Rocket_League;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Rocket_League_coverart.jpg?width=300> .
+
+gla:Sportsfriends gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Ether_One owl:sameAs dbr:Ether_One;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Ether_One_cover_artwork.png?width=300> .
+
+gla:Hyper_Void gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Inside_My_Radio gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Last_Guardian owl:sameAs dbr:The_Last_Guardian;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Grim_Fandango owl:sameAs dbr:Grim_Fandango;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:DC_Universe_Online gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Uncharted_2_Among_Thieves gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Sound_Shapes gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Ark_Survival_Evolved owl:sameAs dbr:Ark:_Survival_Evolved;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Binding_of_Isaac_Rebirth gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dengeki_Bunko_Fighting_Climax gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Hustle_Kings gla:hasPlatform dbr:PlayStation_4 .
+
+gla:13_Sentinels_Aegis_Rim owl:sameAs dbr:13_Sentinels:_Aegis_Rim;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Digimon_World_Next_Order owl:sameAs dbr:Digimon_World:_Next_Order;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dragon_Quest_Builders gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Gran_Turismo_Sport owl:sameAs dbr:Gran_Turismo_Sport;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Headlander owl:sameAs dbr:Headlander;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:I_Am_Setsuna owl:sameAs dbr:I_Am_Setsuna;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:One_Piece_Burning_Blood owl:sameAs dbr:One_Piece:_Burning_Blood;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Primal_Carnage_Extinction owl:sameAs dbr:Primal_Carnage:_Extinction;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Saint_Seiya_Soldiers_Soul gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Sword_Art_Online_Hollow_Realization owl:sameAs dbr:Sword_Art_Online:_Hollow_Realization;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Sword_Art_Online_Lost_Song gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_King_of_Fighters_XIV owl:sameAs dbr:The_King_of_Fighters_XIV;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Atelier_Sophie_The_Alchemist_of_the_Mysterious_Book gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Attractio owl:sameAs dbr:Attractio;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Beyond_Eyes owl:sameAs dbr:Beyond_Eyes;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:BlazBlue_Central_Fiction gla:hasPlatform dbr:PlayStation_4 .
+
+gla:ChaosChild gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Curses_N_Chaos owl:sameAs <http://dbpedia.org/resource/Curses_'N_Chaos>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Dungeons_2 owl:sameAs dbr:Dungeons_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:FateExtella_The_Umbral_Star owl:sameAs <http://dbpedia.org/resource/Fate/Extella:_The_Umbral_Star>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:For_Honor owl:sameAs dbr:For_Honor;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Grand_Kingdom owl:sameAs dbr:Grand_Kingdom;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Krinkle_Krusher gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Loot_Rascals owl:sameAs dbr:Loot_Rascals;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Megaton_Rainfall owl:sameAs dbr:Megaton_Rainfall;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Mystery_Chronicle_One_Way_Heroics owl:sameAs dbr:Mystery_Chronicle:_One_Way_Heroics;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Night_in_the_Woods owl:sameAs dbr:Night_in_the_Woods;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nights_of_Azure gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nitroplus_Blasterz_Heroines_Infinite_Duel gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Pix_the_Cat owl:sameAs dbr:Pix_the_Cat;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Psycho-Pass_Mandatory_Happiness owl:sameAs dbr:Psycho-Pass:_Mandatory_Happiness;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Rain_World owl:sameAs dbr:Rain_World;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Road_Not_Taken owl:sameAs dbr:Road_Not_Taken;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Root_Letter owl:sameAs dbr:Root_Letter;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Salt_and_Sanctuary owl:sameAs dbr:Salt_and_Sanctuary;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Star_Ocean_Integrity_and_Faithlessness gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Stories_The_Path_of_Destinies owl:sameAs dbr:Stories:_The_Path_of_Destinies;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tales_of_Berseria gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tokyo_Xanadu owl:sameAs dbr:Tokyo_Xanadu;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tricky_Towers owl:sameAs dbr:Tricky_Towers;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Trine_3_The_Artifacts_of_Power owl:sameAs dbr:Trine_3:_The_Artifacts_of_Power;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:World_of_Final_Fantasy owl:sameAs dbr:World_of_Final_Fantasy;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Xeodrifter gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Final_Horizon owl:sameAs dbr:Final_Horizon;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Gang_Beasts owl:sameAs dbr:Gang_Beasts;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:MLB_15_The_Show gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Armello owl:sameAs dbr:Armello;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Armello_-_Screenshot_02.png?width=300> .
+
+gla:Dragon_Fin_Soup gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Freedom_Planet gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Final_Fantasy_VII_Remake owl:sameAs dbr:Final_Fantasy_VII_Remake;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Fat_Princess_Adventures owl:sameAs dbr:Fat_Princess_Adventures;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Walking_Dead_Season_Two gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Oxenfree owl:sameAs dbr:Oxenfree;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:SteinsGate_0 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Deadly_Tower_of_Monsters owl:sameAs dbr:The_Deadly_Tower_of_Monsters;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Blacklight_Retribution owl:sameAs dbr:Blacklight:_Retribution;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Broken_Age owl:sameAs dbr:Broken_Age;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Gravity_Rush owl:sameAs dbr:Gravity_Rush;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:PlanetSide_2 owl:sameAs dbr:PlanetSide_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Skulls_of_the_Shogun gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Uncharted_3_Drakes_Deception gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Deadlight gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Hotline_Miami_2_Wrong_Number gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Plants_vs__Zombies_Garden_Warfare gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:The_Last_of_Us_Left_Behind gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Mother_Russia_Bleeds owl:sameAs dbr:Mother_Russia_Bleeds;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tales_of_Zestiria gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Super_Star_Wars owl:sameAs dbr:Super_Star_Wars;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Super_Nintendo_Entertainment_System .
+
+gla:MotoGP_14 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Titan_Souls owl:sameAs dbr:Titan_Souls;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Metal_Slug_3 gla:hasPlatform dbr:PlayStation_4, dbr:Wii .
+
+gla:Borderlands_2 gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Dust_An_Elysian_Tail gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Firewatch owl:sameAs dbr:Firewatch;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:The_Escapists gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:The_Last_Blade_2 owl:sameAs dbr:The_Last_Blade_2;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Dreamcast .
+
+gla:Bloodborne owl:sameAs dbr:Bloodborne;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Crimsonland gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Furi owl:sameAs dbr:Furi;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Hellblade_Senuas_Sacrifice owl:sameAs <http://dbpedia.org/resource/Hellblade:_Senua's_Sacrifice>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:LittleBigPlanet_3 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Lovers_in_a_Dangerous_Spacetime owl:sameAs dbr:Lovers_in_a_Dangerous_Spacetime;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Megadimension_Neptunia_VII owl:sameAs dbr:Megadimension_Neptunia_VII;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Metrico owl:sameAs dbr:Metrico;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Neverending_Nightmares owl:sameAs dbr:Neverending_Nightmares;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Omega_Quintet owl:sameAs dbr:Omega_Quintet;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Onechanbara_Z2_Chaos owl:sameAs dbr:Onechanbara_Z2:_Chaos;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Sword_Art_Online_Hollow_Fragment owl:sameAs dbr:Sword_Art_Online:_Hollow_Fragment;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Last_Tinker_City_of_Colors owl:sameAs dbr:The_Last_Tinker:_City_of_Colors;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Last_of_Us_Remastered owl:sameAs dbr:The_Last_of_Us_Remastered;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:The_Vanishing_of_Ethan_Carter owl:sameAs dbr:The_Vanishing_of_Ethan_Carter;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:This_War_of_Mine owl:sameAs dbr:This_War_of_Mine;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Akibas_Trip_Undead_and_Undressed gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Apotheon owl:sameAs dbr:Apotheon;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Bound_by_Flame gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Catlateral_Damage owl:sameAs dbr:Catlateral_Damage;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Child_of_Light gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Deception_IV_The_Nightmare_Princess gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Digimon_Story_Cyber_Sleuth owl:sameAs dbr:Digimon_Story:_Cyber_Sleuth;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Drawn_to_Death owl:sameAs dbr:Drawn_to_Death;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Ghost_of_a_Tale owl:sameAs dbr:Ghost_of_a_Tale;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Grow_Home owl:sameAs dbr:Grow_Home;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Invisible_Inc_ owl:sameAs <http://dbpedia.org/resource/Invisible,_Inc.>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Ironclad_Tactics owl:sameAs dbr:Ironclad_Tactics;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:JoJos_Bizarre_Adventure_Eyes_of_Heaven gla:hasPlatform dbr:PlayStation_4 .
+
+gla:MLB_14_The_Show gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Risk_of_Rain owl:sameAs dbr:Risk_of_Rain;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Hopoo_Games_IGF_Award_at_2014_Game_Developers_Conference.jpg?width=300> .
+
+gla:Push_Me_Pull_You owl:sameAs dbr:Push_Me_Pull_You;
+  gla:hasPlatform dbr:PlayStation_4;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Push_Me_Pull_You_logo.png?width=300> .
+
+gla:Absolver owl:sameAs dbr:Absolver;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Absolver_sword_draw.gif?width=300> .
+
+gla:Mighty_Gunvolt owl:sameAs dbr:Mighty_Gunvolt;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:N owl:sameAs <http://dbpedia.org/resource/N++>;
+  gla:hasPlatform dbr:PlayStation_4, dbr:Nintendo_DS .
+
+gla:Natural_Doctrine gla:hasPlatform dbr:PlayStation_4 .
+
+gla:One_Piece_Pirate_Warriors_3 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Orcs_Must_Die_Unchained owl:sameAs <http://dbpedia.org/resource/Orcs_Must_Die!_Unchained>;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Phantom_Breaker_Battle_Grounds gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Resogun gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Saturday_Morning_RPG gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Teslagrad gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Tokyo_Twilight_Ghost_Hunters gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Tropico_5 gla:hasPlatform dbr:PlayStation_4, dbr:Xbox_One .
+
+gla:Woah_Dave gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Yakuza_0 gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Aegis_of_Earth_Protonovus_Assault gla:hasPlatform dbr:PlayStation_4 .
+
+gla:City_Shrouded_in_Shadow owl:sameAs dbr:City_Shrouded_in_Shadow;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Enter_the_Gungeon owl:sameAs dbr:Enter_the_Gungeon;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Gravity_Rush_2 owl:sameAs dbr:Gravity_Rush_2;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Shadwen owl:sameAs dbr:Shadwen;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Party_Golf owl:sameAs dbr:Party_Golf;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Wayward_Sky owl:sameAs dbr:Wayward_Sky;
+  gla:hasPlatform dbr:PlayStation_4 .
+
+gla:Nuclear_Throne gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Swapper gla:hasPlatform dbr:Xbox_One .
+
+gla:Rise_of_the_Tomb_Raider gla:hasPlatform dbr:Xbox_One .
+
+gla:A_Boy_and_His_Blob gla:hasPlatform dbr:Xbox_One, dbr:Wii .
+
+gla:Dear_Esther gla:hasPlatform dbr:Xbox_One .
+
+gla:Turok_2_Seeds_of_Evil gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_5_Guardians owl:sameAs dbr:Halo_5:_Guardians;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Castle_Crashers gla:hasPlatform dbr:Xbox_One .
+
+gla:Space_Giraffe owl:sameAs dbr:Space_Giraffe;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Hydro_Thunder_Hurricane gla:hasPlatform dbr:Xbox_One .
+
+gla:Call_of_Duty_4_Modern_Warfare gla:hasPlatform dbr:Xbox_One, dbr:Wii .
+
+gla:Project_Spark owl:sameAs dbr:Project_Spark;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Quantum_Break owl:sameAs dbr:Quantum_Break;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Pinball_Arcade gla:hasPlatform dbr:Xbox_One .
+
+gla:ZombiU gla:hasPlatform dbr:Xbox_One .
+
+gla:Back_to_the_Future_The_Game gla:hasPlatform dbr:Xbox_One, dbr:Wii .
+
+gla:Pneuma_Breath_of_Life gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_3_ODST gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_Wars gla:hasPlatform dbr:Xbox_One .
+
+gla:Happy_Wars gla:hasPlatform dbr:Xbox_One .
+
+gla:LocoCycle gla:hasPlatform dbr:Xbox_One .
+
+gla:Pure_Chess gla:hasPlatform dbr:Xbox_One .
+
+gla:OlliOlli gla:hasPlatform dbr:Xbox_One .
+
+gla:Velocity_2X gla:hasPlatform dbr:Xbox_One .
+
+gla:Kick_and_Fennick gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Flame_in_the_Flood owl:sameAs dbr:The_Flame_in_the_Flood;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_Spartan_Assault gla:hasPlatform dbr:Xbox_One .
+
+gla:Kerbal_Space_Program gla:hasPlatform dbr:Xbox_One .
+
+gla:Ori_and_the_Blind_Forest gla:hasPlatform dbr:Xbox_One .
+
+gla:Axiom_Verge gla:hasPlatform dbr:Xbox_One .
+
+gla:BlazBlue_Chrono_Phantasma gla:hasPlatform dbr:Xbox_One .
+
+gla:D4_Dark_Dreams_Dont_Die owl:sameAs <http://dbpedia.org/resource/D4:_Dark_Dreams_Don't_Die>;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Dead_Rising_3 owl:sameAs dbr:Dead_Rising_3;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Guacamelee gla:hasPlatform dbr:Xbox_One .
+
+gla:Thomas_Was_Alone gla:hasPlatform dbr:Xbox_One .
+
+gla:Gone_Home gla:hasPlatform dbr:Xbox_One .
+
+gla:Super_Mega_Baseball gla:hasPlatform dbr:Xbox_One .
+
+gla:Roblox owl:sameAs dbr:Roblox;
+  gla:hasPlatform dbr:Xbox_One;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Roblox_logo_2015.png?width=300> .
+
+gla:Rocket_League gla:hasPlatform dbr:Xbox_One .
+
+gla:Divekick gla:hasPlatform dbr:Xbox_One .
+
+gla:Dont_Starve gla:hasPlatform dbr:Xbox_One .
+
+gla:Forza_Motorsport_5 owl:sameAs dbr:Forza_Motorsport_5;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Gears_of_War_4 owl:sameAs dbr:Gears_of_War_4;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Massive_Chalice owl:sameAs dbr:Massive_Chalice;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Max_The_Curse_of_Brotherhood gla:hasPlatform dbr:Xbox_One .
+
+gla:Octodad_Dadliest_Catch gla:hasPlatform dbr:Xbox_One .
+
+gla:Outlast gla:hasPlatform dbr:Xbox_One .
+
+gla:Peggle_2 gla:hasPlatform dbr:Xbox_One .
+
+gla:Powerstar_Golf owl:sameAs dbr:Powerstar_Golf;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Rayman_Legends gla:hasPlatform dbr:Xbox_One .
+
+gla:Rogue_Legacy gla:hasPlatform dbr:Xbox_One .
+
+gla:Shantae_and_the_Pirates_Curse gla:hasPlatform dbr:Xbox_One .
+
+gla:Shovel_Knight gla:hasPlatform dbr:Xbox_One .
+
+gla:Sunset_Overdrive owl:sameAs dbr:Sunset_Overdrive;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Super_Time_Force gla:hasPlatform dbr:Xbox_One .
+
+gla:Unepic gla:hasPlatform dbr:Xbox_One .
+
+gla:Warframe gla:hasPlatform dbr:Xbox_One .
+
+gla:Romance_of_the_Three_Kingdoms_XIII gla:hasPlatform dbr:Xbox_One .
+
+gla:Table_Top_Racing gla:hasPlatform dbr:Xbox_One .
+
+gla:Kinect_Sports_Rivals owl:sameAs dbr:Kinect_Sports_Rivals;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:KickBeat gla:hasPlatform dbr:Xbox_One .
+
+gla:Superhot owl:sameAs dbr:Superhot;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Xbox_Fitness owl:sameAs dbr:Xbox_Fitness;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:DC_Universe_Online gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_Combat_Evolved_Anniversary gla:hasPlatform dbr:Xbox_One .
+
+gla:Ark_Survival_Evolved gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Binding_of_Isaac_Rebirth gla:hasPlatform dbr:Xbox_One .
+
+gla:Shadow_Complex gla:hasPlatform dbr:Xbox_One .
+
+gla:BioShock gla:hasPlatform dbr:Xbox_One .
+
+gla:Devil_May_Cry_4 gla:hasPlatform dbr:Xbox_One .
+
+gla:Resident_Evil_4 gla:hasPlatform dbr:Xbox_One, dbr:Wii, dbr:GameCube, dbr:Zeebo .
+
+gla:Halo_Wars_2 owl:sameAs dbr:Halo_Wars_2;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:One_Piece_Burning_Blood gla:hasPlatform dbr:Xbox_One .
+
+gla:Amazing_Princess_Sarah gla:hasPlatform dbr:Xbox_One .
+
+gla:Beyond_Eyes gla:hasPlatform dbr:Xbox_One .
+
+gla:Blues_and_Bullets owl:sameAs dbr:Blues_and_Bullets;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:ChaosChild gla:hasPlatform dbr:Xbox_One .
+
+gla:Hyper_Void gla:hasPlatform dbr:Xbox_One .
+
+gla:Inside_My_Radio gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Solus_Project owl:sameAs dbr:The_Solus_Project;
+  gla:hasPlatform dbr:Xbox_One;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/solus%20cover.jpg?width=300> .
+
+gla:Forza_Horizon_2 gla:hasPlatform dbr:Xbox_One .
+
+gla:Threes owl:sameAs dbr:Threes;
+  gla:hasPlatform dbr:Xbox_One;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Threes!_app_icon.png?width=300> .
+
+gla:For_Honor gla:hasPlatform dbr:Xbox_One .
+
+gla:Krinkle_Krusher gla:hasPlatform dbr:Xbox_One .
+
+gla:Pit_People owl:sameAs dbr:Pit_People;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Psycho-Pass_Mandatory_Happiness gla:hasPlatform dbr:Xbox_One .
+
+gla:Sea_of_Thieves owl:sameAs dbr:Sea_of_Thieves;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Slime_Rancher owl:sameAs dbr:Slime_Rancher;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:State_of_Decay_2 owl:sameAs dbr:State_of_Decay_2;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Volgarr_the_Viking owl:sameAs dbr:Volgarr_the_Viking;
+  gla:hasPlatform dbr:Xbox_One, dbr:Dreamcast .
+
+gla:Crimson_Dragon owl:sameAs dbr:Crimson_Dragon;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Dungeon_of_the_Endless owl:sameAs dbr:Dungeon_of_the_Endless;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Rare_Replay owl:sameAs dbr:Rare_Replay;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Fantasia_Music_Evolved gla:hasPlatform dbr:Xbox_One .
+
+gla:Titanfall gla:hasPlatform dbr:Xbox_One .
+
+gla:ReCore owl:sameAs dbr:ReCore;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Alan_Wakes_American_Nightmare gla:hasPlatform dbr:Xbox_One .
+
+gla:Fruit_Ninja gla:hasPlatform dbr:Xbox_One .
+
+gla:Pinball_FX_2 gla:hasPlatform dbr:Xbox_One .
+
+gla:Ryse_Son_of_Rome owl:sameAs dbr:Ryse:_Son_of_Rome;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_3 gla:hasPlatform dbr:Xbox_One .
+
+gla:Battlestations_Midway gla:hasPlatform dbr:Xbox_One .
+
+gla:A_World_of_Keflings gla:hasPlatform dbr:Xbox_One .
+
+gla:Halo_The_Master_Chief_Collection owl:sameAs dbr:Halo:_The_Master_Chief_Collection;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Crackdown_3 owl:sameAs dbr:Crackdown_3;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Cuphead owl:sameAs dbr:Cuphead;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Stranger_of_Sword_City gla:hasPlatform dbr:Xbox_One .
+
+gla:Fighter_Within owl:sameAs dbr:Fighter_Within;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Forza_Motorsport_6 owl:sameAs dbr:Forza_Motorsport_6;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Starpoint_Gemini_2 owl:sameAs dbr:Starpoint_Gemini_2;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:The_Long_Dark owl:sameAs dbr:The_Long_Dark;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Thimbleweed_Park owl:sameAs dbr:Thimbleweed_Park;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Tiny_Troopers_Joint_Ops owl:sameAs dbr:Tiny_Troopers:_Joint_Ops;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Dead_Rising_4 owl:sameAs dbr:Dead_Rising_4;
+  gla:hasPlatform dbr:Xbox_One .
+
+gla:Need_for_Speed_Carbon gla:hasPlatform dbr:Nintendo_DS, dbr:Wii, dbr:Zeebo .
+
+gla:Don_King_Presents_Prizefighter gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Mega_Man_ZX_Advent owl:sameAs dbr:Mega_Man_ZX_Advent;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Sims_2_Pets owl:sameAs dbr:The_Sims_2:_Pets;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii, dbr:GameCube .
+
+gla:Mystery_Case_Files_MillionHeir owl:sameAs dbr:Mystery_Case_Files:_MillionHeir;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Picross_3D owl:sameAs dbr:Picross_3D;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Lord_of_the_Rings_Aragorns_Quest gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Top_Spin_2 gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Pro_Evolution_Soccer_2008 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Sega_Superstars_Tennis gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Harvest_Moon_The_Tale_of_Two_Towns owl:sameAs dbr:Harvest_Moon:_The_Tale_of_Two_Towns;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Dragon_Quest_Monsters_Joker owl:sameAs dbr:Dragon_Quest_Monsters:_Joker;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Elite_Beat_Agents owl:sameAs dbr:Elite_Beat_Agents;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Lunar_Knights owl:sameAs dbr:Lunar_Knights;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tenchu_Dark_Secret owl:sameAs dbr:Tenchu:_Dark_Secret;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Bomberman_Land_Touch owl:sameAs <http://dbpedia.org/resource/Bomberman_Land_Touch!>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Deep_Labyrinth owl:sameAs dbr:Deep_Labyrinth;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Diner_Dash gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Etrian_Odyssey owl:sameAs dbr:Etrian_Odyssey;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Final_Fantasy_Fables_Chocobo_Tales owl:sameAs dbr:Final_Fantasy_Fables:_Chocobo_Tales;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Jump_Ultimate_Stars owl:sameAs dbr:Jump_Ultimate_Stars;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Madden_NFL_07 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii, dbr:GameCube .
+
+gla:Nanostray_2 owl:sameAs dbr:Nanostray_2;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Secret_Files_Tunguska gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Star_Wars_The_Force_Unleashed gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:The_Legend_of_Zelda_Phantom_Hourglass owl:sameAs dbr:The_Legend_of_Zelda:_Phantom_Hourglass;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Touch_Detective owl:sameAs dbr:Touch_Detective;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:WWE_SmackDown_vs__Raw_2008 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Dream_Pinball_3D owl:sameAs dbr:Dream_Pinball_3D;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Kirby_Squeak_Squad owl:sameAs dbr:Kirby:_Squeak_Squad;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Planet_Puzzle_League owl:sameAs dbr:Planet_Puzzle_League;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Super_Princess_Peach owl:sameAs dbr:Super_Princess_Peach;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Marvel_Trading_Card_Game owl:sameAs dbr:Marvel_Trading_Card_Game;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Lost_in_Blue_2 owl:sameAs dbr:Lost_in_Blue_2;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Chicken_Hunter owl:sameAs dbr:Chicken_Hunter;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Guitar_Rock_Tour owl:sameAs dbr:Guitar_Rock_Tour;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Winter_Sports_2_The_Next_Challenge gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Chrono_Trigger owl:sameAs dbr:Chrono_Trigger;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Super_Nintendo_Entertainment_System .
+
+gla:Crash_Mind_over_Mutant gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Dementium_The_Ward owl:sameAs dbr:Dementium:_The_Ward;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Rayman_Raving_Rabbids gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Rhapsody_A_Musical_Adventure owl:sameAs dbr:Rhapsody:_A_Musical_Adventure;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Yoshis_Island_DS owl:sameAs <http://dbpedia.org/resource/Yoshi's_Island_DS>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Simpsons_Game gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Spider-Man_Web_of_Shadows gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Syberia gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Impossible_Mission owl:sameAs dbr:Impossible_Mission;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Madden_NFL_2005 owl:sameAs dbr:Madden_NFL_2005;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Frozen_Olafs_Quest owl:sameAs <http://dbpedia.org/resource/Frozen:_Olaf's_Quest>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Heroes_of_Mana owl:sameAs dbr:Heroes_of_Mana;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Spider-Man_Friend_or_Foe gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Contra_4 owl:sameAs dbr:Contra_4;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Bee_Movie_Game gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Crash_of_the_Titans gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Drawn_to_Life owl:sameAs dbr:Drawn_to_Life;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Metal_Slug_7 owl:sameAs dbr:Metal_Slug_7;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Mystery_Case_Files_Ravenhearst owl:sameAs dbr:Mystery_Case_Files:_Ravenhearst;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Nicktoons_Attack_of_the_Toybots owl:sameAs dbr:Nicktoons:_Attack_of_the_Toybots;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Ninja_Reflex owl:sameAs dbr:Ninja_Reflex;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Ninjatown owl:sameAs dbr:Ninjatown;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tom_Clancys_EndWar gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Top_Spin_3 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Bionicle_Heroes gla:hasPlatform dbr:Nintendo_DS, dbr:Wii, dbr:GameCube .
+
+gla:Mario_vs__Donkey_Kong_2_March_of_the_Minis owl:sameAs dbr:Mario_vs._Donkey_Kong_2:_March_of_the_Minis;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Taos_Adventure_Curse_of_the_Demon_Seal owl:sameAs <http://dbpedia.org/resource/Tao's_Adventure:_Curse_of_the_Demon_Seal>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Geometry_Wars_Galaxies owl:sameAs dbr:Geometry_Wars:_Galaxies;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:My_Word_Coach owl:sameAs dbr:My_Word_Coach;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Rayman_Raving_Rabbids_2 owl:sameAs dbr:Rayman_Raving_Rabbids_2;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Tiger_Woods_PGA_Tour_08 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Touch_the_Dead owl:sameAs dbr:Touch_the_Dead;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Godzilla_Unleashed owl:sameAs dbr:Godzilla:_Unleashed;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Sonic_Rush owl:sameAs dbr:Sonic_Rush;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tomb_Raider_Legend gla:hasPlatform dbr:Nintendo_DS, dbr:GameCube .
+
+gla:Tomb_Raider_Underworld gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Bangai-O_Spirits owl:sameAs dbr:Bangai-O_Spirits;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Brain_Challenge owl:sameAs dbr:Brain_Challenge;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Zeebo .
+
+gla:Draglade owl:sameAs dbr:Draglade;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Etrian_Odyssey_II_Heroes_of_Lagaard owl:sameAs dbr:Etrian_Odyssey_II:_Heroes_of_Lagaard;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Inazuma_Eleven owl:sameAs dbr:Inazuma_Eleven;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Locks_Quest owl:sameAs <http://dbpedia.org/resource/Lock's_Quest>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Ontamarama owl:sameAs dbr:Ontamarama;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Rhythm_Heaven owl:sameAs dbr:Rhythm_Heaven;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Secret_Files_2_Puritas_Cordis owl:sameAs dbr:Secret_Files_2:_Puritas_Cordis;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Soul_Bubbles owl:sameAs dbr:Soul_Bubbles;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Space_Invaders_Extreme owl:sameAs dbr:Space_Invaders_Extreme;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Summon_Night_Twin_Age owl:sameAs dbr:Summon_Night:_Twin_Age;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Legend_of_Kage_2 owl:sameAs dbr:The_Legend_of_Kage_2;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:WarioWare_D_I_Y_ owl:sameAs <http://dbpedia.org/resource/WarioWare_D.I.Y.>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Super_Mario_64_DS owl:sameAs dbr:Super_Mario_64_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Cradle_of_Rome owl:sameAs dbr:Cradle_of_Rome;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Jackass_The_Game owl:sameAs dbr:Jackass:_The_Game;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Viewtiful_Joe_Double_Trouble owl:sameAs <http://dbpedia.org/resource/Viewtiful_Joe:_Double_Trouble!>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tetris_Party owl:sameAs dbr:Tetris_Party;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Looney_Tunes_Cartoon_Conductor owl:sameAs dbr:Looney_Tunes:_Cartoon_Conductor;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Mario_Kart_DS owl:sameAs dbr:Mario_Kart_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Nintendogs owl:sameAs dbr:Nintendogs;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Advance_Wars_Dual_Strike owl:sameAs dbr:Advance_Wars:_Dual_Strike;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Dragon_Quest_Heroes_Rocket_Slime owl:sameAs dbr:Dragon_Quest_Heroes:_Rocket_Slime;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Electroplankton owl:sameAs dbr:Electroplankton;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Kirby_Canvas_Curse gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Lost_in_Blue owl:sameAs dbr:Lost_in_Blue;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Lunar_Dragon_Song owl:sameAs dbr:Lunar:_Dragon_Song;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Meteos gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Nanostray owl:sameAs dbr:Nanostray;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:New_Super_Mario_Bros_ owl:sameAs <http://dbpedia.org/resource/New_Super_Mario_Bros.>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Polarium owl:sameAs dbr:Polarium;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Ultimate_Mortal_Kombat_3 owl:sameAs dbr:Ultimate_Mortal_Kombat_3;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Sega_Genesis, dbr:Super_Nintendo_Entertainment_System .
+
+gla:Yoshi_Touch_and_Go owl:sameAs <http://dbpedia.org/resource/Yoshi_Touch_&_Go>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Zoo_Keeper owl:sameAs dbr:Zoo_Keeper;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Shiren_the_Wanderer_The_Tower_of_Fortune_and_the_Dice_of_Fate owl:sameAs dbr:Shiren_the_Wanderer:_The_Tower_of_Fortune_and_the_Dice_of_Fate;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Dig_Dug_Digging_Strike owl:sameAs dbr:Dig_Dug:_Digging_Strike;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:SpongeBob_SquarePants_The_Yellow_Avenger owl:sameAs dbr:SpongeBob_SquarePants:_The_Yellow_Avenger;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Spyro_Shadow_Legacy owl:sameAs dbr:Spyro:_Shadow_Legacy;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Battles_of_Prince_of_Persia owl:sameAs dbr:Battles_of_Prince_of_Persia;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Need_for_Speed_Undercover gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Brain_Age_Train_Your_Brain_in_Minutes_a_Day owl:sameAs <http://dbpedia.org/resource/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!>;
+  gla:hasPlatform dbr:Nintendo_DS;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/Holding-NDS-sideways.jpg?width=300> .
+
+gla:FIFA_Street_2 owl:sameAs dbr:FIFA_Street_2;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:MechAssault_Phantom_War owl:sameAs dbr:MechAssault:_Phantom_War;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Scooby-Doo_Unmasked owl:sameAs <http://dbpedia.org/resource/Scooby-Doo!_Unmasked>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:X-Men_The_Official_Game gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Frogger_Helmet_Chaos owl:sameAs dbr:Frogger:_Helmet_Chaos;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Scurge_Hive owl:sameAs dbr:Scurge:_Hive;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Star_Wars_Lethal_Alliance owl:sameAs dbr:Star_Wars:_Lethal_Alliance;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Cake_Mania owl:sameAs dbr:Cake_Mania;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Chicken_Shoot owl:sameAs dbr:Chicken_Shoot;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Dragon_Ball_Z_Harukanaru_Densetsu owl:sameAs dbr:Dragon_Ball_Z:_Harukanaru_Densetsu;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Picross_DS owl:sameAs dbr:Picross_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Flash_Focus_Vision_Training_in_Minutes_a_Day owl:sameAs dbr:Flash_Focus:_Vision_Training_in_Minutes_a_Day;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Sims_2_Castaway owl:sameAs dbr:The_Sims_2:_Castaway;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Castlevania_Portrait_of_Ruin owl:sameAs dbr:Castlevania:_Portrait_of_Ruin;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Age_of_Empires_The_Age_of_Kings owl:sameAs dbr:Age_of_Empires:_The_Age_of_Kings;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Big_Brain_Academy owl:sameAs dbr:Big_Brain_Academy;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Justice_League_Heroes owl:sameAs dbr:Justice_League_Heroes;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Shaun_White_Snowboarding gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Tony_Hawks_Proving_Ground gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Lost_in_Blue_3 owl:sameAs dbr:Lost_in_Blue_3;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Namco_Museum_DS owl:sameAs dbr:Namco_Museum_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Nervous_Brickdown owl:sameAs dbr:Nervous_Brickdown;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:WordJong owl:sameAs dbr:WordJong;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:The_Urbz_Sims_in_the_City owl:sameAs dbr:The_Urbz:_Sims_in_the_City;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:GameCube .
+
+gla:SimCity_DS owl:sameAs dbr:SimCity_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Brothers_in_Arms_DS owl:sameAs dbr:Brothers_in_Arms_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Cooking_Mama_2_Dinner_with_Friends owl:sameAs dbr:Cooking_Mama_2:_Dinner_with_Friends;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Madden_NFL_08 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Major_League_Baseball_2K7 gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Need_for_Speed_ProStreet gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Ninja_Gaiden_Dragon_Sword owl:sameAs dbr:Ninja_Gaiden:_Dragon_Sword;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Peggle gla:hasPlatform dbr:Nintendo_DS, dbr:Zeebo .
+
+gla:Transformers_The_Game gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Myst owl:sameAs dbr:Myst;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:3DO_Interactive_Multiplayer .
+
+gla:Animal_Crossing_Wild_World owl:sameAs dbr:Animal_Crossing:_Wild_World;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Clubhouse_Games owl:sameAs dbr:Clubhouse_Games;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Izuna_2_The_Unemployed_Ninja_Returns owl:sameAs dbr:Izuna_2:_The_Unemployed_Ninja_Returns;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Juiced_2_Hot_Import_Nights gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Plants_vs__Zombies owl:sameAs dbr:Plants_vs._Zombies;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Star_Fox_Command owl:sameAs dbr:Star_Fox_Command;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Cartoon_Network_Racing owl:sameAs dbr:Cartoon_Network_Racing;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Advance_Wars_Days_of_Ruin owl:sameAs dbr:Advance_Wars:_Days_of_Ruin;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Bubble_Bobble_Double_Shot owl:sameAs dbr:Bubble_Bobble_Double_Shot;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Fullmetal_Alchemist_Dual_Sympathy owl:sameAs dbr:Fullmetal_Alchemist:_Dual_Sympathy;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Madden_NFL_06 gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Namco_Museum gla:hasPlatform dbr:Nintendo_DS, dbr:Dreamcast, dbr:GameCube .
+
+gla:True_Swing_Golf owl:sameAs dbr:True_Swing_Golf;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Bubble_Bobble_Revolution owl:sameAs dbr:Bubble_Bobble_Revolution;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tony_Hawks_American_Sk8land owl:sameAs <http://dbpedia.org/resource/Tony_Hawk's_American_Sk8land>;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:FIFA_Street_3 gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Age_of_Empires_Mythologies owl:sameAs dbr:Age_of_Empires:_Mythologies;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Elements_of_Destruction gla:hasPlatform dbr:Nintendo_DS .
+
+gla:MLB_Power_Pros_2008 owl:sameAs dbr:MLB_Power_Pros_2008;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Speed_Racer_The_Videogame owl:sameAs dbr:Speed_Racer:_The_Videogame;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:The_Sims_2_Apartment_Pets owl:sameAs dbr:The_Sims_2:_Apartment_Pets;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Wario_Master_of_Disguise owl:sameAs dbr:Wario:_Master_of_Disguise;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:GoldenEye_Rogue_Agent owl:sameAs dbr:GoldenEye:_Rogue_Agent;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:GameCube .
+
+gla:Hotel_Dusk_Room_215 owl:sameAs dbr:Hotel_Dusk:_Room_215;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Bleach_The_Blade_of_Fate owl:sameAs dbr:Bleach:_The_Blade_of_Fate;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Cooking_Mama owl:sameAs dbr:Cooking_Mama;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Digimon_World_DS owl:sameAs dbr:Digimon_World_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Magical_Starsign owl:sameAs dbr:Magical_Starsign;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Mega_Man_ZX owl:sameAs dbr:Mega_Man_ZX;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Shrek_SuperSlam owl:sameAs dbr:Shrek_SuperSlam;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Tetris_DS owl:sameAs dbr:Tetris_DS;
+  gla:hasPlatform dbr:Nintendo_DS .
+
+gla:Indianapolis_500_Legends owl:sameAs dbr:Indianapolis_500_Legends;
+  gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Madden_NFL_09 gla:hasPlatform dbr:Nintendo_DS, dbr:Wii .
+
+gla:Anubis_II owl:sameAs dbr:Anubis_II;
+  gla:hasPlatform dbr:Wii .
+
+gla:Brave_A_Warriors_Tale gla:hasPlatform dbr:Wii .
+
+gla:Dragon_Quest_X gla:hasPlatform dbr:Wii .
+
+gla:FlingSmash owl:sameAs dbr:FlingSmash;
+  gla:hasPlatform dbr:Wii .
+
+gla:Lets_Tap owl:sameAs <http://dbpedia.org/resource/Let's_Tap>;
+  gla:hasPlatform dbr:Wii .
+
+gla:TV_Show_King_Party owl:sameAs dbr:TV_Show_King_Party;
+  gla:hasPlatform dbr:Wii .
+
+gla:Mad_Dog_McCree owl:sameAs dbr:Mad_Dog_McCree;
+  gla:hasPlatform dbr:Wii, dbr:3DO_Interactive_Multiplayer .
+
+gla:Cooking_Mama_Cook_Off owl:sameAs dbr:Cooking_Mama:_Cook_Off;
+  gla:hasPlatform dbr:Wii .
+
+gla:Donkey_Kong_Barrel_Blast owl:sameAs dbr:Donkey_Kong_Barrel_Blast;
+  gla:hasPlatform dbr:Wii .
+
+gla:Elebits owl:sameAs dbr:Elebits;
+  gla:hasPlatform dbr:Wii .
+
+gla:Escape_from_Bug_Island owl:sameAs dbr:Escape_from_Bug_Island;
+  gla:hasPlatform dbr:Wii .
+
+gla:Metal_Slug_Anthology gla:hasPlatform dbr:Wii .
+
+gla:Samurai_Warriors_Katana owl:sameAs dbr:Samurai_Warriors:_Katana;
+  gla:hasPlatform dbr:Wii .
+
+gla:Super_Monkey_Ball_Banana_Blitz owl:sameAs dbr:Super_Monkey_Ball:_Banana_Blitz;
+  gla:hasPlatform dbr:Wii .
+
+gla:Agatha_Christie_And_Then_There_Were_None owl:sameAs dbr:Agatha_Christie:_And_Then_There_Were_None;
+  gla:hasPlatform dbr:Wii .
+
+gla:Rampage_Total_Destruction owl:sameAs dbr:Rampage:_Total_Destruction;
+  gla:hasPlatform dbr:Wii .
+
+gla:Romance_of_the_Three_Kingdoms_XI owl:sameAs dbr:Romance_of_the_Three_Kingdoms_XI;
+  gla:hasPlatform dbr:Wii .
+
+gla:Target_Terror owl:sameAs dbr:Target:_Terror;
+  gla:hasPlatform dbr:Wii .
+
+gla:The_House_of_the_Dead_III gla:hasPlatform dbr:Wii .
+
+gla:NCAA_Football_09 gla:hasPlatform dbr:Wii .
+
+gla:Pac-Man_Party owl:sameAs dbr:Pac-Man_Party;
+  gla:hasPlatform dbr:Wii .
+
+gla:Real_Heroes_Firefighter owl:sameAs dbr:Real_Heroes:_Firefighter;
+  gla:hasPlatform dbr:Wii .
+
+gla:De_Blob owl:sameAs dbr:De_Blob;
+  gla:hasPlatform dbr:Wii .
+
+gla:Medal_of_Honor_Vanguard owl:sameAs dbr:Medal_of_Honor:_Vanguard;
+  gla:hasPlatform dbr:Wii .
+
+gla:Samba_de_Amigo owl:sameAs dbr:Samba_de_Amigo;
+  gla:hasPlatform dbr:Wii, dbr:Dreamcast .
+
+gla:Tomb_Raider_Anniversary gla:hasPlatform dbr:Wii .
+
+gla:Pinball_Hall_of_Fame_The_Gottlieb_Collection owl:sameAs dbr:Pinball_Hall_of_Fame:_The_Gottlieb_Collection;
+  gla:hasPlatform dbr:Wii, dbr:GameCube .
+
+gla:Pinball_Hall_of_Fame_The_Williams_Collection gla:hasPlatform dbr:Wii .
+
+gla:World_of_Goo owl:sameAs dbr:World_of_Goo;
+  gla:hasPlatform dbr:Wii .
+
+gla:Endless_Ocean owl:sameAs dbr:Endless_Ocean;
+  gla:hasPlatform dbr:Wii .
+
+gla:SSX_Blur owl:sameAs dbr:SSX_Blur;
+  gla:hasPlatform dbr:Wii .
+
+gla:Cabelas_Dangerous_Hunts_2009 gla:hasPlatform dbr:Wii .
+
+gla:Manhunt_2 owl:sameAs dbr:Manhunt_2;
+  gla:hasPlatform dbr:Wii .
+
+gla:Sonic_Riders_Zero_Gravity owl:sameAs dbr:Sonic_Riders:_Zero_Gravity;
+  gla:hasPlatform dbr:Wii .
+
+gla:Super_Mario_Galaxy gla:hasPlatform dbr:Wii .
+
+gla:Bass_Pro_Shops_The_Strike gla:hasPlatform dbr:Wii .
+
+gla:Destroy_All_Humans_Big_Willy_Unleashed owl:sameAs <http://dbpedia.org/resource/Destroy_All_Humans!_Big_Willy_Unleashed>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Mario_Kart_Wii owl:sameAs dbr:Mario_Kart_Wii;
+  gla:hasPlatform dbr:Wii .
+
+gla:Medal_of_Honor_Heroes_2 owl:sameAs dbr:Medal_of_Honor:_Heroes_2;
+  gla:hasPlatform dbr:Wii .
+
+gla:NBA_Live_08 gla:hasPlatform dbr:Wii .
+
+gla:NHL_2K9 gla:hasPlatform dbr:Wii .
+
+gla:Soulcalibur_Legends owl:sameAs dbr:Soulcalibur_Legends;
+  gla:hasPlatform dbr:Wii .
+
+gla:The_House_of_the_Dead_2_and_3_Return owl:sameAs <http://dbpedia.org/resource/The_House_of_the_Dead_2_&_3_Return>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Rune_Factory_Tides_of_Destiny gla:hasPlatform dbr:Wii .
+
+gla:Sengoku_Basara_Samurai_Heroes gla:hasPlatform dbr:Wii .
+
+gla:Wii_Party owl:sameAs dbr:Wii_Party;
+  gla:hasPlatform dbr:Wii .
+
+gla:Excite_Truck owl:sameAs dbr:Excite_Truck;
+  gla:hasPlatform dbr:Wii .
+
+gla:Dance_on_Broadway gla:hasPlatform dbr:Wii .
+
+gla:Links_Crossbow_Training owl:sameAs <http://dbpedia.org/resource/Link's_Crossbow_Training>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Cabelas_Trophy_Bucks gla:hasPlatform dbr:Wii .
+
+gla:Dead_Space_Extraction gla:hasPlatform dbr:Wii .
+
+gla:Retro_City_Rampage gla:hasPlatform dbr:Wii .
+
+gla:Sonic_and_the_Secret_Rings owl:sameAs dbr:Sonic_and_the_Secret_Rings;
+  gla:hasPlatform dbr:Wii .
+
+gla:Castlevania_Judgment owl:sameAs dbr:Castlevania_Judgment;
+  gla:hasPlatform dbr:Wii .
+
+gla:Crystal_Defenders gla:hasPlatform dbr:Wii .
+
+gla:Major_League_Baseball_2K9 gla:hasPlatform dbr:Wii .
+
+gla:Summer_Athletics gla:hasPlatform dbr:Wii .
+
+gla:TV_Show_King gla:hasPlatform dbr:Wii .
+
+gla:Wario_Land_Shake_It owl:sameAs <http://dbpedia.org/resource/Wario_Land:_Shake_It!>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Space_Ace gla:hasPlatform dbr:Wii, dbr:3DO_Interactive_Multiplayer .
+
+gla:SimCity_Creator owl:sameAs dbr:SimCity_Creator;
+  gla:hasPlatform dbr:Wii .
+
+gla:Metroid_Prime_3_Corruption owl:sameAs dbr:Metroid_Prime_3:_Corruption;
+  gla:hasPlatform dbr:Wii .
+
+gla:Tales_of_Symphonia_Dawn_of_the_New_World gla:hasPlatform dbr:Wii .
+
+gla:Dokapon_Kingdom owl:sameAs dbr:Dokapon_Kingdom;
+  gla:hasPlatform dbr:Wii .
+
+gla:Tiger_Woods_PGA_Tour_09 gla:hasPlatform dbr:Wii .
+
+gla:Silver_Star_Chess owl:sameAs dbr:Silver_Star_Chess;
+  gla:hasPlatform dbr:Wii .
+
+gla:The_Last_Bounty_Hunter owl:sameAs dbr:The_Last_Bounty_Hunter;
+  gla:hasPlatform dbr:Wii, dbr:3DO_Interactive_Multiplayer .
+
+gla:Fast_Draw_Showdown gla:hasPlatform dbr:Wii .
+
+gla:Death_Jr__II_Root_of_Evil owl:sameAs dbr:Death_Jr._II:_Root_of_Evil;
+  gla:hasPlatform dbr:Wii .
+
+gla:Code_Lyoko_Quest_for_Infinity owl:sameAs dbr:Code_Lyoko:_Quest_for_Infinity;
+  gla:hasPlatform dbr:Wii .
+
+gla:Animal_Crossing_City_Folk owl:sameAs dbr:Animal_Crossing:_City_Folk;
+  gla:hasPlatform dbr:Wii .
+
+gla:Epic_Mickey_2_The_Power_of_Two gla:hasPlatform dbr:Wii .
+
+gla:Go_Vacation owl:sameAs dbr:Go_Vacation;
+  gla:hasPlatform dbr:Wii .
+
+gla:Mario_and_Sonic_at_the_London_2012_Olympic_Games owl:sameAs <http://dbpedia.org/resource/Mario_&_Sonic_at_the_London_2012_Olympic_Games>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Rodea_the_Sky_Soldier gla:hasPlatform dbr:Wii .
+
+gla:The_Black_Eyed_Peas_Experience gla:hasPlatform dbr:Wii .
+
+gla:Frogger_Returns gla:hasPlatform dbr:Wii .
+
+gla:Big_Brain_Academy_Wii_Degree owl:sameAs dbr:Big_Brain_Academy:_Wii_Degree;
+  gla:hasPlatform dbr:Wii .
+
+gla:Looney_Tunes_Acme_Arsenal gla:hasPlatform dbr:Wii .
+
+gla:Tiger_Woods_PGA_Tour_07 gla:hasPlatform dbr:Wii .
+
+gla:Defend_Your_Castle owl:sameAs dbr:Defend_Your_Castle;
+  gla:hasPlatform dbr:Wii .
+
+gla:Agatha_Christie_Evil_Under_the_Sun owl:sameAs dbr:Agatha_Christie:_Evil_Under_the_Sun;
+  gla:hasPlatform dbr:Wii .
+
+gla:Cave_Story owl:sameAs dbr:Cave_Story;
+  gla:hasPlatform dbr:Wii .
+
+gla:Rockstar_Games_Presents_Table_Tennis gla:hasPlatform dbr:Wii .
+
+gla:Pirates_vs__Ninjas_Dodgeball gla:hasPlatform dbr:Wii .
+
+gla:Order_Up gla:hasPlatform dbr:Wii .
+
+gla:Klonoa_Door_to_Phantomile owl:sameAs dbr:Klonoa:_Door_to_Phantomile;
+  gla:hasPlatform dbr:Wii .
+
+gla:Red_Steel owl:sameAs dbr:Red_Steel;
+  gla:hasPlatform dbr:Wii .
+
+gla:Call_of_Duty_World_at_War gla:hasPlatform dbr:Wii .
+
+gla:Blazing_Angels_Squadrons_of_WWII gla:hasPlatform dbr:Wii .
+
+gla:Call_of_Duty_3 gla:hasPlatform dbr:Wii .
+
+gla:Sonic_Unleashed gla:hasPlatform dbr:Wii .
+
+gla:Super_Swing_Golf owl:sameAs dbr:Super_Swing_Golf;
+  gla:hasPlatform dbr:Wii .
+
+gla:Tom_Clancys_Splinter_Cell_Double_Agent gla:hasPlatform dbr:Wii, dbr:GameCube .
+
+gla:Zack_and_Wiki_Quest_for_Barbaros_Treasure owl:sameAs <http://dbpedia.org/resource/Zack_&_Wiki:_Quest_for_Barbaros'_Treasure>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Fishing_Master owl:sameAs dbr:Fishing_Master;
+  gla:hasPlatform dbr:Wii .
+
+gla:Game_Party owl:sameAs dbr:Game_Party;
+  gla:hasPlatform dbr:Wii .
+
+gla:Groovin_Blocks owl:sameAs <http://dbpedia.org/resource/Groovin'_Blocks>;
+  gla:hasPlatform dbr:Wii .
+
+gla:Shadow_of_the_Beast owl:sameAs dbr:Shadow_of_the_Beast;
+  gla:hasPlatform dbr:Master_System, dbr:Sega_Genesis, dbr:Super_Nintendo_Entertainment_System .
+
+gla:Mortal_Kombat_II gla:hasPlatform dbr:Master_System, dbr:Sega_Genesis, dbr:Super_Nintendo_Entertainment_System .
+
+gla:Streets_of_Rage_2 owl:sameAs dbr:Streets_of_Rage_2;
+  gla:hasPlatform dbr:Master_System, dbr:Sega_Genesis .
+
+gla:Fantasy_Zone owl:sameAs dbr:Fantasy_Zone;
+  gla:hasPlatform dbr:TurboGrafx-16 .
+
+gla:Gunstar_Heroes owl:sameAs dbr:Gunstar_Heroes;
+  gla:hasPlatform dbr:Sega_Genesis .
+
+gla:Steel_Empire owl:sameAs dbr:Steel_Empire;
+  gla:hasPlatform dbr:Sega_Genesis .
+
+gla:Golden_Axe owl:sameAs dbr:Golden_Axe;
+  gla:hasPlatform dbr:Sega_Genesis .
+
+gla:NBA_Jam owl:sameAs dbr:NBA_Jam;
+  gla:hasPlatform dbr:Sega_Genesis, dbr:Super_Nintendo_Entertainment_System .
+
+gla:Contra_III_The_Alien_Wars owl:sameAs dbr:Contra_III:_The_Alien_Wars;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Fire_Emblem_Genealogy_of_the_Holy_War owl:sameAs dbr:Fire_Emblem:_Genealogy_of_the_Holy_War;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Fatal_Fury_Special owl:sameAs dbr:Fatal_Fury_Special;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Super_Mario_World owl:sameAs dbr:Super_Mario_World;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Pipe_Mania owl:sameAs dbr:Pipe_Mania;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Tokimeki_Memorial owl:sameAs dbr:Tokimeki_Memorial;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Secret_of_Mana owl:sameAs dbr:Secret_of_Mana;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:The_Legend_of_Zelda_A_Link_to_the_Past owl:sameAs dbr:The_Legend_of_Zelda:_A_Link_to_the_Past;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Hagane_The_Final_Conflict owl:sameAs dbr:Hagane:_The_Final_Conflict;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Super_Tennis owl:sameAs dbr:Super_Tennis;
+  gla:hasPlatform dbr:Super_Nintendo_Entertainment_System .
+
+gla:Speedball_2_Brutal_Deluxe gla:hasPlatform dbr:Amiga_CD32 .
+
+gla:Jet_Set_Radio owl:sameAs dbr:Jet_Set_Radio;
+  gla:hasPlatform dbr:Dreamcast .
+
+gla:Power_Stone_2 owl:sameAs dbr:Power_Stone_2;
+  gla:hasPlatform dbr:Dreamcast .
+
+gla:Garou_Mark_of_the_Wolves gla:hasPlatform dbr:Dreamcast .
+
+gla:Legacy_of_Kain_Soul_Reaver owl:sameAs dbr:Legacy_of_Kain:_Soul_Reaver;
+  gla:hasPlatform dbr:Dreamcast .
+
+gla:Fast_Striker owl:sameAs dbr:Fast_Striker;
+  gla:hasPlatform dbr:Dreamcast .
+
+gla:Ikaruga gla:hasPlatform dbr:Dreamcast, dbr:GameCube .
+
+gla:Soulcalibur owl:sameAs dbr:Soulcalibur;
+  gla:hasPlatform dbr:Dreamcast .
+
+gla:Tony_Hawks_Pro_Skater_2 gla:hasPlatform dbr:Dreamcast .
+
+gla:Street_Fighter_III_3rd_Strike gla:hasPlatform dbr:Dreamcast .
+
+gla:F-Zero_GX owl:sameAs dbr:F-Zero_GX;
+  gla:hasPlatform dbr:GameCube;
+  gla:hasScreenshot <http://commons.wikimedia.org/wiki/Special:FilePath/F-Zero_AX_deluxe_cabinet.jpg?width=300> .
+
+gla:Cabelas_Alaskan_Adventures gla:hasPlatform dbr:GameCube .
+
+gla:Luigis_Mansion owl:sameAs <http://dbpedia.org/resource/Luigi's_Mansion>;
+  gla:hasPlatform dbr:GameCube .
+
+gla:Tiger_Woods_PGA_Tour_06 gla:hasPlatform dbr:GameCube .
+
+gla:SSX_on_Tour owl:sameAs dbr:SSX_on_Tour;
+  gla:hasPlatform dbr:GameCube .
+
+gla:Tony_Hawks_American_Wasteland gla:hasPlatform dbr:GameCube .
+
+gla:Heavy_Weapon gla:hasPlatform dbr:Zeebo .
