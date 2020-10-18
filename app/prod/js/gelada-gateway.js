@@ -4,21 +4,35 @@ const LIMITS = ["10", "25", "100", "UNLIMITED"];
 function getPreviewedGames($http, $scope, filters) {
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
-        "SELECT ?game ?name ?screenshot ?releaseDate where{\n" +
+        "SELECT DISTINCT ?game ?name ?screenshot ?releaseDate where{\n" +
         "    ?game a gla:Game .\n";
 
+    let exclusive = false;
     filters.forEach(f => {
-        if (f && f.length > 0) {
-            query += ("    ?game " + f + " .\n");
+        if (f) {
+            if (f === 'exclusive:yes') {
+                exclusive = true;
+            }else if (f === 'exclusive:no') {
+                exclusive = false;
+            } else if (f.length > 0) {
+                query += ("    ?game " + f + " .\n");
+            }
         }
     });
-
+    if (exclusive) {
+        query += "?game gla:hasPlatform ?platform .\n";
+    }
     query +=
         "    ?game gla:hasName ?name .\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
+        "    OPTIONAL {?game gla:hasPlatform ?platform .}\n" +
         "}\n";
 
+    if (exclusive) {
+        query += "GROUP BY ?game ?name ?screenshot ?releaseDate\n";
+        query += "HAVING (COUNT (?platform) = 1)\n"
+    }
     if ($scope.chosenLimit) {
         if ($scope.chosenLimit !== 'UNLIMITED') {
             query += "LIMIT " + $scope.chosenLimit;
@@ -34,7 +48,7 @@ function getPreviewedGames($http, $scope, filters) {
             game.name = safeField(val.name);
             game.uri = safeField(val.game);
             game.releaseDate = safeField(val.releaseDate);
-            game.imgUrl = safeField(val.screenshot);
+            game.imgUrl = safeImage(val.screenshot);
             previewGames.push(game);
         });
         if ($scope.filteredGames) {
@@ -63,19 +77,21 @@ function getGameDetails($http, $scope, uri) {
         "    OPTIONAL {" + uri + " gla:hasMultiplayer ?multiplayer .}\n" +
         "    OPTIONAL {" + uri + " gla:hasAbstract ?abstract .}\n" +
         "    OPTIONAL {" + uri + " gla:hasGenre ?genre . \n ?genre gla:hasName ?genreName .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasVideo ?video .}\n" +
         "}";
 
 
     queryLocalhost(basicInfoQuery, $http, data => {
         angular.forEach(data.data.results.bindings, function (val) {
             $scope.clickedGame.name = safeField(val.name);
-            $scope.clickedGame.imgUrl = safeField(val.screenshot);
+            $scope.clickedGame.imgUrl = safeImage(val.screenshot);
             $scope.clickedGame.alternativeName = safeField(val.alternativeName);
             $scope.clickedGame.releaseDate = safeField(val.releaseDate);
             $scope.clickedGame.singleplayer = safeField(val.singleplayer);
             $scope.clickedGame.multiplayer = safeField(val.multiplayer);
             $scope.clickedGame.genre = safeField(val.genreName);
             $scope.clickedGame.abstract = safeField(val.abstract);
+            $scope.clickedGame.videoUrl = safeField(val.video);
         });
     });
 
@@ -94,7 +110,7 @@ function getGameDetails($http, $scope, uri) {
             const platform = {};
             platform.uri = safeField(val.platform);
             platform.name = safeField(val.name);
-            platform.imgUrl = safeField(val.imgUrl);
+            platform.imgUrl = safeImage(val.imgUrl);
             platform.abstract = safeField(val.abstract);
             platforms.push(platform);
         });
@@ -135,6 +151,50 @@ function getGameDetails($http, $scope, uri) {
             organizations.push(organization);
         });
         $scope.clickedGame.organizations = organizations;
+    });
+
+    const prequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "select distinct ?prequel ?name ?img where {\n" +
+        "    " + uri + " a gla:Game .\n" +
+        "    " + uri + " gla:hasPrequel ?prequel .\n" +
+        "    ?prequel gla:hasName ?name .\n" +
+        "    OPTIONAL {?prequel gla:hasScreenshot ?img}\n" +
+        "    OPTIONAL {?prequel gla:hasReleaseDate ?pRD .}\n" +
+        "}\n" +
+        "order by ASC(?prD)\n";
+
+    queryLocalhost(prequelsQuery, $http, data => {
+        const prequels = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const prequel = {};
+            prequel.uri = safeField(val.prequel);
+            prequel.name = safeField(val.name);
+            prequel.imgUrl = safeImage(val.img);
+            prequels.push(prequel);
+        });
+        $scope.clickedGame.prequels = prequels;
+    });
+
+    const sequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "select distinct ?sequel ?name ?img where {\n" +
+        "    " + uri + " a gla:Game .\n" +
+        "    " + uri + " gla:hasSequel ?sequel .\n" +
+        "    ?sequel gla:hasName ?name .\n" +
+        "    OPTIONAL {?sequel gla:hasScreenshot ?img}\n" +
+        "    OPTIONAL {?sequel gla:hasReleaseDate ?pRD .}\n" +
+        "}\n" +
+        "order by ASC(?prD)\n";
+
+    queryLocalhost(sequelsQuery, $http, data => {
+        const sequels = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const sequel = {};
+            sequel.uri = safeField(val.sequel);
+            sequel.name = safeField(val.name);
+            sequel.imgUrl = safeImage(val.img);
+            sequels.push(sequel);
+        });
+        $scope.clickedGame.sequels = sequels;
     });
 }
 
@@ -216,9 +276,18 @@ function queryLocalhost(query, $http, successCallback) {
 
 }
 
+function safeImage(img) {
+    let s = safeField(img);
+    if (s === 'unknown') {
+        return "img/not-found.jpg"
+    }else{
+        return s;
+    }
+}
+
 function safeField(field) {
     if (typeof (field) === 'undefined') {
-        return "";
+        return "unknown";
     } else {
         return field.value;
     }
