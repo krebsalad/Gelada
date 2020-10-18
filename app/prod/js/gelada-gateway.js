@@ -34,7 +34,7 @@ function getPreviewedGames($http, $scope, filters) {
             game.name = safeField(val.name);
             game.uri = safeField(val.game);
             game.releaseDate = safeField(val.releaseDate);
-            game.imgUrl = safeField(val.screenshot);
+            game.imgUrl = safeImage(val.screenshot);
             previewGames.push(game);
         });
         if ($scope.filteredGames) {
@@ -70,7 +70,7 @@ function getGameDetails($http, $scope, uri) {
     queryLocalhost(basicInfoQuery, $http, data => {
         angular.forEach(data.data.results.bindings, function (val) {
             $scope.clickedGame.name = safeField(val.name);
-            $scope.clickedGame.imgUrl = safeField(val.screenshot);
+            $scope.clickedGame.imgUrl = safeImage(val.screenshot);
             $scope.clickedGame.alternativeName = safeField(val.alternativeName);
             $scope.clickedGame.releaseDate = safeField(val.releaseDate);
             $scope.clickedGame.singleplayer = safeField(val.singleplayer);
@@ -96,7 +96,7 @@ function getGameDetails($http, $scope, uri) {
             const platform = {};
             platform.uri = safeField(val.platform);
             platform.name = safeField(val.name);
-            platform.imgUrl = safeField(val.imgUrl);
+            platform.imgUrl = safeImage(val.imgUrl);
             platform.abstract = safeField(val.abstract);
             platforms.push(platform);
         });
@@ -155,7 +155,7 @@ function getGameDetails($http, $scope, uri) {
             const prequel = {};
             prequel.uri = safeField(val.prequel);
             prequel.name = safeField(val.name);
-            prequel.imgUrl = safeField(val.img);
+            prequel.imgUrl = safeImage(val.img);
             prequels.push(prequel);
         });
         $scope.clickedGame.prequels = prequels;
@@ -177,7 +177,7 @@ function getGameDetails($http, $scope, uri) {
             const sequel = {};
             sequel.uri = safeField(val.sequel);
             sequel.name = safeField(val.name);
-            sequel.imgUrl = safeField(val.img);
+            sequel.imgUrl = safeImage(val.img);
             sequels.push(sequel);
         });
         $scope.clickedGame.sequels = sequels;
@@ -260,6 +260,15 @@ function queryLocalhost(query, $http, successCallback) {
             alert('Error running the input query!' + error);
         });
 
+}
+
+function safeImage(img) {
+    let s = safeField(img);
+    if (s === 'unknown') {
+        return "img/not-found.jpg"
+    }else{
+        return s;
+    }
 }
 
 function safeField(field) {
