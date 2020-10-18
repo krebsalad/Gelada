@@ -87,6 +87,9 @@
                         </span>
                         <br>
                         <span class="uk-text-small"><span
+                                class="uk-text-bold">Genre: </span><span>{{clickedGame.genre}}</span></span>
+                        <br>
+                        <span class="uk-text-small"><span
                                 class="uk-text-bold">Release date: </span><span>{{clickedGame.releaseDate}}</span></span>
                         <br>
                         <span class="uk-text-small"><span
@@ -95,11 +98,13 @@
                         <span class="uk-text-small"><span
                                 class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === "true" ? "Yes" : "No"}}</span></span>
                         <br>
-                        <span class="uk-text-small" ng-if="clickedGame.series"><span
-                                class="uk-text-bold">Series: </span><span>{{clickedGame.series.name}}</span></span>
+                        <span class="uk-text-small"
+                              ng-if="clickedGame.videoUrl && clickedGame.videoUrl.length > 0"><span
+                                class="uk-text-bold">Video: </span><a href="{{clickedGame.videoUrl}}">Here</a></span>
                     </div>
                     <div class="uk-width-1-2">
-                        <img data-src="{{clickedGame.imgUrl}}" class="uk-align-center" uk-img height="100px" width="100px">
+                        <img data-src="{{clickedGame.imgUrl}}" class="uk-align-center" uk-img height="100px"
+                             width="100px">
                     </div>
                 </div>
             </li>
@@ -110,18 +115,36 @@
                 </div>
             </li>
             <li>
-                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Genre</a>
-                <div class="uk-accordion-content uk-margin-right uk-margin-left">
-                    <p class="uk-text-small"><span>{{clickedGame.genre}}</span></p>
-                </div>
-            </li>
-            <li>
                 <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Platforms</a>
                 <div class="uk-accordion-content uk-margin-right uk-margin-left" uk-grid>
                     <div class="uk-width-1-3" ng-repeat="p in clickedGame.platforms">
                         <img data-src="{{p.imgUrl}}" width="100px" height="100px" uk-img
                              uk-tooltip="title: {{p.abstract}}">
                         <p class="uk-text-small uk-text-center">{{p.name}}</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title uk-text-small uk-text-bold" href="#">Prequels & sequels</a>
+                <div class="uk-accordion-content uk-margin-right uk-margin-left">
+                    <div ng-if="clickedGame.prequels && clickedGame.prequels.length > 0">
+                        <p class="uk-text-small uk-text-bold">Prequels:</p>
+                        <div uk-grid>
+                            <div class="uk-width-1-3" ng-repeat="pr in clickedGame.prequels">
+                                <img data-src="{{pr.imgUrl}}" width="100px" height="100px" uk-img>
+                                <p class="uk-text-small uk-text-center">{{pr.name}}</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div ng-if="clickedGame.sequels && clickedGame.sequels.length > 0">
+                        <p class="uk-text-small uk-text-bold">Sequels:</p>
+                        <div uk-grid>
+                            <div class="uk-width-1-3" ng-repeat="se in clickedGame.sequels">
+                                <img data-src="{{se.imgUrl}}" width="100px" height="100px" uk-img>
+                                <p class="uk-text-small uk-text-center">{{se.name}}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </li>
@@ -152,8 +175,8 @@
                     <table class="uk-table uk-table-divider uk-text-small">
                         <tbody>
                         <tr ng-repeat="o in clickedGame.organizations">
-                            <td>{{o.name}}</td>
                             <td>{{o.role}}</td>
+                            <td>{{o.name}}</td>
                         </tr>
                         </tbody>
                     </table>

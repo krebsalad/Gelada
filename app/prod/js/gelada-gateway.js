@@ -63,6 +63,7 @@ function getGameDetails($http, $scope, uri) {
         "    OPTIONAL {" + uri + " gla:hasMultiplayer ?multiplayer .}\n" +
         "    OPTIONAL {" + uri + " gla:hasAbstract ?abstract .}\n" +
         "    OPTIONAL {" + uri + " gla:hasGenre ?genre . \n ?genre gla:hasName ?genreName .}\n" +
+        "    OPTIONAL {" + uri + " gla:hasVideo ?video .}\n" +
         "}";
 
 
@@ -76,6 +77,7 @@ function getGameDetails($http, $scope, uri) {
             $scope.clickedGame.multiplayer = safeField(val.multiplayer);
             $scope.clickedGame.genre = safeField(val.genreName);
             $scope.clickedGame.abstract = safeField(val.abstract);
+            $scope.clickedGame.videoUrl = safeField(val.video);
         });
     });
 
@@ -135,6 +137,50 @@ function getGameDetails($http, $scope, uri) {
             organizations.push(organization);
         });
         $scope.clickedGame.organizations = organizations;
+    });
+
+    const prequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "select distinct ?prequel ?name ?img where {\n" +
+        "    " + uri + " a gla:Game .\n" +
+        "    " + uri + " gla:hasPrequel ?prequel .\n" +
+        "    ?prequel gla:hasName ?name .\n" +
+        "    OPTIONAL {?prequel gla:hasScreenshot ?img}\n" +
+        "    OPTIONAL {?prequel gla:hasReleaseDate ?pRD .}\n" +
+        "}\n" +
+        "order by ASC(?prD)\n";
+
+    queryLocalhost(prequelsQuery, $http, data => {
+        const prequels = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const prequel = {};
+            prequel.uri = safeField(val.prequel);
+            prequel.name = safeField(val.name);
+            prequel.imgUrl = safeField(val.img);
+            prequels.push(prequel);
+        });
+        $scope.clickedGame.prequels = prequels;
+    });
+
+    const sequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "select distinct ?sequel ?name ?img where {\n" +
+        "    " + uri + " a gla:Game .\n" +
+        "    " + uri + " gla:hasSequel ?sequel .\n" +
+        "    ?sequel gla:hasName ?name .\n" +
+        "    OPTIONAL {?sequel gla:hasScreenshot ?img}\n" +
+        "    OPTIONAL {?sequel gla:hasReleaseDate ?pRD .}\n" +
+        "}\n" +
+        "order by ASC(?prD)\n";
+
+    queryLocalhost(sequelsQuery, $http, data => {
+        const sequels = [];
+        angular.forEach(data.data.results.bindings, function (val) {
+            const sequel = {};
+            sequel.uri = safeField(val.sequel);
+            sequel.name = safeField(val.name);
+            sequel.imgUrl = safeField(val.img);
+            sequels.push(sequel);
+        });
+        $scope.clickedGame.sequels = sequels;
     });
 }
 
