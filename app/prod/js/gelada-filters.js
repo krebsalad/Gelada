@@ -12,7 +12,7 @@ class GenerationFilter extends Filterable {
     filter($scope) {
         const scopeVar = $scope.chosenGen;
         if (scopeVar && scopeVar.length > 0) {
-            return "gla:hasGeneration " + scopeVar;
+            return "gla:hasGeneration \"" + scopeVar + "\"";
         } else {
             return "";
         }
