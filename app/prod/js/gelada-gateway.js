@@ -264,7 +264,7 @@ function queryLocalhost(query, $http, successCallback) {
 
 function safeField(field) {
     if (typeof (field) === 'undefined') {
-        return "";
+        return "unknown";
     } else {
         return field.value;
     }

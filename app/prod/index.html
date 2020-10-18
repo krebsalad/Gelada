@@ -83,7 +83,7 @@
                     <div class="uk-width-1-2 uk-text-left">
                         <span class="uk-text-small"><span
                                 class="uk-text-bold uk-text-small">Name: </span><span>{{clickedGame.name}}<span
-                                ng-if="clickedGame.alternativeName"> / {{clickedGame.alternativeName}}</span></span>
+                                ng-if="clickedGame.alternativeName && clickedGame.alternativeName!=='unknown'"> / {{clickedGame.alternativeName}}</span></span>
                         </span>
                         <br>
                         <span class="uk-text-small"><span
@@ -99,7 +99,7 @@
                                 class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === "true" ? "Yes" : "No"}}</span></span>
                         <br>
                         <span class="uk-text-small"
-                              ng-if="clickedGame.videoUrl && clickedGame.videoUrl.length > 0"><span
+                              ng-if="clickedGame.videoUrl && clickedGame.videoUrl!=='unknown'"><span
                                 class="uk-text-bold">Video: </span><a href="{{clickedGame.videoUrl}}">Here</a></span>
                     </div>
                     <div class="uk-width-1-2">
