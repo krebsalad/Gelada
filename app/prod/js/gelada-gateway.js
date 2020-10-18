@@ -4,7 +4,7 @@ const LIMITS = ["10", "25", "100", "UNLIMITED"];
 function getPreviewedGames($http, $scope, filters) {
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
-        "SELECT ?game ?name ?screenshot ?releaseDate where{\n" +
+        "SELECT DISTINCT ?game ?name ?screenshot ?releaseDate where{\n" +
         "    ?game a gla:Game .\n";
 
     let exclusive = false;
@@ -12,8 +12,9 @@ function getPreviewedGames($http, $scope, filters) {
         if (f) {
             if (f === 'exclusive:yes') {
                 exclusive = true;
-            }
-            else if (f.length > 0) {
+            }else if (f === 'exclusive:no') {
+                exclusive = false;
+            } else if (f.length > 0) {
                 query += ("    ?game " + f + " .\n");
             }
         }
