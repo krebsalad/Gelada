@@ -57,6 +57,9 @@
         </div>
         <div class="uk-width-3-4" uk-height-viewport="offset-top: true">
             <div class="uk-card uk-card-default uk-card-body uk-width-1-1">
+                <div ng-if="geladaOnline === false" class="uk-alert-danger" uk-alert>
+                    <p>Gelada (GraphDB) is offline! Make sure it is running at 'http://localhost:7200/gelada'.</p>
+                </div>
                 <h3>Search</h3>
                 <input class="uk-input" type="text" placeholder="Search a game..." ng-model="searchQuery"
                        ng-change="searchInGames();">

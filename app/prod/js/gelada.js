@@ -3,6 +3,7 @@ angular.module('Gelada', []).controller('MainCtrl', ['$scope', '$http', '$sce', 
 function mainCtrl($scope, $http, $sce) {
 
     $scope.initialize = function () {
+        checkGeladaHeartbeat($http, $scope);
         initializeFilters($http, $scope);
         getPreviewedGames($http, $scope, []);
         $scope.filters = [new GenerationFilter(), new PlatformFilter(), new ExclusiveFilter($scope), new GenreFilter()];

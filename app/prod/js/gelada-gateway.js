@@ -1,6 +1,20 @@
 const EMPTY_FILTER = "";
 const LIMITS = ["10", "25", "100", "UNLIMITED"];
 
+function checkGeladaHeartbeat($http, $scope) {
+    $http({
+        method: "GET",
+        url: "http://localhost:7200/repositories/gelada?query=" + encodeURI("SELECT * WHERE{}"),
+        headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'},
+    }).then(function () {
+        $scope.geladaOnline = true;
+        console.log("Gelada healthy!");
+    }, function () {
+        $scope.geladaOnline = false;
+        console.error("Gelada not healthy!")
+    });
+}
+
 function getPreviewedGames($http, $scope, filters) {
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
@@ -12,7 +26,7 @@ function getPreviewedGames($http, $scope, filters) {
         if (f) {
             if (f === 'exclusive:yes') {
                 exclusive = true;
-            }else if (f === 'exclusive:no') {
+            } else if (f === 'exclusive:no') {
                 exclusive = false;
             } else if (f.length > 0) {
                 query += ("    ?game " + f + " .\n");
@@ -271,7 +285,7 @@ function queryLocalhost(query, $http, successCallback) {
         headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
         .then(successCallback, function (error) {
-            alert('Error running the input query!' + error);
+            console.error('Error running the input query!: ' + JSON.stringify(error));
         });
 
 }
@@ -280,7 +294,7 @@ function safeImage(img) {
     let s = safeField(img);
     if (s === 'unknown') {
         return "img/not-found.jpg"
-    }else{
+    } else {
         return s;
     }
 }
