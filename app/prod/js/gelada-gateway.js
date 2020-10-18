@@ -7,18 +7,31 @@ function getPreviewedGames($http, $scope, filters) {
         "SELECT ?game ?name ?screenshot ?releaseDate where{\n" +
         "    ?game a gla:Game .\n";
 
+    let exclusive = false;
     filters.forEach(f => {
-        if (f && f.length > 0) {
-            query += ("    ?game " + f + " .\n");
+        if (f) {
+            if (f === 'exclusive:yes') {
+                exclusive = true;
+            }
+            else if (f.length > 0) {
+                query += ("    ?game " + f + " .\n");
+            }
         }
     });
-
+    if (exclusive) {
+        query += "?game gla:hasPlatform ?platform .\n";
+    }
     query +=
         "    ?game gla:hasName ?name .\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
+        "    OPTIONAL {?game gla:hasPlatform ?platform .}\n" +
         "}\n";
 
+    if (exclusive) {
+        query += "GROUP BY ?game ?name ?screenshot ?releaseDate\n";
+        query += "HAVING (COUNT (?platform) = 1)\n"
+    }
     if ($scope.chosenLimit) {
         if ($scope.chosenLimit !== 'UNLIMITED') {
             query += "LIMIT " + $scope.chosenLimit;

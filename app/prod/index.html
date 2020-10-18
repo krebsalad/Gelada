@@ -119,7 +119,7 @@
                 <div class="uk-accordion-content uk-margin-right uk-margin-left" uk-grid>
                     <div class="uk-width-1-3" ng-repeat="p in clickedGame.platforms">
                         <img data-src="{{p.imgUrl}}" width="100px" height="100px" uk-img
-                             uk-tooltip="title: {{p.abstract}}">
+                             uk-tooltip="title: {{p.abstract==='unknown' ? '' : p.abstract}}">
                         <p class="uk-text-small uk-text-center">{{p.name}}</p>
                     </div>
                 </div>

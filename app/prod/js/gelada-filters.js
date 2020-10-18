@@ -39,12 +39,8 @@ class ExclusiveFilter extends Filterable {
     }
 
     filter($scope) {
-        // const scopeVar = $scope.exclusive;
-        // if (scopeVar && scopeVar.length > 0) {
-        //     games.removeIf(g => {
-        //         return !((scopeVar === 'Yes' && g.exclusive === true) || (scopeVar === 'No' && g.exclusive === false));
-        //     });
-        // }
+        const scopeVar = $scope.exclusive;
+        return scopeVar && scopeVar === 'Yes' ? 'exclusive:yes' : 'exclusive:no';
     }
 }
 
