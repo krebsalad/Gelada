@@ -16,7 +16,7 @@ cd Gelada
     - gla_exclusive_video_games.ttl
     - gla_video_game_consoles.ttl
     - gla_video_games.ttl
-5. Open the index.html file in Gelada/app in a browser such as google chrome or firefox
+5. Open the index.html file in Gelada/app/prod in a browser such as google chrome or firefox
 
 ## Developing with gelada
 1. Download [protoge](https://protege.stanford.edu/).
