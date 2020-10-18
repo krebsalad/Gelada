@@ -18,7 +18,7 @@ function checkGeladaHeartbeat($http, $scope) {
 function getPreviewedGames($http, $scope, filters) {
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
         "\n" +
-        "SELECT DISTINCT ?game ?name ?screenshot ?releaseDate where{\n" +
+        "SELECT DISTINCT ?game (SAMPLE(?name1) as ?name) ?screenshot ?releaseDate where{\n" +
         "    ?game a gla:Game .\n";
 
     let exclusive = false;
@@ -37,14 +37,13 @@ function getPreviewedGames($http, $scope, filters) {
         query += "?game gla:hasPlatform ?platform .\n";
     }
     query +=
-        "    ?game gla:hasName ?name .\n" +
+        "    ?game gla:hasName ?name1 .\n" +
         "    OPTIONAL {?game gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {?game gla:hasReleaseDate ?releaseDate .}\n" +
         "    OPTIONAL {?game gla:hasPlatform ?platform .}\n" +
         "}\n";
-
+    query += "GROUP BY ?game ?screenshot ?releaseDate\n";
     if (exclusive) {
-        query += "GROUP BY ?game ?name ?screenshot ?releaseDate\n";
         query += "HAVING (COUNT (?platform) = 1)\n"
     }
     if ($scope.chosenLimit) {
@@ -111,12 +110,12 @@ function getGameDetails($http, $scope, uri) {
 
 
     const platformsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "SELECT DISTINCT ?platform ?name ?imgUrl ?abstract where{\n" +
+        "SELECT DISTINCT ?platform (SAMPLE(?name1) as ?name) (SAMPLE(?imgUrl1) as ?imgUrl) (SAMPLE(?abstract1) as ?abstract) where{\n" +
         "    " + uri + " gla:hasPlatform ?platform .\n" +
-        "    ?platform gla:hasName ?name .\n" +
-        "    OPTIONAL {?platform gla:hasScreenshot ?imgUrl} .\n" +
-        "    OPTIONAL {?platform gla:hasAbstract ?abstract} .\n" +
-        "}";
+        "    ?platform gla:hasName ?name1 .\n" +
+        "    OPTIONAL {?platform gla:hasScreenshot ?imgUrl1} .\n" +
+        "    OPTIONAL {?platform gla:hasAbstract ?abstract1} .\n" +
+        "}GROUP BY ?platform ";
 
     queryLocalhost(platformsQuery, $http, data => {
         const platforms = [];
@@ -132,10 +131,10 @@ function getGameDetails($http, $scope, uri) {
     });
 
     const charactersQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "SELECT ?character where{\n" +
+        "SELECT ?character (SAMPLE(?name1) as ?name) where{\n" +
         "   " + uri + " gla:hasCharacter ?character .\n" +
-        "    ?character gla:hasName ?name .\n" +
-        "}";
+        "    ?character gla:hasName ?name1 .\n" +
+        "} GROUP BY ?character";
 
     queryLocalhost(charactersQuery, $http, data => {
         const characters = [];
@@ -149,11 +148,11 @@ function getGameDetails($http, $scope, uri) {
     });
 
     const organizationQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "SELECT ?org ?name (REPLACE(str(?role), \"^.*/\", \"\") as ?rolestring) where{\n" +
+        "SELECT ?org (SAMPLE(?name1) as ?name) (REPLACE(str(?role), \"^.*/\", \"\") as ?rolestring) where{\n" +
         "    ?org a gla:Organization .\n" +
-        "    ?org gla:hasName ?name .\n" +
+        "    ?org gla:hasName ?name1 .\n" +
         "    " + uri + " ?role ?org .\n" +
-        "}"
+        "} GROUP BY ?org ?role"
 
     queryLocalhost(organizationQuery, $http, data => {
         const organizations = [];
@@ -168,14 +167,14 @@ function getGameDetails($http, $scope, uri) {
     });
 
     const prequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "select distinct ?prequel ?name ?img where {\n" +
+        "select distinct ?prequel (SAMPLE(?name1) as ?name) ?img where {\n" +
         "    " + uri + " a gla:Game .\n" +
         "    " + uri + " gla:hasPrequel ?prequel .\n" +
-        "    ?prequel gla:hasName ?name .\n" +
+        "    ?prequel gla:hasName ?name1 .\n" +
         "    OPTIONAL {?prequel gla:hasScreenshot ?img}\n" +
         "    OPTIONAL {?prequel gla:hasReleaseDate ?pRD .}\n" +
         "}\n" +
-        "order by ASC(?prD)\n";
+        "GROUP BY ?prequel ?img \n order by ASC(?prD)\n";
 
     queryLocalhost(prequelsQuery, $http, data => {
         const prequels = [];
@@ -190,14 +189,14 @@ function getGameDetails($http, $scope, uri) {
     });
 
     const sequelsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "select distinct ?sequel ?name ?img where {\n" +
+        "select distinct ?sequel (SAMPLE(?name1) as ?name) ?img where {\n" +
         "    " + uri + " a gla:Game .\n" +
         "    " + uri + " gla:hasSequel ?sequel .\n" +
-        "    ?sequel gla:hasName ?name .\n" +
+        "    ?sequel gla:hasName ?name1 .\n" +
         "    OPTIONAL {?sequel gla:hasScreenshot ?img}\n" +
         "    OPTIONAL {?sequel gla:hasReleaseDate ?pRD .}\n" +
         "}\n" +
-        "order by ASC(?prD)\n";
+        "GROUP BY ?sequel ?img \n order by ASC(?prD)\n";
 
     queryLocalhost(sequelsQuery, $http, data => {
         const sequels = [];
@@ -239,12 +238,13 @@ function getGenerationFilterValues($http, $scope) {
 
 
 function getPlatformFilterValues($http, $scope) {
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
-        "\n" +
-        "SELECT DISTINCT ?platform ?name where{\n" +
-        "    ?platform a gla:Platform .\n" +
-        "    ?platform gla:hasName ?name .\n" +
-        "} ORDER BY ASC(?name)";
+    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+        "SELECT DISTINCT ?platform (SAMPLE(?name1) as ?name) where{\n" +
+        "         ?platform a gla:Platform .\n" +
+        "         ?platform gla:hasName ?name1 .\n" +
+        "} \n" +
+        "GROUP BY ?platform\n" +
+        "ORDER BY ASC(?name)\n";
     queryLocalhost(query, $http, data => {
         const platforms = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
@@ -260,10 +260,12 @@ function getPlatformFilterValues($http, $scope) {
 
 function getGenreFilterValues($http, $scope) {
     const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
-        "SELECT DISTINCT ?genre ?name where{\n" +
+        "SELECT DISTINCT ?genre (SAMPLE(?name1) as ?name) where{\n" +
         "         ?genre a gla:Genre .\n" +
-        "         ?genre gla:hasName ?name .\n" +
-        "} ORDER BY ASC(?name)";
+        "         ?genre gla:hasName ?name1 .\n" +
+        "} \n" +
+        "GROUP BY ?genre\n" +
+        "ORDER BY ASC (?name)\n";
     queryLocalhost(query, $http, data => {
         const genres = [EMPTY_FILTER];
         angular.forEach(data.data.results.bindings, function (val) {
