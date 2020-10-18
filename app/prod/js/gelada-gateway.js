@@ -17,9 +17,12 @@ function checkGeladaHeartbeat($http, $scope) {
 
 function getPreviewedGames($http, $scope, filters) {
     let query = "PREFIX gla: <http://www.gelada.org/ontology/>" +
-        "\n" +
+        "PREFIX owl: <http://www.w3.org/2002/07/owl#> \n" +
         "SELECT DISTINCT ?game (SAMPLE(?name1) as ?name) ?screenshot ?releaseDate where{\n" +
-        "    ?game a gla:Game .\n";
+        "    ?game a gla:Game .\n" +
+        "    FILTER NOT EXISTS { \n" +
+        "        ?game (owl:sameAs|^owl:sameAs)* ?_game .\n" +
+        "        FILTER( str(?game) < str(?_game) ) } \n";
 
     let exclusive = false;
     filters.forEach(f => {
@@ -34,7 +37,10 @@ function getPreviewedGames($http, $scope, filters) {
         }
     });
     if (exclusive) {
-        query += "?game gla:hasPlatform ?platform .\n";
+        query += "?game gla:hasPlatform ?platform .\n" +
+        "    FILTER NOT EXISTS { \n" +
+        "        ?platform (owl:sameAs|^owl:sameAs)* ?_platform .\n" +
+        "        FILTER( str(?platform) < str(?_platform) ) } \n";
     }
     query +=
         "    ?game gla:hasName ?name1 .\n" +
@@ -80,9 +86,12 @@ function getPreviewedGames($http, $scope, filters) {
 function getGameDetails($http, $scope, uri) {
     $scope.clickedGame = {};
     uri = escapeOntologyUri(uri);
-    const basicInfoQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+    const basicInfoQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" + "PREFIX owl: <http://www.w3.org/2002/07/owl#> \n" +
         "SELECT * where{\n" +
         "    " + uri + " gla:hasName ?name .\n" +
+        "    FILTER NOT EXISTS { \n" +
+        "        " + uri + " (owl:sameAs|^owl:sameAs)* ?_node .\n" +
+        "        FILTER( str(" + uri + ") < str(?_node) ) } \n" +
         "    OPTIONAL {" + uri + " gla:hasAlternativeName ?alternativeName .}\n" +
         "    OPTIONAL {" + uri + " gla:hasScreenshot ?screenshot .}\n" +
         "    OPTIONAL {" + uri + " gla:hasReleaseDate ?releaseDate .}\n" +
@@ -109,9 +118,12 @@ function getGameDetails($http, $scope, uri) {
     });
 
 
-    const platformsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+    const platformsQuery = "PREFIX gla: <http://www.gelada.org/ontology/>\n" + "PREFIX owl: <http://www.w3.org/2002/07/owl#> \n" +
         "SELECT DISTINCT ?platform (SAMPLE(?name1) as ?name) (SAMPLE(?imgUrl1) as ?imgUrl) (SAMPLE(?abstract1) as ?abstract) where{\n" +
         "    " + uri + " gla:hasPlatform ?platform .\n" +
+        "    FILTER NOT EXISTS { \n" +
+        "        ?platform (owl:sameAs|^owl:sameAs)* ?_platform .\n" +
+        "        FILTER( str(?platform) < str(?_platform) ) } \n" +
         "    ?platform gla:hasName ?name1 .\n" +
         "    OPTIONAL {?platform gla:hasScreenshot ?imgUrl1} .\n" +
         "    OPTIONAL {?platform gla:hasAbstract ?abstract1} .\n" +
@@ -238,9 +250,12 @@ function getGenerationFilterValues($http, $scope) {
 
 
 function getPlatformFilterValues($http, $scope) {
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" + "PREFIX owl: <http://www.w3.org/2002/07/owl#> \n" +
         "SELECT DISTINCT ?platform (SAMPLE(?name1) as ?name) where{\n" +
         "         ?platform a gla:Platform .\n" +
+        "         FILTER NOT EXISTS { \n" +
+        "             ?platform (owl:sameAs|^owl:sameAs)* ?_platform .\n" +
+        "             FILTER( str(?platform) < str(?_platform) ) } \n" +
         "         ?platform gla:hasName ?name1 .\n" +
         "} \n" +
         "GROUP BY ?platform\n" +
@@ -259,9 +274,12 @@ function getPlatformFilterValues($http, $scope) {
 
 
 function getGenreFilterValues($http, $scope) {
-    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" +
+    const query = "PREFIX gla: <http://www.gelada.org/ontology/>\n" + "PREFIX owl: <http://www.w3.org/2002/07/owl#> \n" +
         "SELECT DISTINCT ?genre (SAMPLE(?name1) as ?name) where{\n" +
         "         ?genre a gla:Genre .\n" +
+        "         FILTER NOT EXISTS { \n" +
+        "             ?genre (owl:sameAs|^owl:sameAs)* ?_genre .\n" +
+        "             FILTER( str(?genre) < str(?_genre) ) } \n" +
         "         ?genre gla:hasName ?name1 .\n" +
         "} \n" +
         "GROUP BY ?genre\n" +
