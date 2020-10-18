@@ -5740,3 +5740,7107 @@ gla:Chicken_Hunter rdf:type gla:Game ;
     gla:hasGenre gla:Action ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Educational rdf:type gla:Genre ;
+    gla:hasName "Educational" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Disney rdf:type gla:Publisher ;
+    gla:hasName "Disney" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Disney rdf:type gla:Publisher ;
+    gla:hasName "Disney" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Disney rdf:type gla:Publisher ;
+    gla:hasName "Disney" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Microsoft rdf:type gla:Publisher ;
+    gla:hasName "Microsoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Rockstar rdf:type gla:Publisher ;
+    gla:hasName "Rockstar" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo rdf:type gla:Publisher ;
+    gla:hasName "Nintendo" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Educational rdf:type gla:Genre ;
+    gla:hasName "Educational" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Disney rdf:type gla:Publisher ;
+    gla:hasName "Disney" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Midway rdf:type gla:Publisher ;
+    gla:hasName "Midway" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:THQ rdf:type gla:Publisher ;
+    gla:hasName "THQ" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Activision rdf:type gla:Publisher ;
+    gla:hasName "Activision" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Namco rdf:type gla:Publisher ;
+    gla:hasName "Namco" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Simulation rdf:type gla:Genre ;
+    gla:hasName "Simulation" .
+
+gla:Sega rdf:type gla:Publisher ;
+    gla:hasName "Sega" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:2K rdf:type gla:Publisher ;
+    gla:hasName "2K" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Racing__Driving rdf:type gla:Genre ;
+    gla:hasName "Racing / Driving" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Capcom rdf:type gla:Publisher ;
+    gla:hasName "Capcom" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Sony rdf:type gla:Publisher ;
+    gla:hasName "Sony" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Atari rdf:type gla:Publisher ;
+    gla:hasName "Atari" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Eidos rdf:type gla:Publisher ;
+    gla:hasName "Eidos" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Konami rdf:type gla:Publisher ;
+    gla:hasName "Konami" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Sports rdf:type gla:Genre ;
+    gla:hasName "Sports" .
+
+gla:EA rdf:type gla:Publisher ;
+    gla:hasName "EA" .
+
+gla:Sony_PSP rdf:type gla:Platform ;
+    gla:hasName "Sony PSP" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:PlayStation_3 rdf:type gla:Platform ;
+    gla:hasName "PlayStation 3" .
+
+gla:Strategy rdf:type gla:Genre ;
+    gla:hasName "Strategy" .
+
+gla:X360 rdf:type gla:Platform ;
+    gla:hasName "X360" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Ubisoft rdf:type gla:Publisher ;
+    gla:hasName "Ubisoft" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:SquareEnix rdf:type gla:Publisher ;
+    gla:hasName "SquareEnix" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Role-Playing_RPG rdf:type gla:Genre ;
+    gla:hasName "Role-Playing (RPG)" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .
+
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" .
+
+gla:Nintendo_Wii rdf:type gla:Platform ;
+    gla:hasName "Nintendo Wii" .
+
+gla:Action rdf:type gla:Genre ;
+    gla:hasName "Action" .
+
+gla:Nintendo_DS rdf:type gla:Platform ;
+    gla:hasName "Nintendo DS" .

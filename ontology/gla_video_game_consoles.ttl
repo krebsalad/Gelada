@@ -481,13 +481,13 @@ gla:Game_Brain_proto rdf:type gla:Platform ;
     gla:hasName "Game Brain (proto)" ;
     gla:hasGeneration "2nd" .
 
-gla:Atari_CX2600_6-Switch_andHeavy_Sixerand rdf:type gla:Platform ;
+gla:Atari_CX2600_6-Switch_and_Heavy_Sixer_and_ rdf:type gla:Platform ;
     gla:hasReleaseDate "1977"^^xsd:integer ;
     gla:manufacturedBy gla:Atari ;
     gla:hasName "Atari CX2600 6-Switch &#39;Heavy Sixer&#39;" ;
     gla:hasGeneration "2nd" .
 
-gla:Atari_CX2600A_4-Switch_andWoodyand rdf:type gla:Platform ;
+gla:Atari_CX2600A_4-Switch_and_Woody_and_ rdf:type gla:Platform ;
     gla:hasReleaseDate "1978"^^xsd:integer ;
     gla:manufacturedBy gla:Atari ;
     gla:hasName "Atari CX2600A 4-Switch &#39;Woody&#39;" ;
@@ -535,7 +535,7 @@ gla:Unimex_VCS_800_VCS rdf:type gla:Platform ;
     gla:hasName "Unimex VCS 800 VCS" ;
     gla:hasGeneration "2nd" .
 
-gla:Atari_CX2600A_4-Switch_andDarth_Vaderand rdf:type gla:Platform ;
+gla:Atari_CX2600A_4-Switch_and_Darth_Vader_and_ rdf:type gla:Platform ;
     gla:hasReleaseDate "1982"^^xsd:integer ;
     gla:manufacturedBy gla:Atari ;
     gla:hasName "Atari CX2600A 4-Switch &#39;Darth Vader&#39;" ;
@@ -1831,7 +1831,7 @@ gla:Amstrad_GX-4000 rdf:type gla:Platform ;
 
 gla:Commodore_64_Game_System_64GS rdf:type gla:Platform ;
     gla:hasReleaseDate "1990"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore 64 Game System (64GS)" ;
     gla:hasGeneration "3rd" .
 
@@ -2058,29 +2058,29 @@ gla:Atari_Panther_proto rdf:type gla:Platform ;
 
 gla:Commodore_CDTV rdf:type gla:Platform ;
     gla:hasReleaseDate "1991"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore CDTV" ;
     gla:hasGeneration "4th" ;
     rdf:type gla:Platform ;
     gla:hasReleaseDate "1991"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore CDTV" ;
     gla:hasGeneration "4th" .
 
 gla:Commodore_CDTV_Pro_Pack rdf:type gla:Platform ;
     gla:hasReleaseDate "1991"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore CDTV Pro Pack" ;
     gla:hasGeneration "4th" ;
     rdf:type gla:Platform ;
     gla:hasReleaseDate "1991"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore CDTV Pro Pack" ;
     gla:hasGeneration "4th" .
 
 gla:Commodore_CDTV-CR_proto__ltd_release rdf:type gla:Platform ;
     gla:hasReleaseDate "1992"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Commodore CDTV-CR (proto / ltd release)" ;
     gla:hasGeneration "4th" .
 
@@ -2283,7 +2283,7 @@ gla:Philips_CD-i_490 rdf:type gla:Platform ;
 
 gla:BeoCenter_AV rdf:type gla:Platform ;
     gla:hasReleaseDate "1997"^^xsd:integer ;
-    gla:manufacturedBy gla:Bang_andamp_Olufsen ;
+    gla:manufacturedBy gla:Bang_and_amp_Olufsen ;
     gla:hasName "BeoCenter AV" ;
     gla:hasGeneration "4th" .
 
@@ -2376,13 +2376,13 @@ gla:Victor_Wondermega_RG-M2 rdf:type gla:Platform ;
     gla:hasName "Victor Wondermega RG-M2" ;
     gla:hasGeneration "4th" .
 
-gla:JVC_XandEye_RB rdf:type gla:Platform ;
+gla:JVC_X_and_Eye_RB rdf:type gla:Platform ;
     gla:hasReleaseDate "1994"^^xsd:integer ;
     gla:manufacturedBy gla:JVC ;
     gla:hasName "JVC X&#39;Eye RB" ;
     gla:hasGeneration "4th" .
 
-gla:JVC_XandEye_BL rdf:type gla:Platform ;
+gla:JVC_X_and_Eye_BL rdf:type gla:Platform ;
     gla:hasReleaseDate "1994"^^xsd:integer ;
     gla:manufacturedBy gla:JVC ;
     gla:hasName "JVC X&#39;Eye BL" ;
@@ -2414,12 +2414,12 @@ gla:FM_Towns_Car_Marty_MVP-01 rdf:type gla:Platform ;
 
 gla:Amiga_CD32 rdf:type gla:Platform ;
     gla:hasReleaseDate "1993"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Amiga CD32" ;
     gla:hasGeneration "5th" ;
     rdf:type gla:Platform ;
     gla:hasReleaseDate "1993"^^xsd:integer ;
-    gla:manufacturedBy gla:Commodore_Intland ;
+    gla:manufacturedBy gla:Commodore_Intl_and_ ;
     gla:hasName "Amiga CD32" ;
     gla:hasGeneration "5th" .
 
@@ -2781,7 +2781,7 @@ gla:Sony_PSone rdf:type gla:Platform ;
     gla:hasName "Sony PSone" ;
     gla:hasGeneration "5th" .
 
-gla:Funtech_Super_AandCan rdf:type gla:Platform ;
+gla:Funtech_Super_A_and_Can rdf:type gla:Platform ;
     gla:hasReleaseDate "1995"^^xsd:integer ;
     gla:manufacturedBy gla:Funtech_Entertainment ;
     gla:hasName "Funtech Super A&#39;Can" ;
@@ -3296,3 +3296,1467 @@ gla:Steam_Machines_proto rdf:type gla:Platform ;
     gla:manufacturedBy gla:Various ;
     gla:hasName "Steam Machines (proto)" ;
     gla:hasGeneration "8th" .
+
+gla:Magnavox rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" .
+
+gla:ITT rdf:type gla:Manufacturer ;
+    gla:hasName "ITT" .
+
+gla:Magnavox rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:Juegos_Electronicos rdf:type gla:Manufacturer ;
+    gla:hasName "Juegos Electronicos" .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:Audiosonic rdf:type gla:Manufacturer ;
+    gla:hasName "Audiosonic" .
+
+gla:Binatone rdf:type gla:Manufacturer ;
+    gla:hasName "Binatone" .
+
+gla:Creatronic rdf:type gla:Manufacturer ;
+    gla:hasName "Creatronic" .
+
+gla:Grandstand_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:ITMC rdf:type gla:Manufacturer ;
+    gla:hasName "ITMC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "ITMC" .
+
+gla:Mercury rdf:type gla:Manufacturer ;
+    gla:hasName "Mercury" .
+
+gla:Optim rdf:type gla:Manufacturer ;
+    gla:hasName "Optim" .
+
+gla:Palladium rdf:type gla:Manufacturer ;
+    gla:hasName "Palladium" .
+
+gla:Poppy rdf:type gla:Manufacturer ;
+    gla:hasName "Poppy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Poppy" .
+
+gla:Prinztronic rdf:type gla:Manufacturer ;
+    gla:hasName "Prinztronic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Prinztronic" .
+
+gla:Radofin rdf:type gla:Manufacturer ;
+    gla:hasName "Radofin" .
+
+gla:Sanwa rdf:type gla:Manufacturer ;
+    gla:hasName "Sanwa" .
+
+gla:SHG rdf:type gla:Manufacturer ;
+    gla:hasName "SHG" .
+
+gla:Soundic rdf:type gla:Manufacturer ;
+    gla:hasName "Soundic" .
+
+gla:Tempest rdf:type gla:Manufacturer ;
+    gla:hasName "Tempest" .
+
+gla:Unimex rdf:type gla:Manufacturer ;
+    gla:hasName "Unimex" .
+
+gla:Universum rdf:type gla:Manufacturer ;
+    gla:hasName "Universum" .
+
+gla:Acetronic rdf:type gla:Manufacturer ;
+    gla:hasName "Acetronic" .
+
+gla:Poppy rdf:type gla:Manufacturer ;
+    gla:hasName "Poppy" .
+
+gla:Rollet rdf:type gla:Manufacturer ;
+    gla:hasName "Rollet" .
+
+gla:SIPO rdf:type gla:Manufacturer ;
+    gla:hasName "SIPO" .
+
+gla:Fairchild_Semiconductor rdf:type gla:Manufacturer ;
+    gla:hasName "Fairchild Semiconductor" .
+
+gla:Grandstand_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" .
+
+gla:Luxor rdf:type gla:Manufacturer ;
+    gla:hasName "Luxor" .
+
+gla:Barco rdf:type gla:Manufacturer ;
+    gla:hasName "Barco" .
+
+gla:Dumont rdf:type gla:Manufacturer ;
+    gla:hasName "Dumont" .
+
+gla:Emerson rdf:type gla:Manufacturer ;
+    gla:hasName "Emerson" .
+
+gla:Ingelen rdf:type gla:Manufacturer ;
+    gla:hasName "Ingelen" .
+
+gla:ITT rdf:type gla:Manufacturer ;
+    gla:hasName "ITT" .
+
+gla:Luxor rdf:type gla:Manufacturer ;
+    gla:hasName "Luxor" .
+
+gla:Saba rdf:type gla:Manufacturer ;
+    gla:hasName "Saba" .
+
+gla:Grandstand_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" .
+
+gla:Nordmende rdf:type gla:Manufacturer ;
+    gla:hasName "Nordmende" .
+
+gla:Saba rdf:type gla:Manufacturer ;
+    gla:hasName "Saba" .
+
+gla:Zircon rdf:type gla:Manufacturer ;
+    gla:hasName "Zircon" .
+
+gla:Radofin rdf:type gla:Manufacturer ;
+    gla:hasName "Radofin" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Radofin" .
+
+gla:Prinztronic rdf:type gla:Manufacturer ;
+    gla:hasName "Prinztronic" .
+
+gla:TRQ rdf:type gla:Manufacturer ;
+    gla:hasName "TRQ" .
+
+gla:Audiosonic rdf:type gla:Manufacturer ;
+    gla:hasName "Audiosonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Audiosonic" .
+
+gla:Fountain rdf:type gla:Manufacturer ;
+    gla:hasName "Fountain" .
+
+gla:Interton rdf:type gla:Manufacturer ;
+    gla:hasName "Interton" .
+
+gla:Prinztronic rdf:type gla:Manufacturer ;
+    gla:hasName "Prinztronic" .
+
+gla:Acetronic rdf:type gla:Manufacturer ;
+    gla:hasName "Acetronic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Acetronic" .
+
+gla:Cable_Ind_ rdf:type gla:Manufacturer ;
+    gla:hasName "Cable Ind." .
+
+gla:Fountain rdf:type gla:Manufacturer ;
+    gla:hasName "Fountain" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Fountain" .
+
+gla:Grandstand_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" .
+
+gla:Grundig rdf:type gla:Manufacturer ;
+    gla:hasName "Grundig" .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:Koerting rdf:type gla:Manufacturer ;
+    gla:hasName "Koerting" .
+
+gla:Lansay rdf:type gla:Manufacturer ;
+    gla:hasName "Lansay" .
+
+gla:Palson rdf:type gla:Manufacturer ;
+    gla:hasName "Palson" .
+
+gla:Rowtron rdf:type gla:Manufacturer ;
+    gla:hasName "Rowtron" .
+
+gla:Societe_Occitane rdf:type gla:Manufacturer ;
+    gla:hasName "Societe Occitane" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Societe Occitane" .
+
+gla:Teleng rdf:type gla:Manufacturer ;
+    gla:hasName "Teleng" .
+
+gla:Unimex rdf:type gla:Manufacturer ;
+    gla:hasName "Unimex" .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:Voltmace rdf:type gla:Manufacturer ;
+    gla:hasName "Voltmace" .
+
+gla:ITMC rdf:type gla:Manufacturer ;
+    gla:hasName "ITMC" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Computec rdf:type gla:Manufacturer ;
+    gla:hasName "Computec" .
+
+gla:Funvision_ rdf:type gla:Manufacturer ;
+    gla:hasName "Funvision " .
+
+gla:Matra_ rdf:type gla:Manufacturer ;
+    gla:hasName "Matra " .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:Gracia_ rdf:type gla:Manufacturer ;
+    gla:hasName "Gracia " .
+
+gla:Thompsonic rdf:type gla:Manufacturer ;
+    gla:hasName "Thompsonic" .
+
+gla:Unimex_ rdf:type gla:Manufacturer ;
+    gla:hasName "Unimex " .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Bit_Corporation rdf:type gla:Manufacturer ;
+    gla:hasName "Bit Corporation" .
+
+gla:Bonitron_ rdf:type gla:Manufacturer ;
+    gla:hasName "Bonitron " .
+
+gla:Coleco rdf:type gla:Manufacturer ;
+    gla:hasName "Coleco" .
+
+gla:Dismac_ rdf:type gla:Manufacturer ;
+    gla:hasName "Dismac " .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Columbia_Records rdf:type gla:Manufacturer ;
+    gla:hasName "Columbia Records" .
+
+gla:Dactar rdf:type gla:Manufacturer ;
+    gla:hasName "Dactar" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Dactar" .
+
+gla:Edu rdf:type gla:Manufacturer ;
+    gla:hasName "Edu" .
+
+gla:Polyvox_ rdf:type gla:Manufacturer ;
+    gla:hasName "Polyvox " .
+
+gla:Dynacom_ rdf:type gla:Manufacturer ;
+    gla:hasName "Dynacom " .
+
+gla:Edu rdf:type gla:Manufacturer ;
+    gla:hasName "Edu" .
+
+gla:CCE rdf:type gla:Manufacturer ;
+    gla:hasName "CCE" .
+
+gla:Dactar rdf:type gla:Manufacturer ;
+    gla:hasName "Dactar" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Dactar" .
+
+gla:Microdigital_ rdf:type gla:Manufacturer ;
+    gla:hasName "Microdigital " .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Applevision rdf:type gla:Manufacturer ;
+    gla:hasName "Applevision" .
+
+gla:Milmar_ rdf:type gla:Manufacturer ;
+    gla:hasName "Milmar " .
+
+gla:CCE rdf:type gla:Manufacturer ;
+    gla:hasName "CCE" .
+
+gla:Funfair_ rdf:type gla:Manufacturer ;
+    gla:hasName "Funfair " .
+
+gla:Bally rdf:type gla:Manufacturer ;
+    gla:hasName "Bally" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Bally" .
+
+gla:Astrovision rdf:type gla:Manufacturer ;
+    gla:hasName "Astrovision" .
+
+gla:Astrocade rdf:type gla:Manufacturer ;
+    gla:hasName "Astrocade" .
+
+gla:Magnavox rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Radiola rdf:type gla:Manufacturer ;
+    gla:hasName "Radiola" .
+
+gla:Siera rdf:type gla:Manufacturer ;
+    gla:hasName "Siera" .
+
+gla:Kooton_Trading_Toitarii rdf:type gla:Manufacturer ;
+    gla:hasName "Kooton Trading Toitarii" .
+
+gla:Magnavox rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Schneider rdf:type gla:Manufacturer ;
+    gla:hasName "Schneider" .
+
+gla:Brandt rdf:type gla:Manufacturer ;
+    gla:hasName "Brandt" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Radiola rdf:type gla:Manufacturer ;
+    gla:hasName "Radiola" .
+
+gla:Continental_Edison rdf:type gla:Manufacturer ;
+    gla:hasName "Continental Edison" .
+
+gla:Schneider rdf:type gla:Manufacturer ;
+    gla:hasName "Schneider" .
+
+gla:Siera rdf:type gla:Manufacturer ;
+    gla:hasName "Siera" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Radiola rdf:type gla:Manufacturer ;
+    gla:hasName "Radiola" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Radiola" .
+
+gla:Schneider rdf:type gla:Manufacturer ;
+    gla:hasName "Schneider" .
+
+gla:APF_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "APF Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "APF Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "APF Electronics" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Mattel_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Mattel Electronics" .
+
+gla:Digiplay_ rdf:type gla:Manufacturer ;
+    gla:hasName "Digiplay " .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Tandy_Corp_ rdf:type gla:Manufacturer ;
+    gla:hasName "Tandy Corp." .
+
+gla:Sylvania rdf:type gla:Manufacturer ;
+    gla:hasName "Sylvania" .
+
+gla:Digiplay_ rdf:type gla:Manufacturer ;
+    gla:hasName "Digiplay " .
+
+gla:Mattel_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Mattel Electronics" .
+
+gla:INTV_Corp_ rdf:type gla:Manufacturer ;
+    gla:hasName "INTV Corp." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "INTV Corp." .
+
+gla:World_Book_Encyclopedia rdf:type gla:Manufacturer ;
+    gla:hasName "World Book Encyclopedia" .
+
+gla:Epoch rdf:type gla:Manufacturer ;
+    gla:hasName "Epoch" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Epoch" .
+
+gla:VTech rdf:type gla:Manufacturer ;
+    gla:hasName "VTech" .
+
+gla:Cheryco rdf:type gla:Manufacturer ;
+    gla:hasName "Cheryco" .
+
+gla:Dick_Smith_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Dick Smith Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Dick Smith Electronics" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Dick Smith Electronics" .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:TEK_Electronics_PTY_Ltd_ rdf:type gla:Manufacturer ;
+    gla:hasName "TEK Electronics PTY Ltd." .
+
+gla:VTech rdf:type gla:Manufacturer ;
+    gla:hasName "VTech" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "VTech" .
+
+gla:Zanussi rdf:type gla:Manufacturer ;
+    gla:hasName "Zanussi" .
+
+gla:Salora rdf:type gla:Manufacturer ;
+    gla:hasName "Salora" .
+
+gla:VTech rdf:type gla:Manufacturer ;
+    gla:hasName "VTech" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "VTech" .
+
+gla:Bente rdf:type gla:Manufacturer ;
+    gla:hasName "Bente" .
+
+gla:Coleco rdf:type gla:Manufacturer ;
+    gla:hasName "Coleco" .
+
+gla:CBS_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "CBS Electronics" .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Spectradyne_ rdf:type gla:Manufacturer ;
+    gla:hasName "Spectradyne " .
+
+gla:Inno-Hit rdf:type gla:Manufacturer ;
+    gla:hasName "Inno-Hit" .
+
+gla:Tele-Computer rdf:type gla:Manufacturer ;
+    gla:hasName "Tele-Computer" .
+
+gla:Ormatu_Electronics_BV rdf:type gla:Manufacturer ;
+    gla:hasName "Ormatu Electronics BV" .
+
+gla:Palladium rdf:type gla:Manufacturer ;
+    gla:hasName "Palladium" .
+
+gla:Polybrain rdf:type gla:Manufacturer ;
+    gla:hasName "Polybrain" .
+
+gla:Poppy rdf:type gla:Manufacturer ;
+    gla:hasName "Poppy" .
+
+gla:Prestige rdf:type gla:Manufacturer ;
+    gla:hasName "Prestige" .
+
+gla:Principal rdf:type gla:Manufacturer ;
+    gla:hasName "Principal" .
+
+gla:Radialva rdf:type gla:Manufacturer ;
+    gla:hasName "Radialva" .
+
+gla:Robdajet rdf:type gla:Manufacturer ;
+    gla:hasName "Robdajet" .
+
+gla:Rowtron rdf:type gla:Manufacturer ;
+    gla:hasName "Rowtron" .
+
+gla:Soundic rdf:type gla:Manufacturer ;
+    gla:hasName "Soundic" .
+
+gla:Tempest rdf:type gla:Manufacturer ;
+    gla:hasName "Tempest" .
+
+gla:Trakton rdf:type gla:Manufacturer ;
+    gla:hasName "Trakton" .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:ITMC rdf:type gla:Manufacturer ;
+    gla:hasName "ITMC" .
+
+gla:Grandstand_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand Electronics" .
+
+gla:Intelligent_Game rdf:type gla:Manufacturer ;
+    gla:hasName "Intelligent Game" .
+
+gla:Leisure-Dynamics rdf:type gla:Manufacturer ;
+    gla:hasName "Leisure-Dynamics" .
+
+gla:Orbit_Electronic rdf:type gla:Manufacturer ;
+    gla:hasName "Orbit Electronic" .
+
+gla:Sheen rdf:type gla:Manufacturer ;
+    gla:hasName "Sheen" .
+
+gla:Monaco_Leisure rdf:type gla:Manufacturer ;
+    gla:hasName "Monaco Leisure" .
+
+gla:Tchibo rdf:type gla:Manufacturer ;
+    gla:hasName "Tchibo" .
+
+gla:GiG_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "GiG Electronics" .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:Intercord rdf:type gla:Manufacturer ;
+    gla:hasName "Intercord" .
+
+gla:Schmidt rdf:type gla:Manufacturer ;
+    gla:hasName "Schmidt" .
+
+gla:Tryom rdf:type gla:Manufacturer ;
+    gla:hasName "Tryom" .
+
+gla:Morning-Sun_Commerce rdf:type gla:Manufacturer ;
+    gla:hasName "Morning-Sun Commerce" .
+
+gla:P_I_C_ rdf:type gla:Manufacturer ;
+    gla:hasName "P.I.C." .
+
+gla:Hanimex rdf:type gla:Manufacturer ;
+    gla:hasName "Hanimex" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Emerson rdf:type gla:Manufacturer ;
+    gla:hasName "Emerson" .
+
+gla:Intervision rdf:type gla:Manufacturer ;
+    gla:hasName "Intervision" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Intervision" .
+
+gla:Mr__Altus rdf:type gla:Manufacturer ;
+    gla:hasName "Mr. Altus" .
+
+gla:Advision rdf:type gla:Manufacturer ;
+    gla:hasName "Advision" .
+
+gla:GCE rdf:type gla:Manufacturer ;
+    gla:hasName "GCE" .
+
+gla:Milton_Bradley rdf:type gla:Manufacturer ;
+    gla:hasName "Milton Bradley" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Entex_Industries rdf:type gla:Manufacturer ;
+    gla:hasName "Entex Industries" .
+
+gla:Gakken rdf:type gla:Manufacturer ;
+    gla:hasName "Gakken" .
+
+gla:Nichibutsu rdf:type gla:Manufacturer ;
+    gla:hasName "Nichibutsu" .
+
+gla:Casio rdf:type gla:Manufacturer ;
+    gla:hasName "Casio" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tsukada_Original rdf:type gla:Manufacturer ;
+    gla:hasName "Tsukada Original" .
+
+gla:Fullwis rdf:type gla:Manufacturer ;
+    gla:hasName "Fullwis" .
+
+gla:Daewoo_Electronics_Co_ rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Daewoo Electronics Co." .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Hyundai_Electronics rdf:type gla:Manufacturer ;
+    gla:hasName "Hyundai Electronics" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Sharp rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Epoch rdf:type gla:Manufacturer ;
+    gla:hasName "Epoch" .
+
+gla:ITMC rdf:type gla:Manufacturer ;
+    gla:hasName "ITMC" .
+
+gla:Epoch rdf:type gla:Manufacturer ;
+    gla:hasName "Epoch" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Tomy rdf:type gla:Manufacturer ;
+    gla:hasName "Tomy" .
+
+gla:Grandstand rdf:type gla:Manufacturer ;
+    gla:hasName "Grandstand" .
+
+gla:Tomy rdf:type gla:Manufacturer ;
+    gla:hasName "Tomy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Tomy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Tomy" .
+
+gla:RDI_Video_Systems rdf:type gla:Manufacturer ;
+    gla:hasName "RDI Video Systems" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Unicard_LTD_ rdf:type gla:Manufacturer ;
+    gla:hasName "Unicard LTD." .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Sharp rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Bit_Corporation rdf:type gla:Manufacturer ;
+    gla:hasName "Bit Corporation" .
+
+gla:Telegames rdf:type gla:Manufacturer ;
+    gla:hasName "Telegames" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Telegames" .
+
+gla:Worlds_of_Wonder rdf:type gla:Manufacturer ;
+    gla:hasName "Worlds of Wonder" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Sharp rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" .
+
+gla:Sodipeng rdf:type gla:Manufacturer ;
+    gla:hasName "Sodipeng" .
+
+gla:Telegames rdf:type gla:Manufacturer ;
+    gla:hasName "Telegames" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Jaminlko rdf:type gla:Manufacturer ;
+    gla:hasName "Jaminlko" .
+
+gla:Vistar rdf:type gla:Manufacturer ;
+    gla:hasName "Vistar" .
+
+gla:Unknown rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Unknown" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Konix rdf:type gla:Manufacturer ;
+    gla:hasName "Konix" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Amstrad rdf:type gla:Manufacturer ;
+    gla:hasName "Amstrad" .
+
+gla:Commodore_Intl_and_ rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Turbo_Technologies_Inc_ rdf:type gla:Manufacturer ;
+    gla:hasName "Turbo Technologies Inc." .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Shaw_Wallace rdf:type gla:Manufacturer ;
+    gla:hasName "Shaw Wallace" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Amstrad rdf:type gla:Manufacturer ;
+    gla:hasName "Amstrad" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Amstrad" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Amstrad rdf:type gla:Manufacturer ;
+    gla:hasName "Amstrad" .
+
+gla:Majesco rdf:type gla:Manufacturer ;
+    gla:hasName "Majesco" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Majesco" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:SNK rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Hyundai_Electronics_ rdf:type gla:Manufacturer ;
+    gla:hasName "Hyundai Electronics " .
+
+gla:Playtronic rdf:type gla:Manufacturer ;
+    gla:hasName "Playtronic" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Sharp rdf:type gla:Manufacturer ;
+    gla:hasName "Sharp" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Commodore_Intl_and_ rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Memorex rdf:type gla:Manufacturer ;
+    gla:hasName "Memorex" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Grundig rdf:type gla:Manufacturer ;
+    gla:hasName "Grundig" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Magnavox rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Magnavox" .
+
+gla:Goldstar rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" .
+
+gla:Vobis rdf:type gla:Manufacturer ;
+    gla:hasName "Vobis" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Sony rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Grundig rdf:type gla:Manufacturer ;
+    gla:hasName "Grundig" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:LG_Electronice rdf:type gla:Manufacturer ;
+    gla:hasName "LG Electronice" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Goldstar rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" .
+
+gla:NBS rdf:type gla:Manufacturer ;
+    gla:hasName "NBS" .
+
+gla:Philips rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Philips" .
+
+gla:Bang_and_amp_Olufsen rdf:type gla:Manufacturer ;
+    gla:hasName "Bang &amp; Olufsen" .
+
+gla:Digital_Video_Systems rdf:type gla:Manufacturer ;
+    gla:hasName "Digital Video Systems" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Aiwa rdf:type gla:Manufacturer ;
+    gla:hasName "Aiwa" .
+
+gla:Taito rdf:type gla:Manufacturer ;
+    gla:hasName "Taito" .
+
+gla:Tandy rdf:type gla:Manufacturer ;
+    gla:hasName "Tandy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Tandy" .
+
+gla:Victor rdf:type gla:Manufacturer ;
+    gla:hasName "Victor" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Victor" .
+
+gla:JVC rdf:type gla:Manufacturer ;
+    gla:hasName "JVC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "JVC" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Fujitsu rdf:type gla:Manufacturer ;
+    gla:hasName "Fujitsu" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Fujitsu" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Fujitsu" .
+
+gla:Commodore_Intl_and_ rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Commodore Intl&#39;" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Sega_ rdf:type gla:Manufacturer ;
+    gla:hasName "Sega " ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega " ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega " .
+
+gla:Panasonic rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" .
+
+gla:Goldstar rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" .
+
+gla:Panasonic rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" .
+
+gla:Creative_Labs rdf:type gla:Manufacturer ;
+    gla:hasName "Creative Labs" .
+
+gla:Sanyo rdf:type gla:Manufacturer ;
+    gla:hasName "Sanyo" .
+
+gla:Goldstar rdf:type gla:Manufacturer ;
+    gla:hasName "Goldstar" .
+
+gla:Pioneer rdf:type gla:Manufacturer ;
+    gla:hasName "Pioneer" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Pioneer" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:SNK rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SNK" .
+
+gla:NEC rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "NEC" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Capcom rdf:type gla:Manufacturer ;
+    gla:hasName "Capcom" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Hitachi rdf:type gla:Manufacturer ;
+    gla:hasName "Hitachi" .
+
+gla:Victor rdf:type gla:Manufacturer ;
+    gla:hasName "Victor" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Hitachi rdf:type gla:Manufacturer ;
+    gla:hasName "Hitachi" .
+
+gla:Victor rdf:type gla:Manufacturer ;
+    gla:hasName "Victor" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Sony rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" .
+
+gla:Funtech_Entertainment rdf:type gla:Manufacturer ;
+    gla:hasName "Funtech Entertainment" .
+
+gla:Casio rdf:type gla:Manufacturer ;
+    gla:hasName "Casio" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Atari rdf:type gla:Manufacturer ;
+    gla:hasName "Atari" .
+
+gla:Bandai rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Bandai" .
+
+gla:Katz_Media rdf:type gla:Manufacturer ;
+    gla:hasName "Katz Media" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Panasonic rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" .
+
+gla:Sega rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sega" .
+
+gla:Tec_Toy rdf:type gla:Manufacturer ;
+    gla:hasName "Tec Toy" .
+
+gla:Treamcast rdf:type gla:Manufacturer ;
+    gla:hasName "Treamcast" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Treamcast" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Treamcast" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:Toshiba rdf:type gla:Manufacturer ;
+    gla:hasName "Toshiba" .
+
+gla:Samsung rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Samsung" .
+
+gla:RCA rdf:type gla:Manufacturer ;
+    gla:hasName "RCA" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "RCA" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Indrema rdf:type gla:Manufacturer ;
+    gla:hasName "Indrema" .
+
+gla:Panasonic rdf:type gla:Manufacturer ;
+    gla:hasName "Panasonic" .
+
+gla:Microsoft rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Sony rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" .
+
+gla:SSD_Company_Limited rdf:type gla:Manufacturer ;
+    gla:hasName "SSD Company Limited" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SSD Company Limited" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SSD Company Limited" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "SSD Company Limited" .
+
+gla:ZAPiT_Games_Inc_ rdf:type gla:Manufacturer ;
+    gla:hasName "ZAPiT Games Inc." .
+
+gla:Microsoft rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Sony rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" .
+
+gla:Apple rdf:type gla:Manufacturer ;
+    gla:hasName "Apple" .
+
+gla:TecToy rdf:type gla:Manufacturer ;
+    gla:hasName "TecToy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "TecToy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "TecToy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "TecToy" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "TecToy" .
+
+gla:Envizions rdf:type gla:Manufacturer ;
+    gla:hasName "Envizions" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Envizions" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Envizions" .
+
+gla:Nintendo rdf:type gla:Manufacturer ;
+    gla:hasName "Nintendo" .
+
+gla:Boxer8 rdf:type gla:Manufacturer ;
+    gla:hasName "Boxer8" .
+
+gla:EnGenuix rdf:type gla:Manufacturer ;
+    gla:hasName "EnGenuix" .
+
+gla:Sony rdf:type gla:Manufacturer ;
+    gla:hasName "Sony" .
+
+gla:Microsoft rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" ;
+    rdf:type gla:Manufacturer ;
+    gla:hasName "Microsoft" .
+
+gla:Mad_Catz rdf:type gla:Manufacturer ;
+    gla:hasName "Mad Catz" .
+
+gla:ZTE__The9 rdf:type gla:Manufacturer ;
+    gla:hasName "ZTE \ The9" .
+
+gla:Huawei rdf:type gla:Manufacturer ;
+    gla:hasName "Huawei" .
+
+gla:Various rdf:type gla:Manufacturer ;
+    gla:hasName "Various" .

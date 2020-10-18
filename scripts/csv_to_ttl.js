@@ -16,6 +16,7 @@ var prefix = 'ex';
 var uri = 'http://www.example.com/example/'
 var set_headers = 'false';
 var set_property = 'false';
+var write_extra_triples = 'false';
 
 // process args
 var args = process.argv.slice(2);
@@ -29,8 +30,9 @@ if (args.length == 0){
     (char_newline:=) the character used to determine new lines, by default is new line
     (set_headers:=) would you like to change the name of the predicates/headers? (true or false) by default false
     (set_property:=) (set headers must be true) would you like to change the property type of the headers? by default everty header is a data property 
-    (subject) change the class of the instances, by default is Thing
-    (subject_column) the column of which the id of each 'Thing' is found, by default the first column (0)
+    (subject:=) change the class of the instances, by default is Thing
+    (subject_column:=) the column of which the id of each 'Thing' is found, by default the first column (0)
+    (extra_triples:=) write the extra triples defined by set_property, by default is false
     `)
     return 0;
 }
@@ -70,6 +72,9 @@ for(a in args)
         case "subject_column":
             main_subject_column = Number(s_arg[1]);
             break;
+        case "extra_triples":
+            write_extra_triples = s_arg[1];
+            break;
         default:
             console.log("argument " + s_arg[0] + " is invalid ");
             break;
@@ -105,7 +110,7 @@ for (l in lines)
         continue;
     }
     structured_data.push(line_data);
-    structured_data_headers_property_type.push("data");
+    structured_data_headers_property_type.push("literal");
 }
 
 // utiliy for changing headers if needed
@@ -143,8 +148,8 @@ function set_headers_routine(input)
     {
         if(set_property == 'true')
         {
-            console.log(`option set_property set to TRUE, please input a property type ('object' or 'data') (or leave empty to keep the default 'data') and press <Enter>!!! 
-                    \n\n Note(header name with type 'rename' will restart the whole process amd '-' will remove the header)`);
+            console.log(`option set_property set to TRUE, please input a object property type ('literal is reserved') (or leave empty to keep the default 'literal') and press <Enter>!!! 
+                    \n\n Note(header name with type 'rename' will restart the whole process)`);
             current_header_i = 0
             set_property_routine("rename");
             return 0;
@@ -190,7 +195,7 @@ function set_property_routine(input)
 // rename headers or just continue
 if(set_headers == 'true')
 {
-    console.log(`option set_headers set to TRUE, please input a name for each header(or leave empty to keep the default name) and press <Enter>!!! 
+    console.log(`option set_headers set to TRUE, please input a name for each header or input a '-' to remove the header and all concerning data (or leave empty to keep the default name) and press <Enter>!!! 
                     \n\n Note(header with name 'rename' will restart the whole process)`);
     set_headers_routine("rename");
     return 0;
@@ -210,6 +215,7 @@ function make_str_rdf_compatible(in_str)
         return "None";
     }
     var out_str = in_str.replace(/^\s*/g, '');
+    out_str = out_str.replace(/\&/g, ' and ');
     out_str = out_str.replace(/\s+/g, '_');
     out_str = out_str.replace(/\./g, '_');
     out_str = out_str.replace(/\'/g, '');
@@ -221,7 +227,6 @@ function make_str_rdf_compatible(in_str)
     out_str = out_str.replace(/\//g, '');
     out_str = out_str.replace(/\(/g, '');
     out_str = out_str.replace(/\)/g, '');
-    out_str = out_str.replace(/\&/g, 'and');
     out_str = out_str.replace(/\$/g, '');
     out_str = out_str.replace(/\?/g, '');
     out_str = out_str.replace(/\+/g, '');
@@ -239,6 +244,7 @@ function make_str_rdf_compatible(in_str)
     out_str = out_str.replace(/\@/g, '');
     out_str = out_str.replace(/\∞/g, '_');
     out_str = out_str.replace(/\\/g, '');
+    out_str = out_str.replace(/\#39/g, '');
     out_str = out_str.replace(/\#/g, '');
     return out_str;
 }
@@ -269,51 +275,14 @@ function make_str_rdf_literal(in_str)
 }
 
 // convert to triple data
-function write_structured_data_as_ttl()
+function get_triple_data_as_string(add_header, triple_data)
 {
-    console.log("converting data...");
-    var triple_data = [];
-    for (sd_iter in structured_data)
+    var out_data = '';
+    var last_subject = '';
+    if(add_header)
     {
-        // get subject name
-        var subject = prefix + make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
-        if (subject == '')
-        {
-            continue;
-        }
-
-        // add base triples
-        triple_data.push([subject, 'rdf:type', prefix + main_subject]);
-
-        // add the other triples
-        for (ld_iter in structured_data[sd_iter])
-        {
-
-            var predicate = prefix + make_str_rdf_compatible(structured_data_headers[ld_iter]);
-            var object = '';
-            if(structured_data_headers_property_type[ld_iter] == 'object')
-            {
-                object = prefix + make_str_rdf_compatible(structured_data[sd_iter][ld_iter]);
-            }
-            else
-            {
-                object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
-            }
-            
-            if (predicate == '' || object == '')
-            {
-                continue;
-            }
-
-            triple_data.push([subject, predicate, object]);
-        }
+        out_data = out_data + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix "+ prefix +" <" + uri +"> .\n";
     }
-
-    // write to file
-    console.log("writing data to " + out_path);
-    out_data = '';
-    last_subject = '';
-    out_data = out_data + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix "+ prefix +" <" + uri +"> .\n";
     for (t in triple_data)
     {
         // dont add malformed triples
@@ -341,8 +310,63 @@ function write_structured_data_as_ttl()
         out_data = out_data + triple_data[t][0] + " " + triple_data[t][1] + " " + triple_data[t][2] + " ";
         last_subject = triple_data[t][0];
     }
-    out_data += '.';
-    fs.writeFileSync(out_path, out_data);
+    out_data += '.' + '\n';
+    return out_data;
+}
+
+function write_structured_data_as_ttl()
+{
+    console.log("converting data...");
+    var triple_data = [];
+    var extra_triple_data = [];
+    for (sd_iter in structured_data)
+    {
+        // get subject name
+        var subject = prefix + make_str_rdf_compatible(structured_data[sd_iter][main_subject_column]);
+        if (subject == '')
+        {
+            continue;
+        }
+
+        // add base triples
+        triple_data.push([subject, 'rdf:type', prefix + main_subject]);
+
+        // add the other triples
+        for (ld_iter in structured_data[sd_iter])
+        {
+
+            var predicate = prefix + make_str_rdf_compatible(structured_data_headers[ld_iter]);
+            var object = '';
+            if(structured_data_headers_property_type[ld_iter] != 'literal')
+            {
+                object = prefix + make_str_rdf_compatible(structured_data[sd_iter][ld_iter]);
+                extra_triple_data.push([object, 'rdf:type', prefix + make_str_rdf_compatible(structured_data_headers_property_type[ld_iter])]);
+                extra_triple_data.push([object, prefix + make_str_rdf_compatible(structured_data_headers[main_subject_column]), make_str_rdf_literal(structured_data[sd_iter][ld_iter])]);
+            }
+            else
+            {
+                object = make_str_rdf_literal(structured_data[sd_iter][ld_iter]);
+            }
+            
+            if (predicate == '' || object == '')
+            {
+                continue;
+            }
+
+            triple_data.push([subject, predicate, object]);
+        }
+    }
+
+    // write to file
+    console.log("writing data to " + out_path);
+    if(write_extra_triples == 'true')
+    {
+        fs.writeFileSync(out_path, get_triple_data_as_string(true, triple_data) + "\n" + get_triple_data_as_string(false, extra_triple_data));
+    }
+    else
+    {
+        fs.writeFileSync(out_path, get_triple_data_as_string(true, triple_data));
+    }
     console.log("converted succesfully");
     return 0;
 }

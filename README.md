@@ -41,11 +41,11 @@ curl https://corgis-edu.github.io/corgis/datasets/csv/video_games/video_games.cs
 4. run the script using the following options (make sure to be in the Gelada project work space)
 a. in case you downloaded the file manually, it seems to have a different row ending than when downloaded using curl, so the sign will have to be changed. In this case its ;. This can be configured in the script by adding the character sign after the prefix option.
 ```
-node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:=";" subject:="Game"
+node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:=";" subject:="Game" set_headers:=true set_property:=true uri:=http://www.gelada.org/ontology/ prefix:=gla extra_triples:=true
 ```
 b. in case you downloaded the file with curl the sign should be a ,
 ```
-node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:="," subject:="Game"
+node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  char_newelement:="," subject:="Game" set_headers:=true set_property:=true uri:=http://www.gelada.org/ontology/ prefix:=gla extra_triples:=true
 ```
 
 5. see the output of the script in the directory data/VideoGames.ttl
@@ -64,15 +64,11 @@ cd Gelada
 ```
 node scripts/html_to_csv_genres.js
 ```
-4. run the script csv_to_tll to convert the resulting file.
+4. run the script csv_to_tll to convert the resulting file, press enter on all prompts
 ```
-node scripts/csv_to_ttl.js in:=data/VideoGameGenres.csv out:=data/VideoGameGenres.ttl  char_newelement:=";;" subject:="Genre"
+node scripts/csv_to_ttl.js in:=data/VideoGameGenres.csv out:=data/VideoGameGenres.ttl  char_newelement:=";;" subject:="Genre" set_headers:=true set_property:=true uri:=http://www.gelada.org/ontology/ prefix:=gla extra_triples=true
 ```
-5. since the script produces to csv file you will to convert the other one as well
-```
-node scripts/csv_to_ttl.js in:=data/VideoGameNames.csv out:=data/VideoGameNames.ttl  char_newelement:="," subject:="Game"
-```
-6. see the output of the script in the directory data/VideoGameGenres.ttl
+5. see the output of the script in the directory data/VideoGameGenres.ttl
 ```
 cat data/VideoGameGenres.ttl
 ```
@@ -88,9 +84,9 @@ cd Gelada
 ```
 node scripts/html_to_csv_consoles.js
 ```
-4. run the script csv_to_tll to convert the resulting file.
+4. run the script csv_to_tll to convert the resulting file, press enter on all prompts
 ```
-node scripts/csv_to_ttl.js in:=data/VideoGameConsoles.csv out:=data/VideoGameConsoles.ttl  char_newelement:="," subject:="Console" subject_column:="2"
+node scripts/csv_to_ttl.js in:=data/VideoGameConsoles.csv out:=data/VideoGameConsoles.ttl  char_newelement:="," subject:="Platform" set_headers:=true set_property:=true uri:=http://www.gelada.org/ontology/ prefix:=gla extra_triples:=true subject_column:=2
 ```
 5. see the output of the script in the directory data/VideoGameConsoles.ttl
 ```
@@ -108,9 +104,9 @@ cd Gelada
 ```
 node scripts/html_to_csv_exclusives.js
 ```
-4. run the script csv_to_tll to convert the resulting file.
+4. run the script csv_to_tll to convert the resulting file, press enter on all prompts
 ```
-node scripts/csv_to_ttl.js in:=data/VideoGameExclusives.csv out:=data/VideoGameExclusives.ttl  char_newelement:="," subject:="Game"
+node scripts/csv_to_ttl.js in:=data/VideoGameExclusives.csv out:=data/VideoGameExclusives.ttl  char_newelement:="," subject:="ExclusiveGame" set_headers:=true set_property:=true uri:=http://www.gelada.org/ontology/ prefix:=gla extra_triples:=true
 ```
 5. see the output of the script in the directory data/VideoGameExclusives.ttl
 ```
