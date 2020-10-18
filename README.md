@@ -3,23 +3,25 @@
 ## Installation and Running Gelada
 1. Clone this repository and go into the project work space
 ```
+cd ~/
 git clone https://github.com/krebsalad/Gelada
 cd Gelada
 ```
 2. Download and Install [graphDB](https://www.ontotext.com/products/graphdb/)
-3. Run Graph DB and create a new Repository, ensure OWL-Max (Optimized) ruleset is chosen when creating the repository.
-4. Add the following files in order. These files can be found in Gelada/ontology
+3. Run Graph DB and create a new Repository called 'gelada' in lowercases, ensure OWL-Max (Optimized) ruleset is chosen, set the base url to 'http://www.gelada.org/ontology' and finally create the repository.
+4. Select the repository and Import the following files starting with gla.ttl. These files can be found in the directory ~/Gelada/ontology.
     - gla.ttl
     - gla_video_game_genres.ttl
-    - gla_exclusives_video_games.ttl
+    - gla_video_game_names.ttl
+    - gla_exclusive_video_games.ttl
     - gla_video_game_consoles.ttl
     - gla_video_games.ttl
-5. Open the index.html file in Gelada/app in a browser
+5. Open the index.html file in Gelada/app in a browser such as google chrome or firefox
 
 ## Developing with gelada
-1. Download protoge.
+1. Download [protoge](https://protege.stanford.edu/).
 2. Start protoge and open gla.ttl.
-3. Run the reasoner
+3. Run the reasoner.
 4. Add axioms...
 
 ## others
@@ -66,7 +68,11 @@ node scripts/html_to_csv_genres.js
 ```
 node scripts/csv_to_ttl.js in:=data/VideoGameGenres.csv out:=data/VideoGameGenres.ttl  char_newelement:=";;" subject:="Genre"
 ```
-5. see the output of the script in the directory data/VideoGameGenres.ttl
+5. since the script produces to csv file you will to convert the other one as well
+```
+node scripts/csv_to_ttl.js in:=data/VideoGameNames.csv out:=data/VideoGameNames.ttl  char_newelement:="," subject:="Game"
+```
+6. see the output of the script in the directory data/VideoGameGenres.ttl
 ```
 cat data/VideoGameGenres.ttl
 ```

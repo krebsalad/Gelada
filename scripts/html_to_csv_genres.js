@@ -75,6 +75,9 @@ callback = function(response) {
     var structured_data_headers = [];
     var structured_data = [];
 
+    var structured_data_headers_games = [];
+    var structured_data_games = [];
+
     var header_tags = getXmlTagBetweenMultipleLines('th', '', table_resources[0]);
     for (t in header_tags)
     {
@@ -83,6 +86,7 @@ callback = function(response) {
     structured_data_headers[2] = "Example";
     structured_data_headers.push("Example");
     structured_data_headers.push("Example");
+    structured_data_headers_games.push("Name");
     console.log("headers:" + structured_data_headers);
     table_resources.shift();
 
@@ -97,12 +101,15 @@ callback = function(response) {
       for(e in examples)
       {
         elem.push(examples[e]);
+        l = []
+        l.push(examples[e]);
+        structured_data_games.push(l);
       }
       structured_data.push(elem);
     }
-    console.log("found " + structured_data.length + " instances" );
-
+    
     // convert to csv
+    console.log("found " + structured_data.length + " genre instances" );
     var out_data = "";
     for (d in structured_data_headers)
     {
@@ -122,6 +129,28 @@ callback = function(response) {
     var fs = require('fs');
     fs.writeFileSync("data/VideoGameGenres.csv", out_data);
     console.log("wrote instances as csv format to " + "data/VideoGameGenres.csv" + " with comma as ;; and newline as \\n ");
+
+    // convert to csv
+    console.log("found " + structured_data_games.length + " game instances" );
+    var out_data = "";
+    for (d in structured_data_headers_games)
+    {
+      if(d!=0) out_data+= ",";
+      out_data += String(structured_data_headers_games[d])
+    }
+    out_data += "\n";
+    for (d in structured_data_games)
+    {
+      for (d2 in structured_data_games[d])
+      {
+        if(d2!=0) out_data+= ",";
+        out_data += String(structured_data_games[d][d2]);
+      }
+      out_data += "\n";
+    }
+    var fs = require('fs');
+    fs.writeFileSync("data/VideoGameNames.csv", out_data);
+    console.log("wrote instances as csv format to " + "data/VideoGameNames.csv" + " with comma as , and newline as \\n ");
 
   });
 }

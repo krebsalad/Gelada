@@ -43,8 +43,8 @@ gla:Action-RPG rdf:type gla:Genre ;
     gla:hasExampleGame gla:Dragons_Dogma_Dark_Arisen ;
     gla:hasExampleGame gla:Dark_Cloud_2 .
 
-gla:None rdf:type gla:Genre ;
-    gla:hasName "0"^^xsd:integer ;
+gla:Adventure rdf:type gla:Genre ;
+    gla:hasName "Adventure" ;
     gla:hasAbstract "Adventure is one of the oldest game genres, and refers to a type of game that doesn't include action gameplay or reflex-based challenges. Rather, players explore their environment, interact with characters, and solve puzzles to progress. Traditional Adventure games usually featured a text-based or point-and-click interface. In Japan, Visual Novels are a popular sub-genre. Pure Adventure games lost popularity in the late nineties, but have recently experienced a comeback, mainly thanks to indie developers." ;
     gla:hasExampleGame gla:Grim_Fandango ;
     gla:hasExampleGame gla:The_Last_Express ;
@@ -358,8 +358,8 @@ gla:Platformer rdf:type gla:Genre ;
     gla:hasExampleGame gla:Super_Mario_World ;
     gla:hasExampleGame gla:Spelunky .
 
-gla:None rdf:type gla:Genre ;
-    gla:hasName "0"^^xsd:integer ;
+gla:Puzzle_Game rdf:type gla:Genre ;
+    gla:hasName "Puzzle Game" ;
     gla:hasAbstract "A basic game genre, in Puzzle games players must, obviously, solve puzzles to progress. They may also be video game versions of real-world established types of puzzles, like Sudoku or trivia games. Pure Puzzle games are now rare, but they have been incorporated into all sorts of game genres, including Action-Adventures, RPGs, and even FPS games. The Matching Puzzle sub-genre remains popular, as do Adventure games focused on puzzle-solving, and Platform games with Puzzle elements." ;
     gla:hasExampleGame gla:Picross_3D ;
     gla:hasExampleGame gla:Echochrome ;
@@ -414,8 +414,8 @@ gla:RPG rdf:type gla:Genre ;
     gla:hasExampleGame gla:Arcanum_Of_Steamworks_and_Magick_Obscura ;
     gla:hasExampleGame gla:Dragon_Quest_VIII_Journey_of_the_Cursed_King .
 
-gla:None rdf:type gla:Genre ;
-    gla:hasName "0"^^xsd:integer ;
+gla:RTS rdf:type gla:Genre ;
+    gla:hasName "RTS (Real-Time Strategy)" ;
     gla:hasAbstract "RTS (Real-Time Strategy) is a sub-genre of Strategy games, where all of the player's decision-making and actions take place in a constantly-changing environment. RTS games are characterized by actions like producing units, fortifying bases, gathering materials, and researching technologies. RTS games have acquired a vibrant competitive scene, with games such as StarCraft II being played competitively for huge sums in South Korea. Modern RTS games are generally on PC and incorporate a multi-player element." ;
     gla:hasExampleGame gla:StarCraft_II_Wings_of_Liberty ;
     gla:hasExampleGame gla:Age_of_Empires_II_Age_of_Kings ;
@@ -428,8 +428,8 @@ gla:Run-n-Gun rdf:type gla:Genre ;
     gla:hasExampleGame gla:Metal_Slug_3 ;
     gla:hasExampleGame gla:Contra_III_The_Alien_Wars .
 
-gla:None rdf:type gla:Genre ;
-    gla:hasName "0"^^xsd:integer ;
+gla:Shoot-em-ups rdf:type gla:Genre ;
+    gla:hasName "Shoot-'em-ups";
     gla:hasAbstract "Shoot-'em-ups are a subgenre of Shooting games where the player controls an avatar (usually an airship) and shoots enemies while progressing through scrolling levels. Shoot-'em-ups are usually light on narrative and focus on arcade-style gameplay, including power-ups, score systems, and end-stage bosses. While Shoot-'em-ups reached peak popularity along with arcades in the nineties, they have since retained a strong cult following, with new entries on PC being quite common. Shoot-'em-ups with cutesy art direction, like Cotton or TwinBee, are affectionately known as Cute-'em-ups." ;
     gla:hasExampleGame gla:Einhander ;
     gla:hasExampleGame gla:Radiant_Silvergun ;

@@ -88,7 +88,6 @@ gla:Polarium rdf:type gla:Game ;
 gla:Zoo_Keeper rdf:type gla:Game ;
     gla:hasName "Zoo Keeper" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2004"^^xsd:integer .
 
@@ -179,7 +178,6 @@ gla:Sonic_Rush rdf:type gla:Game ;
 gla:Star_Wars_Battlefront_II rdf:type gla:Game ;
     gla:hasName "Star Wars: Battlefront II" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -263,7 +261,6 @@ gla:NBA_Live_06 rdf:type gla:Game ;
 gla:Dead_or_Alive_4 rdf:type gla:Game ;
     gla:hasName "Dead or Alive 4" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -431,7 +428,6 @@ gla:NBA_2K6_ rdf:type gla:Game ;
 gla:Pinball_Hall_of_Fame_The_Gottlieb_Collection rdf:type gla:Game ;
     gla:hasName "Pinball Hall of Fame: The Gottlieb Collection" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -529,7 +525,6 @@ gla:Meteos rdf:type gla:Game ;
 gla:Spyro_Shadow_Legacy rdf:type gla:Game ;
     gla:hasName "Spyro: Shadow Legacy" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -543,7 +538,6 @@ gla:The_Con rdf:type gla:Game ;
 gla:Infected rdf:type gla:Game ;
     gla:hasName "Infected" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -578,7 +572,6 @@ gla:Amped_3 rdf:type gla:Game ;
 gla:Break_em_All rdf:type gla:Game ;
     gla:hasName "Break 'em All" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -697,14 +690,12 @@ gla:Viewtiful_Joe_Double_Trouble rdf:type gla:Game ;
 gla:The_Legend_of_Heroes_A_Tear_of_Vermillion rdf:type gla:Game ;
     gla:hasName "The Legend of Heroes: A Tear of Vermillion" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
 gla:PQ_Practical_Intelligence_Quotient rdf:type gla:Game ;
     gla:hasName "PQ: Practical Intelligence Quotient" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -753,14 +744,12 @@ gla:Sega_Casino rdf:type gla:Game ;
 gla:Tokobot rdf:type gla:Game ;
     gla:hasName "Tokobot" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
 gla:Fullmetal_Alchemist_Dual_Sympathy rdf:type gla:Game ;
     gla:hasName "Fullmetal Alchemist: Dual Sympathy" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -774,7 +763,6 @@ gla:Exit rdf:type gla:Game ;
 gla:Bubble_Bobble_Revolution rdf:type gla:Game ;
     gla:hasName "Bubble Bobble Revolution" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -788,7 +776,6 @@ gla:Electroplankton rdf:type gla:Game ;
 gla:Space_Invaders_Revolution rdf:type gla:Game ;
     gla:hasName "Space Invaders Revolution" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2005"^^xsd:integer .
 
@@ -823,7 +810,6 @@ gla:Gears_of_War rdf:type gla:Game ;
 gla:Cooking_Mama rdf:type gla:Game ;
     gla:hasName "Cooking Mama" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1033,7 +1019,6 @@ gla:Tetris_DS rdf:type gla:Game ;
 gla:LEGO_Star_Wars_II_The_Original_Trilogy rdf:type gla:Game ;
     gla:hasName "LEGO Star Wars II: The Original Trilogy" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1054,7 +1039,6 @@ gla:Metroid_Prime_Hunters rdf:type gla:Game ;
 gla:LEGO_Star_Wars_II_The_Original_Trilogy rdf:type gla:Game ;
     gla:hasName "LEGO Star Wars II: The Original Trilogy" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1213,7 +1197,6 @@ gla:Tiger_Woods_PGA_Tour_07 rdf:type gla:Game ;
 gla:F_E_A_R__First_Encounter_Assault_Recon rdf:type gla:Game ;
     gla:hasName "F.E.A.R.: First Encounter Assault Recon" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1318,7 +1301,6 @@ gla:Capcom_Classics_Collection_Reloaded rdf:type gla:Game ;
 gla:Pirates_of_the_Caribbean_Dead_Mans_Chest rdf:type gla:Game ;
     gla:hasName "Pirates of the Caribbean: Dead Man's Chest" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1353,7 +1335,6 @@ gla:Dragon_Quest_Monsters_Joker rdf:type gla:Game ;
 gla:Pirates_of_the_Caribbean_Dead_Mans_Chest rdf:type gla:Game ;
     gla:hasName "Pirates of the Caribbean: Dead Man's Chest" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1430,7 +1411,6 @@ gla:Far_Cry_Instincts_-_Predator rdf:type gla:Game ;
 gla:Age_of_Empires_The_Age_of_Kings rdf:type gla:Game ;
     gla:hasName "Age of Empires: The Age of Kings" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1465,7 +1445,6 @@ gla:Over_G_Fighters rdf:type gla:Game ;
 gla:Justice_League_Heroes rdf:type gla:Game ;
     gla:hasName "Justice League Heroes" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1507,7 +1486,6 @@ gla:NHL_07 rdf:type gla:Game ;
 gla:Bust-a-Move_Deluxe rdf:type gla:Game ;
     gla:hasName "Bust-a-Move Deluxe" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1535,7 +1513,6 @@ gla:Mega_Man_ZX rdf:type gla:Game ;
 gla:Super_Swing_Golf rdf:type gla:Game ;
     gla:hasName "Super Swing Golf" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1570,7 +1547,6 @@ gla:Dungeon_Siege_Throne_of_Agony rdf:type gla:Game ;
 gla:Lumines_II rdf:type gla:Game ;
     gla:hasName "Lumines II" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1591,14 +1567,12 @@ gla:Star_Wars_Lethal_Alliance rdf:type gla:Game ;
 gla:Eragon rdf:type gla:Game ;
     gla:hasName "Eragon" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Metal_Slug_Anthology rdf:type gla:Game ;
     gla:hasName "Metal Slug Anthology" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1689,7 +1663,6 @@ gla:Armored_Core_4 rdf:type gla:Game ;
 gla:Eragon rdf:type gla:Game ;
     gla:hasName "Eragon" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1710,7 +1683,6 @@ gla:The_Ant_Bully rdf:type gla:Game ;
 gla:Onechanbara_Bikini_Samurai_Squad rdf:type gla:Game ;
     gla:hasName "Onechanbara: Bikini Samurai Squad" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1738,7 +1710,6 @@ gla:Digimon_World_DS rdf:type gla:Game ;
 gla:Justice_League_Heroes rdf:type gla:Game ;
     gla:hasName "Justice League Heroes" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1759,7 +1730,6 @@ gla:Open_Season rdf:type gla:Game ;
 gla:Samurai_Warriors_2 rdf:type gla:Game ;
     gla:hasName "Samurai Warriors 2" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1780,7 +1750,6 @@ gla:Import_Tuner_Challenge rdf:type gla:Game ;
 gla:Touch_Detective rdf:type gla:Game ;
     gla:hasName "Touch Detective" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1801,14 +1770,12 @@ gla:PaRappa_the_Rapper rdf:type gla:Game ;
 gla:Riviera_The_Promised_Land rdf:type gla:Game ;
     gla:hasName "Riviera: The Promised Land" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Samurai_Warriors_State_of_War rdf:type gla:Game ;
     gla:hasName "Samurai Warriors: State of War" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1822,7 +1789,6 @@ gla:Viewtiful_Joe_Red_Hot_Rumble rdf:type gla:Game ;
 gla:Ice_Age_2_The_Meltdown rdf:type gla:Game ;
     gla:hasName "Ice Age 2: The Meltdown" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1836,21 +1802,18 @@ gla:Bionicle_Heroes rdf:type gla:Game ;
 gla:Deep_Labyrinth rdf:type gla:Game ;
     gla:hasName "Deep Labyrinth" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Blade_Dancer_Lineage_of_Light rdf:type gla:Game ;
     gla:hasName "Blade Dancer: Lineage of Light" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Every_Extend_Extra rdf:type gla:Game ;
     gla:hasName "Every Extend Extra" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1892,14 +1855,12 @@ gla:Death_Jr__II_Root_of_Evil rdf:type gla:Game ;
 gla:Cartoon_Network_Racing rdf:type gla:Game ;
     gla:hasName "Cartoon Network Racing" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Guilty_Gear_Dust_Strikers rdf:type gla:Game ;
     gla:hasName "Guilty Gear: Dust Strikers" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1913,7 +1874,6 @@ gla:Gunpey_DS rdf:type gla:Game ;
 gla:Mercury_Meltdown rdf:type gla:Game ;
     gla:hasName "Mercury Meltdown" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1927,14 +1887,12 @@ gla:Snoopy_vs__the_Red_Baron rdf:type gla:Game ;
 gla:Bomberman_Land_Touch rdf:type gla:Game ;
     gla:hasName "Bomberman Land Touch!" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Scurge_Hive rdf:type gla:Game ;
     gla:hasName "Scurge: Hive" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1955,7 +1913,6 @@ gla:Ford_Bold_Moves_Street_Racing rdf:type gla:Game ;
 gla:Gitaroo_Man_Lives rdf:type gla:Game ;
     gla:hasName "Gitaroo Man Lives!" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1983,7 +1940,6 @@ gla:Bomberman_Act_Zero rdf:type gla:Game ;
 gla:Earth_Defense_Force_2017 rdf:type gla:Game ;
     gla:hasName "Earth Defense Force 2017" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -1997,7 +1953,6 @@ gla:WarTech_Senko_no_Ronde rdf:type gla:Game ;
 gla:MechAssault_Phantom_War rdf:type gla:Game ;
     gla:hasName "MechAssault: Phantom War" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -2018,7 +1973,6 @@ gla:BattleZone rdf:type gla:Game ;
 gla:Bubble_Bobble_Evolution rdf:type gla:Game ;
     gla:hasName "Bubble Bobble Evolution" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -2053,14 +2007,12 @@ gla:Metal_Gear_Solid_Digital_Graphic_Novel rdf:type gla:Game ;
 gla:Platypus rdf:type gla:Game ;
     gla:hasName "Platypus" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
 gla:Gurumin_A_Monstrous_Adventure rdf:type gla:Game ;
     gla:hasName "Gurumin: A Monstrous Adventure" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2006"^^xsd:integer .
 
@@ -2109,7 +2061,6 @@ gla:Assassins_Creed rdf:type gla:Game ;
 gla:LEGO_Star_Wars_The_Complete_Saga rdf:type gla:Game ;
     gla:hasName "LEGO Star Wars: The Complete Saga" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2172,7 +2123,6 @@ gla:Uncharted_Drakes_Fortune rdf:type gla:Game ;
 gla:Cooking_Mama_2_Dinner_with_Friends rdf:type gla:Game ;
     gla:hasName "Cooking Mama 2: Dinner with Friends" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2207,7 +2157,6 @@ gla:Dance_Dance_Revolution_Hottest_Party rdf:type gla:Game ;
 gla:Cooking_Mama_Cook_Off rdf:type gla:Game ;
     gla:hasName "Cooking Mama: Cook Off" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2235,14 +2184,12 @@ gla:Need_for_Speed_ProStreet rdf:type gla:Game ;
 gla:Deal_or_No_Deal rdf:type gla:Game ;
     gla:hasName "Deal or No Deal" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:LEGO_Star_Wars_The_Complete_Saga rdf:type gla:Game ;
     gla:hasName "LEGO Star Wars: The Complete Saga" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2256,7 +2203,6 @@ gla:Sonic_and_the_Secret_Rings rdf:type gla:Game ;
 gla:The_Orange_Box rdf:type gla:Game ;
     gla:hasName "The Orange Box" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2291,7 +2237,6 @@ gla:Call_of_Duty_4_Modern_Warfare rdf:type gla:Game ;
 gla:Star_Wars_Battlefront_Renegade_Squadron rdf:type gla:Game ;
     gla:hasName "Star Wars Battlefront: Renegade Squadron" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2333,7 +2278,6 @@ gla:Ratchet_and_Clank_Future_Tools_of_Destruction rdf:type gla:Game ;
 gla:LEGO_Star_Wars_The_Complete_Saga rdf:type gla:Game ;
     gla:hasName "LEGO Star Wars: The Complete Saga" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2438,14 +2382,12 @@ gla:Heavenly_Sword rdf:type gla:Game ;
 gla:Ninja_Gaiden_Sigma rdf:type gla:Game ;
     gla:hasName "Ninja Gaiden Sigma" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Ben_10_Protector_of_the_Earth rdf:type gla:Game ;
     gla:hasName "Ben 10: Protector of the Earth" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2578,7 +2520,6 @@ gla:Tiger_Woods_PGA_Tour_07 rdf:type gla:Game ;
 gla:Crash_of_the_Titans rdf:type gla:Game ;
     gla:hasName "Crash of the Titans" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2669,7 +2610,6 @@ gla:The_Sims_2_Pets rdf:type gla:Game ;
 gla:Crash_of_the_Titans rdf:type gla:Game ;
     gla:hasName "Crash of the Titans" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2801,7 +2741,6 @@ gla:Command_and_Conquer_3_Tiberium_Wars rdf:type gla:Game ;
 gla:Diner_Dash rdf:type gla:Game ;
     gla:hasName "Diner Dash" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2864,7 +2803,6 @@ gla:Transformers_The_Game rdf:type gla:Game ;
 gla:TimeShift rdf:type gla:Game ;
     gla:hasName "TimeShift" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -2934,7 +2872,6 @@ gla:Kane_and_Lynch_Dead_Men rdf:type gla:Game ;
 gla:Crash_of_the_Titans rdf:type gla:Game ;
     gla:hasName "Crash of the Titans" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3031,7 +2968,6 @@ gla:The_Golden_Compass rdf:type gla:Game ;
 gla:Chicken_Shoot rdf:type gla:Game ;
     gla:hasName "Chicken Shoot" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3205,7 +3141,6 @@ gla:Dragon_Ball_Z_Harukanaru_Densetsu rdf:type gla:Game ;
 gla:Touch_the_Dead rdf:type gla:Game ;
     gla:hasName "Touch the Dead" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3240,14 +3175,12 @@ gla:Etrian_Odyssey rdf:type gla:Game ;
 gla:Ben_10_Protector_of_the_Earth rdf:type gla:Game ;
     gla:hasName "Ben 10: Protector of the Earth" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Looney_Tunes_Acme_Arsenal rdf:type gla:Game ;
     gla:hasName "Looney Tunes: Acme Arsenal" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3289,7 +3222,6 @@ gla:Enchanted_Arms rdf:type gla:Game ;
 gla:F_E_A_R__First_Encounter_Assault_Recon rdf:type gla:Game ;
     gla:hasName "F.E.A.R.: First Encounter Assault Recon" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3429,7 +3361,6 @@ gla:Golden_Axe rdf:type gla:Game ;
 gla:Dementium_The_Ward rdf:type gla:Game ;
     gla:hasName "Dementium: The Ward" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3478,7 +3409,6 @@ gla:All-Pro_Football_2K8 rdf:type gla:Game ;
 gla:Mercury_Meltdown rdf:type gla:Game ;
     gla:hasName "Mercury Meltdown" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3520,7 +3450,6 @@ gla:NBA_08 rdf:type gla:Game ;
 gla:Geometry_Wars_Galaxies rdf:type gla:Game ;
     gla:hasName "Geometry Wars: Galaxies" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3534,7 +3463,6 @@ gla:Rayman_Raving_Rabbids rdf:type gla:Game ;
 gla:WordJong rdf:type gla:Game ;
     gla:hasName "WordJong" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3569,7 +3497,6 @@ gla:NBA_Street_Homecourt rdf:type gla:Game ;
 gla:Geometry_Wars_Galaxies rdf:type gla:Game ;
     gla:hasName "Geometry Wars: Galaxies" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3604,14 +3531,12 @@ gla:WWE_SmackDown_vs__Raw_2008 rdf:type gla:Game ;
 gla:Brave_Story_New_Traveler rdf:type gla:Game ;
     gla:hasName "Brave Story: New Traveler" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:TimeShift rdf:type gla:Game ;
     gla:hasName "TimeShift" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3639,14 +3564,12 @@ gla:Fantastic_Four_Rise_of_the_Silver_Surfer rdf:type gla:Game ;
 gla:7_Wonders_of_the_Ancient_World rdf:type gla:Game ;
     gla:hasName "7 Wonders of the Ancient World" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Draglade rdf:type gla:Game ;
     gla:hasName "Draglade" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3730,14 +3653,12 @@ gla:Soldier_of_Fortune_Payback rdf:type gla:Game ;
 gla:Heatseeker rdf:type gla:Game ;
     gla:hasName "Heatseeker" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:NHL_2K8 rdf:type gla:Game ;
     gla:hasName "NHL 2K8" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3758,7 +3679,6 @@ gla:Fantastic_Four_Rise_of_the_Silver_Surfer rdf:type gla:Game ;
 gla:Monster_Madness_Battle_for_Suburbia rdf:type gla:Game ;
     gla:hasName "Monster Madness: Battle for Suburbia" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3779,21 +3699,18 @@ gla:Blazing_Angels_2_Secret_Missions_of_WWII rdf:type gla:Game ;
 gla:Cake_Mania rdf:type gla:Game ;
     gla:hasName "Cake Mania" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Touch_Detective_2_12 rdf:type gla:Game ;
     gla:hasName "Touch Detective 2 1/2" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:7_Wonders_of_the_Ancient_World rdf:type gla:Game ;
     gla:hasName "7 Wonders of the Ancient World" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3814,7 +3731,6 @@ gla:Crush rdf:type gla:Game ;
 gla:Jackass_The_Game rdf:type gla:Game ;
     gla:hasName "Jackass: The Game" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3835,7 +3751,6 @@ gla:Test_Drive_Unlimited rdf:type gla:Game ;
 gla:Looney_Tunes_Acme_Arsenal rdf:type gla:Game ;
     gla:hasName "Looney Tunes: Acme Arsenal" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3849,7 +3764,6 @@ gla:Death_Jr__and_the_Science_Fair_of_Doom rdf:type gla:Game ;
 gla:Indianapolis_500_Legends rdf:type gla:Game ;
     gla:hasName "Indianapolis 500 Legends" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3870,21 +3784,18 @@ gla:BlackSite_Area_51 rdf:type gla:Game ;
 gla:Code_Lyoko_Quest_for_Infinity rdf:type gla:Game ;
     gla:hasName "Code Lyoko: Quest for Infinity" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Super_Swing_Golf_Season_2 rdf:type gla:Game ;
     gla:hasName "Super Swing Golf Season 2" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:FlatOut_Ultimate_Carnage rdf:type gla:Game ;
     gla:hasName "FlatOut: Ultimate Carnage" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -3926,21 +3837,18 @@ gla:Coded_Arms_Contagion rdf:type gla:Game ;
 gla:King_of_Clubs rdf:type gla:Game ;
     gla:hasName "King of Clubs" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:F_E_A_R__Files rdf:type gla:Game ;
     gla:hasName "F.E.A.R. Files" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Ontamarama rdf:type gla:Game ;
     gla:hasName "Ontamarama" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4003,7 +3911,6 @@ gla:Brothers_in_Arms_DS rdf:type gla:Game ;
 gla:Bubble_Bobble_Double_Shot rdf:type gla:Game ;
     gla:hasName "Bubble Bobble Double Shot" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4017,7 +3924,6 @@ gla:Fantastic_Four_Rise_of_the_Silver_Surfer rdf:type gla:Game ;
 gla:Heatseeker rdf:type gla:Game ;
     gla:hasName "Heatseeker" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4031,7 +3937,6 @@ gla:Manhunt_2 rdf:type gla:Game ;
 gla:Anubis_II rdf:type gla:Game ;
     gla:hasName "Anubis II" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4052,7 +3957,6 @@ gla:UEFA_Champions_League_2006-2007 rdf:type gla:Game ;
 gla:Aliens_Vs_Predator_Requiem rdf:type gla:Game ;
     gla:hasName "Aliens Vs Predator: Requiem" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4066,7 +3970,6 @@ gla:NBA_08 rdf:type gla:Game ;
 gla:Guilty_Gear_XX__Core rdf:type gla:Game ;
     gla:hasName "Guilty Gear XX ? Core" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4080,7 +3983,6 @@ gla:Arkanoid_DS rdf:type gla:Game ;
 gla:Dead_Head_Fred rdf:type gla:Game ;
     gla:hasName "Dead Head Fred" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4115,14 +4017,12 @@ gla:Meteos_Disney_Magic rdf:type gla:Game ;
 gla:Cube rdf:type gla:Game ;
     gla:hasName "Cube" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
 gla:Dragoneers_Aria rdf:type gla:Game ;
     gla:hasName "Dragoneer's Aria" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4136,7 +4036,6 @@ gla:The_Fast_and_the_Furious rdf:type gla:Game ;
 gla:R-Type_Command rdf:type gla:Game ;
     gla:hasName "R-Type Command" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4170,7 +4069,6 @@ gla:Lost_in_Blue_2 rdf:type gla:Game ;
 gla:Nervous_Brickdown rdf:type gla:Game ;
     gla:hasName "Nervous Brickdown" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2007"^^xsd:integer .
 
@@ -4261,14 +4159,12 @@ gla:LittleBigPlanet rdf:type gla:Game ;
 gla:LEGO_Indiana_Jones_The_Original_Adventures rdf:type gla:Game ;
     gla:hasName "LEGO Indiana Jones: The Original Adventures" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Left_4_Dead rdf:type gla:Game ;
     gla:hasName "Left 4 Dead" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4310,7 +4206,6 @@ gla:Madden_NFL_09 rdf:type gla:Game ;
 gla:LEGO_Batman_The_Videogame rdf:type gla:Game ;
     gla:hasName "LEGO Batman: The Videogame" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4331,7 +4226,6 @@ gla:Kirby_Super_Star_Ultra rdf:type gla:Game ;
 gla:Star_Wars_The_Force_Unleashed rdf:type gla:Game ;
     gla:hasName "Star Wars: The Force Unleashed" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4345,14 +4239,12 @@ gla:God_of_War_Chains_of_Olympus rdf:type gla:Game ;
 gla:LEGO_Indiana_Jones_The_Original_Adventures rdf:type gla:Game ;
     gla:hasName "LEGO Indiana Jones: The Original Adventures" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:LEGO_Batman_The_Videogame rdf:type gla:Game ;
     gla:hasName "LEGO Batman: The Videogame" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4415,7 +4307,6 @@ gla:NBA_2K9_ rdf:type gla:Game ;
 gla:Star_Wars_The_Force_Unleashed rdf:type gla:Game ;
     gla:hasName "Star Wars: The Force Unleashed" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4443,7 +4334,6 @@ gla:Shaun_White_Snowboarding_Road_Trip rdf:type gla:Game ;
 gla:Star_Wars_The_Force_Unleashed rdf:type gla:Game ;
     gla:hasName "Star Wars: The Force Unleashed" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4610,7 +4500,6 @@ gla:Tom_Clancys_EndWar rdf:type gla:Game ;
 gla:LEGO_Batman_The_Videogame rdf:type gla:Game ;
     gla:hasName "LEGO Batman: The Videogame" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4708,7 +4597,6 @@ gla:Shaun_White_Snowboarding rdf:type gla:Game ;
 gla:Turok rdf:type gla:Game ;
     gla:hasName "Turok" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4757,7 +4645,6 @@ gla:Advance_Wars_Days_of_Ruin rdf:type gla:Game ;
 gla:LEGO_Batman_The_Videogame rdf:type gla:Game ;
     gla:hasName "LEGO Batman: The Videogame" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4778,7 +4665,6 @@ gla:Brothers_in_Arms_Hells_Highway rdf:type gla:Game ;
 gla:Pinball_Hall_of_Fame_The_Williams_Collection rdf:type gla:Game ;
     gla:hasName "Pinball Hall of Fame: The Williams Collection" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4799,7 +4685,6 @@ gla:kami rdf:type gla:Game ;
 gla:LEGO_Indiana_Jones_The_Original_Adventures rdf:type gla:Game ;
     gla:hasName "LEGO Indiana Jones: The Original Adventures" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4827,14 +4712,12 @@ gla:Tiger_Woods_PGA_Tour_09 rdf:type gla:Game ;
 gla:Turok rdf:type gla:Game ;
     gla:hasName "Turok" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Crash_Mind_over_Mutant rdf:type gla:Game ;
     gla:hasName "Crash: Mind over Mutant" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4855,14 +4738,12 @@ gla:Frontlines_Fuel_of_War rdf:type gla:Game ;
 gla:Speed_Racer_The_Videogame rdf:type gla:Game ;
     gla:hasName "Speed Racer: The Videogame" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:LEGO_Indiana_Jones_The_Original_Adventures rdf:type gla:Game ;
     gla:hasName "LEGO Indiana Jones: The Original Adventures" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -4974,7 +4855,6 @@ gla:Sega_Superstars_Tennis rdf:type gla:Game ;
 gla:Speed_Racer_The_Videogame rdf:type gla:Game ;
     gla:hasName "Speed Racer: The Videogame" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5051,14 +4931,12 @@ gla:Enemy_Territory_Quake_Wars rdf:type gla:Game ;
 gla:Turning_Point_Fall_of_Liberty rdf:type gla:Game ;
     gla:hasName "Turning Point: Fall of Liberty" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Summer_Athletics_2009 rdf:type gla:Game ;
     gla:hasName "Summer Athletics 2009" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5072,7 +4950,6 @@ gla:Unreal_Tournament_III rdf:type gla:Game ;
 gla:Dark_Sector rdf:type gla:Game ;
     gla:hasName "Dark Sector" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5086,7 +4963,6 @@ gla:The_Last_Remnant rdf:type gla:Game ;
 gla:Turning_Point_Fall_of_Liberty rdf:type gla:Game ;
     gla:hasName "Turning Point: Fall of Liberty" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5100,7 +4976,6 @@ gla:MX_vs__ATV_Untamed rdf:type gla:Game ;
 gla:Crash_Mind_over_Mutant rdf:type gla:Game ;
     gla:hasName "Crash: Mind over Mutant" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5142,7 +5017,6 @@ gla:Kung_Fu_Panda rdf:type gla:Game ;
 gla:Dark_Sector rdf:type gla:Game ;
     gla:hasName "Dark Sector" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5163,7 +5037,6 @@ gla:Spider-Man_Web_of_Shadows rdf:type gla:Game ;
 gla:TV_Show_King rdf:type gla:Game ;
     gla:hasName "TV Show King" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5198,7 +5071,6 @@ gla:Age_of_Empires_Mythologies rdf:type gla:Game ;
 gla:Tetris_Party rdf:type gla:Game ;
     gla:hasName "Tetris Party" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5212,7 +5084,6 @@ gla:Facebreaker rdf:type gla:Game ;
 gla:Ninja_Gaiden_Dragon_Sword rdf:type gla:Game ;
     gla:hasName "Ninja Gaiden: Dragon Sword" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5254,7 +5125,6 @@ gla:Don_King_Presents_Prizefighter rdf:type gla:Game ;
 gla:Ferrari_Challenge_Trofeo_Pirelli rdf:type gla:Game ;
     gla:hasName "Ferrari Challenge Trofeo Pirelli" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5317,14 +5187,12 @@ gla:Cabelas_Dangerous_Hunts_2009 rdf:type gla:Game ;
 gla:Fracture rdf:type gla:Game ;
     gla:hasName "Fracture" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Bomberman_Land rdf:type gla:Game ;
     gla:hasName "Bomberman Land" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5338,7 +5206,6 @@ gla:Culdcept_Saga rdf:type gla:Game ;
 gla:Facebreaker rdf:type gla:Game ;
     gla:hasName "Facebreaker" ;
     gla:hasGenre gla:Sports ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5352,7 +5219,6 @@ gla:MLB_Power_Pros_2008 rdf:type gla:Game ;
 gla:Mushroom_Men_The_Spore_Wars rdf:type gla:Game ;
     gla:hasName "Mushroom Men: The Spore Wars" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5366,7 +5232,6 @@ gla:Dragon_Quest_V_Hand_of_the_Heavenly_Bride rdf:type gla:Game ;
 gla:Ninjatown rdf:type gla:Game ;
     gla:hasName "Ninjatown" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5422,7 +5287,6 @@ gla:NBA_Ballers_Chosen_One rdf:type gla:Game ;
 gla:Dream_Pinball_3D rdf:type gla:Game ;
     gla:hasName "Dream Pinball 3D" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5443,7 +5307,6 @@ gla:Pro_Evolution_Soccer_2008 rdf:type gla:Game ;
 gla:Guitar_Rock_Tour rdf:type gla:Game ;
     gla:hasName "Guitar Rock Tour" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5457,7 +5320,6 @@ gla:Lost_in_Blue_3 rdf:type gla:Game ;
 gla:Syberia rdf:type gla:Game ;
     gla:hasName "Syberia" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5471,14 +5333,12 @@ gla:NHL_2K9 rdf:type gla:Game ;
 gla:ObsCure_The_Aftermath rdf:type gla:Game ;
     gla:hasName "ObsCure: The Aftermath" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Pinball_Hall_of_Fame_The_Williams_Collection rdf:type gla:Game ;
     gla:hasName "Pinball Hall of Fame: The Williams Collection" ;
     gla:hasGenre gla:Simulation ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5527,14 +5387,12 @@ gla:Death_Jr__II_Root_of_Evil rdf:type gla:Game ;
 gla:Raiden_IV rdf:type gla:Game ;
     gla:hasName "Raiden IV" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Metal_Slug_7 rdf:type gla:Game ;
     gla:hasName "Metal Slug 7" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5548,14 +5406,12 @@ gla:Spider-Man_Web_of_Shadows rdf:type gla:Game ;
 gla:Fracture rdf:type gla:Game ;
     gla:hasName "Fracture" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:The_King_of_Fighters_Collection_The_Orochi_Saga rdf:type gla:Game ;
     gla:hasName "The King of Fighters Collection: The Orochi Saga" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5569,7 +5425,6 @@ gla:Klonoa_Door_to_Phantomile rdf:type gla:Game ;
 gla:Samurai_Warriors_Katana rdf:type gla:Game ;
     gla:hasName "Samurai Warriors: Katana" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5611,14 +5466,12 @@ gla:FIFA_Street_3 rdf:type gla:Game ;
 gla:Etrian_Odyssey_II_Heroes_of_Lagaard rdf:type gla:Game ;
     gla:hasName "Etrian Odyssey II: Heroes of Lagaard" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:The_King_of_Fighters_Collection_The_Orochi_Saga rdf:type gla:Game ;
     gla:hasName "The King of Fighters Collection: The Orochi Saga" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5639,7 +5492,6 @@ gla:Legendary rdf:type gla:Game ;
 gla:Master_of_the_Monster_Lair rdf:type gla:Game ;
     gla:hasName "Master of the Monster Lair" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5653,28 +5505,24 @@ gla:N rdf:type gla:Game ;
 gla:Pipe_Mania rdf:type gla:Game ;
     gla:hasName "Pipe Mania" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:The_Spiderwick_Chronicles rdf:type gla:Game ;
     gla:hasName "The Spiderwick Chronicles" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Summon_Night_Twin_Age rdf:type gla:Game ;
     gla:hasName "Summon Night: Twin Age" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Wild_Arms_XF rdf:type gla:Game ;
     gla:hasName "Wild Arms XF" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5723,7 +5571,6 @@ gla:UEFA_Euro_2008 rdf:type gla:Game ;
 gla:Bangai-O_Spirits rdf:type gla:Game ;
     gla:hasName "Bangai-O Spirits" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5737,14 +5584,12 @@ gla:Soul_Bubbles rdf:type gla:Game ;
 gla:Tropix rdf:type gla:Game ;
     gla:hasName "Tropix!" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Ford_Racing_Off_Road rdf:type gla:Game ;
     gla:hasName "Ford Racing Off Road" ;
     gla:hasGenre gla:Racing__Driving ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5786,14 +5631,12 @@ gla:Legendary rdf:type gla:Game ;
 gla:Agatha_Christie_Evil_Under_the_Sun rdf:type gla:Game ;
     gla:hasName "Agatha Christie: Evil Under the Sun" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Agatha_Christie_And_Then_There_Were_None rdf:type gla:Game ;
     gla:hasName "Agatha Christie: And Then There Were None" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5807,14 +5650,12 @@ gla:Armored_Core_For_Answer rdf:type gla:Game ;
 gla:Cradle_of_Rome rdf:type gla:Game ;
     gla:hasName "Cradle of Rome" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Izuna_2_The_Unemployed_Ninja_Returns rdf:type gla:Game ;
     gla:hasName "Izuna 2: The Unemployed Ninja Returns" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5828,7 +5669,6 @@ gla:Looney_Tunes_Cartoon_Conductor rdf:type gla:Game ;
 gla:Nanostray_2 rdf:type gla:Game ;
     gla:hasName "Nanostray 2" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5842,7 +5682,6 @@ gla:Hellboy_The_Science_of_Evil rdf:type gla:Game ;
 gla:Pipe_Mania rdf:type gla:Game ;
     gla:hasName "Pipe Mania" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Sony_PSP ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5856,14 +5695,12 @@ gla:UEFA_Euro_2008 rdf:type gla:Game ;
 gla:Vampire_Rain rdf:type gla:Game ;
     gla:hasName "Vampire Rain" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:PlayStation_3 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Supreme_Commander rdf:type gla:Game ;
     gla:hasName "Supreme Commander" ;
     gla:hasGenre gla:Strategy ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:X360 ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
@@ -5884,26 +5721,22 @@ gla:The_Legend_of_Kage_2 rdf:type gla:Game ;
 gla:Rhapsody_A_Musical_Adventure rdf:type gla:Game ;
     gla:hasName "Rhapsody: A Musical Adventure" ;
     gla:hasGenre gla:Role-Playing_RPG ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Secret_Files_Tunguska rdf:type gla:Game ;
     gla:hasName "Secret Files: Tunguska" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer ;
     rdf:type gla:Game ;
     gla:hasName "Secret Files: Tunguska" ;
     gla:hasGenre gla:Adventure ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_Wii ;
     gla:hasReleaseDate "2008"^^xsd:integer .
 
 gla:Chicken_Hunter rdf:type gla:Game ;
     gla:hasName "Chicken Hunter" ;
     gla:hasGenre gla:Action ;
-    gla:publishedBy gla:None ;
     gla:hasPlatform gla:Nintendo_DS ;
     gla:hasReleaseDate "2008"^^xsd:integer .
