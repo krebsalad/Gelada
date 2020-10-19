@@ -15,6 +15,9 @@
 </head>
 
 <body ng-controller="MainCtrl" ng-init="initialize();">
+<div id="loading" class="uk-invisible">
+    <div class="uk-position-center" uk-spinner="ratio: 3" style="z-index: 1000"></div>
+</div>
 <div class="uk-height-viewport">
     <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-center">

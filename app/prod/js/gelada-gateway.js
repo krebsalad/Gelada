@@ -34,7 +34,7 @@ function getPreviewedGames($http, $scope, filters) {
             } else if (f.length > 0) {
                 if (f.startsWith("gla:")) {
                     query += ("    ?game " + f + " .\n");
-                }else{
+                } else {
                     query += (f + " .\n");
                 }
             }
@@ -42,9 +42,9 @@ function getPreviewedGames($http, $scope, filters) {
     });
     if (exclusive) {
         query += "?game gla:hasPlatform ?platform .\n" +
-        "    FILTER NOT EXISTS { \n" +
-        "        ?platform (owl:sameAs|^owl:sameAs)* ?_platform .\n" +
-        "        FILTER( str(?platform) < str(?_platform) ) } \n";
+            "    FILTER NOT EXISTS { \n" +
+            "        ?platform (owl:sameAs|^owl:sameAs)* ?_platform .\n" +
+            "        FILTER( str(?platform) < str(?_platform) ) } \n";
     }
     query +=
         "    ?game gla:hasName ?name1 .\n" +
@@ -76,14 +76,11 @@ function getPreviewedGames($http, $scope, filters) {
         });
         if ($scope.filteredGames) {
             $scope.filteredGames.length = 0;
-            $scope.originalGames.length = 0;
             previewGames.forEach(p => $scope.filteredGames.push(p));
         } else {
-            $scope.originalGames = [];
             $scope.filteredGames = previewGames;
         }
-        $scope.filteredGames.forEach(p => $scope.originalGames.push(p));
-    });
+    }, true);
 }
 
 
@@ -224,7 +221,7 @@ function getGameDetails($http, $scope, uri) {
             sequels.push(sequel);
         });
         $scope.clickedGame.sequels = sequels;
-    });
+    }, false);
 }
 
 function initializeFilters($http, $scope) {
@@ -249,7 +246,7 @@ function getGenerationFilterValues($http, $scope) {
             generations.push(safeField(val.generation));
         });
         $scope.generations = generations;
-    })
+    }, false)
 }
 
 
@@ -273,7 +270,7 @@ function getPlatformFilterValues($http, $scope) {
             platforms.push(platform);
         });
         $scope.platforms = platforms;
-    })
+    }, false)
 }
 
 
@@ -297,18 +294,27 @@ function getGenreFilterValues($http, $scope) {
             genres.push(genre);
         });
         $scope.genres = genres;
-    })
+    }, false)
 }
 
 
-function queryLocalhost(query, $http, successCallback) {
+function queryLocalhost(query, $http, successCallback, isGameQuery) {
+    const loading = document.getElementById("loading");
+    if (loading && isGameQuery) {
+        loading.classList.remove('uk-invisible');
+    }
     console.log(query);
     $http({
         method: "GET",
         url: "http://localhost:7200/repositories/gelada" + "?query=" + encodeURI(query).replace(/#/, '%23'),
         headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
-        .then(successCallback, function (error) {
+        .then(function (data){
+            if (isGameQuery) {
+                loading.classList.add('uk-invisible');
+            }
+            successCallback(data);
+        }, function (error) {
             console.error('Error running the input query!: ' + JSON.stringify(error));
         });
 
