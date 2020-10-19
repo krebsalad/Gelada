@@ -63,12 +63,6 @@ function getXmlTagBetweenMultipleLines(match_tag, match_start, in_str)
   return out_strs;
 }
 
-function sleep(ms) {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms);
-    });
-} 
-
 function callback_gematsu(response)
 {
     var str = '';
@@ -79,7 +73,6 @@ function callback_gematsu(response)
 
     response.on('end', function ()  {
         var table_tag = getXmlTagBetweenMultipleLines('table', ' class="jl_table_list">', str);
-        var exclusive_game_headers = ["Name", "Platform", "ExclusiveType"];
         var exclusive_games = [];
         for (t in table_tag)
         {
@@ -97,7 +90,7 @@ function callback_gematsu(response)
             
         }
 
-        var out_data = String(exclusive_game_headers) + "\n";
+        var out_data = '';
         for(g in exclusive_games)
         {
             out_data += String(exclusive_games[g]) + "\n";
@@ -130,9 +123,10 @@ callback = function(response) {
         var link = getBetween('href="','">', exclusive_tags[e]);
         platforms.push([platform_name , link]);
     }
-
-
-    fs.writeFileSync('data/VideoGameExclusives.csv', '');   // clean the file before appending
+    
+    var exclusive_game_headers = ["Name", "Platform", "ExclusiveType"];
+    var out_data = String(exclusive_game_headers) + "\n";
+    fs.writeFileSync('data/VideoGameExclusives.csv', out_data);   // clean and the headers
     for(p in platforms)
     {
         var http2 = require('https');

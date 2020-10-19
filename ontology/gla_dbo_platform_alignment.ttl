@@ -92,3 +92,58 @@ gla:TecToy_Zeebo owl:sameAs dbr:Zeebo .
 gla:Sony_PlayStation_4 owl:sameAs dbr:PlayStation_4 .
 
 gla:Microsoft_Xbox_One owl:sameAs dbr:Xbox_One .
+
+
+gla:Atari_7800 owl:sameAs dbr:Atari_7800 .
+
+gla:Game_Boy_Advance owl:sameAs dbr:Game_Boy_Advance .
+
+gla:PlayStation_2 owl:sameAs dbr:PlayStation_2 .
+
+gla:Atari_2600 owl:sameAs dbr:Atari_2600 .
+
+gla:Game_Boy_Color owl:sameAs dbr:Game_Boy_Color .
+
+gla:Game_Gear owl:sameAs dbr:Game_Gear .
+
+gla:LaserActive owl:sameAs dbr:LaserActive .
+
+gla:Vectrex owl:sameAs dbr:Vectrex .
+
+gla:Atari_5200 owl:sameAs dbr:Atari_5200 .
+
+gla:ColecoVision owl:sameAs dbr:ColecoVision .
+
+gla:Game_Boy owl:sameAs dbr:Game_Boy .
+
+gla:Intellivision owl:sameAs dbr:Intellivision .
+
+gla:GameCube owl:sameAs dbr:GameCube .
+
+gla:New_Nintendo_3DS owl:sameAs dbr:New_Nintendo_3DS .
+
+gla:Zeebo owl:sameAs dbr:Zeebo .
+
+gla:Nintendo_3DS owl:sameAs dbr:Nintendo_3DS .
+
+gla:Nintendo_DS owl:sameAs dbr:Nintendo_DS .
+
+gla:Neo_Geo_Pocket_Color owl:sameAs dbr:Neo_Geo_Pocket_Color .
+
+gla:Nintendo_DSi owl:sameAs dbr:Nintendo_DSi .
+
+gla:Gizmondo owl:sameAs dbr:Gizmondo .
+
+gla:PC-FX owl:sameAs dbr:PC-FX .
+
+gla:Neo_Geo_CD owl:sameAs dbr:Neo_Geo_CD .
+
+gla:TurboGrafx-16 owl:sameAs dbr:TurboGrafx-16 .
+
+gla:Dreamcast owl:sameAs dbr:Dreamcast .
+
+gla:Nintendo owl:sameAs dbr:Nintendo_64, dbr:Wii .
+
+gla:Wii owl:sameAs dbr:Nintendo_64, dbr:Wii .
+
+gla:Nintendo_64 owl:sameAs dbr:Nintendo_64, dbr:Wii .

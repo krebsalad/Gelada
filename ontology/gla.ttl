@@ -174,8 +174,7 @@ gla:hasMultiplayer rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.gelada.org/ontology/hasName
-gla:hasName rdf:type owl:DatatypeProperty ,
-                     owl:FunctionalProperty .
+gla:hasName rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.gelada.org/ontology/hasReleaseDate
