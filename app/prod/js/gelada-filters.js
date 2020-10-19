@@ -3,7 +3,7 @@ class Filterable {
     constructor(games, $scope) {
     }
 
-    filter(games, $scope) {
+    filter($scope) {
     }
 }
 
@@ -29,6 +29,20 @@ class PlatformFilter extends Filterable {
             return "";
         }
     }
+}
+
+class NameFilter extends Filterable {
+
+    filter($scope) {
+        const scopeVar = $scope.searchQuery;
+        if (scopeVar && scopeVar.length > 0) {
+            //todo this is dangerous but it works....
+            return "filter (CONTAINS(lcase(?name1), \"" + scopeVar.toLowerCase() + "\"))"
+        } else {
+            return "";
+        }
+    }
+
 }
 
 class ExclusiveFilter extends Filterable {

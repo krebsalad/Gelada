@@ -62,7 +62,7 @@
                 </div>
                 <h3>Search</h3>
                 <input class="uk-input" type="text" placeholder="Search a game..." ng-model="searchQuery"
-                       ng-change="searchInGames();">
+                       ng-keyup="$event.keyCode == 13 ? filter() : null">
             </div>
             <div uk-grid class="uk-grid-small uk-margin">
                 <div data-id="{{game.uri}}" class="uk-card uk-card-hover uk-card-default uk-card-body uk-width-1-3"
@@ -96,10 +96,10 @@
                                 class="uk-text-bold">Release date: </span><span>{{clickedGame.releaseDate}}</span></span>
                         <br>
                         <span class="uk-text-small"><span
-                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer === "true" ? "Yes" : "No"}}</span></span>
+                                class="uk-text-bold">Singleplayer: </span><span>{{clickedGame.singleplayer}}</span></span>
                         <br>
                         <span class="uk-text-small"><span
-                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer === "true" ? "Yes" : "No"}}</span></span>
+                                class="uk-text-bold">Multiplayer: </span><span>{{clickedGame.multiplayer}}</span></span>
                         <br>
                         <span class="uk-text-small"
                               ng-if="clickedGame.videoUrl && clickedGame.videoUrl!=='unknown'"><span
