@@ -2850,21 +2850,7 @@ gla:Nintendo_64 rdf:type gla:Platform ;
     gla:manufacturedBy gla:Nintendo ;
     gla:hasName "Nintendo 64" ;
     gla:hasGeneration "5th" ;
-    rdf:type gla:Platform ;
-    gla:hasReleaseDate "1996"^^xsd:integer ;
-    gla:manufacturedBy gla:Nintendo ;
-    gla:hasName "Nintendo 64" ;
-    gla:hasGeneration "5th" ;
-    rdf:type gla:Platform ;
-    gla:hasReleaseDate "1996"^^xsd:integer ;
-    gla:manufacturedBy gla:Nintendo ;
-    gla:hasName "Nintendo 64" ;
-    gla:hasGeneration "5th" ;
-    rdf:type gla:Platform ;
-    gla:hasReleaseDate "1996"^^xsd:integer ;
-    gla:manufacturedBy gla:Nintendo ;
-    gla:hasName "Nintendo 64" ;
-    gla:hasGeneration "5th" .
+    rdf:type gla:Platform .
 
 gla:Nintendo_64_Pikachu rdf:type gla:Platform ;
     gla:hasReleaseDate "1998"^^xsd:integer ;

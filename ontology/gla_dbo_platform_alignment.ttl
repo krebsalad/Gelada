@@ -93,7 +93,6 @@ gla:Sony_PlayStation_4 owl:sameAs dbr:PlayStation_4 .
 
 gla:Microsoft_Xbox_One owl:sameAs dbr:Xbox_One .
 
-
 gla:Atari_7800 owl:sameAs dbr:Atari_7800 .
 
 gla:Game_Boy_Advance owl:sameAs dbr:Game_Boy_Advance .
@@ -142,8 +141,6 @@ gla:TurboGrafx-16 owl:sameAs dbr:TurboGrafx-16 .
 
 gla:Dreamcast owl:sameAs dbr:Dreamcast .
 
-gla:Nintendo owl:sameAs dbr:Nintendo_64, dbr:Wii .
+gla:Wii owl:sameAs dbr:Wii .
 
-gla:Wii owl:sameAs dbr:Nintendo_64, dbr:Wii .
-
-gla:Nintendo_64 owl:sameAs dbr:Nintendo_64, dbr:Wii .
+gla:Nintendo_64 owl:sameAs dbr:Nintendo_64.
