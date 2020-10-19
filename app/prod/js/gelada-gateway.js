@@ -32,7 +32,11 @@ function getPreviewedGames($http, $scope, filters) {
             } else if (f === 'exclusive:no') {
                 exclusive = false;
             } else if (f.length > 0) {
-                query += ("    ?game " + f + " .\n");
+                if (f.startsWith("gla:")) {
+                    query += ("    ?game " + f + " .\n");
+                }else{
+                    query += (f + " .\n");
+                }
             }
         }
     });

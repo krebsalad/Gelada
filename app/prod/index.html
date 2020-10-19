@@ -62,7 +62,7 @@
                 </div>
                 <h3>Search</h3>
                 <input class="uk-input" type="text" placeholder="Search a game..." ng-model="searchQuery"
-                       ng-change="searchInGames();">
+                       ng-keyup="$event.keyCode == 13 ? filter() : null">
             </div>
             <div uk-grid class="uk-grid-small uk-margin">
                 <div data-id="{{game.uri}}" class="uk-card uk-card-hover uk-card-default uk-card-body uk-width-1-3"
