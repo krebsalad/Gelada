@@ -300,8 +300,12 @@ function getGenreFilterValues($http, $scope) {
 
 function queryLocalhost(query, $http, successCallback, isGameQuery) {
     const loading = document.getElementById("loading");
+    let inputs = document.getElementsByClassName("filter");
     if (loading && isGameQuery) {
         loading.classList.remove('uk-invisible');
+        for (let i = 0; i < inputs.length; i++) {
+            inputs[i].setAttribute("disabled", "disabled");
+        }
     }
     console.log(query);
     $http({
@@ -312,9 +316,18 @@ function queryLocalhost(query, $http, successCallback, isGameQuery) {
         .then(function (data){
             if (isGameQuery) {
                 loading.classList.add('uk-invisible');
+                for (let i = 0; i < inputs.length; i++) {
+                    inputs[i].removeAttribute("disabled");
+                }
             }
             successCallback(data);
         }, function (error) {
+            if (isGameQuery) {
+                loading.classList.add('uk-invisible');
+                for (let i = 0; i < inputs.length; i++) {
+                    inputs[i].removeAttribute("disabled");
+                }
+            }
             console.error('Error running the input query!: ' + JSON.stringify(error));
         });
 
