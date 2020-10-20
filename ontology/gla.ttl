@@ -405,10 +405,6 @@ gla:Mortal_Kombat_3 rdf:type owl:NamedIndividual ;
 gla:Mortal_Kombat_Serie rdf:type owl:NamedIndividual .
 
 
-###  http://www.gelada.org/ontology/Nintendo
-gla:Nintendo rdf:type owl:NamedIndividual .
-
-
 ###  http://www.gelada.org/ontology/Nintendo_64
 gla:Nintendo_64 rdf:type owl:NamedIndividual .
 
@@ -444,7 +440,7 @@ gla:Super_Mario_64 rdf:type owl:NamedIndividual ,
                             gla:ExclusiveGame ;
                    gla:hasCharacter gla:Luigi ,
                                     gla:Mario ;
-                   gla:hasPlatform gla:Nintendo .
+                   gla:hasPlatform gla:Nintendo_64 .
 
 
 ###  http://www.gelada.org/ontology/Alone_in_the_Dark:_The_New_Nightmare
