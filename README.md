@@ -9,16 +9,7 @@ cd Gelada
 ```
 2. Download and Install [graphDB](https://www.ontotext.com/products/graphdb/)
 3. Run Graph DB and create a new Repository called 'gelada' in lowercases, ensure OWL-Max (Optimized) ruleset is chosen, set the base url to 'http://www.gelada.org/ontology' and finally create the repository.
-4. Select the repository and Import the following files starting with gla.ttl. These files can be found in the directory ~/Gelada/ontology.
-    - gla.ttl
-    - gla_dbo_game_alignment.ttl
-    - gla_dbo_platform_alignment.ttl
-    - gla_exclusive_video_games.ttl
-    - gla_video_game_characters.ttl
-    - gla_video_game_consoles.ttl
-    - gla_video_game_genres.ttl
-    - gla_video_games.ttl
-    - gla_video_games_and_consoles.ttl
+4. Select the repository and Import all the files within ~/Gelada/ontology starting with gla.ttl. These files can be found in the directory ~/Gelada/ontology. All files can be imported by selecting 
 5. Open the index.html file in Gelada/app/prod in a browser such as google chrome or firefox
 
 ## Developing with gelada
