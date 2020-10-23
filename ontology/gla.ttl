@@ -401,10 +401,6 @@ gla:Mortal_Kombat_3 rdf:type owl:NamedIndividual ;
                     gla:hasPrequel gla:Mortal_Kombat_2 .
 
 
-###  http://www.gelada.org/ontology/Mortal_Kombat_Serie
-gla:Mortal_Kombat_Serie rdf:type owl:NamedIndividual .
-
-
 ###  http://www.gelada.org/ontology/Nintendo_64
 gla:Nintendo_64 rdf:type owl:NamedIndividual .
 
