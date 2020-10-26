@@ -1,4 +1,5 @@
 # Gelada
+A semantic web application for searching Platform exclusive Video Games
 
 ## Installation and Running Gelada
 1. Clone this repository and go into the project work space
