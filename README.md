@@ -10,8 +10,8 @@ cd Gelada
 ```
 2. Download and Install [graphDB](https://www.ontotext.com/products/graphdb/)
 3. Run Graph DB and create a new Repository called 'gelada' in lowercases, ensure OWL-Max (Optimized) ruleset is chosen, set the base url to 'http://www.gelada.org/ontology' and finally create the repository.
-4. Select the repository and Import all the files within ~/Gelada/ontology starting with gla.ttl. These files can be found in the directory ~/Gelada/ontology. All files can be imported by selecting 
-5. Open the index.html file in Gelada/app/prod in a browser such as google chrome or firefox
+4. Select the repository and Import all the files within ~/Gelada/ontology starting with gla.ttl. These files can be found in the directory ~/Gelada/ontology. All files can be imported by selecting the select all box on the left top of uploaded files section and pressing import. 
+5. After all the files are imported. Open the index.html file in Gelada/app/prod in a browser such as google chrome or firefox.
 
 ## Developing with gelada
 1. Download [protoge](https://protege.stanford.edu/).
@@ -48,4 +48,14 @@ node scripts/csv_to_ttl.js in:=data/VideoGames.csv out:=data/VideoGames.ttl  cha
 cat data/VideoGames.ttl
 ```
 
-6 (optional) the results of the script can be changed by redoing step 4 and changing header names and property types during the execution of the script. (Note that some characters are not formatted in the script. If this results in syntax problems, it is recommended to fix this manually by adding regex functions within the csv_to_ttl script, see the [make_str_rdf_compatible](https://github.com/krebsalad/Gelada/blob/main/scripts/csv_to_ttl.js#L211) for object types and [make_str_rdf_literal](https://github.com/krebsalad/Gelada/blob/main/scripts/csv_to_ttl.js#L253) for literal types )
+6. (optional) the results of the script can be changed by redoing step 4 and changing header names and property types during the execution of the script. (Note that some characters are not formatted in the script. If this results in syntax problems, it is recommended to fix this manually by adding regex functions within the csv_to_ttl script, see the [make_str_rdf_compatible](https://github.com/krebsalad/Gelada/blob/main/scripts/csv_to_ttl.js#L211) for object types and [make_str_rdf_literal](https://github.com/krebsalad/Gelada/blob/main/scripts/csv_to_ttl.js#L253) for literal types )
+
+### troubleshooting
+
+1. I'm getting some connection error 
+  Solution 1: is your GraphDB repository named gelada?
+  Solution 2: try to replace the IP address in the GraphDB repository URL with localhost. For instance, replace http://192.168.0.102:7200/gelada with http://localhost:7200/gelada.
+
+2. I'm getting an error concerning Access-Control-Allow-Origin
+  Solution 1: Install the moesif CORS extension in your browser and turn it on.
+  Solution 2: Add the following line in your GraphDB settings -Dgraphdb.workbench.cors.enable=True
